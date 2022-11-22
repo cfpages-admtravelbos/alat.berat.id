@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments for Pusat Alat Berat Konstruksi	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/comments/feed" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jual &#38; Sewa Alat Berat Konstruksi Lengkap!</description>
 	<lastBuildDate>Wed, 16 Feb 2022 18:27:20 +0000</lastBuildDate>
