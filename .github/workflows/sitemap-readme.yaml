@@ -1,0 +1,36 @@
+name: Generate Complete Sitemap v.2
+on: [workflow_dispatch]
+permissions:
+  contents: write
+jobs:
+  generate_sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - id: check_sitemap
+        run: |
+          echo "SITEMAP_EXISTS=$(if [ -f sitemap-complete.xml ]; then echo true; else echo false; fi)" >> $GITHUB_ENV
+      - if: ${{ env.SITEMAP_EXISTS == 'false' }}
+        env: { REPO_NAME: "${{ github.event.repository.name }}" }
+        run: |
+          BASE_URL="https://$(echo $REPO_NAME | tr '[:upper:]' '[:lower:]')"
+          echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap-complete.xml
+          echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap-complete.xml
+          find . -name "*.html" | while read f; do
+            url="$BASE_URL/$(echo ${f#./} | sed -E 's/(index)?\.html$//' | sed 's/ /%20/g')"
+            lastmod=$(date -u +'%Y-%m-%dT%H:%M:%S+00:00')
+            echo -e "<url>\n<loc>$url</loc>\n<lastmod>$lastmod</lastmod>\n<priority>0.80</priority>\n</url>" >> sitemap-complete.xml
+          done
+          echo '</urlset>' >> sitemap-complete.xml
+      - run: |
+          URL_COUNT=$(grep -c '<url>' sitemap-complete.xml)
+          grep '<loc>' sitemap-complete.xml | sed -E 's|<loc>(.*)</loc>|- [\1](https://google.com/search?q=site%3A\1)|' > url-list.txt
+          echo -e "\n## Sitemap URLs\nNumber of URLs: ${URL_COUNT}\n$(cat url-list.txt)" > README.md
+      - env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add sitemap-complete.xml README.md
+          git commit -m 'Update sitemap and README'
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} HEAD:main
