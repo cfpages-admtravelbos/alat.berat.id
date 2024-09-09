@@ -1,0 +1,53 @@
+name: Insert .head Content
+
+on:
+  push:
+    paths:
+      - .head  # Trigger when the .head file is modified
+
+permissions:
+  contents: write  # Grant write permissions to the repository contents
+
+jobs:
+  update_html_files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Check if .head file exists
+        id: check_head
+        run: if [[ -f .head ]]; then echo "exists=true" >> $GITHUB_ENV; else echo "exists=false" >> $GITHUB_ENV; fi
+
+      - name: Abort if .head file does not exist
+        if: env.exists == 'false'
+        run: echo "No .head file found, aborting operation." && exit 1
+
+      - name: Insert or Update .head content in HTML files
+        if: env.exists == 'true'
+        run: |
+          CONTENT=$(cat .head)
+          START_COMMENT="<!-- START of .head content -->"
+          END_COMMENT="<!-- END of .head content -->"
+
+          for file in $(find . -name '*.html'); do
+            # Remove existing .head content within the defined comment block, if present
+            sed -i "/${START_COMMENT}/,/${END_COMMENT}/d" "$file"
+            
+            # Insert .head content with comments before </head>
+            sed -i "/<\/head>/i ${START_COMMENT}\\n${CONTENT}\\n${END_COMMENT}" "$file"
+          done
+          
+          # Commit and push changes if any
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          if ! git diff --quiet; then
+            git add .
+            git commit -m "Update .head content in HTML files"
+            
+            # Push changes
+            git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
+          fi
