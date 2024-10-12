@@ -1,0 +1,94 @@
+name: Multi Search and Replace v.5
+on:
+  workflow_dispatch:
+    inputs:
+      search_phrases:
+        description: 'Pipe-separated list of phrases to search for'
+        required: true
+      replace_phrases:
+        description: 'Pipe-separated list of phrases to replace with'
+        required: true
+      file_name_contains:
+        description: 'Logic for file name selection, can use pipe and or plus sign (optional)'
+        required: false
+        default: ''
+permissions:
+  contents: write
+jobs:
+  search_and_replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Search & Replace and Commit Changes
+        env:
+          SEARCH_PHRASES: ${{ github.event.inputs.search_phrases }}
+          REPLACE_PHRASES: ${{ github.event.inputs.replace_phrases }}
+          FILE_NAME_CONTAINS: ${{ github.event.inputs.file_name_contains }}
+        run: |
+          IFS='|' read -r -a SEARCH_ARRAY <<< "${SEARCH_PHRASES}"
+          IFS='|' read -r -a REPLACE_ARRAY <<< "${REPLACE_PHRASES}"
+          if [ "${#SEARCH_ARRAY[@]}" -ne "${#REPLACE_ARRAY[@]}" ]; then
+            echo "Error: Mismatch in number of search & replace phrases."
+            exit 1
+          fi
+          
+          MATCHING_FILES=()
+          if [ -z "$FILE_NAME_CONTAINS" ]; then
+            # No filename filter provided, match all HTML files
+            MATCHING_FILES=($(find . -type f -name "*.html" 2>/dev/null || echo ""))
+          else
+            # Create an array for filename filtering patterns
+            IFS='|' read -r -a OR_PATTERNS <<< "${FILE_NAME_CONTAINS}"
+            # Find matching files
+            for OR_PATTERN in "${OR_PATTERNS[@]}"; do
+              IFS='+' read -r -a AND_SEGMENTS <<< "${OR_PATTERN}"
+              AND_COND=""
+              for SEGMENT in "${AND_SEGMENTS[@]}"; do
+                AND_COND="${AND_COND} -and -name \"*${SEGMENT}*\""
+              done
+              # Remove leading "-and" if it exists
+              AND_COND="${AND_COND# -and }"
+              if [ -n "$AND_COND" ]; then
+                # Only find .html files
+                found_files=($(find . -type f -name "*.html" ${AND_COND} 2>/dev/null || echo ""))
+                MATCHING_FILES+=("${found_files[@]}")
+              fi
+            done
+          fi
+          
+          # Remove duplicates and empty entries, and ensure only .html files
+          MATCHING_FILES=($(printf "%s\n" "${MATCHING_FILES[@]}" | grep "\.html$" | sort -u || echo ""))
+          
+          if [ ${#MATCHING_FILES[@]} -eq 0 ]; then
+            echo "No matching HTML files found."
+            exit 0
+          fi
+          
+          # Perform search and replace only on existing .html files
+          for FILE in "${MATCHING_FILES[@]}"; do
+            if [[ -f "$FILE" && "$FILE" == *.html ]]; then
+              echo "Processing HTML file: $FILE"
+              for i in "${!SEARCH_ARRAY[@]}"; do
+                sed -i "s|$(printf '%s\n' "${SEARCH_ARRAY[$i]}" | sed 's:[\\/&]:\\&:g')|$(printf '%s\n' "${REPLACE_ARRAY[$i]}" | sed 's:[\\/&]:\\&:g')|g" "$FILE"
+              done
+            fi
+          done
+          
+          # Check if there are changes to commit
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Batch replace on $(date +'%Y-%m-%d')"
+      - name: Push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }} HEAD:main
