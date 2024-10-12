@@ -1,4 +1,4 @@
-name: Update Multiple Clients v.6.5
+name: Update Multiple Clients v.8.24
 
 on:
   push:
@@ -32,141 +32,304 @@ jobs:
           fi
 
       - name: Process clients
-              if: env.exists == 'true'
-              run: |
-                # Function to escape special characters for sed
-                escape_for_sed() {
-                  echo "$1" | sed -e 's/[\/&]/\\&/g'
+        if: env.exists == 'true'
+        run: |
+          # Function to escape special characters for sed
+          escape_for_sed() {
+            echo "$1" | sed -e 's/[\/&]/\\&/g'
+          }
+
+          # Function to create grep pattern from filter
+          create_grep_pattern() {
+            local filter="$1"
+            # Remove all spaces from the filter
+            filter="${filter// /}"
+            local pattern=""
+            
+            # Check if the filter contains ':'
+            if [[ "$filter" == *:* ]]; then
+              # Complex filter
+              IFS=';' read -ra FILTER_PARTS <<< "$filter"
+              for part in "${FILTER_PARTS[@]}"; do
+                IFS=':' read -r category cities <<< "$part"
+                IFS=',' read -ra CITIES <<< "$cities"
+                for city in "${CITIES[@]}"; do
+                  [ -n "$pattern" ] && pattern+=$'\n'
+                  pattern+="$city"
+                done
+              done
+            else
+              # Simple filter
+              IFS=',' read -ra FILTER_PARTS <<< "$filter"
+              for part in "${FILTER_PARTS[@]}"; do
+                [ -n "$pattern" ] && pattern+=$'\n'
+                pattern+="$part"
+              done
+            fi
+            
+            echo "$pattern"
+          }
+
+          # Function to find files matching pattern
+          find_matching_files() {
+            local pattern="$1"
+            local matching_files=""
+
+            # Split the pattern by newlines and search for each city
+            while IFS= read -r city; do
+              if [ -n "$city" ]; then
+                # Escape dots and other special characters in the city name
+                escaped_city=$(echo "$city" | sed 's/[.[\*^$()+?{|]/\\&/g')
+                new_matches=$(find . -type f -name "*.html" | grep -i "$escaped_city" || true)
+                matching_files+="$new_matches"$'\n'
+              fi
+            done <<< "$pattern"
+
+            # Remove duplicate files and empty lines
+            echo "$matching_files" | sort -u | grep -v '^$'
+          }
+
+          # First pass: collect all filters
+          declare -A all_filters
+          while IFS= read -r LINE; do
+            if [[ "$LINE" =~ \|[^|]*\|[^|]*\|[^|]*\|[^|]+$ ]]; then
+              FILTER=$(echo "$LINE" | awk -F'|' '{print $NF}' | xargs)
+              if [ -n "$FILTER" ]; then
+                all_filters["$FILTER"]=1
+              fi
+            fi
+          done < .clients
+
+          # Function to process a single client
+          process_client() {
+            local LINE="$1"
+            local CLIENT_NUM="$2"
+
+            WAURL=""
+            PHURL=""
+            NAME=""
+            PHONE=""
+            FILTER=""
+
+            IFS='|' read -ra PARTS <<< "$LINE"
+            
+            for PART in "${PARTS[@]}"; do
+              TRIMMED_PART="$(echo "$PART" | xargs)"
+              if [[ $TRIMMED_PART == https://* ]]; then
+                if [[ $TRIMMED_PART == *💬* ]]; then
+                  WAURL=$TRIMMED_PART
+                elif [[ $TRIMMED_PART == *📞* ]]; then
+                  PHURL=$TRIMMED_PART
+                fi
+              elif [[ $TRIMMED_PART =~ ^[0-9[:space:]]+$ ]]; then
+                PHONE=$TRIMMED_PART
+              elif [[ $TRIMMED_PART =~ [A-Z] ]]; then
+                NAME=$TRIMMED_PART
+              else
+                FILTER=$TRIMMED_PART
+              fi
+            done
+
+            NEW_PHONE_NAME="${PHONE} (${NAME})"
+
+            echo "Processing Client $CLIENT_NUM ($NAME):"
+            echo "WAURL: $WAURL"
+            echo "PHURL: $PHURL"
+            echo "NAME: $NAME"
+            echo "PHONE: $PHONE"
+            echo "FILTER: $FILTER"
+
+            # Handle file selection based on FILTER
+            if [ -n "$FILTER" ]; then
+              FILTER_PATTERN=$(create_grep_pattern "$FILTER")
+              echo "Generated FILTER_PATTERN:"
+              echo "$FILTER_PATTERN"
+              FILE_LIST=$(find_matching_files "$FILTER_PATTERN")
+            else
+              # For clients without filter, exclude files matching other clients' filters
+              ALL_FILES=$(find . -type f -name "*.html")
+              FILE_LIST="$ALL_FILES"
+              
+              for f in "${!all_filters[@]}"; do
+                EXCLUDE_PATTERN=$(create_grep_pattern "$f")
+                EXCLUDE_FILES=$(find_matching_files "$EXCLUDE_PATTERN")
+                if [ -n "$EXCLUDE_FILES" ]; then
+                  FILE_LIST=$(comm -23 <(echo "$FILE_LIST" | sort) <(echo "$EXCLUDE_FILES" | sort))
+                fi
+              done
+            fi
+
+            # Check if FILE_LIST is empty
+            if [ -z "$FILE_LIST" ]; then
+              echo "No matching files found for Client $CLIENT_NUM ($NAME)"
+              return
+            fi
+
+            # Update files
+            CHANGES_MADE=false
+            while IFS= read -r file; do
+              echo "Processing file: $file"
+
+              # Extract all necessary information
+              OLD_PHONE_NAME=$(awk -F'[<>]' '
+              /<div[^>]*class="[^"]*(whatsapp-floating|sms-floating|tlp-floating)[^"]*".*<span[^>]*>/ {
+                while (getline && !/<\/div>/) {
+                  if ($0 ~ /<span[^>]*>[0-9]{4} [0-9]{4} [0-9]{4}.*\([^)]+\)/) {
+                    match($0, /[0-9]{4} [0-9]{4} [0-9]{4}.*\([^)]+\)/, arr)
+                    print arr[0]
+                    exit
+                  }
                 }
+              }' "$file")
 
-                # Function to create grep pattern from filter
-                create_grep_pattern() {
-                  local filter="$1"
-                  # Remove all spaces from the filter
-                  filter="${filter// /}"
-                  local pattern=""
-                  
-                  # Check if the filter contains ':'
-                  if [[ "$filter" == *:* ]]; then
-                    # Complex filter
-                    IFS=';' read -ra FILTER_PARTS <<< "$filter"
-                    for part in "${FILTER_PARTS[@]}"; do
-                      IFS=':' read -r category cities <<< "$part"
-                      IFS=',' read -ra CITIES <<< "$cities"
-                      for city in "${CITIES[@]}"; do
-                        [ -n "$pattern" ] && pattern+="\\|"
-                        pattern+="($category.*$city\\|$city.*$category)"
-                      done
-                    done
-                  else
-                    # Simple filter
-                    IFS=',' read -ra FILTER_PARTS <<< "$filter"
-                    for part in "${FILTER_PARTS[@]}"; do
-                      [ -n "$pattern" ] && pattern+="\\|"
-                      pattern+="$part"
-                    done
-                  fi
-                  
-                  echo "$pattern"
+              # Fallback logic for old phone name
+              if [ -z "$OLD_PHONE_NAME" ]; then
+                OLD_PHONE_NAME=$(awk -F'[<>]' '/<span[^>]*>[0-9]{4} [0-9]{4} [0-9]{4}.*\([^)]+\)/ {match($0, /[0-9]{4} [0-9]{4} [0-9]{4}.*\([^)]+\)/, arr); print arr[0]; exit}' "$file")
+              fi
+
+              # After extracting OLD_PHONE_NAME
+              echo "Extracted OLD_PHONE_NAME: $OLD_PHONE_NAME"
+
+              # Initialize OLD_PHONE and OLD_NAME
+              OLD_PHONE=""
+              OLD_NAME=""
+
+              # Simple splitting process
+              if [ -n "$OLD_PHONE_NAME" ]; then
+                # Extract phone (all numbers and spaces)
+                OLD_PHONE=$(echo "$OLD_PHONE_NAME" | grep -o '[0-9 ]\+' | xargs)
+                
+                # Extract name (remove phone number and parentheses)
+                OLD_NAME=$(echo "$OLD_PHONE_NAME" | sed 's/[0-9 ]\+//g' | sed 's/[()]//g' | xargs)
+                
+                echo "Split results:"
+                echo "  OLD_PHONE: $OLD_PHONE"
+                echo "  OLD_NAME: $OLD_NAME"
+              else
+                echo "Warning: OLD_PHONE_NAME is empty"
+              fi
+              OLD_WAURL=$(awk '
+              /<div[^>]*class="[^"]*(whatsapp-floating|sms-floating)[^"]*"/ {
+                while (getline && !/<\/div>/) {
+                  if (match($0, /href="(https:\/\/[^"]+)"/, arr)) {
+                    if ($0 ~ /📞/) { next }  # Skip if contains phone emoji
+                    print arr[1]
+                    exit
+                  }
                 }
-
-                # Function to process a single client
-                process_client() {
-                  local LINE="$1"
-                  local CLIENT_NUM="$2"
-
-                  # Initialize variables
-                  WAURL=""
-                  PHURL=""
-                  NAME=""
-                  PHONE=""
-                  FILTER=""
-
-                  # Split using '|' and trim spaces
-                  IFS='|' read -ra PARTS <<< "$LINE"
-                  PARTS=("${PARTS[@]// /}")  # Remove leading/trailing spaces from each part
-
-                  # Identify each part
-                  for PART in "${PARTS[@]}"; do
-                    if [[ $PART == https://* ]]; then
-                      if [[ $PART == *💬* ]]; then
-                        WAURL=$PART
-                      elif [[ $PART == *📞* ]]; then
-                        PHURL=$PART
-                      fi
-                    elif [[ $PART =~ ^[0-9[:space:]]+$ ]]; then
-                      PHONE=$PART
-                    elif [[ $PART =~ [A-Z] ]]; then
-                      NAME=$PART
-                    else
-                      FILTER=$PART
-                    fi
-                  done
-
-                  echo "Processing Client $CLIENT_NUM:"
-                  echo "WAURL: $WAURL"
-                  echo "PHURL: $PHURL"
-                  echo "NAME: $NAME"
-                  echo "PHONE: $PHONE"
-                  echo "FILTER: $FILTER"
-
-                  NEW_PHONE_NAME="${PHONE} (${NAME})"
-
-                  # Create a grep pattern from FILTER or use all HTML files if FILTER is empty
-                  if [ -n "$FILTER" ]; then
-                    FILTER_PATTERN=$(create_grep_pattern "$FILTER")
-                    echo "Generated FILTER_PATTERN: $FILTER_PATTERN"
-                    FILE_LIST=$(find . -name "*.html" -type f | grep -E "$FILTER_PATTERN")
-                  else
-                    FILE_LIST=$(find . -name "*.html" -type f)
-                  fi
-
-                  # Update files
-                  CHANGES_MADE=false
-                  echo "$FILE_LIST" | while read -r file; do
-                    # Extract current values for this file
-                    OLD_PHONE_NAME=$(awk -F'[<>]' '/<span[^>]*>[0-9]{4} [0-9]{4}( [0-9]{4})? \([^)]+\)/ {print $3; exit}' "$file")
-                    OLD_WAURL=$(awk -F'"' '/class="whatsapp-floating".*href="/ {for(i=1;i<=NF;i++) if($i~/^https?:/) {print $i; exit}}' "$file")
-                    OLD_PHURL=$(awk -F'"' '/class="tlp-floating".*href="/ {for(i=1;i<=NF;i++) if($i~/^https?:/) {print $i; exit}}' "$file")
-
-                    # Compare and update if different
-                    if [ "$OLD_PHONE_NAME" != "$NEW_PHONE_NAME" ] || [ "$OLD_WAURL" != "$WAURL" ] || [ "$OLD_PHURL" != "$PHURL" ]; then
-                      # Escape special characters
-                      OLD_PHONE_NAME_ESCAPED=$(escape_for_sed "$OLD_PHONE_NAME")
-                      NEW_PHONE_NAME_ESCAPED=$(escape_for_sed "$NEW_PHONE_NAME")
-                      OLD_WAURL_ESCAPED=$(escape_for_sed "$OLD_WAURL")
-                      NEW_WAURL_ESCAPED=$(escape_for_sed "$WAURL")
-                      OLD_PHURL_ESCAPED=$(escape_for_sed "$OLD_PHURL")
-                      NEW_PHURL_ESCAPED=$(escape_for_sed "$PHURL")
-
-                      # Perform replacements
-                      sed -i "s|$OLD_PHONE_NAME_ESCAPED|$NEW_PHONE_NAME_ESCAPED|g" "$file"
-                      sed -i "s|href=\"$OLD_WAURL_ESCAPED\"|href=\"$NEW_WAURL_ESCAPED\"|g" "$file"
-                      sed -i "s|href=\"$OLD_PHURL_ESCAPED\"|href=\"$NEW_PHURL_ESCAPED\"|g" "$file"
-                      
-                      CHANGES_MADE=true
-                      echo "Updated file: $file"
-                    else
-                      echo "No changes needed for file: $file"
-                    fi
-                  done
-
-                  if [ "$CHANGES_MADE" = true ]; then
-                    echo "Changes were made for Client $CLIENT_NUM"
-                  else
-                    echo "No changes were necessary for Client $CLIENT_NUM"
-                  fi
-
-                  echo "Client $CLIENT_NUM processing complete."
-                  echo "----------------------------------------"
+              }' "$file")
+              OLD_PHURL=$(awk '
+              /<div[^>]*class="[^"]*tlp-floating[^"]*"/ {
+                while (getline && !/<\/div>/) {
+                  if (match($0, /href="(https:\/\/[^"]+)"/, arr)) {
+                    if ($0 ~ /💬/) { next }  # Skip if contains WhatsApp emoji
+                    print arr[1]
+                    exit
+                  }
                 }
+              }' "$file")
+              # Fallback logic for wa url & phone url
+              if [ -z "$OLD_WAURL" ]; then
+                OLD_WAURL=$(awk '
+                  /https:\/\/((api\.whatsapp\.com|what\.sapp\.my\.id)|(klik|link)\.[^"\/]+)/ {
+                    if ($0 ~ /📞/) { next }  # Skip if contains phone emoji
+                    match($0, /(https:\/\/[^"]+)/, arr)
+                    print arr[1]
+                    exit
+                  }' "$file")
+              fi
 
-                # Read .clients file line by line
-                CLIENT_NUM=1
-                while IFS= read -r LINE; do
-                  process_client "$LINE" "$CLIENT_NUM"
-                  ((CLIENT_NUM++))
-                done < .clients
+              if [ -z "$OLD_PHURL" ]; then
+                OLD_PHURL=$(awk '
+                  /https:\/\/((con\.tact\.my\.id)|(klik|link)\.[^"\/]+)/ {
+                    if ($0 ~ /💬/) { next }  # Skip if contains WhatsApp emoji
+                    match($0, /(https:\/\/[^"]+)/, arr)
+                    print arr[1]
+                    exit
+                  }' "$file")
+              fi
+
+              if [ -z "$OLD_PHONE_NAME" ] || [ -z "$OLD_WAURL" ] || [ -z "$OLD_PHURL" ]; then
+                echo "Error: Unable to extract one or more of the following from $file:"
+                [ -z "$OLD_PHONE_NAME" ] && echo "- Old Phone Name"
+                [ -z "$OLD_WAURL" ] && echo "- Old WhatsApp/SMS URL"
+                [ -z "$OLD_PHURL" ] && echo "- Old Phone URL"
+                echo "Please check the HTML structure and update the extraction logic if necessary."
+                echo "Skipping operation for this file and moving to the next."
+                continue
+              fi
+
+              echo "Current values in $file:"
+              echo "  Old Phone Name: $OLD_PHONE_NAME"
+              echo "  Old Phone: $OLD_PHONE"
+              echo "  Old Name: $OLD_NAME"
+              echo "  Old WA/SMS URL: $OLD_WAURL"
+              echo "  Old Phone URL: $OLD_PHURL"
+
+              # Compare and update if different
+              if [ "$OLD_PHONE_NAME" != "$NEW_PHONE_NAME" ] || [ "$OLD_PHONE" != "$PHONE" ] || [ "$OLD_NAME" != "$NAME" ] || [ "$OLD_WAURL" != "$WAURL" ] || [ "$OLD_PHURL" != "$PHURL" ]; then
+                # Escape special characters for all variables
+                OLD_PHONE_NAME_ESCAPED=$(escape_for_sed "$OLD_PHONE_NAME")
+                NEW_PHONE_NAME_ESCAPED=$(escape_for_sed "$NEW_PHONE_NAME")
+                OLD_PHONE_ESCAPED=$(escape_for_sed "$OLD_PHONE")
+                NEW_PHONE_ESCAPED=$(escape_for_sed "$PHONE")
+                OLD_NAME_ESCAPED=$(escape_for_sed "$OLD_NAME")
+                NEW_NAME_ESCAPED=$(escape_for_sed "$NAME")
+                OLD_WAURL_ESCAPED=$(escape_for_sed "$OLD_WAURL")
+                NEW_WAURL_ESCAPED=$(escape_for_sed "$WAURL")
+                OLD_PHURL_ESCAPED=$(escape_for_sed "$OLD_PHURL")
+                NEW_PHURL_ESCAPED=$(escape_for_sed "$PHURL")
+
+                # Perform replacements
+                if [ -n "$OLD_PHONE_NAME" ] && [ -n "$NEW_PHONE_NAME" ]; then
+                  sed -i "s|$OLD_PHONE_NAME_ESCAPED|$NEW_PHONE_NAME_ESCAPED|g" "$file"
+                fi
+                if [ -n "$OLD_PHONE" ] && [ -n "$PHONE" ]; then
+                  sed -i "s|$OLD_PHONE_ESCAPED|$NEW_PHONE_ESCAPED|g" "$file"
+                fi
+                if [ -n "$OLD_NAME" ] && [ -n "$NAME" ]; then
+                  sed -i "s|$OLD_NAME_ESCAPED|$NEW_NAME_ESCAPED|g" "$file"
+                fi
+                if [ -n "$OLD_WAURL" ] && [ -n "$WAURL" ]; then
+                  sed -i "s|href=\"$OLD_WAURL_ESCAPED\"|href=\"$NEW_WAURL_ESCAPED\"|g" "$file"
+                fi
+                if [ -n "$OLD_PHURL" ] && [ -n "$PHURL" ]; then
+                  sed -i "s|href=\"$OLD_PHURL_ESCAPED\"|href=\"$NEW_PHURL_ESCAPED\"|g" "$file"
+                fi
+                
+                CHANGES_MADE=true
+                echo "Updated file: $file"
+              else
+                echo "No changes needed for file: $file"
+              fi
+            done <<< "$FILE_LIST"
+
+            if [ "$CHANGES_MADE" = true ]; then
+              echo "Changes were made for Client $CLIENT_NUM ($NAME)"
+            else
+              echo "No changes were necessary for Client $CLIENT_NUM ($NAME)"
+            fi
+
+            echo "----------------------------------------"
+          }
+
+          # Process clients with filters first, then those without filters
+          CLIENT_NUM=1
+          # First process clients with filters
+          while IFS= read -r LINE; do
+            if [[ "$LINE" =~ \|[^|]*\|[^|]*\|[^|]*\|[^|]+$ ]]; then
+              process_client "$LINE" "$CLIENT_NUM"
+              ((CLIENT_NUM++))
+            fi
+          done < .clients
+
+          # Then process clients without filters
+          while IFS= read -r LINE; do
+            if ! [[ "$LINE" =~ \|[^|]*\|[^|]*\|[^|]*\|[^|]+$ ]]; then
+              process_client "$LINE" "$CLIENT_NUM"
+              ((CLIENT_NUM++))
+            fi
+          done < .clients
 
       - name: Commit and push changes
         run: |
