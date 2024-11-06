@@ -1,55 +1,73 @@
-name: Manual Adsense Script Addition
-
+name: Google Adsense Script & ads.txt v.2
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - '**.html'  # Only HTML files
+    types:
+      - created    # Only when new files are added
+  workflow_dispatch:    # Allows manual triggering
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  update_adsense:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Check if adsense.go exists
+        
+      - name: Remove adsense.go if it exists
         run: |
           if [ -f "adsense.go" ]; then
-            echo "adsense.go exists"
-          else
-            echo "adsense.go does not exist, exiting workflow."
-            exit 1
+            rm adsense.go
+            echo "Removed adsense.go"
           fi
 
-      - name: Set up Go
-        uses: actions/setup-go@v2
-        with:
-          go-version: '1.17'
+      - name: Update or create ads.txt
+        run: |
+          echo "google.com, pub-3534718780470570, DIRECT, f08c47fec0942fa0" > ads.txt
+          echo "Created/Updated ads.txt file"
 
-      - name: Run Go Script
-        run: go run adsense.go
+      - name: Update HTML files with Adsense script
+        run: |
+          ADSENSE_SCRIPT='<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3534718780470570" crossorigin="anonymous"></script>'
+          
+          # Find all HTML files
+          find . -type f -name "*.html" | while read -r file; do
+            echo "Processing: $file"
+            
+            # Create a temporary file
+            temp_file=$(mktemp)
+            
+            # Check if file contains any adsense script
+            if grep -q "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" "$file"; then
+              # Replace existing adsense script
+              sed "/.*pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js.*/c\\$ADSENSE_SCRIPT" "$file" > "$temp_file"
+            else
+              # Insert new adsense script before </head>
+              sed "/<\/head>/i\\$ADSENSE_SCRIPT" "$file" > "$temp_file"
+            fi
+            
+            # Replace original file with modified content
+            mv "$temp_file" "$file"
+          done
 
-      - name: Get Date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-
-      - name: Check for Changes
+      - name: Check for changes
         id: git_changes
         run: |
-          if git diff --exit-code; then
-            echo "::set-output name=changes::false"
+          if git diff --quiet; then
+            echo "changes=false" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=changes::true"
+            echo "changes=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Commit and Push Changes
+      - name: Commit and push if there are changes
         if: steps.git_changes.outputs.changes == 'true'
         run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "GitHub Actions"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Add Google Adsense script on ${{ steps.date.outputs.date }}"
+          git commit -m "Update Google Adsense script and ads.txt"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
           git push
-
-      - name: Display Message if Nothing Changed
-        if: steps.git_changes.outputs.changes == 'false'
-        run: echo "Nothing changed, nothing to commit"
