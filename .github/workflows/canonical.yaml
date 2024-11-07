@@ -1,0 +1,68 @@
+name: Update Canonical v1.4
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update-canonical-tags:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Find and update canonical tags in HTML files
+      run: |
+        # Get repository name from GitHub context and convert to lowercase
+        REPO_NAME=$(echo "${GITHUB_REPOSITORY#*/}" | tr '[:upper:]' '[:lower:]')
+        
+        find . -name "*.html" | while read htmlFile; do
+          tempFile="${htmlFile}.tmp"
+          
+          # Get the relative path from the root of the repository
+          relativePath="${htmlFile#./}"
+          dirPath=$(dirname "$relativePath")
+          fileName=$(basename "$htmlFile" .html)
+          
+          # Special handling for index.html files
+          if [ "$fileName" = "index" ]; then
+            if [ "$dirPath" = "." ]; then
+              urlPath=""  # Homepage
+            else
+              urlPath="/$dirPath"  # Index in subfolder
+            fi
+          else
+            # Regular files
+            if [ "$dirPath" = "." ]; then
+              urlPath="/$fileName"
+            else
+              urlPath="/$dirPath/$fileName"
+            fi
+          fi
+          
+          # Remove any double slashes that might occur
+          urlPath=$(echo "$urlPath" | sed 's#//#/#g')
+          
+          # Process the file to update canonical links
+          awk -v repo="$REPO_NAME" -v urlpath="$urlPath" '{
+            if ($0 ~ /<link rel="canonical"/) {
+              # Construct the new full URL
+              newHref = "https://" repo urlpath
+              
+              # Replace the old href with the new one
+              sub(/href="[^"]+"/, "href=\"" newHref "\"")
+            }
+            print $0
+          }' "$htmlFile" > "$tempFile"
+          mv "$tempFile" "$htmlFile"
+        done
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .
+        git commit -m "Update canonical href tags with full URLs" || echo "No changes to commit"
+    - name: Push changes
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
+      run: |
+        git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+        git push origin HEAD:main
