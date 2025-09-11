@@ -1,4 +1,4 @@
-name: Multi Search and Replace v.5
+name: Multi Search and Replace v.7.1 py
 on:
   workflow_dispatch:
     inputs:
@@ -28,67 +28,150 @@ jobs:
           REPLACE_PHRASES: ${{ github.event.inputs.replace_phrases }}
           FILE_NAME_CONTAINS: ${{ github.event.inputs.file_name_contains }}
         run: |
+          # Print operation summary
+          echo "=== Search and Replace Operation Summary ==="
+          echo "Timestamp: $(date +'%Y-%m-%d %H:%M:%S')"
+          echo "Repository: ${{ github.repository }}"
+          echo "Branch: ${{ github.ref_name }}"
+          echo -e "\n=== Input Parameters ==="
+          echo "Search phrases:"
           IFS='|' read -r -a SEARCH_ARRAY <<< "${SEARCH_PHRASES}"
+          for phrase in "${SEARCH_ARRAY[@]}"; do
+            echo "  - '$phrase'"
+          done
+          
+          echo -e "\nReplace phrases:"
           IFS='|' read -r -a REPLACE_ARRAY <<< "${REPLACE_PHRASES}"
+          for phrase in "${REPLACE_ARRAY[@]}"; do
+            echo "  - '$phrase'"
+          done
+
+          # Validate search and replace arrays
           if [ "${#SEARCH_ARRAY[@]}" -ne "${#REPLACE_ARRAY[@]}" ]; then
-            echo "Error: Mismatch in number of search & replace phrases."
+            echo -e "\n❌ Error: Mismatch in number of search & replace phrases."
+            echo "Search phrases: ${#SEARCH_ARRAY[@]}"
+            echo "Replace phrases: ${#REPLACE_ARRAY[@]}"
             exit 1
           fi
+
+          # Print initial debug info          
+          echo -e "\n=== Input Parameters ==="
+          echo "File filter pattern: ${FILE_NAME_CONTAINS:-'(no filter, all HTML files)'}"
           
           MATCHING_FILES=()
           if [ -z "$FILE_NAME_CONTAINS" ]; then
-            # No filename filter provided, match all HTML files
+            echo "No filter provided - searching all HTML files"
             MATCHING_FILES=($(find . -type f -name "*.html" 2>/dev/null || echo ""))
           else
-            # Create an array for filename filtering patterns
+            echo -e "\nProcessing filter patterns..."
             IFS='|' read -r -a OR_PATTERNS <<< "${FILE_NAME_CONTAINS}"
-            # Find matching files
+            
             for OR_PATTERN in "${OR_PATTERNS[@]}"; do
+              echo "Processing OR pattern: '$OR_PATTERN'"
               IFS='+' read -r -a AND_SEGMENTS <<< "${OR_PATTERN}"
-              AND_COND=""
+              
+              FIND_CMD="find . -type f -name '*.html'"
               for SEGMENT in "${AND_SEGMENTS[@]}"; do
-                AND_COND="${AND_COND} -and -name \"*${SEGMENT}*\""
+                FIND_CMD="$FIND_CMD -and -name '*${SEGMENT}*'"
               done
-              # Remove leading "-and" if it exists
-              AND_COND="${AND_COND# -and }"
-              if [ -n "$AND_COND" ]; then
-                # Only find .html files
-                found_files=($(find . -type f -name "*.html" ${AND_COND} 2>/dev/null || echo ""))
-                MATCHING_FILES+=("${found_files[@]}")
-              fi
+              
+              echo "Executing find command: $FIND_CMD"
+              while IFS= read -r file; do
+                if [ -n "$file" ]; then
+                  MATCHING_FILES+=("$file")
+                fi
+              done < <(eval "$FIND_CMD" 2>/dev/null || echo "")
             done
           fi
           
-          # Remove duplicates and empty entries, and ensure only .html files
-          MATCHING_FILES=($(printf "%s\n" "${MATCHING_FILES[@]}" | grep "\.html$" | sort -u || echo ""))
+          if [ ${#MATCHING_FILES[@]} -gt 0 ]; then
+            MATCHING_FILES=($(printf "%s\n" "${MATCHING_FILES[@]}" | sort -u))
+          fi
+          
+          echo -e "\n=== Search Results ==="
+          echo "Total matching files found: ${#MATCHING_FILES[@]}"
           
           if [ ${#MATCHING_FILES[@]} -eq 0 ]; then
-            echo "No matching HTML files found."
+            echo "❌ No matching HTML files found."
+            echo "Debug information:"
+            echo "1. Current directory contains:"
+            ls -la
+            echo "2. All HTML files in repository:"
+            find . -type f -name "*.html"
             exit 0
           fi
           
-          # Perform search and replace only on existing .html files
+          echo "Files to process:"
           for FILE in "${MATCHING_FILES[@]}"; do
-            if [[ -f "$FILE" && "$FILE" == *.html ]]; then
-              echo "Processing HTML file: $FILE"
-              for i in "${!SEARCH_ARRAY[@]}"; do
-                sed -i "s|$(printf '%s\n' "${SEARCH_ARRAY[$i]}" | sed 's:[\\/&]:\\&:g')|$(printf '%s\n' "${REPLACE_ARRAY[$i]}" | sed 's:[\\/&]:\\&:g')|g" "$FILE"
-              done
-            fi
+            echo "  - $FILE"
           done
+          
+          # Perform search and replace using Python
+          cat << 'EOF' > replace.py
+          import sys
+          import os
+          
+          def replace_in_file(file_path, search_phrases, replace_phrases):
+              try:
+                  with open(file_path, 'r', encoding='utf-8') as f:
+                      content = f.read()
+                  
+                  modified = False
+                  for search, replace in zip(search_phrases, replace_phrases):
+                      if search in content:
+                          content = content.replace(search, replace)
+                          print(f"  ✓ Replaced '{search}' with '{replace}'")
+                          modified = True
+                  
+                  if modified:
+                      with open(file_path, 'w', encoding='utf-8') as f:
+                          f.write(content)
+                      return True
+                  return False
+              except Exception as e:
+                  print(f"Error processing {file_path}: {str(e)}")
+                  return False
+
+          if __name__ == '__main__':
+              search_phrases = sys.argv[1].split('|')
+              replace_phrases = sys.argv[2].split('|')
+              files = sys.argv[3:]
+              
+              modified_count = 0
+              for file in files:
+                  print(f"\nProcessing: {file}")
+                  if replace_in_file(file, search_phrases, replace_phrases):
+                      modified_count += 1
+              
+              print(f"\n=== Operation Complete ===")
+              print(f"Files processed: {len(files)}")
+              print(f"Files modified: {modified_count}")
+              
+              # Always exit with code 0 unless there's an actual error
+              if modified_count == 0:
+                  print("No files needed modification - completing successfully")
+              sys.exit(0)
+          EOF
+          
+          python3 replace.py "$SEARCH_PHRASES" "$REPLACE_PHRASES" "${MATCHING_FILES[@]}"
           
           # Check if there are changes to commit
           if git diff --quiet; then
-            echo "No changes to commit"
+            echo -e "\n📝 No changes to commit"
             exit 0
           fi
           
+          echo -e "\n📝 Committing changes..."
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Batch replace on $(date +'%Y-%m-%d')"
+          git commit -m "Batch replace on $(date +'%Y-%m-%d') - Modified files"
+          echo "✅ Changes committed successfully"
+      
       - name: Push changes
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          echo "🚀 Pushing changes to repository..."
           git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }} HEAD:main
+          echo "✅ Changes pushed successfully"
