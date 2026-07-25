@@ -70,6 +70,20 @@ sources:
 - Later, sprinkle `Sobat Berat.id`, `Kawan Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
 - Do not use a generic industry-history or “Di era digital” introduction.
 
+
+<!-- BEGIN MANAGED IMAGE PLAN -->
+## Image plan
+
+- **Image ID:** `LOCAL-003`
+- **Source type:** `local`
+- **Placement:** after the opening has answered the main question, before the first detailed H2
+- **Exact Markdown to insert:** `![Ilustrasi Power Shovel](/wp-content/uploads/2020/10/Power-Shovel.jpg)`
+- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+- **Selection basis:** filename/source metadata identifies `Power Shovel` as relevant content media; no pixels were inspected.
+- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-003]` and continue drafting the prose.
+<!-- END MANAGED IMAGE PLAN -->
+
 ## Evidence packet
 
 Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.

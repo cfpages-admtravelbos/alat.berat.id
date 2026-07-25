@@ -69,6 +69,20 @@ sources:
 - Later, sprinkle `Sobat Berat.id`, `Kawan Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
 - Do not use a generic industry-history or “Di era digital” introduction.
 
+
+<!-- BEGIN MANAGED IMAGE PLAN -->
+## Image plan
+
+- **Image ID:** `LOCAL-001`
+- **Source type:** `local`
+- **Placement:** after the opening has answered the main question, before the first detailed H2
+- **Exact Markdown to insert:** `![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)`
+- **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
+- **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
+- **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
+- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
+<!-- END MANAGED IMAGE PLAN -->
+
 ## Evidence packet
 
 Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.

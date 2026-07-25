@@ -94,3 +94,20 @@ The front matter's `publication_date` is the appointed historical CMS date. Pres
 
 No HTML hydration, deployment, sitemap generation, or GSC submission is authorized by this guide.
 <!-- END MANAGED ARTICLE GUIDE -->
+
+<!-- BEGIN MANAGED ARTICLE IMAGE GUIDE -->
+## Image instructions for every article
+
+The assigned outline contains one managed `Image plan` copied from `IMAGE_CATALOG.md`. Follow that block exactly; do not open the full catalog during a one-article writing run.
+
+1. Place the primary image after the opening has already given the short answer, unless the plan names another section.
+2. Convert the plan's `Exact Markdown to insert` code into a real Markdown image line in the public article body. Do not leave the URL only inside the internal instruction block.
+3. Use the exact URL and supplied alt-text brief. Make alt text concise and functional; do not add details that are not stated by the filename/source metadata.
+4. Put the supplied caption or credit immediately below the real image. Preserve the creator, source-page link, and license link for every external image.
+5. A local repository URL is preferred because it avoids a third-party delivery dependency. An external hotlink is allowed only when its complete provenance is embedded in the plan.
+6. Do not use an image as evidence for a technical, commercial, safety, compliance, performance, or project claim.
+7. Do not add decorative duplicate images. One strongly relevant image is better than several weak or repetitive images.
+8. Do not rename, download, optimize, or edit an image in the writing stage. Image processing and HTML hydration are separate later stages.
+
+The catalog was prepared without visual inspection to keep the rollout lean. Treat its filename/metadata inference as a subject label only, never as permission to narrate unseen details.
+<!-- END MANAGED ARTICLE IMAGE GUIDE -->

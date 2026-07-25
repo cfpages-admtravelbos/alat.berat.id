@@ -16,3 +16,16 @@ Follow repository code/documentation rules and the managed article workflow belo
 - Do not hydrate HTML, deploy, edit sitemaps, submit to GSC, or push Git unless the user explicitly asks for that later stage.
 - If the assigned file contains an unresolved consequential evidence gate, write within the safe boundary or leave a visible `[NEEDS ...]` marker for review; never fill the gap by guessing.
 <!-- END MANAGED ARTICLE WORKFLOW -->
+
+<!-- BEGIN MANAGED ARTICLE IMAGE WORKFLOW -->
+## Repository-local article image workflow
+
+- `IMAGE_CATALOG.md` is the coordinator inventory; the exact assignment for a writer is copied into the assigned `artikel/[slug].md`.
+- Do not make the lower-capability writer load the full image catalog. Its assigned outline is the compact authoritative packet.
+- Use only the exact local relative URL or approved external hotlink embedded in the assigned image plan. Do not browse for, download, generate, or substitute another image.
+- Never use a logo, favicon, header/hero/banner, icon, tracking asset, plugin/theme asset, WordPress thumbnail derivative, or ambiguous filename as article media.
+- Image selection in this stage is based on repository path, filename, and source metadata only. Do not invent visible details, people, brands, conditions, project location, or performance from an image.
+- Keep the specified placement, alt-text brief, caption, source link, creator, license, and attribution. External images without complete provenance must not be published.
+- Do not describe a repository asset or stock image as Syamsul's project, client, installation, result, or case study.
+- If an assigned URL is unavailable or its license metadata changes, leave `[NEEDS IMAGE REVIEW]` and continue the prose within scope; do not guess a replacement.
+<!-- END MANAGED ARTICLE IMAGE WORKFLOW -->
