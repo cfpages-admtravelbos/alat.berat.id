@@ -2,8 +2,9 @@
 article_id: ABR-11-05
 title: "Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat"
 slug: "lockout-stored-energy-servis-alat-berat"
-description: "Map electrical, hydraulic, pneumatic, gravity, thermal, mechanical, pressure, attachment, and motion energy; verify zero-energy and safe access concepts"
-status: outline
+description: "Cara mengenali kebutuhan isolasi energi dan akses servis pada alat berat, termasuk energi tersimpan, penyanggaan, verifikasi, serta batas berhenti kerja tanpa menggantikan prosedur pabrikan dan lokasi."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-02-02"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,63 +17,24 @@ technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
   - "https://www.iso.org/standard/60734.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
-  - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
+  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat
 
-## Assignment lock
+Halo, Sobat Berat.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat”
-- **Reader and situation:** Supervisor or mechanic preparing inspection, cleaning, or repair
-- **Reader outcome:** Map electrical, hydraulic, pneumatic, gravity, thermal, mechanical, pressure, attachment, and motion energy; verify zero-energy and safe access concepts
-- **Primary intent:** Recognize energy-isolation requirements
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Sobat Berat.id`
-- **Natural variants:** `Kawan Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes a machine-independent isolation sequence and bypass of safety devices; OEM procedure and competent maintenance team own execution
-- **Final public route:** `/artikel/lockout-stored-energy-servis-alat-berat.html`
-- **Appointed CMS date:** `2026-02-02` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Mesin yang sudah dimatikan belum tentu bebas energi. Saat mekanik hendak membersihkan, memeriksa, atau memperbaiki alat berat, bahaya dapat tetap datang dari listrik, tekanan hidrolik atau pneumatik, bagian yang tertahan oleh gravitasi, panas, pegas, putaran, gerak mekanis, attachment, dan energi lain yang tersimpan. Karena itu lockout—penguncian untuk mencegah sumber energi diaktifkan kembali tanpa kendali—bukan sekadar memasang tanda. Ia bagian dari isolasi energi yang harus sesuai dengan alat, pekerjaan, petunjuk pabrikan, dan prosedur lokasi.
 
-## Opening instructions
+Jawaban singkatnya: sebelum akses servis dianggap siap, tim perlu mengenali semua sumber dan energi tersimpan yang relevan, menyiapkan isolasi serta penyanggaan yang benar, dan meminta verifikasi oleh orang yang kompeten menurut prosedur yang berlaku. Artikel ini tidak memberi urutan isolasi, cara melepas tekanan, nilai pengujian, atau kewenangan membuka penguncian. Semua itu bergantung pada identitas dan konfigurasi alat, kondisi aktual, dokumen pabrikan, serta aturan kerja setempat. [NEEDS PROSEDUR ISOLASI: gunakan prosedur pabrikan dan lokasi yang berlaku, lalu pastikan pelaksanaan serta verifikasi ditangani oleh orang yang kompeten.]
 
-- Open with the exact short salutation: **“Halo, Sobat Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Berat.id`, `Kawan Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
+Ilustrasi umum dari aset lokal Berat.id; bukan dokumentasi proyek tertentu.
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,228 +45,64 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Mengapa tombol mati bukan bukti akses servis aman
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Tombol mati hanya menjelaskan satu keadaan pada satu saat. Ia tidak dengan sendirinya menjawab apakah listrik masih dapat masuk, apakah tekanan masih berada dalam sistem, apakah attachment dapat bergerak, atau apakah bagian berat sudah ditopang secara independen. Itulah sebabnya pekerjaan servis perlu dimulai dengan pertanyaan lebih luas: energi apa yang dapat membuat alat atau komponennya bergerak, turun, berputar, panas, atau melepaskan tekanan saat seseorang berada di area kerja?
 
-### KR-01
+Energi tersimpan berarti energi yang masih tertahan walau sumber utama tampak tidak aktif. Pada alat berat, bentuknya dapat berupa tekanan pada sistem, komponen yang berada di bawah beban, panas, pegas, bagian berputar, atau gerak yang dipicu oleh kondisi mekanis tertentu. Daftar ini membantu tim mengingat risiko, tetapi tidak boleh digunakan untuk menyimpulkan bahwa semua sumber pada alat tertentu sudah teridentifikasi.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+Kawan Berat.id, jangan menutup pertanyaan dengan “sudah biasa servis begini”. Konfigurasi alat, attachment, modifikasi, riwayat perbaikan, lokasi, dan pekerjaan yang akan dilakukan dapat mengubah bahaya. Pengendalian risiko perlu dimulai dari kondisi nyata, sebagaimana ditekankan dalam [panduan ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), bukan dari kebiasaan yang belum diperiksa ulang.
 
-### KR-05
+## Batas pembahasan: mengenali kebutuhan, bukan mengajarkan urutan isolasi
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+Artikel ini membantu supervisor dan mekanik mengenali kapan pekerjaan memerlukan rencana isolasi energi dan akses yang aman. Ia tidak boleh dipakai sebagai instruksi untuk menonaktifkan, membuang energi, menguji keadaan nol energi, membongkar penahan, mengakali pengaman, atau mengembalikan alat ke operasi. Tindakan tersebut adalah pekerjaan spesifik alat dan membutuhkan prosedur pabrikan, prosedur lokasi, penugasan yang sesuai, serta penilaian terhadap kondisi aktual.
 
-### KR-19
+Istilah safe access berarti akses yang aman ke titik kerja, bukan sekadar berhasil mencapai bagian yang akan diservis. Akses perlu mempertimbangkan jalur masuk, posisi kerja, kemungkinan jatuh atau terjepit, bagian yang bergerak, dan cara keluar bila kondisi berubah. Rekaman [ISO 20474-1](https://www.iso.org/standard/60734.html) berguna sebagai rujukan identitas standar keselamatan mesin earth-moving, tetapi halaman katalog tidak membuktikan alat Anda, attachment, modifikasi, atau metode servis tertentu aman.
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+Untuk alasan yang sama, sertifikat, stiker inspeksi, atau pengalaman mekanik tidak boleh dianggap sebagai izin otomatis. Bukti kompetensi, peran, pengawasan, dan ruang lingkup tugas perlu dicocokkan dengan pekerjaan hari itu. Jika identitas alat atau instruksi pabrikan tidak tersedia, jangan mengisi kekosongan dengan prosedur dari unit lain.
 
-### KR-20
+## Hubungan antara isolasi, penyanggaan, dan verifikasi
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+Isolasi energi, penyanggaan atau blocking, dan verifikasi adalah tiga hal yang saling terkait tetapi berbeda. Isolasi berhubungan dengan mencegah energi masuk atau dilepas tanpa kendali. Penyanggaan berhubungan dengan memastikan bagian atau attachment yang dapat bergerak atau turun tidak hanya bergantung pada sistem yang sedang dikerjakan. Verifikasi adalah pemeriksaan menurut prosedur yang berlaku untuk memastikan kondisi yang disyaratkan sebelum akses servis diberikan. Satu tindakan tidak menggantikan yang lain.
 
-### KR-21
+Bayangkan pekerjaan pada area di bawah bagian yang dapat tertahan oleh gravitasi. Mematikan mesin tidak otomatis membuktikan bagian itu tidak akan bergerak. Sebaliknya, memasang penyangga tanpa memahami energi lain yang terlibat juga tidak membuktikan area kerja siap. Nah, tujuan rencana bukan membuat daftar panjang, melainkan memastikan setiap sumber energi dan gerak yang masuk akal memiliki pengendalian yang sesuai.
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Dokumentasi pabrikan, identitas mesin, kondisi perlindungan, akses, dan riwayat modifikasi adalah bukti yang berbeda. [ISO 12100](https://www.iso.org/standard/51528.html) menyajikan kerangka identitas standar untuk pengurangan risiko mesin; penerapannya pada unit nyata tetap memerlukan data alat dan penilaian yang kompeten. Jangan meremehkan perubahan kecil seperti attachment lain, akses servis yang rusak, atau konfigurasi kerja yang berubah—hal-hal itu dapat mengubah rencana isolasi dan akses.
 
-### KR-23
+## Kondisi yang mengubah keputusan sebelum servis dimulai
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+Beberapa kondisi harus membuat supervisor berhenti dan meninjau ulang rencana: alat tidak dapat diidentifikasi secara tepat; petunjuk pabrikan atau prosedur lokasi tidak tersedia; energi yang mungkin tersimpan belum dipetakan; attachment atau bagian berat belum memiliki pengendalian yang dibuktikan; akses servis tidak jelas; atau penugasan orang yang melakukan dan memverifikasi pekerjaan belum jelas.
 
-### KR-24
+Perubahan pekerjaan juga penting. Membersihkan area, memeriksa kebocoran, mengganti komponen, membuka pelindung, dan memperbaiki bagian yang macet dapat menghadapkan orang pada energi dan bagian bergerak yang berbeda. Panduan [ILO untuk penilaian risiko lima langkah](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting) mendukung kebiasaan menilai bahaya dan meninjau pengendalian ketika keadaan berubah, bukan memindahkan kesimpulan dari satu pekerjaan ke pekerjaan lain.
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+Teman Berat.id, gunakan pertanyaan sederhana: “Apa yang bisa bergerak, jatuh, berputar, panas, bertekanan, atau hidup kembali saat tangan seseorang berada di sini?” Bila jawabannya belum pasti, itu bukan waktu untuk mulai membongkar. Itu waktu untuk menahan pekerjaan dan mencari prosedur serta orang yang tepat.
 
-### KR-02
+## Contoh keputusan praktis tanpa menggantikan prosedur
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+Berikut contoh cara mengambil keputusan, bukan contoh cara melakukan isolasi:
 
-### KR-10
+| Situasi yang ditemukan | Keputusan yang lebih aman |
+| --- | --- |
+| Unit atau attachment tidak cocok dengan dokumen yang tersedia | Tahan servis sampai identitas dan dokumen yang tepat diverifikasi. |
+| Pekerjaan memerlukan akses dekat bagian yang dapat bergerak atau turun | Minta rencana isolasi dan penyanggaan sesuai pabrikan serta prosedur lokasi sebelum akses diberikan. |
+| Ada tekanan, listrik, panas, atau gerak yang belum jelas sumbernya | Jangan melakukan tindakan pelepasan sendiri dari artikel ini; eskalasi kepada orang kompeten dan rujukan yang sesuai. |
+| Peralatan pengaman, pelindung, atau akses servis tampak diubah atau rusak | Hentikan pekerjaan dan nilai ulang kondisi alat serta metode dengan pihak berwenang. |
+| Kondisi lapangan berubah saat servis berlangsung | Tahan pekerjaan, komunikasikan perubahan, dan perbarui penilaian sebelum dilanjutkan. |
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+Tabel tersebut sengaja tidak memuat langkah pelepasan energi, bentuk blocking, nilai uji, maupun otorisasi. Detail seperti itu harus berasal dari prosedur yang dapat dipertanggungjawabkan untuk alat dan kondisi yang sedang dihadapi. [Permenaker Nomor 38 Tahun 2016](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016) dapat menjadi salah satu rujukan resmi yang status dan penerapannya perlu diperiksa kembali; artikel ini tidak menafsirkan kewajiban untuk situasi tertentu.
 
-### KR-14
+## Kesalahan umum: menganggap kunci dan label sudah cukup
 
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
+Kesalahan yang berbahaya adalah melihat lockout sebagai benda, bukan sistem kerja. Kunci atau label dapat menjadi bagian dari pengendalian, tetapi belum menjawab apakah sumber energi telah dipetakan, apakah orang lain diberi tahu, apakah attachment telah ditopang, siapa yang melakukan verifikasi, atau apakah pekerjaan berubah. Begitu pula, pengaman mesin tidak boleh dibypass hanya agar akses terasa lebih cepat.
 
-### KR-16
+Ubah jalan pintas menjadi daftar periksa sebelum kerja: apakah alat dan tugas teridentifikasi; apakah dokumen pabrikan dan prosedur lokasi tersedia; apakah semua sumber energi potensial serta energi tersimpan dipertimbangkan; apakah akses dan penyanggaan telah dinilai; siapa yang diberi wewenang; dan kapan pekerjaan harus dihentikan? Catat jawaban serta perubahan penting agar penanggung jawab berikutnya tidak menebak keadaan alat.
 
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
+Sobat Berat.id, jika ada orang berkata “sebentar saja”, justru tanyakan apakah kondisi isolasi dan aksesnya benar-benar sama seperti pekerjaan sebelumnya. Waktu singkat tidak mengurangi akibat dari energi yang tidak terkendali.
 
-### KR-17
+## Jangan lanjut sampai akses servis dapat dibuktikan
 
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
+Lockout, energi tersimpan, dan akses servis aman adalah persoalan mengenali sumber bahaya lalu memastikan isolasi, penyanggaan, dan verifikasi direncanakan untuk unit serta pekerjaan yang nyata. Mulailah dari identitas alat dan dokumen pabrikan, lalu cocokkan dengan prosedur lokasi dan kompetensi orang yang akan bekerja.
 
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-11-03` → `/artikel/alat-berat-dekat-lereng-dan-tepi-galian.html` — Alat Berat di Dekat Lereng, Tepi Galian, dan Area Tidak Stabil
-- `ABR-11-04` → `/artikel/mencegah-utility-strike-alat-berat.html` — Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali
-- `ABR-11-06` → `/artikel/cuaca-fatigue-dan-darurat-alat-berat.html` — Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Jika sumber energi, penyanggaan, akses, prosedur, atau wewenang belum jelas, berhenti dan minta pemeriksaan yang kompeten. Aturan operasinya sederhana: tidak ada pekerjaan servis yang lebih mendesak daripada bukti bahwa kondisi aksesnya sudah dinilai untuk alat yang benar.
