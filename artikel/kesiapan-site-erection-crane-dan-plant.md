@@ -2,8 +2,9 @@
 article_id: ABR-14-04
 title: "Kesiapan Site untuk Erection Crane dan Plant Berat"
 slug: "kesiapan-site-erection-crane-dan-plant"
-description: "Map foundations/support, laydown, assist equipment, utilities, access, temporary stability, sequence, competent roles, hold points, inspection, and acceptance documents"
-status: outline
+description: "Data dan antarmuka yang perlu disiapkan agar lokasi siap menerima perakitan crane atau plant berat, tanpa menggantikan rencana kerja dan persetujuan teknis."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-04-11"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,65 +15,91 @@ reader_address: "Kawan Berat.id"
 final_route: "/artikel/kesiapan-site-erection-crane-dan-plant.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
   - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
   - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Kesiapan Site untuk Erection Crane dan Plant Berat
 
-## Assignment lock
+Halo, Kawan Berat.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Kesiapan Site untuk Erection Crane dan Plant Berat”
-- **Reader and situation:** Project team receiving sectional crane or processing plant
-- **Reader outcome:** Map foundations/support, laydown, assist equipment, utilities, access, temporary stability, sequence, competent roles, hold points, inspection, and acceptance documents
-- **Primary intent:** Prepare assembly and commissioning interfaces
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes erection instructions and temporary-works design; ABR-04-06 owns crane sequence concepts and OEM/engineers own execution
-- **Final public route:** `/artikel/kesiapan-site-erection-crane-dan-plant.html`
-- **Appointed CMS date:** `2026-04-11` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Peralatan bisa sudah tiba, tetapi lokasi belum tentu siap untuk perakitan. **Kesiapan lokasi** berarti akses, area kerja, tanah atau struktur pendukung, utilitas, ruang penyimpanan komponen, jalur orang dan kendaraan, dokumen, serta penanggung jawabnya sudah diperiksa terhadap rencana yang berlaku. **Erection** adalah perakitan atau pendirian komponen menjadi crane atau plant; ia bukan sekadar proses memasang bagian satu per satu.
 
-## Opening instructions
+Jawaban singkatnya, jangan mulai dari crane atau plant yang datang. Mulailah dari data lokasi dan antarmuka: fondasi atau penopang, area *laydown* untuk menaruh komponen sebelum dirakit, alat bantu, jalur angkat, utilitas, kondisi tanah, urutan kerja, dan pihak yang berwenang mengambil keputusan. Artikel ini tidak memberi metode erection, nilai daya dukung, rencana angkat, atau persetujuan lokasi.
 
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Kesiapan Site untuk Erection Crane dan Plant Berat**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
+Ilustrasi umum dari aset lokal alat.berat.id; bukan dokumentasi proyek tertentu.
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+## Apa yang perlu siap sebelum komponen datang
+
+Crane adalah alat angkat; plant berat adalah susunan peralatan proses atau produksi yang dapat datang sebagai komponen. Keduanya membutuhkan lokasi yang bukan hanya “cukup luas.” Komponen perlu diterima, diperiksa, ditempatkan, dipindahkan, dirakit, dan kemudian diperiksa menurut rencana yang benar.
+
+Daftar kesiapan perlu menghubungkan gambar dan dokumen yang berlaku dengan kondisi lapangan terbaru. Bila gambar fondasi, jalur akses, tata letak, atau konfigurasi unit tidak cocok dengan keadaan aktual, jangan menyelesaikan perbedaan itu dengan asumsi. Naikkan untuk peninjauan oleh pihak yang kompeten.
+
+| Antarmuka | Pertanyaan yang perlu dijawab |
+| --- | --- |
+| Akses | Bagaimana komponen, kendaraan, dan orang masuk serta keluar tanpa saling mengganggu? |
+| Area laydown | Di mana komponen diterima dan disimpan sementara tanpa menghalangi jalur kerja? |
+| Pendukung | Data apa yang membuktikan fondasi, tanah, atau struktur menerima kondisi yang direncanakan? |
+| Utilitas | Layanan apa yang ada di atas atau bawah tanah dan siapa pemilik informasi? |
+| Alat bantu | Unit apa yang dipakai, dalam konfigurasi apa, dan apa dokumen pendukungnya? |
+| Orang dan dokumen | Siapa yang memimpin, memeriksa, menghentikan, serta menyetujui tiap tahap? |
+
+## Tanah, fondasi, dan stabilitas sementara
+
+Kondisi tanah atau fondasi tidak dapat diputuskan dari permukaan yang tampak rata. Data pendukung, posisi kerja, konfigurasi alat, dan kondisi cuaca atau air dapat memengaruhi penilaian. Jangan memakai artikel ini untuk menentukan daya dukung, alas, ukuran fondasi, atau posisi penopang. Hal-hal tersebut memerlukan data proyek dan keputusan rekayasa yang kompeten.
+
+**Stabilitas sementara** berarti keadaan komponen atau susunan selama belum mencapai kondisi akhir yang dirancang. Tahap sementara dapat mempunyai risiko dan antarmuka sendiri. Karena itu, urutan erection, penopang sementara, kondisi cuaca, akses, dan perubahan konfigurasi harus mengikuti rencana yang disetujui, bukan dibuat spontan di lapangan.
+
+Sobat Berat.id, bila data pendukung belum jelas atau kondisi lokasi berubah, itu adalah alasan untuk menahan pekerjaan—notifikasi bahwa jadwal perlu disesuaikan, bukan masalah yang harus ditutup dengan percepatan.
+
+## Jalur angkat dan alat bantu harus dibahas sebagai sistem
+
+Rencana angkat bukan sekadar memilih crane yang tersedia. Ia menghubungkan identitas peralatan, konfigurasi, komponen yang diangkat, akses, kondisi tanah atau pendukung, jalur perpindahan, orang di sekitar, komunikasi, dan batas area. Kartu operator, label kapasitas, atau stiker inspeksi saja tidak membuktikan satu rencana angkat aman atau sesuai.
+
+Periksa dokumen pabrikan dan catatan unit aktual sebelum alat bantu masuk lokasi. Bila pekerjaan menggunakan crane bantu, forklift, telehandler, atau peralatan lain, fungsi masing-masing perlu jelas agar tidak terjadi tumpang tindih perintah atau jalur gerak. Prinsip keselamatan konstruksi ILO menempatkan akses, lalu lintas, visibilitas, kompetensi, pemeriksaan, dan pemeliharaan sebagai hal yang perlu dikelola sesuai kondisi nyata. [ILO Convention C167](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988)
+
+## Utilitas dan pekerjaan bersamaan
+
+Sebelum area dipakai, kumpulkan informasi tentang listrik, pipa, kabel, saluran, struktur, lalu lintas, serta pekerjaan lain yang berpotensi berinteraksi. Gambar lama atau informasi lisan dapat menjadi awal, tetapi tidak otomatis membuktikan kondisi saat ini. Tetapkan siapa yang memegang informasi, bagaimana perubahan disampaikan, dan kapan pekerjaan harus berhenti untuk klarifikasi.
+
+Plant dan crane sering berdiri dalam lokasi yang juga dipakai kontraktor lain. Buat batas area, jalur komunikasi, waktu kerja, dan penanggung jawab yang jelas. Jangan menyamakan koordinasi singkat dengan persetujuan metode kerja. Bila ada pekerjaan bersamaan yang mengubah akses, paparan, atau stabilitas sementara, rencana perlu ditinjau ulang.
+
+## Urutan bukti sebelum erection dimulai
+
+Berikut urutan pemeriksaan yang membantu proyek tidak lompat dari pengiriman langsung ke perakitan:
+
+1. Cocokkan identitas komponen, gambar, konfigurasi, dan dokumen pabrikan yang berlaku.
+2. Verifikasi akses, laydown, utilitas, jalur kerja, serta kondisi lokasi terbaru.
+3. Pastikan data pendukung tanah/fondasi dan kebutuhan stabilitas sementara ditinjau oleh pihak kompeten.
+4. Tetapkan alat bantu, peran tim, komunikasi, batas area, dan titik henti yang disetujui.
+5. Catat inspeksi penerimaan serta persyaratan sebelum tahap berikutnya dilepas.
+
+Urutan ini tidak menjadi instruksi erection. Tujuannya adalah memastikan bahwa keputusan untuk mulai memiliki pemilik dan bukti. Penilaian risiko perlu mengenali bahaya dan kondisi aktual, memilih pengendalian, mencatatnya, lalu meninjaunya ketika keadaan berubah. [Panduan lima langkah ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting)
+
+## Contoh keputusan yang bersyarat
+
+Bayangkan komponen crane tiba, tetapi area laydown belum dipisahkan dari jalur kendaraan dan data fondasi belum dapat dicocokkan dengan konfigurasi yang akan dirakit. Menurunkan komponen di tempat yang “sementara saja” bukan solusi otomatis. Tim perlu menahan tahap tersebut sampai area, data pendukung, dan otoritas keputusan jelas.
+
+Contoh lain, plant akan dirakit dekat utilitas aktif dan pekerjaan lain. Pertanyaan awalnya bukan “berapa cepat erection selesai,” melainkan bagaimana informasi utilitas diverifikasi, siapa mengatur antarmuka, dan dokumen apa yang harus diterima sebelum pekerjaan bergerak ke tahap berikutnya. Teman Berat.id, contoh ini tidak menentukan metode karena metode bergantung pada unit dan lokasi yang sebenarnya.
+
+## Kesalahan umum yang membuat lokasi tampak siap
+
+Kesalahan pertama adalah menyamakan area kosong dengan area layak kerja. Kesalahan kedua adalah menganggap komponen yang sudah tersedia berarti erection dapat langsung dimulai. Kesalahan ketiga adalah memperlakukan titik pemeriksaan sebagai administrasi yang boleh dilewati agar jadwal tidak mundur.
+
+Jalan pintas yang sering muncul ialah “mulai saja, nanti penyesuaian dilakukan sambil jalan.” Pada erection, perubahan kecil dapat memengaruhi akses, stabilitas, utilitas, dan koordinasi. Alternatifnya: tetapkan titik henti—waktu pekerjaan tidak boleh maju sebelum bukti dan persetujuan tahap itu tersedia.
+
+Kompetensi orang juga harus selaras dengan peran. Informasi sertifikasi dapat diperiksa melalui [BNSP](https://bnsp.go.id/), tetapi artikel ini tidak memberi otorisasi kepada orang atau tim tertentu.
+
+## Lokasi siap bila antarmukanya siap
+
+Kesiapan lokasi untuk erection crane dan plant berat berarti data akses, laydown, pendukung, utilitas, alat bantu, urutan, orang, dan dokumen dapat dicocokkan dengan konfigurasi yang benar. Ia bukan sekadar ada lahan dan komponen sudah tiba.
+
+Sebelum mulai, minta rencana yang berlaku, verifikasi kondisi lapangan, dan tetapkan titik henti serta pihak kompeten untuk isu tanah, fondasi, angkat, utilitas, dan stabilitas sementara. Aturan praktisnya: bila satu antarmuka penting belum jelas, tahan erection sampai bukti proyek menutupnya.
+
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,229 +110,4 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/tower-crane` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-14-02` → `/artikel/izin-dan-dokumen-mobilisasi-alat-berat.html` — Izin dan Dokumen Mobilisasi Alat Berat: Cara Memverifikasi Kebutuhan
-- `ABR-14-03` → `/artikel/menyiapkan-area-unloading-dan-laydown.html` — Menyiapkan Akses, Area Unloading, dan Laydown Alat Berat
-- `ABR-14-05` → `/artikel/commissioning-dan-serah-terima-alat-berat.html` — Commissioning dan Serah Terima Alat Berat di Proyek
-- `ABR-14-06` → `/artikel/demobilisasi-dan-handback-alat-berat.html` — Demobilisasi dan Handback Alat Berat tanpa Sengketa Kondisi
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Kesiapan Site untuk Erection Crane dan Plant Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Kesiapan Site untuk Erection Crane dan Plant Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Kesiapan Site untuk Erection Crane dan Plant Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Kesiapan Site untuk Erection Crane dan Plant Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Kesiapan Site untuk Erection Crane dan Plant Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Kesiapan Site untuk Erection Crane dan Plant Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+END MANAGED IMAGE PLAN -->

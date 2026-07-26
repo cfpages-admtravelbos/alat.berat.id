@@ -2,8 +2,9 @@
 article_id: ABR-08-04
 title: "Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar"
 slug: "keausan-pin-bushing-bearing-alat-berat"
-description: "Connect lubrication, contamination, misalignment, impact, clearance, measurement, symptoms, and downstream structural load"
-status: outline
+description: "Cara membaca bukti keausan pada pin, bushing, bearing, dan joint alat berat tanpa menebak batas kondisi atau keputusan perbaikannya."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-11-18"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,62 +15,86 @@ reader_address: "Sobat Berat.id"
 final_route: "/artikel/keausan-pin-bushing-bearing-alat-berat.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
   - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
   - "https://www.iso.org/standard/60734.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar
 
-## Assignment lock
+Halo, Sobat Berat.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar”
-- **Reader and situation:** Inspector or owner noticing play, noise, poor geometry, or grease loss
-- **Reader outcome:** Connect lubrication, contamination, misalignment, impact, clearance, measurement, symptoms, and downstream structural load
-- **Primary intent:** Diagnose joint wear evidence
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Sobat Berat.id`
-- **Natural variants:** `Kawan Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes machining tolerances and repair procedures; ABR-15-02 owns lubrication programs and ABR-16-06 owns rebuild decisions
-- **Final public route:** `/artikel/keausan-pin-bushing-bearing-alat-berat.html`
-- **Appointed CMS date:** `2025-11-18` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Gerak longgar, bunyi tidak biasa, geometri alat yang tampak berubah, atau grease yang cepat hilang sering membuat orang langsung berkata, “pin atau bushing-nya habis.” Bisa jadi, tetapi gejala itu belum cukup untuk menentukan penyebab atau keputusan perbaikan. Pada alat berat, celah kecil di satu joint dapat mengubah cara beban bergerak ke komponen di sekitarnya.
 
-## Opening instructions
+Jawaban singkatnya, mulailah dari bukti: lokasi gejala, kapan muncul, konfigurasi alat, riwayat pelumasan dan penggunaan, kondisi yang terlihat, serta pengukuran dengan metode dan spesifikasi yang benar. Artikel ini menjelaskan hubungan antarkomponen dan urutan pertanyaan; ia tidak memberi batas celah, sisa umur, diagnosis, atau prosedur perbaikan untuk unit tertentu.
 
-- Open with the exact short salutation: **“Halo, Sobat Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Berat.id`, `Kawan Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
+Ilustrasi umum dari aset lokal alat.berat.id; bukan dokumentasi proyek tertentu.
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+## Kenali peran masing-masing komponen
+
+Pin adalah batang penghubung yang memungkinkan dua bagian bergerak pada satu titik. Bushing adalah selongsong atau lapisan duduk tempat pin bekerja. Bearing adalah komponen yang membantu gerak atau putaran pada susunan tertentu. **Joint** adalah sambungan bergerak yang menyatukan komponen-komponen tersebut. Istilah bengkel ini lazim dipakai, tetapi tiap unit dapat mempunyai susunan, material, dan ketentuan pabrikan yang berbeda.
+
+**Celah** atau kelonggaran adalah ruang gerak di antara bagian yang semestinya bekerja dalam hubungan tertentu. Tidak semua gerak yang terlihat berarti kerusakan; sebaliknya, gerak yang tampak kecil juga tidak boleh diabaikan bila terkait fungsi kritis. Pertanyaannya bukan hanya “ada celah atau tidak”, tetapi apakah celah itu dibandingkan dengan spesifikasi unit, diukur dengan cara yang benar, dan dinilai bersama kondisi lain.
+
+## Catat gejala sebelum mencari penyebab
+
+Mulai dari pengamatan yang bisa ditelusuri. Di joint mana gejala terlihat? Saat gerakan apa muncul? Apakah ada perubahan setelah attachment diganti, pekerjaan berubah, benturan, atau perawatan tertentu? Apakah gejala konsisten atau hanya muncul pada kondisi tertentu? Catat juga batas pengamatan: siapa melihat, dari posisi mana, dan apakah unit sedang dibebani atau tidak.
+
+| Bukti awal | Yang dicatat | Yang belum dapat disimpulkan |
+| --- | --- | --- |
+| Gerak longgar | lokasi, arah, kondisi kerja, dan perubahan dari catatan lama | nilai celah atau bagian yang pasti aus |
+| Bunyi | kapan terdengar, hubungan dengan gerakan, dan kondisi sekitar | sumber tunggal atau tingkat bahaya |
+| Grease | titik pelumasan, kondisi tampak, kebocoran, dan riwayat | penyebab kehilangan pelumasan |
+| Geometri | bagian yang terlihat tidak sejajar atau berubah | batas toleransi atau metode perbaikan |
+| Keausan visual | posisi, pola, foto, dan identitas unit | sisa umur atau izin melanjutkan penggunaan |
+
+Kawan Berat.id, foto yang diberi tanggal dan lokasi membantu membandingkan perkembangan, tetapi foto tidak menggantikan pengukuran, spesifikasi OEM, atau inspeksi kompeten.
+
+## Mekanisme yang mungkin berkaitan dengan keausan
+
+Pelumasan membantu menjaga hubungan kerja antarpermukaan sesuai rancangan. Kontaminasi, masuknya material asing, kondisi seal, pemasangan yang tidak tepat, ketidakselarasan, benturan, pola beban, serta perubahan attachment dapat menjadi kelompok faktor yang perlu diperiksa. Faktor-faktor tersebut tidak boleh dipakai untuk mendiagnosis satu unit tanpa bukti.
+
+**Ketidakselarasan** berarti bagian yang seharusnya bekerja pada jalur atau posisi tertentu tidak lagi berada dalam hubungan yang benar. Kondisi ini dapat mengubah cara gaya diteruskan. Begitu pula benturan atau kerja berulang dapat memengaruhi sistem, tetapi penyebab, urutan kejadian, dan dampaknya perlu ditelaah dari rekaman serta pemeriksaan aktual.
+
+Satu joint yang berubah dapat menambah beban atau gerak tidak diinginkan pada attachment dan struktur di sekitarnya. Namun, artikel ini tidak dapat menyatakan besarnya dampak atau keamanan unit. Standar keselamatan mesin seperti [ISO 20474-1](https://www.iso.org/standard/60734.html) tidak membuktikan bahwa satu konfigurasi, kondisi, atau cara pakai tertentu sudah aman.
+
+## Kapan gejala harus membatasi penggunaan
+
+Jika gejala disertai gerakan tidak dapat diprediksi, kerusakan yang terlihat, perubahan kontrol, bagian longgar, risiko terhadap orang di sekitar, atau temuan yang tidak dapat dinilai dalam batas peran Anda, jangan teruskan pengoperasian untuk “menguji dulu.” Batasi akses, catat kondisi, dan naikkan pemeriksaan kepada penanggung jawab atau teknisi yang kompeten.
+
+Teman Berat.id, jangan mencoba menghilangkan gejala dengan menambah grease, mengencangkan bagian, atau melakukan pekerjaan perbaikan tanpa data pabrikan dan kewenangan yang sesuai. Tindakan sementara dapat menutup bukti masalah atau menambah risiko pada joint dan komponen lain.
+
+## Urutan pemeriksaan yang lebih berguna
+
+Urutan pemeriksaan dimulai dari identitas dan riwayat. Cocokkan model, nomor seri bila tersedia, attachment, konfigurasi, dokumen OEM, serta catatan pelumasan dan perbaikan. Setelah itu lakukan pengamatan aman, catat gejala, dan bandingkan dengan bukti sebelumnya. Bila perlu pengukuran, gunakan metode, titik ukur, alat ukur, dan kriteria yang ditetapkan untuk unit tersebut oleh pihak yang kompeten.
+
+Jangan mengukur lalu membandingkan dengan angka dari forum atau alat lain. Nilai yang benar hanya bermakna bila satuannya, titik ukur, kondisi alat, metode, dan spesifikasi rujukan cocok. Bila informasi itu tidak ada, temuan tetap berguna sebagai alasan untuk pemeriksaan lebih lanjut, bukan alasan untuk memberi angka sendiri.
+
+Pendekatan risiko yang baik dimulai dari bahaya dan kondisi aktual, lalu menentukan pengendalian serta meninjau ulang ketika keadaan berubah. [Panduan lima langkah ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting) memberi kerangka berpikir tersebut; ia bukan prosedur rebuild joint.
+
+## Cara membaca hasil tanpa terburu-buru
+
+Hasil pengukuran menunjukkan kondisi pada titik, waktu, dan metode tertentu. Ia perlu dibandingkan dengan spesifikasi yang tepat dan dibaca bersama gejala, riwayat, konfigurasi, serta tugas alat. Satu hasil tidak otomatis menunjukkan sebab tunggal, sisa umur, atau tindakan perbaikan yang harus dipilih.
+
+Pemisahan ini penting: pengukuran adalah bukti; kriteria OEM atau keputusan kompeten menentukan artinya; tindakan perbaikan memerlukan rencana dan wewenang. Jika pengukuran atau dokumen tidak cocok dengan unit aktual, tahan keputusan sampai referensi dan pemeriksaan dapat dipastikan.
+
+## Pilihan tindakan dan titik eskalasi
+
+Tindakan dapat berupa pemantauan dalam batas yang disetujui, perbaikan terencana, pemeriksaan lanjutan, penghentian sementara, atau rebuild/penggantian yang diputuskan dari bukti. Artikel ini tidak memilih salah satunya. Pemilihan perlu mempertimbangkan fungsi joint, kondisi komponen, akses pekerjaan, dampak ke bagian lain, data OEM, dan keselamatan.
+
+Kompetensi pihak yang memeriksa atau memperbaiki perlu sesuai dengan tugasnya. Informasi sertifikasi kompetensi dapat diperiksa melalui [BNSP](https://bnsp.go.id/), tetapi artikel ini tidak mengesahkan seseorang atau memberi persetujuan untuk pekerjaan mesin tertentu.
+
+Jalan pintas yang sering terjadi ialah menganggap bunyi selalu berarti bushing aus, lalu langsung memesan komponen. Bunyi hanya gejala. Alternatifnya, catat lokasi dan kondisi, cocokkan riwayat, periksa dengan metode yang benar, lalu minta keputusan teknis sebelum membongkar atau memakai kembali unit.
+
+## Celah kecil perlu bukti yang tepat
+
+Pin, bushing, bearing, dan joint bekerja bersama untuk mengarahkan gerak serta meneruskan beban. Celah yang berubah dapat menjadi masalah besar bila mengubah hubungan komponen dan dibiarkan tanpa bukti. Namun, gejala, foto, atau satu ukuran tidak cukup untuk menyatakan penyebab maupun sisa umur.
+
+Langkah berikutnya adalah siapkan identitas unit, riwayat, catatan gejala, dan spesifikasi OEM yang berlaku; kemudian minta pemeriksaan kompeten bila kondisi dapat memengaruhi fungsi atau keselamatan. Aturan praktisnya: jangan mengganti pengukuran yang benar dan data unit dengan tebakan dari bunyi atau gerak.
+
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -80,215 +105,4 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-08-02` → `/artikel/pola-keausan-undercarriage-alat-berat.html` — Membaca Pola Keausan Undercarriage Excavator dan Bulldozer
-- `ABR-08-03` → `/artikel/memilih-dan-memeriksa-ban-alat-berat.html` — Ban Alat Berat: Pola Tapak, Ply, Tekanan, Panas, dan Kerusakan
-- `ABR-08-05` → `/artikel/retak-struktur-alat-berat-dan-ndt.html` — Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work
-- `ABR-08-06` → `/artikel/korosi-alat-berat-di-lingkungan-agresif.html` — Korosi Alat Berat di Area Pesisir, Kimia, dan Cuaca Terbuka
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Mulai dari gejala, bukan tebakan penyebab
-
-- **Purpose:** Tentukan apa yang terlihat/terukur, lokasi, waktu, perubahan, dan keterbatasan pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Saringan risiko langsung
-
-- **Purpose:** Jelaskan kapan pembaca harus membatasi akses, menghentikan pekerjaan, atau meminta pemeriksaan kompeten.
-- **Tie back to this article:** Keep the explanation specific to “Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kemungkinan mekanisme
-
-- **Purpose:** Kelompokkan kemungkinan penyebab tanpa menyatakan diagnosis dari bukti yang belum cukup.
-- **Tie back to this article:** Keep the explanation specific to “Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Urutan pemeriksaan dan pengujian
-
-- **Purpose:** Susun observasi, dokumen, tes, sampel, atau pengukuran dari yang paling aman dan informatif.
-- **Tie back to this article:** Keep the explanation specific to “Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara membaca hasil tanpa melompat ke kesimpulan
-
-- **Purpose:** Pisahkan hasil tes, kriteria proyek, sebab, konsekuensi, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Pilihan tindakan dan titik eskalasi
-
-- **Purpose:** Bedakan kontrol sementara, pemantauan, perbaikan, penggantian, dan review profesional.
-- **Tie back to this article:** Keep the explanation specific to “Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+END MANAGED IMAGE PLAN -->
