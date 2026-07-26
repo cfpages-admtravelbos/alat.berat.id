@@ -8,10 +8,12 @@ Follow repository code/documentation rules and the managed article workflow belo
 - Article work is local to this repository. Do not inspect, edit, or borrow content from another project.
 - When `.article-worker/task.json` exists, it is the exact external-worker assignment envelope. Read `.article-worker/INSTRUCTIONS.md`; in `single` mode edit its one target, and in `project` mode process only its fixed target queue sequentially. Never use Git, and leave coordinator validation/commit/push to the primary assistant.
 - Before editing anything under `artikel/`, read `ARTICLE-GUIDE.md` completely and then open only the one article file explicitly assigned by the user.
-- Treat the assigned `artikel/[slug].md` file as the complete task packet. Preserve its article ID, slug, parent topic, publication date, `editorial_backfill` basis, intent, scope boundary, evidence gates, and final route.
+- Treat the assigned `artikel/[slug].md` file as the complete task packet. Preserve its article ID, title, slug, parent topic, publication date, `editorial_backfill` basis, `date_modified`, intent, reader community/address, technical-review state, scope boundary, evidence gates, and final route. Never replace metadata with today's date or a generic template.
 - Preserve the assigned root-domain reader community and opening salutation. Use `Sobat`, `Kawan`, or `Teman [root domain]` naturally at a few warranted conversational pivots, not in every paragraph.
 - Expand the existing outline in place. Do not create a second draft, change another article, regenerate the catalog, or perform portfolio-wide work.
 - Cite original source links embedded in the assigned outline. Never cite `GLOBAL_RESEARCH.md`, `ARTICLE-GUIDE.md`, or another article as evidence.
+- Use a source only for the safe fact and purpose explicitly stated in the assigned evidence packet. Never guess what a law or standard proves from its number, URL, or title.
+- Write the article directly. Do not create or run a script, loop, template, macro, bulk replacement, or generator to produce prose, metadata, citations, links, images, or receipts.
 - Do not invent facts, numbers, standards clauses, prices, project experience, quotations, test results, product performance, legal duties, or Syamsul's personal experience.
 - Use only internal routes listed in the assigned outline unless a route is verified from this repository. A planned sibling article is not live until its status says so.
 - Include at least two useful reader-facing root-relative internal links. Markdown image URLs do not count as internal links.

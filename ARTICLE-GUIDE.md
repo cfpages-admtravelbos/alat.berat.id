@@ -31,14 +31,16 @@ Do not load the portfolio ledger, OneDrive memory, another repository, the full 
    - rewrite an inherited English `description` as a concise, natural Indonesian reader summary without changing the article's intent;
    - set `date_modified` only when the user supplies or authorizes a real modification date;
    - prune `sources:` to the exact original URLs actually cited in rendered prose; do not keep unused candidate sources or add new research.
+   Every other field is immutable. Never change `article_id`, `title`, `slug`, `publication_date`, `publication_date_basis`, `date_modified`, `parent_topic`, `primary_intent`, `reader_community`, `reader_address`, `final_route`, or `technical_review`.
 3. Replace instructional bullets under the detailed outline with finished Indonesian prose.
 4. Answer the title's main question in the opening two or three paragraphs.
 5. Keep every H2 focused on the distinct reader question stated beneath it.
-6. Use original sources embedded in the evidence packet. Put the source link near the supported consequential claim.
+6. Use original sources embedded in the evidence packet. Put the source link near the supported consequential claim. Use only the packet's stated safe fact/purpose/limit for that source; a URL, law number, or ISO record does not authorize guessing its subject or requirements.
 7. Add internal links only where they help the reader take a next step. Use the exact routes already listed in the file.
 8. Preserve every limitation, professional-review condition, and stop-work boundary.
 9. Finish with a concrete next action or operating rule, not a generic summary.
 10. Run the completion checklist inside the file before stopping.
+11. Copy the real validator result into the worker receipt. Never claim `errors=0` unless the displayed command actually returned it.
 
 ## Required validation
 
@@ -55,6 +57,7 @@ Replace `[slug]` with the assigned filename. If `$env:OneDrive` is unavailable, 
 - Write as if the thought began in Indonesian, not as an English technical sentence translated word by word.
 - Reader understanding takes precedence over displaying technical vocabulary. State the plain idea first, define every necessary trade/English term immediately, then explain what it changes for the reader.
 - Never leave an acronym or imported term unexplained on first use. Put the Indonesian meaning first and the accepted abbreviation in parentheses when it remains useful.
+- Remove accidental Chinese/Japanese/Korean or other unrelated-script residue. Do not copy an unfamiliar glyph merely because it appeared in generated text.
 - Treat English planning labels inherited from the outline as internal wording, not approved public prose. Translate bare `scope`, `hold point`, `handover`, `baseline`, `shortcut`, `cutout`, `red flag`, `brief`, `review`, `finishing`, `artwork`, `approved drawing`, and `release`; keep a trade term only after its Indonesian meaning is clear.
 - Do not force an uncommon Indonesian translation for a term that Indonesians naturally use in English or as a loanword. Keep familiar terms such as `stainless steel`; explain them only when the intended reader may not understand them.
 - Keep titles and headings Indonesian-first. Put useful imported component labels such as `face`, `return`, `backing`, or `mounting` in a first-use body explanation.
@@ -70,7 +73,12 @@ Replace `[slug]` with the assigned filename. If `$env:OneDrive` is unavailable, 
 - Explain an English trade term on first use when Indonesian readers may not know it.
 - Read the visible prose aloud; rewrite anything grammatical but unnatural in Indonesian conversation.
 - Use a checklist, table, decision tree, warning, or scenario only when it reduces reader effort.
-- Typical useful length is 1,400–2,200 words, but do not pad a complete answer.
+- Giving the direct answer early is an opening strategy, not permission to rush the rest. After the short answer, slow down and patiently unpack the idea for an Indonesian reader who is intelligent but has never managed this equipment or process.
+- For every substantive H2 except the conclusion, make the explanation chain understandable: start from a familiar situation or reader question, explain the plain meaning, show how or why it happens, state the practical consequence, then give an example, check, or decision. Vary the prose naturally; do not expose this as a repeated formula.
+- Do not use a list of terms, risks, or steps as a substitute for teaching. Explain why the highest-consequence items matter and what the reader would notice, ask, check, or do differently.
+- Do not stack several unfamiliar technical terms in one sentence and move on. If two or more imported terms are necessary, break the explanation apart and define each at first use. Familiar Indonesian trade terms may remain, but the surrounding idea must still be clear to a non-specialist.
+- Before finishing, run a lay-reader pass: ask “Apa maksudnya?”, “Mengapa ini terjadi?”, “Contohnya seperti apa?”, and “Jadi pembaca harus berbuat apa?” for each main section. If the visible prose does not answer those questions, elaborate it before validation.
+- Most technical articles need about 1,600–2,400 useful words to teach the subject patiently. Shorter can be valid only when every required explanation chain is genuinely complete. Never reach the range through repetition, generic context, or padding.
 
 ## Evidence rules
 
@@ -97,6 +105,12 @@ The front matter's `publication_date` is the appointed historical CMS date. Pres
 ## Never do
 
 - Do not change the slug, article ID, parent topic, intent, or boundary.
+- Do not change the assigned title, historical publication date, `date_modified`, reader community/address, final route, or technical-review state.
+- Do not copy metadata, prose, IDs, dates, or conclusions from another article.
+- Do not infer a source's meaning from its identifier. For example, never describe a law as construction licensing unless the packet explicitly supports that statement.
+- Do not expose `BEGIN MANAGED IMAGE PLAN`, `Image plan`, `Exact Markdown to insert`, or other production instructions as public prose. Keep the whole plan in one multiline HTML comment and place its exact Markdown image outside the comment.
+- Do not repeat a paragraph or paste the conclusion twice.
+- Do not create or execute Python, PowerShell, JavaScript, shell scripts, macros, loops, templates, or bulk-generation commands for article production. The official validator command is the sole allowed Python execution during external writing.
 - Do not claim Syamsul personally performed a project unless the file supplies that evidence.
 - Do not invent quotes, statistics, prices, standards clauses, measurements, clients, or case studies.
 - Do not copy an existing landing page or another article.
@@ -108,10 +122,15 @@ The front matter's `publication_date` is the appointed historical CMS date. Pres
 
 - The opening gives a direct answer.
 - Every required section is expanded and non-repetitive.
+- A reader outside the trade can understand every main section without decoding a compressed list of jargon.
+- Every substantive section explains meaning, mechanism, consequence, and a concrete example/check/decision where useful; it does not merely name them.
 - Consequential claims have original sources or visible review markers.
+- Every cited source stays within the safe fact/purpose/limit stated in the packet; no law or standard has been assigned a guessed subject.
 - Internal links are relevant and use exact local routes.
 - No instruction bullets remain in the public article body.
 - Front matter remains valid and `status` is `draft`.
+- All immutable front-matter values still match the assigned outline exactly, and `date_modified` remains unchanged.
+- No unrelated foreign-script residue, duplicated paragraph, or public production scaffold remains.
 - The draft ends with an actionable conclusion and honest boundary.
 
 No HTML hydration, deployment, sitemap generation, or GSC submission is authorized by this guide.
