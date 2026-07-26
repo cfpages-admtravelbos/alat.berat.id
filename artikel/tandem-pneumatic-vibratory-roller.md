@@ -1,9 +1,9 @@
 ---
 article_id: ABR-05-02
-title: "Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan"
+title: "Mesin Gilas Tandem, Ban Karet, dan Getar: Memilih Sistem Pemadatan"
 slug: "tandem-pneumatic-vibratory-roller"
-description: "Compare compaction mechanisms, contact, vibration, kneading, layer/material fit, edge conditions, and verification needs"
-status: outline
+description: "Memahami peran mesin gilas tandem, mesin gilas ban karet, dan operasi getar sebelum menentukan keluarga alat pemadatan untuk suatu lapisan."
+status: draft
 publication_date: "2025-08-29"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -11,69 +11,29 @@ parent_topic: ABR-05
 primary_intent: "Select a compaction-machine family"
 reader_community: "Berat.id"
 reader_address: "Teman Berat.id"
+writing_contract_version: "native-id-v2"
 final_route: "/artikel/tandem-pneumatic-vibratory-roller.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
   - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
   - "https://binamarga.pu.go.id/index.php/nspk/detail/spesifikasi-umum-2025-untuk-pekerjaan-konstruksi-jalan-dan-jembatan"
-  - "https://binamarga.pu.go.id/index.php/nspk/detail/03mbm2024-manual-desain-perkerasan-jalan-2024"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+# Mesin Gilas Tandem, Ban Karet, dan Getar: Memilih Sistem Pemadatan
 
-# Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan
+Halo, Teman Berat.id! Memilih roller tidak sesederhana mencari alat paling besar atau yang paling banyak putarannya. Pertanyaan awalnya ialah: lapisan apa yang sedang dikerjakan, bagaimana alat menyentuh material, dan hasil apa yang harus dibuktikan oleh proyek? Pilihan yang masuk akal muncul dari mekanisme kerja serta spesifikasi dan pengujian proyek, bukan dari nama alat saja.
 
-## Assignment lock
+Singkatnya, tandem roller memakai dua drum baja halus untuk memberi tekanan melalui bidang kontaknya. Roller ban karet memakai beberapa ban pneumatik—ban berisi udara—yang menekan dan meremas permukaan melalui jejak ban. Roller vibratory atau roller bergetar menambahkan getaran terkontrol pada drum, jika mesin dan rencana kerja memang menggunakannya. Ketiganya dapat muncul dalam pekerjaan pemadatan, tetapi perannya tidak otomatis saling menggantikan.
 
-- **Writer task:** Expand this file into one complete article answering: “Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan”
-- **Reader and situation:** Site engineer choosing rollers for soil or asphalt layers
-- **Reader outcome:** Compare compaction mechanisms, contact, vibration, kneading, layer/material fit, edge conditions, and verification needs
-- **Primary intent:** Select a compaction-machine family
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Teman Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Kawan Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes target density and model settings; ABR-05-03 owns material control and OEM/project specifications own settings
-- **Final public route:** `/artikel/tandem-pneumatic-vibratory-roller.html`
-- **Appointed CMS date:** `2025-08-29` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jenis material, ketebalan lapisan, tahap pekerjaan, kondisi tepi, suhu dan kondisi proses, ruang gerak, konfigurasi alat, serta ketentuan penerimaan proyek dapat mengubah pilihan. [Spesifikasi Umum Bina Marga 2025](https://binamarga.pu.go.id/index.php/nspk/detail/spesifikasi-umum-2025-untuk-pekerjaan-konstruksi-jalan-dan-jembatan) adalah salah satu rujukan yang perlu dibaca bersama dokumen proyek yang berlaku; jenis roller atau nominal alat sendiri tidak membuktikan mutu pemadatan.
 
-## Opening instructions
+![Ilustrasi Tandem Roller mesin gilas roda dua atau tandem](/wp-content/uploads/2020/10/Tandem-Roller-mesin-gilas-roda-dua-atau-tandem.jpg)
 
-- Open with the exact short salutation: **“Halo, Teman Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Berat.id`, `Sobat Berat.id`, or `Kawan Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+*Aset lokal proyek; gambar ini bukan dokumentasi proyek tertentu.*
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-008`
@@ -84,228 +44,73 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Tandem Roller mesin gilas roda dua atau tandem` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-008]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-### KR-40
-
-- **Original sources:** [Bina Marga Spesifikasi Umum 2025](https://binamarga.pu.go.id/index.php/nspk/detail/spesifikasi-umum-2025-untuk-pekerjaan-konstruksi-jalan-dan-jembatan), [Bina Marga MDP 2024](https://binamarga.pu.go.id/index.php/nspk/detail/03mbm2024-manual-desain-perkerasan-jalan-2024).
-- **Purpose for this article:** Ground grader, paver, roller, milling, hauling, mixing, compaction, sampling, quality, and rehabilitation contexts.
-- **Safe grounded facts:** A machine type, roller count, nominal tonnage, or production claim does not prove pavement design, density, smoothness, temperature control, or final quality.
-- **Limits:** Use the current project specification/design, material trials, calibrated plant, measured weather/process data, inspection/testing, and responsible acceptance.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/compactor-roller` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/compactor-roller-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/compactor-roller-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/compactor-roller-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/compactor-roller-tanjungbalai` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/compactor-roller-tangerang-selatan` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-05-01` → `/artikel/rangkaian-alat-pekerjaan-aspal.html` — Rangkaian Alat Pekerjaan Aspal dari AMP hingga Final Rolling
-- `ABR-05-03` → `/artikel/pemadatan-tanah-vs-aspal.html` — Pemadatan Tanah vs Aspal: Variabel yang Tidak Boleh Disamakan
-- `ABR-05-04` → `/artikel/menetapkan-rolling-pattern-dan-bukti-pemadatan.html` — Menetapkan Rolling Pattern dan Membuktikan Hasil Pemadatan
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Tandem, pneumatic, dan vibratory bukan tiga jawaban yang harus dipilih secara membabi buta. Tandem menggambarkan susunan roller dengan drum di depan dan belakang. Pneumatic menggambarkan roller dengan deretan ban karet. Vibratory menggambarkan cara kerja getaran yang dapat tersedia pada model tertentu. Karena itu, istilah tersebut tidak selalu berada pada tingkat perbandingan yang sama: satu menjelaskan bentuk alat, yang lain jenis bidang kontak, dan yang lain mode operasi.
+
+Salah paham yang berbahaya adalah menganggap getaran selalu mempercepat atau memperbaiki hasil. Getaran adalah energi kerja yang perlu disesuaikan dengan material, kondisi lapisan, area kerja, batas proyek, dan instruksi pabrikan. Dalam kondisi yang tidak tepat, menyalakan mode getar tanpa penilaian justru bukan bukti bahwa proses sudah benar.
+
+Begini cara memulainya: minta data lapisan dan metode kerja yang disetujui, identifikasi alat yang tersedia sampai ke model serta konfigurasinya, lalu cocokan mekanisme kontak dengan kebutuhan pekerjaan. Setelah itu baru tentukan bagaimana hasil diperiksa. Teman Berat.id, urutan ini lebih aman daripada memulai dari “roller mana yang biasa dipakai”.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pemadatan di sini berarti proses menata dan menekan material lapisan melalui lintasan alat menurut metode yang ditetapkan. Artikel ini membahas cara membaca peran keluarga roller, bukan menetapkan target kepadatan, jumlah lintasan, tekanan ban, amplitudo, frekuensi, kecepatan, atau pengaturan suatu model. Semua itu memerlukan spesifikasi proyek, data material, pengujian, kondisi aktual, serta petunjuk pabrikan yang tepat.
+
+Tandem roller umumnya mudah dikenali dari dua drum baja halus. Drum adalah silinder gilas yang menyentuh lapisan. Bentuk kontaknya memberi hasil yang berbeda dari ban karet, sehingga jangan menyamakan keduanya hanya karena sama-sama disebut roller. Pneumatic tire roller, atau roller ban pneumatik, memakai beberapa ban yang meninggalkan jejak kontak terpisah dan dapat memberikan efek menekan serta meremas pada permukaan.
+
+Vibratory roller berarti roller yang mempunyai mekanisme getar; pada praktiknya, mode kerja bisa terkait model, konfigurasi, dan batas pabrikan. Kata “vibratory” tidak boleh dipakai untuk mengasumsikan seluruh roller dapat atau harus dioperasikan dengan getaran. Identitas keluarga alat, konfigurasi, fungsi yang dimaksud, dan dokumentasi pabrikan perlu diperiksa; [ISO 6165](https://www.iso.org/standard/77616.html) juga menempatkan klasifikasi alat pemindah tanah pada identitas dan fungsi, bukan pada klaim penjual semata.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pada tandem roller, berat dan gerak drum menekan permukaan sepanjang lintasan. Hasil kontak yang relatif menerus membuatnya sering dipertimbangkan ketika pekerjaan membutuhkan penggilasan dengan permukaan drum halus. Namun “sering dipertimbangkan” bukan putusan universal; kecocokan aktual tetap bergantung pada lapisan dan metode proyek.
+
+Pada roller ban pneumatik, ban karet menjadi bidang kontak. Ketika alat melintas, deretan ban memberi tekanan pada jejaknya dan menghasilkan tindakan meremas atau *kneading*, yaitu efek menguleni akibat kontak ban. Istilah ini tidak berarti hasil tertentu pasti tercapai. Yang perlu diamati adalah apakah jejak, kondisi material, dan pola lintasan sesuai dengan persyaratan pekerjaan.
+
+Pada pengoperasian vibratory, drum bekerja sambil menerima getaran dari mekanisme internal ketika mode tersebut dipilih. Secara sederhana, getaran memberi gerakan berulang selain beban statis drum. Penggunaan mode ini perlu dibaca sebagai bagian dari sistem: material, ketebalan lapisan, kondisi sekitar, instruksi model, dan bukti penerimaan. Kawan Berat.id, jangan menebak setelan dari merek atau dari alat yang tampak mirip di lokasi lain.
+
+Tabel berikut membantu membedakan bahasa keputusan, bukan menggantikan rancangan metode kerja.
+
+| Yang dibandingkan | Tandem roller | Roller ban pneumatik | Operasi vibratory |
+| --- | --- | --- | --- |
+| Arti utama | Susunan dua drum baja | Deretan ban berisi udara | Mode getar pada alat yang mendukungnya |
+| Bidang kontak | Drum halus | Jejak beberapa ban | Mengikuti jenis drum/alatan yang dipakai |
+| Mekanisme yang perlu diamati | Tekanan dan lintasan drum | Tekanan serta efek meremas dari ban | Getaran bersama beban dan lintasan |
+| Hal yang tetap harus dibuktikan | Kesesuaian untuk lapisan dan hasil proyek | Kesesuaian untuk lapisan dan hasil proyek | Kelayakan mode untuk material, kondisi, dan alat |
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Material bukan satu-satunya penentu. Ketebalan lapisan, kadar kondisi material, suhu proses bila relevan, kerataan hamparan awal, akses menuju tepi, urutan alat, cuaca, dan perubahan di lapangan dapat mengubah hasil. Bahkan roller yang sama dapat memberi kondisi berbeda bila permukaan awal atau tata lintasan berubah. Karena itu, jangan menyimpulkan keberhasilan dari jumlah alat, nominal berat, atau tampilan permukaan saja.
+
+Ruang di tepi dan dekat bangunan, utilitas, pekerja, atau lalu lintas juga perlu masuk dalam keputusan. Fitur alat tidak menghapus risiko antarmuka antara mesin, orang, akses, dan kondisi tepi. [Konvensi ILO C167](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988) menekankan pengaturan akses, lalu lintas, kompetensi, dan pemeliharaan pada pekerjaan konstruksi. Sobat Berat.id, bila pola lintasan mengubah ruang kerja atau pergerakan orang, perlakukan itu sebagai perubahan yang harus dinilai, bukan sekadar pengaturan produktivitas.
+
+Hasil juga berubah oleh mutu bukti. Catatan alat yang bekerja tidak sama dengan bukti lapisan memenuhi kriteria penerimaan. Catatan pemeriksaan harus menyebut lokasi, waktu, lapisan, metode yang dipakai, hasil pengujian bila dipersyaratkan, dan pihak yang berwenang menerima. Tanpa konteks itu, angka atau foto proses mudah disalahartikan.
+
+[NEEDS DATA PROYEK: pemilihan roller, pola lintasan, dan bukti penerimaan harus diperiksa terhadap spesifikasi, material, kondisi lapangan, serta metode yang berlaku pada proyek yang bersangkutan.]
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bayangkan tim perlu memilih alat untuk sebuah lapisan, tetapi hanya memiliki informasi “tanah” atau “aspal”. Informasi itu belum cukup. Langkah pertama bukan menunjuk tandem atau roller ban karet, melainkan meminta jenis dan kondisi material, tahapan pekerjaan, ketebalan hamparan menurut metode, batas area, hasil percobaan/pengujian yang tersedia, dan spesifikasi penerimaan.
+
+Gunakan pertanyaan berikut sebagai penyaring.
+
+1. Apakah yang dipilih adalah bentuk roller, jenis bidang kontak, atau mode getar? Jangan biarkan tiga istilah ini tercampur dalam permintaan alat.
+2. Dokumen mana yang menetapkan metode dan hasil yang harus dibuktikan?
+3. Apakah model serta konfigurasi alat yang tersedia benar-benar sesuai dengan dokumen pabrikan dan kebutuhan kerja?
+4. Bagaimana akses pada tepi, belokan, sambungan, dan area yang berdekatan dengan orang atau pekerjaan lain dikendalikan?
+5. Siapa yang mencatat hasil, siapa yang menilai, dan siapa yang berwenang menyetujui perubahan?
+
+Jika jawaban untuk pertanyaan kedua atau ketiga belum ada, keputusan yang jujur adalah menunda pemilihan final dan mengumpulkan bukti. Untuk memahami kategori peralatan lebih dahulu, Anda dapat membuka [halaman compactor roller](/compactor-roller). Halaman tersebut berguna sebagai pengenalan, tetapi bukan pengganti spesifikasi proyek atau manual model.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Tandem, Pneumatic, dan Vibratory Roller: Memilih Sistem Pemadatan”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama ialah menyebut “tandem vibratory” seolah itu selalu keluarga yang berbeda dari tandem. Periksa kembali: apakah yang dimaksud dua drum, fitur getar, atau keduanya pada satu model? Nama yang tepat membantu tim meminta dokumen dan menilai risiko yang tepat pula.
 
-## Objection or shortcut to address
+Kesalahan kedua ialah memilih berdasarkan rekomendasi penjual, foto sertifikat, atau kalimat “sesuai standar” tanpa menelusuri model dan kondisi kerja. Bukti semacam itu tidak otomatis membuktikan alat yang dikirim atau sistem yang dipakai di lokasi memenuhi kebutuhan proyek. Minta identitas alat, konfigurasi, dokumentasi pabrikan, kondisi inspeksi, dan batas penggunaannya.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Kesalahan ketiga ialah mengubah lintasan atau mode kerja di tengah pekerjaan tanpa mencatat alasan dan tanpa melihat akibatnya. Pengendalian risiko yang baik memerlukan identifikasi, tindakan, dan peninjauan kembali; [panduan ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks) menekankan bahwa pengendalian harus disesuaikan dengan bahaya yang benar-benar dihadapi.
 
-## Required conclusion
+Pintasan “pakai saja roller yang ada” dapat gagal karena mengabaikan perbedaan kontak drum, ban, dan getaran. Alternatifnya bukan membeli alat baru secara otomatis. Kumpulkan lebih dulu data lapisan, batasi keputusan pada alat yang teridentifikasi, lalu minta penanggung jawab metode kerja mencocokkan pilihan dengan bukti proyek. Teman Berat.id, langkah ini mungkin terasa lebih lambat pada awalnya, tetapi mencegah keputusan dibuat dari nama alat yang salah dibaca.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Tandem roller, roller ban pneumatik, dan operasi vibratory perlu dipilih berdasarkan peran mekanismenya, bukan reputasi satu istilah. Langkah praktis berikutnya ialah siapkan satu lembar perbandingan berisi data lapisan, model dan konfigurasi alat, batas area, metode yang disetujui, serta cara hasil akan diverifikasi. Aturan kerjanya: **jangan tetapkan alat atau setelan dari asumsi umum; gunakan bukti proyek dan pihak kompeten untuk menetapkan metode.**
