@@ -2,8 +2,8 @@
 article_id: ABR-04-03
 title: "Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat"
 slug: "antarmuka-crane-rigging-titik-angkat"
-description: "List verified load, center of gravity, lift points, sling geometry, hardware, hook clearance, deductions, and certification evidence"
-status: outline
+description: "Data yang perlu dipastikan agar crane, perlengkapan pengikatan, titik angkat, dan beban dapat dinilai sebagai satu sistem sebelum pengangkatan."
+status: draft
 publication_date: "2025-08-08"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -11,66 +11,28 @@ parent_topic: ABR-04
 primary_intent: "Define lifting-system interface data"
 reader_community: "Berat.id"
 reader_address: "Teman Berat.id"
+writing_contract_version: "native-id-v2"
 final_route: "/artikel/antarmuka-crane-rigging-titik-angkat.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
   - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat
 
-## Assignment lock
+Halo, Teman Berat.id! Sebuah beban tidak aman diangkat hanya karena crane tersedia dan sling terlihat “cukup besar”. Pengangkatan baru dapat dinilai ketika crane, perlengkapan pengikatan, titik angkat pada beban, dan beban itu sendiri dipahami sebagai satu sistem. Bila data salah satu bagian belum jelas, jangan menutupinya dengan pengalaman atau perkiraan; tahan keputusan sampai bukti yang tepat tersedia.
 
-- **Writer task:** Expand this file into one complete article answering: “Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat”
-- **Reader and situation:** Lift planner receiving incomplete cargo and rigging information
-- **Reader outcome:** List verified load, center of gravity, lift points, sling geometry, hardware, hook clearance, deductions, and certification evidence
-- **Primary intent:** Define lifting-system interface data
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Teman Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Kawan Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes rigging selection by unqualified readers and lift execution; ABR-12-02 owns capacity variables and ABR-11-02 owns exclusion/communication controls
-- **Final public route:** `/artikel/antarmuka-crane-rigging-titik-angkat.html`
-- **Appointed CMS date:** `2025-08-08` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Antarmuka berarti titik hubungan antarkomponen. Crane memberi gerak angkat, rigging adalah perlengkapan yang menghubungkan crane dengan beban, titik angkat adalah bagian beban yang dirancang atau disetujui untuk menerima pengangkatan, sedangkan beban mempunyai massa, bentuk, pusat berat, dan kondisi sendiri. Perubahan pada satu bagian dapat mengubah seluruh penilaian.
 
-## Opening instructions
+Artikel ini membantu menyusun pertanyaan dan bukti sebelum pengangkatan. Artikel ini tidak memilih sling, menentukan kapasitas, menghitung sudut, merancang titik angkat, atau memberi cara memasang rigging. Hal tersebut memerlukan rencana pengangkatan, data rekayasa, manual pabrikan, pemeriksaan, dan pihak kompeten sesuai pekerjaan aktual.
 
-- Open with the exact short salutation: **“Halo, Teman Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Berat.id`, `Sobat Berat.id`, or `Kawan Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
+*Aset lokal proyek; gambar ini bukan dokumentasi proyek tertentu.*
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -81,222 +43,74 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/tower-crane` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/truk/crane` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/tower-crane/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/tower-crane-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/tower-crane-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/tower-crane-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-04-01` → `/artikel/memilih-jenis-crane-untuk-proyek.html` — Tower Crane, Mobile Crane, Crawler Crane, atau Truck Crane?
-- `ABR-04-02` → `/artikel/cara-membaca-load-chart-crane.html` — Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas
-- `ABR-04-04` → `/artikel/blind-lift-dan-tandem-lift.html` — Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda
-- `ABR-04-05` → `/artikel/angin-cuaca-visibilitas-operasi-pengangkatan.html` — Angin, Cuaca, dan Visibilitas pada Operasi Pengangkatan
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Data sebelum mengangkat harus menjawab empat hal: apa tepatnya beban yang diangkat, di mana pusat beratnya, titik mana yang boleh menerima gaya angkat, dan bagaimana seluruh sistem crane–rigging–beban telah dinilai. “Berat kira-kira” atau foto titik angkat tidak cukup untuk menjawabnya. Begitu pula kartu operator, stiker inspeksi, atau label kapasitas saja tidak otomatis membuktikan pengangkatan tertentu aman.
 
-## Definisi dan batas objek
+Salah paham yang sering berbahaya ialah memeriksa alat satu per satu tanpa memeriksa hubungannya. Crane dapat memiliki dokumen yang benar, tetapi titik angkat pada beban mungkin tidak sesuai dengan rencana. Sling dapat memiliki identitas, tetapi geometri sambungan dan kondisi hardware belum tentu cocok. Beban yang tampak seimbang di lantai belum tentu seimbang saat terangkat.
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sobat Berat.id, bila pusat berat, titik angkat, atau identitas beban tidak dapat dibuktikan, jawaban aman bukan memilih alat yang lebih besar. Jawaban aman ialah menghentikan persiapan pengangkatan, membatasi akses orang dari zona paparan, dan meminta klarifikasi dari perancang, pemilik beban, pabrikan, atau pihak kompeten yang berwenang.
 
-## Cara kerjanya
+## Arti setiap bagian dalam satu sistem
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Crane adalah alat angkat yang dipilih dan dioperasikan menurut konfigurasi, kondisi, serta batas yang berlaku. Rigging adalah perlengkapan penghubung antara crane dan beban, misalnya sling, shackle, atau komponen lain yang tercantum dalam rencana serta data yang disetujui. Artikel ini menyebut istilahnya untuk membantu komunikasi, bukan untuk mengajarkan pemilihan atau pemasangannya.
 
-## Faktor yang mengubah hasil
+Titik angkat adalah titik pada beban yang memang dimaksudkan untuk pengangkatan atau telah dibuktikan melalui desain dan persetujuan yang relevan. Jangan menyamakan titik angkat dengan lubang, rangka, telinga, pipa, atau bagian yang tampak kuat. Penampilan fisik tidak membuktikan suatu bagian mampu menerima gaya dan arah kerja selama pengangkatan.
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pusat berat adalah titik keseimbangan beban secara keseluruhan. Posisi ini dapat berubah dari perkiraan apabila isi beban tidak seragam, ada komponen tambahan, cairan bergerak, bagian yang terlepas, atau informasi berat tidak lengkap. Geometri sambungan berarti susunan posisi titik angkat, panjang dan arah sambungan, serta ruang yang tersedia di sekitar kait dan beban. Semua masukan tersebut perlu dinilai oleh orang yang memang berkompeten menetapkan sistemnya.
+
+## Bukti yang perlu disatukan sebelum pengangkatan
+
+Mulailah dari identitas beban. Pastikan nama atau deskripsi beban, gambar atau data pabrikan bila tersedia, berat yang terverifikasi, kondisi isi, komponen yang masih terpasang, serta perubahan sejak data dibuat. Catat sumber setiap informasi. Jika berat berasal dari perkiraan, tandai sebagai perkiraan dan jangan mengubahnya menjadi fakta hanya karena pekerjaan harus segera dimulai.
+
+Lalu kumpulkan bukti titik angkat dan pusat berat. Bukti dapat berupa gambar rekayasa, instruksi pabrikan, perhitungan yang disetujui, atau dokumen proyek yang menautkan beban yang tepat dengan titik angkat yang tepat. Pastikan revisi dokumen, tanggal, dan identitas objek cocok. Dokumen milik model serupa atau proyek lama belum tentu berlaku untuk beban di depan Anda.
+
+Setelah itu, cocokkan bukti rigging dan crane: identitas komponen, status inspeksi/sertifikasi yang relevan, konfigurasi alat, ruang kait, kondisi lokasi, jalur beban, serta pengurangan atau batas yang tercantum dalam rencana. Kata “pengurangan” di sini berarti ada hal-hal dalam sistem yang harus diperhitungkan dalam penilaian; artikel ini tidak menghitung atau menetapkan nilainya.
+
+Tabel ini membantu memisahkan data dari kesimpulan.
+
+| Bagian sistem | Bukti yang dicari | Bukan bukti yang cukup sendiri |
+| --- | --- | --- |
+| Beban | Identitas, berat terverifikasi, kondisi isi, gambar/dokumen terkait | Perkiraan orang di lapangan |
+| Pusat berat | Data rekayasa atau sumber yang dapat ditelusuri untuk beban aktual | Tampilan beban yang terlihat simetris |
+| Titik angkat | Desain/pabrikan atau persetujuan untuk titik yang tepat | Lubang atau rangka yang tampak kokoh |
+| Rigging | Identitas, kondisi, bukti pemeriksaan, kecocokan dalam rencana | Label tanpa hubungan ke sistem nyata |
+| Crane dan lokasi | Konfigurasi, batas, kondisi penyangga, jalur, ruang kait | Jenis crane atau pengalaman proyek lain |
+
+## Cara membaca hubungan, bukan sekadar daftar alat
+
+Hubungan antarkomponen adalah inti penilaian. Beban yang berubah posisi dapat mengubah arah gaya pada titik angkat. Ruang yang terbatas dekat kait dapat memengaruhi apakah susunan yang direncanakan dapat benar-benar diterapkan. Kondisi lokasi dapat mengubah cara crane ditempatkan atau bagaimana orang dipisahkan dari lintasan beban. Karena itu, daftar alat yang lengkap belum tentu berarti sistem siap digunakan.
+
+Kawan Berat.id, jangan mengubah sambungan di lapangan hanya agar “pas”. Perubahan geometri, titik, hardware, beban, konfigurasi crane, atau lokasi dapat membatalkan asumsi yang ada dalam rencana. Catat perubahan dan kembalikan keputusan kepada pihak yang berwenang untuk menilai dampaknya. Pendekatan pengendalian risiko harus mengikuti bahaya yang nyata dan ditinjau kembali saat kondisi berubah, sebagaimana dijelaskan dalam [panduan ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks).
+
+Ruang kait juga bukan detail kecil. Yang perlu dipastikan bukan hanya “bisa masuk”, melainkan apakah kait, sambungan, dan beban memiliki ruang sesuai desain serta tanpa memaksa konfigurasi yang tidak disetujui. Bila informasi ruang, arah, atau sudut tidak ada, jangan mengisinya dengan praktik kebiasaan. Minta penilaian teknis yang cocok dengan objek dan metode aktual.
+
+## Perlindungan orang dan publik saat data belum lengkap
+
+Sebelum data lengkap, orang tidak boleh diposisikan untuk “membantu melihat dulu” di bawah atau dekat beban yang dapat bergerak. Pisahkan pekerja, kendaraan, dan publik dari area yang dapat terpapar. Siapa pun yang terlibat perlu memahami bahwa pekerjaan sedang ditahan karena data sistem belum cukup, bukan karena operator lambat bekerja.
+
+Penetapan zona paparan, komunikasi, pemberi isyarat, dan urutan eksekusi harus diatur oleh rencana pengangkatan dan prosedur proyek. Artikel ini tidak menggantikannya. Prinsip pengelolaan risiko dalam [Permenaker Nomor 8 Tahun 2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020) perlu diterapkan menurut klasifikasi peralatan, peran, dokumen, serta kondisi aktual yang berlaku.
+
+Jika ada desakan jadwal, gunakan pertanyaan yang tegas: data apa yang belum ada, siapa pemiliknya, siapa yang dapat menerbitkan bukti, dan siapa yang berwenang menerima perubahan? Teman Berat.id, jawaban “nanti saja dilengkapi” tidak melindungi orang ketika beban sudah lepas dari tanah.
+
+[NEEDS BUKTI PENGANGKATAN: berat dan kondisi beban, pusat berat, titik angkat, geometri sambungan, identitas serta kondisi rigging, konfigurasi crane, kondisi lokasi, dan rencana pengangkatan harus diverifikasi serta disetujui oleh pihak kompeten sebelum pengangkatan dilakukan.]
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Misalkan sebuah skid atau rangka akan dipindahkan. Ada informasi berat dari percakapan lama, tetapi tidak ada gambar titik angkat dan tidak jelas apakah komponen di dalamnya masih sama. Jangan meminta kru memilih sling berdasarkan pengalaman. Tahan pekerjaan, catat identitas objek serta informasi yang belum terverifikasi, dan minta dokumen pabrikan atau rekayasa yang menghubungkan beban aktual dengan metode angkat yang disetujui.
+
+Contoh lain: titik angkat tersedia pada gambar, tetapi crane yang tiba memiliki konfigurasi atau ruang kerja berbeda dari rencana awal. Jangan menggeser titik atau mengganti susunan sambungan secara informal. Perubahan ini perlu dinilai kembali bersama data crane, lokasi, ruang kait, dan rencana pengangkatan.
+
+Untuk mengenal kategori alat sebelum menyusun kebutuhan proyek, halaman [tower crane](/tower-crane) dapat menjadi pengantar. Halaman pengenalan tidak membuktikan crane tertentu, rigging, atau titik angkat memenuhi kebutuhan pengangkatan yang sedang direncanakan.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama ialah memakai angka berat dari daftar inventaris tanpa memeriksa objeknya. Periksa nomor identitas, revisi, isi, aksesori, dan kondisi saat ini. Satu komponen tambahan atau perubahan isi dapat membuat data lama tidak lagi mewakili beban aktual.
 
-## Objection or shortcut to address
+Kesalahan kedua ialah menganggap sertifikat atau label sebagai persetujuan sistem. Bukti identitas dan inspeksi menjawab sebagian pertanyaan tentang komponen, bukan seluruh pertanyaan tentang hubungan crane, rigging, titik angkat, beban, dan lokasi. [Catatan ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf) mengingatkan bahwa bukti, peran, dan pengendalian harus digunakan dalam proses, bukan diperlakukan sebagai dokumen yang berdiri sendiri.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Kesalahan ketiga ialah memperlakukan titik angkat sebagai milik rigging. Titik angkat adalah bagian dari beban dan harus dibuktikan oleh desain atau persetujuan terkait beban tersebut. Rigging yang tampak baik tidak memperbaiki titik angkat yang tidak diketahui.
 
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Antarmuka crane, rigging, titik angkat, dan beban harus diputuskan dari bukti yang saling cocok, bukan dari satu komponen yang tampak meyakinkan. Langkah berikutnya ialah membuat lembar data satu sistem: identitas beban, sumber berat, pusat berat, titik angkat, dokumen rigging, konfigurasi crane, kondisi lokasi, dan pemilik persetujuan. Aturan kerjanya: **bila satu hubungan penting belum dibuktikan, tahan pengangkatan dan jauhkan orang serta publik dari zona paparan.**
