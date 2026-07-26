@@ -2,8 +2,8 @@
 article_id: ABR-01-04
 title: "Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah"
 slug: "alat-berat-roda-ban-vs-berantai"
-description: "Explain how running gear changes mobility, ground interaction, wear, maneuvering, and mobilization decisions"
-status: outline
+description: "Panduan membandingkan alat berat beroda ban dan berantai dari mobilitas, interaksi dengan permukaan, manuver, serta kebutuhan pemindahan unit."
+status: draft
 publication_date: "2025-05-29"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -13,62 +13,27 @@ reader_community: "Berat.id"
 reader_address: "Kawan Berat.id"
 final_route: "/artikel/alat-berat-roda-ban-vs-berantai.html"
 technical_review: required
+writing_contract_version: "native-id-v2"
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/77616.html"
+  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah
 
-## Assignment lock
+Halo, Kawan Berat.id! Saat memilih alat berat, pertanyaan “pakai roda ban atau rantai?” sering terdengar seperti soal memilih yang lebih kuat. Padahal pertanyaan yang lebih berguna ialah: unit ini harus berpindah di mana, bekerja di atas permukaan seperti apa, dan bagaimana ia akan tiba di titik kerja tanpa menambah risiko atau merusak area yang dilalui?
 
-- **Writer task:** Expand this file into one complete article answering: “Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah”
-- **Reader and situation:** Planner balancing travel speed, traction, surface damage, and transport
-- **Reader outcome:** Explain how running gear changes mobility, ground interaction, wear, maneuvering, and mobilization decisions
-- **Primary intent:** Compare wheeled and tracked configurations
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes ground-bearing approval and tire/track maintenance; ABR-12-01 owns support calculations and ABR-08-02 owns undercarriage wear
-- **Final public route:** `/artikel/alat-berat-roda-ban-vs-berantai.html`
-- **Appointed CMS date:** `2025-05-29` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: roda ban biasanya lebih menarik ketika perpindahan antartitik kerja dan kemampuan bermanuver di permukaan yang sesuai menjadi pertimbangan utama. Sistem berantai sering dipertimbangkan ketika interaksi dengan tanah lunak atau tidak rata lebih dominan. Namun itu bukan aturan menang otomatis. Jenis mesin, lampiran kerja, ukuran unit, kondisi permukaan, rute pemindahan, dan instruksi pabrikan dapat mengubah keputusan.
 
-## Opening instructions
+[NEEDS TECHNICAL REVIEW: Verifikasi kesesuaian roda ban atau rantai untuk model, konfigurasi, permukaan, kemiringan, dan pekerjaan proyek yang spesifik melalui dokumentasi pabrikan serta penilaian pihak kompeten. Artikel ini tidak menetapkan daya dukung tanah atau izin operasi.]
 
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi Pneumatic Tire Roller mesin gilas dengan roda ban karet bertekanan angin](/wp-content/uploads/2020/10/Pneumatic-Tire-Roller-mesin-gilas-dengan-roda-ban-karet-bertekanan-angin.jpg)
 
+*Aset lokal proyek; bukan dokumentasi proyek tertentu.*
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-002`
@@ -79,208 +44,72 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Pneumatic Tire Roller mesin gilas dengan roda ban karet bertekanan angin` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-002]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-01-02` → `/artikel/klasifikasi-alat-berat-berdasarkan-fungsi.html` — Klasifikasi Alat Berat Berdasarkan Fungsi Kerja
-- `ABR-01-03` → `/artikel/glosarium-alat-berat-indonesia-inggris.html` — Glosarium Alat Berat Indonesia–Inggris dan Istilah yang Sering Tertukar
-- `ABR-01-05` → `/artikel/mesin-produksi-alat-pendukung-dan-plant.html` — Mesin Produksi, Alat Pendukung, dan Plant: Di Mana Batasnya?
-- `ABR-01-06` → `/artikel/evolusi-mekanisasi-proyek-alat-berat.html` — Evolusi Mekanisasi Proyek dan Mengapa Bentuk Alat Berat Berubah
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Masalah keputusan yang sebenarnya
 
-- **Purpose:** Jelaskan konteks pemilihan dan mengapa dua opsi ini sering dianggap dapat saling menggantikan.
-- **Tie back to this article:** Keep the explanation specific to “Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Dua unit bisa sama-sama tampak mampu mengerjakan tugas di lokasi, tetapi biaya dan kelancarannya bisa berbeda sejak sebelum pekerjaan dimulai. Bayangkan pekerjaan tersebar di beberapa titik dalam satu kawasan: apakah unit dapat berpindah dengan aman di rute yang tersedia, atau perlu diangkut? Lalu setelah tiba, apakah permukaan kerja tetap stabil dan area sekitarnya tetap terlindungi? Ini lebih dekat dengan keputusan nyata daripada sekadar membandingkan bentuk bawah mesin.
+
+Jejak tanah adalah cara sederhana untuk membicarakan hubungan unit dengan permukaan. Bukan hanya bekas yang tampak di tanah, melainkan juga bagaimana beban dan gerakan unit berinteraksi dengan lapisan yang dilalui. Permukaan keras, tanah basah, jalan jadi, lantai kerja sementara, atau halaman yang harus dijaga tidak boleh diperlakukan sebagai satu kondisi yang sama.
+
+Kawan Berat.id, jangan memulai dari kalimat “yang berantai pasti lebih aman di tanah” atau “yang beroda ban pasti lebih cepat.” Mulailah dari rute dan tugas yang benar-benar akan terjadi. Pengendalian risiko perlu melihat bahaya, siapa yang terpapar, dan apakah pengendalian yang dipilih memang memadai untuk keadaan tersebut; daftar centang umum tidak dapat menggantikan penilaian kondisi lokasi. [Panduan ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks) dan [panduan penilaian risiko lima langkah](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting) menjelaskan perlunya proses itu.
 
 ## Bedakan objek sebelum membandingkan
 
-- **Purpose:** Definisikan setiap opsi, fungsi, batas sistem, dan bukti identitasnya.
-- **Tie back to this article:** Keep the explanation specific to “Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+“Beroda ban” berarti unit menggunakan ban sebagai bagian berjalan yang bersentuhan dengan permukaan. “Berantai” dalam percakapan lapangan biasanya merujuk pada bagian berjalan berbentuk rantai atau track. Sebutan itu belum cukup untuk menyimpulkan fungsi maupun kemampuan suatu unit. Excavator, dozer, loader, roller, dan alat lain dapat memiliki fungsi, ukuran, lampiran, serta konfigurasi kendali yang berbeda.
+
+Karena itu, bandingkan mesin yang sekelas dan pekerjaan yang sebanding. Jangan membandingkan satu unit beroda ban dengan unit berantai yang sebenarnya berbeda keluarga, berat operasi, atau lampirannya, lalu menyimpulkan bahwa seluruh roda ban atau seluruh rantai memiliki sifat yang sama. ISO 6165 menempatkan istilah dan penggolongan mesin earth-moving dalam kerangka klasifikasi; identitas merek atau kategori penjual saja tidak cukup untuk menetapkan keluarga mesin maupun kesesuaiannya. [Lihat catatan standar ISO 6165](https://www.iso.org/standard/77616.html).
+
+Praktiknya, kumpulkan dulu identitas unit: model, nomor seri bila tersedia, berat operasi pada konfigurasi yang akan dipakai, lampiran, mode kendali, dan buku petunjuk yang berlaku. Setelah itu baru tanyakan, “Apa yang berubah bila bagian berjalannya diganti dari ban ke rantai pada pekerjaan ini?” Dengan urutan seperti ini, Anda tidak terjebak membandingkan label.
 
 ## Kriteria perbandingan yang relevan
 
-- **Purpose:** Susun kriteria berdasarkan penggunaan, kondisi, antarmuka, risiko, pelaksanaan, perawatan, dan bukti.
-- **Tie back to this article:** Keep the explanation specific to “Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ada lima pertanyaan yang lebih berguna daripada mencari pemenang umum.
+
+Pertama, bagaimana pola perpindahan unit? Jika titik kerja banyak dan rutenya mencakup permukaan yang memang diizinkan untuk dilalui, mobilitas menjadi faktor besar. Tetapi “bisa lewat” berbeda dengan “boleh lewat”: periksa lebar jalur, belokan, lalu lintas orang dan kendaraan lain, pembatasan permukaan, serta kebutuhan pengangkutan. Jangan menganggap perpindahan sendiri selalu lebih hemat sebelum rute dan waktunya diperiksa.
+
+Kedua, seperti apa permukaan pada rute dan titik kerja? Tanah yang tampak kering di permukaan belum tentu seragam di bawahnya. Ada pula perbedaan antara tanah terbuka, area yang baru ditimbun, jalan berlapis, lantai sementara, dan permukaan akhir yang tidak boleh rusak. Keputusan tentang daya dukung, perlindungan permukaan, atau tindakan perbaikan tanah berada di luar artikel ini dan harus ditetapkan melalui data proyek serta peninjauan kompeten.
+
+Ketiga, ruang geraknya bagaimana? Belokan sempit, area dekat struktur, batas kerja, dan jalur keluar-masuk dapat membuat satu konfigurasi lebih praktis daripada yang lain. Di sini jangan hanya melihat radius putar dari brosur. Amati juga titik buta, ruang ayun, area eksklusi, komunikasi dengan pengarah, dan orang yang mungkin melintas.
+
+Keempat, apa konsekuensi pemindahan dan perawatannya bagi jadwal? Roda ban maupun rantai sama-sama memiliki kondisi yang perlu diperiksa, tetapi pembahasan detail keausan ban atau bagian berjalan berantai bukan ruang artikel ini. Fokusnya: masukkan waktu inspeksi, transportasi, dan kemungkinan perubahan lokasi ke rencana kerja; jangan menganggap alat yang tepat di titik kerja otomatis paling praktis untuk seluruh perjalanan.
+
+Kelima, bukti apa yang memegang keputusan? Sobat Berat.id, keputusan yang baik tidak lahir dari foto unit, logo merek, atau kalimat penjual. Minta dokumen model dan konfigurasi, ketentuan pabrikan, rencana rute, kondisi lokasi, serta penanggung jawab yang menyetujui perubahan. Lingkup kewajiban keselamatan juga bergantung pada tempat kerja, aktivitas, orang, peralatan, dan aturan pelaksanaannya; artikel umum tidak dapat menetapkan kepatuhan untuk proyek Anda. [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970) adalah landasan umum, bukan daftar izin proyek yang siap pakai.
 
 ## Kapan masing-masing pilihan masuk akal
 
-- **Purpose:** Berikan skenario bersyarat; jangan menyebut satu pemenang universal.
-- **Tie back to this article:** Keep the explanation specific to “Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Roda ban dapat masuk akal untuk dipertimbangkan bila pekerjaan menuntut perpindahan antartitik yang sering dan kondisi rute telah diperiksa untuk unit tersebut. Contohnya, pekerjaan di kawasan luas tidak otomatis membutuhkan unit beroda ban, tetapi pola kerja yang berpindah-pindah dapat membuat pertanyaan mobilisasi menjadi sangat penting. Pastikan keputusan itu tidak mengabaikan kondisi permukaan saat unit mulai bekerja.
+
+Sistem berantai dapat masuk akal untuk dipertimbangkan bila kondisi tanah dan kebutuhan menjaga gerak unit di area kerja menjadi perhatian dominan. Namun jangan menerjemahkan kalimat itu menjadi izin untuk masuk ke semua tanah lunak, lereng, atau area basah. Kondisi lapangan berubah oleh cuaca, timbunan, drainase, pekerjaan simultan, dan keadaan bawah permukaan. Masing-masing perlu bukti proyek, bukan tebakan dari jenis bagian berjalan.
+
+Teman Berat.id, pakai skenario sederhana ini. Satu pekerjaan membutuhkan penggalian di beberapa titik, tetapi rute antar titik melintasi jalan internal yang sudah digunakan kendaraan lain. Jangan langsung memilih unit dari satu faktor saja. Pisahkan pertanyaannya: apakah rute dapat dipakai secara aman, apakah titik gali dapat menopang konfigurasi itu, siapa yang mengatur lalu lintas internal, dan kapan unit perlu dipindah dengan alat angkut. Bila salah satu jawaban belum ada, tahan keputusan sampai data tersedia.
 
 ## Kesalahan perbandingan yang sering terjadi
 
-- **Purpose:** Bongkar sedikitnya tiga shortcut atau asumsi yang membuat keputusan keliru.
-- **Tie back to this article:** Keep the explanation specific to “Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah menganggap roda ban dan rantai dapat saling menggantikan hanya karena sama-sama “alat berat”. Padahal fungsi utama, lampiran, dan konfigurasi dapat berbeda. Perbandingan harus dimulai dari fungsi kerja yang dibutuhkan, lalu pilihan bagian berjalan.
+
+Kesalahan kedua adalah memakai pengalaman lokasi lain sebagai bukti cukup. Tanah yang pernah dilalui unit tertentu belum membuktikan lokasi baru punya kondisi, rute, atau batas risiko yang sama. Cuaca dan pekerjaan pihak lain saja dapat mengubah keadaan. Pengalaman tetap berguna sebagai pertanyaan awal, bukan sebagai persetujuan teknis.
+
+Kesalahan ketiga adalah melihat jejak visual lalu merasa sudah mengetahui daya dukung tanah. Bekas roda atau rantai bisa menjadi sinyal untuk berhenti dan memeriksa, tetapi tidak menggantikan data kondisi tanah maupun penilaian yang tepat. Jangan membuat angka tekanan tanah, batas kemiringan, atau kapasitas lewat dari artikel umum ini.
+
+Kesalahan keempat ialah mengejar waktu dengan melewati pemeriksaan rute. Jalan pintas seperti “coba jalan dulu, kalau amblas baru cari solusi” memindahkan risiko ke operator, pekerja sekitar, aset, dan jadwal. Alternatif yang lebih waras: buat pemeriksaan singkat sebelum mobilisasi, catat kondisi yang berubah, lalu tentukan siapa yang berwenang menghentikan perpindahan bila kondisi tidak sesuai.
 
 ## Bukti yang perlu diminta sebelum memilih
 
-- **Purpose:** Buat checklist dokumen, data proyek, sampel/tes, persetujuan, dan pihak penanggung jawab.
-- **Tie back to this article:** Keep the explanation specific to “Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sebelum menetapkan roda ban atau rantai, gunakan daftar ini sebagai pemantik diskusi, bukan sebagai pengganti persetujuan proyek.
 
-## Objection or shortcut to address
+- Identitas tepat unit: model, konfigurasi, lampiran, dan dokumentasi pabrikan yang sesuai.
+- Rencana kerja dan rute mobilisasi: titik kerja, jalur masuk-keluar, belokan, area sempit, serta potensi konflik dengan orang atau kendaraan lain.
+- Kondisi permukaan dan batas area: informasi tanah atau struktur pendukung yang tersedia, permukaan yang harus dilindungi, serta perubahan akibat cuaca atau pekerjaan simultan.
+- Pengaturan operasi: operator yang berwenang, pengarah bila diperlukan, komunikasi, area eksklusi, dan kriteria berhenti.
+- Keputusan yang dapat ditelusuri: siapa menilai, siapa menyetujui, kapan ditinjau ulang, dan apa pemicunya bila kondisi berubah.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Daftar itu sengaja tidak berisi angka universal. Penilaian risiko yang baik menyesuaikan bahaya dan pengendalian dengan pekerjaan nyata, sedangkan risiko kompleks atau berkonsekuensi tinggi memerlukan metode, bukti, dan kompetensi yang sesuai. [Rujukan ILO tentang penilaian risiko](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting) dapat membantu menyusun proses, tetapi tidak menggantikan penilaian teknis lokasi.
 
-## Required conclusion
+## Jangan memilih dari kecepatan pindah saja
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Shortcut yang sering muncul ialah memilih roda ban hanya karena terlihat lebih praktis untuk berpindah, atau memilih rantai hanya karena terlihat lebih meyakinkan di tanah. Dua-duanya bisa gagal karena masalahnya bukan sekadar kecepatan atau tampilan bagian berjalan. Yang menentukan adalah rangkaian lengkap: rute, titik kerja, kondisi permukaan, jenis pekerjaan, konfigurasi unit, dan cara operasi.
 
-## Draft completion checklist
+Jadi, biar tidak salah langkah, pisahkan keputusan menjadi dua: “bagaimana unit mencapai titik kerja?” dan “bagaimana unit bekerja setelah tiba?” Jika jawaban pertama mendukung satu pilihan tetapi jawaban kedua belum jelas, jangan paksa menjadi keputusan final. Minta peninjauan teknis dan pertimbangkan pengaturan mobilisasi yang berbeda. Itulah cara sederhana menahan biaya akibat keputusan yang tampak cepat tetapi sebenarnya belum lengkap.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Pilihan beroda ban atau berantai bukan soal mana yang paling hebat. Pilih konfigurasi yang bukti proyeknya paling cocok dengan rute, permukaan, tugas, dan pengendaliannya. Sebelum unit dipesan atau dipindahkan, Kawan Berat.id, minta dokumentasi model yang tepat dan catat kondisi rute serta titik kerja. Aturan operasinya sederhana: bila kondisi tanah atau rute belum terbukti sesuai, jangan mengubah jenis bagian berjalan menjadi asumsi keselamatan.
