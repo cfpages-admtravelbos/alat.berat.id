@@ -2,8 +2,9 @@
 article_id: ABR-01-02
 title: "Klasifikasi Alat Berat Berdasarkan Fungsi Kerja"
 slug: "klasifikasi-alat-berat-berdasarkan-fungsi"
-description: "Distinguish excavating, pushing, loading, grading, lifting, compacting, hauling, processing, and support families with clear examples"
-status: outline
+description: "Panduan membedakan kelompok alat berat menurut pekerjaan utamanya, dari menggali sampai mendukung pekerjaan lapangan."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-05-23"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,61 +15,108 @@ reader_address: "Teman Berat.id"
 final_route: "/artikel/klasifikasi-alat-berat-berdasarkan-fungsi.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
   - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
   - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/77616.html"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
-
 # Klasifikasi Alat Berat Berdasarkan Fungsi Kerja
 
-## Assignment lock
+Halo, Teman Berat.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Klasifikasi Alat Berat Berdasarkan Fungsi Kerja”
-- **Reader and situation:** Beginner, procurement staff, or writer confused by overlapping names
-- **Reader outcome:** Distinguish excavating, pushing, loading, grading, lifting, compacting, hauling, processing, and support families with clear examples
-- **Primary intent:** Classify equipment by the work it performs
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Teman Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Kawan Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes site recommendation and brand/model catalogs; ABR-02-01 owns selection and existing machine routes own offers
-- **Final public route:** `/artikel/klasifikasi-alat-berat-berdasarkan-fungsi.html`
-- **Appointed CMS date:** `2025-05-23` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Nama alat berat sering terdengar lebih jelas daripada pekerjaannya. Padahal, menyebut “butuh excavator” ketika pekerjaan utamanya meratakan tanah, memindahkan material jauh, atau memadatkan lapisan bisa membuat pembicaraan pengadaan melenceng sejak awal. Akibatnya bukan sekadar salah istilah: alur kerja, perlengkapan kerja, dan pemeriksaan yang perlu disiapkan ikut berbeda.
 
-## Opening instructions
+Jawaban singkatnya, klasifikasikan alat berat dari **fungsi kerja utamanya**: menggali, mendorong, memuat, meratakan, mengangkat, memadatkan, mengangkut, mengolah material, atau mendukung pekerjaan. Satu nama dagang, ukuran, atau alat tambahan yang terpasang tidak otomatis mengubah keluarga mesinnya maupun membuktikan alat itu cocok untuk pekerjaan tertentu. Standar ISO 6165 memang membahas istilah dan klasifikasi mesin pemindah tanah, tetapi identitas mesin tetap perlu dicocokkan dengan konfigurasi dan dokumen pabrik yang aktual. [ISO 6165:2022](https://www.iso.org/standard/77616.html)
 
-- Open with the exact short salutation: **“Halo, Teman Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Klasifikasi Alat Berat Berdasarkan Fungsi Kerja**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Berat.id`, `Sobat Berat.id`, or `Kawan Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
+Ilustrasi umum dari aset lokal alat.berat.id; bukan dokumentasi proyek tertentu.
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+## Mengapa fungsi lebih dulu daripada nama alat
+
+Klasifikasi berdasarkan fungsi menjawab pertanyaan, “alat ini membuat perubahan apa pada pekerjaan?” Bukan, “alat ini merek apa?” atau “ukurannya besar atau kecil?” Cara ini membantu orang baru, staf pengadaan, maupun penulis dokumen memakai bahasa yang sama sebelum masuk ke model dan spesifikasi.
+
+Contohnya, excavator lazim dipakai untuk menggali dan memindahkan material dalam jangkauannya. Namun ketika dipasangi alat tambahan tertentu, ia dapat melakukan pekerjaan lain. Itu tidak berarti semua pekerjaan tersebut otomatis aman, cepat, atau sesuai untuk setiap excavator. Catat dulu pekerjaan pokok, material, arah perpindahan, dan hasil akhir yang diinginkan. Baru setelah itu periksa identitas mesin, konfigurasi, alat tambahan, serta petunjuk produsennya.
+
+Sederhananya, klasifikasi adalah peta percakapan. Ia belum merupakan keputusan memilih alat untuk satu lokasi. Kondisi tanah, ruang gerak, urutan kerja, material, operator, dan aturan proyek dapat mengubah keputusan itu. Jadi, Teman Berat.id, jangan jadikan daftar keluarga alat sebagai izin langsung untuk menjalankan mesin.
+
+## Sembilan kelompok fungsi kerja
+
+Berikut pembagian praktis yang memudahkan membaca pekerjaan lapangan. Satu pekerjaan dapat melibatkan lebih dari satu kelompok; pembagian ini bukan daftar merek atau katalog model.
+
+| Fungsi utama | Yang dikerjakan | Contoh keluarga alat |
+| --- | --- | --- |
+| Menggali | Mengambil atau membentuk galian | excavator, backhoe loader |
+| Mendorong | Mendorong dan menyebarkan material di depan alat | bulldozer |
+| Memuat | Mengambil material lalu memasukkannya ke alat angkut atau tempat penampung | wheel loader, skid steer loader |
+| Meratakan | Membentuk elevasi dan permukaan akhir | motor grader |
+| Mengangkat | Memindahkan beban secara terangkat | crane, telehandler sesuai fungsi dan konfigurasi |
+| Memadatkan | Mengurangi rongga pada lapisan material melalui proses pemadatan | roller atau compactor |
+| Mengangkut | Membawa material dari titik muat ke titik bongkar | dump truck, articulated dump truck |
+| Mengolah material | Mencampur, menyaring, menghancurkan, atau menyiapkan material | batching plant, crusher, screen |
+| Mendukung | Menyediakan fungsi penunjang pekerjaan utama | mesin pendukung sesuai proses yang dijalankan |
+
+**Alat gali** bekerja ketika pekerjaan perlu mengambil tanah, membuat parit, membersihkan material, atau membentuk galian. Fokusnya ada pada pengambilan dan perpindahan dekat titik kerja. **Alat dorong** seperti bulldozer berbeda: bilah di depannya digunakan untuk mendorong atau menyebar material, bukan untuk mengangkutnya jauh.
+
+**Alat muat** menerima material lalu memindahkannya ke wadah atau kendaraan. Nah, bedakan fungsi ini dengan **alat angkut**. Wheel loader dapat memuat ke bak truk; dump truck membawa muatan tersebut menuju titik bongkar. Keduanya sering bekerja berurutan, tetapi perannya tidak sama.
+
+**Alat perata** dipakai saat bentuk permukaan dan elevasi menjadi perhatian utama. **Alat pemadat** bekerja sesudah atau di antara penempatan lapisan material, dengan tujuan memadatkan lapisan sesuai kebutuhan pekerjaan. Hasil yang diharapkan dari meratakan bukan otomatis hasil pemadatan, begitu pula sebaliknya.
+
+**Alat angkat** memerlukan perhatian khusus karena beban, konfigurasi, perlengkapan pengangkat, kondisi area, pemeriksaan, dan kewenangan operator merupakan bukti yang berbeda-beda. Jangan menyamakan kemampuan mengangkat secara umum dengan persetujuan untuk satu pengangkatan tertentu. Rujukan Indonesia mengenai pesawat angkat dan pesawat angkut tetap perlu dibaca bersama kondisi pekerjaan dan ketentuan yang berlaku. [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020)
+
+Terakhir, **alat pengolah material** mengubah atau menyiapkan material dalam proses, misalnya pencampuran atau pemisahan. **Alat pendukung** tidak selalu menyentuh material utama, tetapi membuat proses dapat berjalan. Sebut fungsi dukungannya secara jelas agar tidak tercampur dengan mesin produksi.
+
+## Cara memakai klasifikasi dalam urutan kerja
+
+Mulailah dari alur material, bukan dari nama alat yang sedang tersedia. Tanyakan: material apa yang datang atau sudah ada di lokasi, harus diubah menjadi apa, lalu berpindah ke mana? Dari jawaban itu, urutkan fungsi yang diperlukan.
+
+Misalnya, pada pekerjaan tanah sederhana, urutannya dapat berupa menggali atau mengambil material, memuatnya, mengangkutnya, menyebarkannya, meratakan, lalu memadatkan. Contoh ini hanya menunjukkan hubungan fungsi; ia bukan resep operasi untuk semua lokasi. Jarak, jenis material, kemiringan, lalu lintas internal, dan tahapan pekerjaan dapat membuat urutannya berbeda.
+
+Untuk setiap fungsi, tulis empat hal singkat:
+
+- hasil kerja yang diminta;
+- material yang dihadapi;
+- titik awal dan titik akhir perpindahan;
+- bukti mesin serta perlengkapan yang relevan.
+
+Dengan catatan itu, Kawan Berat.id, rapat tidak berhenti pada kalimat “pakai alat besar saja.” Tim dapat melihat apakah masalahnya menggali, memuat, membawa, atau membentuk hasil akhir. Kalau satu alat ditawarkan untuk beberapa fungsi, minta penjelasan fungsi mana yang menjadi pekerjaan utamanya dan dokumen apa yang mendukung konfigurasi tersebut.
+
+## Hal yang dapat mengubah pengelompokan di lapangan
+
+Keluarga fungsi membantu memberi nama pekerjaan, tetapi tidak menjawab seluruh kelayakan. Alat tambahan, cara kendali, massa operasi, dan konfigurasi aktual dapat memengaruhi cara suatu mesin dijelaskan dan digunakan. Karena itu, jangan hanya mengandalkan foto, kategori penjual, atau merek; periksa model, nomor seri bila tersedia, alat tambahan, dan dokumen produsen yang masih sesuai dengan unitnya. [ISO 6165:2022](https://www.iso.org/standard/77616.html)
+
+Kondisi proyek juga dapat mengubah kebutuhan antarmuka kerja: siapa yang mengatur pergerakan, bagaimana area dipisahkan, alat apa yang berbagi jalur, dan kapan pekerjaan bersamaan terjadi. Risiko tidak bisa dinilai hanya dari tabel umum karena peluang, dampak, paparan, serta penerimaannya bergantung pada pekerjaan nyata. Pendekatan awal yang lebih berguna adalah mengenali bahaya, menilai risiko sesuai konteks, memilih pengendalian, lalu meninjau ulang ketika kondisi berubah. [Panduan lima langkah penilaian risiko ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting)
+
+Kompetensi orang juga bukan label umum. Dokumen pelatihan atau sertifikat perlu dicocokkan dengan penerbit, ruang lingkup, masa berlaku, identitas orang, konteks praktik, dan pengawasan yang diperlukan. Informasi resmi mengenai sertifikasi kompetensi tersedia dari [BNSP](https://bnsp.go.id/), tetapi artikel ini tidak dapat memeriksa atau memberikan kewenangan kepada operator tertentu.
+
+## Contoh membaca kebutuhan tanpa langsung memilih model
+
+Bayangkan ada tiga kalimat dari tiga pemohon pekerjaan berikut.
+
+1. “Tanah perlu diambil dari sisi area kerja.” Ini menunjuk fungsi menggali. Pertanyaan lanjutannya: material apa, kedalaman dan bentuk pekerjaan seperti apa, serta ke mana hasil galian dipindahkan?
+2. “Material perlu masuk ke bak kendaraan.” Ini menunjuk fungsi memuat, lalu perlu dilanjutkan dengan pertanyaan tentang alat angkut dan urutan antreannya.
+3. “Permukaan harus dibentuk lalu lapisannya dipadatkan.” Ini memisahkan fungsi meratakan dari memadatkan. Jangan menganggap satu kata “finishing” cukup menjelaskan keduanya.
+
+Contoh itu sengaja tidak menyebut ukuran, merek, kapasitas, atau lokasi. Data tersebut baru bermakna setelah fungsi dan kondisi kerja jelas. Sobat Berat.id, kalau kebutuhan awal masih berupa nama alat, ubah dulu menjadi kalimat kerja: “apa yang harus dipindahkan, dibentuk, atau diolah?”
+
+## Kesalahan yang sering terjadi saat mengelompokkan alat
+
+Kesalahan pertama adalah menyamakan alat tambahan dengan identitas seluruh mesin. Alat tambahan dapat memperluas jenis pekerjaan, tetapi tidak menggantikan pemeriksaan tentang konfigurasi, batas penggunaan, dan dokumentasi unit.
+
+Kesalahan kedua adalah menganggap alat yang mengangkat, memuat, atau memindahkan material pasti dapat saling menggantikan. Kata kerjanya boleh berdekatan, namun jalur gerak, titik tumpu, beban, dan cara pengendaliannya dapat berbeda. Untuk pengangkatan, jangan memakai klasifikasi artikel sebagai rencana pengangkatan atau dasar menentukan beban.
+
+Kesalahan ketiga adalah membeli atau menyewa berdasarkan kategori penjual semata. Kategori itu berguna sebagai pintu pencarian, bukan bukti bahwa unit yang datang sesuai. Minta identitas unit, konfigurasi, alat tambahan, kondisi dokumen, dan batas penggunaan yang relevan; kemudian cocokkan dengan pekerjaan yang benar-benar akan dilakukan.
+
+Ada jalan pintas yang terdengar wajar: “yang penting alatnya bisa.” Masalahnya, kata *bisa* tidak menjelaskan apakah pekerjaan dapat diselesaikan dengan pengaturan yang benar, bukti yang memadai, dan kondisi area yang sudah diperiksa. Alternatif yang lebih aman adalah memisahkan dua pertanyaan: **fungsi apa yang dibutuhkan** dan **bukti apa yang menunjukkan unit serta orangnya sesuai untuk fungsi itu**.
+
+## Langkah berikutnya sebelum percakapan berlanjut
+
+Klasifikasi alat berat berdasarkan fungsi kerja berarti memberi nama pada peran alat dalam alur kerja: gali, dorong, muat, rata, angkat, padatkan, angkut, olah, atau dukung. Sesudah itu, buat daftar kebutuhan singkat berisi hasil kerja, material, perpindahan, kondisi area, serta dokumen unit yang perlu diperiksa.
+
+Jika pekerjaan menyangkut pengangkatan, kondisi tidak biasa, atau risiko yang besar, hentikan asumsi dari daftar ini dan minta peninjauan oleh pihak yang kompeten sesuai proyek dan ketentuan yang berlaku. Aturan praktisnya: pilih kata kerja dulu, buktikan kesesuaian unit kemudian, dan jangan jadikan nama alat sebagai pengganti pemeriksaan.
+
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -79,207 +127,4 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-01-01` → `/artikel/panduan-alat-berat-untuk-proyek.html` — Panduan Alat Berat untuk Proyek: Dari Kebutuhan hingga Serah Terima
-- `ABR-01-03` → `/artikel/glosarium-alat-berat-indonesia-inggris.html` — Glosarium Alat Berat Indonesia–Inggris dan Istilah yang Sering Tertukar
-- `ABR-01-04` → `/artikel/alat-berat-roda-ban-vs-berantai.html` — Alat Berat Beroda Ban vs Berantai: Perbedaan Mobilitas dan Jejak Tanah
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Klasifikasi Alat Berat Berdasarkan Fungsi Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Klasifikasi Alat Berat Berdasarkan Fungsi Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Klasifikasi Alat Berat Berdasarkan Fungsi Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Klasifikasi Alat Berat Berdasarkan Fungsi Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Klasifikasi Alat Berat Berdasarkan Fungsi Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Klasifikasi Alat Berat Berdasarkan Fungsi Kerja”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+END MANAGED IMAGE PLAN -->

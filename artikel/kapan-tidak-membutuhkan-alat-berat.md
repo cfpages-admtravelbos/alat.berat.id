@@ -2,8 +2,9 @@
 article_id: ABR-02-06
 title: "Kapan Pekerjaan Tidak Membutuhkan Alat Berat?"
 slug: "kapan-tidak-membutuhkan-alat-berat"
-description: "Compare manual, small-plant, modular, and heavy-equipment options by volume, access, risk, disturbance, and schedule"
-status: outline
+description: "Cara menilai apakah pekerjaan lebih tepat dikerjakan manual, dengan alat kecil, secara modular, atau memakai alat berat berdasarkan volume, akses, risiko, gangguan, dan jadwal."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-07-01"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,64 +15,96 @@ reader_address: "Kawan Berat.id"
 final_route: "/artikel/kapan-tidak-membutuhkan-alat-berat.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
   - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
   - "https://www.iso.org/standard/60734.html"
   - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Kapan Pekerjaan Tidak Membutuhkan Alat Berat?
 
-## Assignment lock
+Halo, Kawan Berat.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Kapan Pekerjaan Tidak Membutuhkan Alat Berat?”
-- **Reader and situation:** Small project or constrained site considering oversized equipment
-- **Reader outcome:** Compare manual, small-plant, modular, and heavy-equipment options by volume, access, risk, disturbance, and schedule
-- **Primary intent:** Decide whether mechanization is justified
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes contractor selection and tool-specific safe procedures; ABR-13-01 owns sourcing strategy and ABR-11-01 owns task controls
-- **Final public route:** `/artikel/kapan-tidak-membutuhkan-alat-berat.html`
-- **Appointed CMS date:** `2025-07-01` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Alat berat tidak selalu menjadi jawaban paling tepat hanya karena pekerjaan terlihat berat. Pada lokasi yang sempit, volume material kecil, akses masuk rumit, atau gangguan terhadap sekitar justru besar, pekerjaan manual, alat kecil, atau metode bertahap dapat lebih masuk akal. Memaksa alat besar masuk tanpa membaca kondisi pekerjaan bisa menambah perpindahan, menutup akses, dan menciptakan pekerjaan baru yang sebenarnya tidak perlu.
 
-## Opening instructions
+Jadi, pekerjaan biasanya **tidak perlu alat berat** ketika hasil yang dituju dapat dicapai dengan metode yang lebih sederhana tanpa memindahkan risiko, keterlambatan, atau beban kerja ke pihak lain. Keputusan itu berubah bila volume, jarak angkut, jadwal, material, akses, atau kondisi area berubah. Ini bukan ajakan menghindari mekanisasi, melainkan cara memastikan mesin dipakai karena benar-benar membantu.
 
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Kapan Pekerjaan Tidak Membutuhkan Alat Berat?**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
+Ilustrasi umum dari aset lokal alat.berat.id; bukan dokumentasi proyek tertentu.
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+## Yang dimaksud “tidak membutuhkan alat berat”
+
+Kalimat itu tidak berarti pekerjaan pasti ringan atau boleh dikerjakan tanpa perencanaan. Maksudnya, pekerjaan tersebut belum menunjukkan alasan yang cukup untuk memakai mesin berukuran besar sebagai cara utama. Pilihannya dapat berupa kerja manual yang diatur dengan baik, peralatan bertenaga kecil, pengiriman atau pemasangan bertahap, maupun mengubah urutan pekerjaan agar perpindahan material berkurang.
+
+Pembahasan ini juga bukan panduan memilih kontraktor, bukan prosedur aman untuk alat tertentu, dan bukan pengganti persetujuan proyek. Pertanyaan yang sedang dijawab lebih sederhana: apakah mekanisasi berat memberi manfaat nyata untuk pekerjaan ini, atau justru memperbesar kerumitan?
+
+Sobat Berat.id, bedakan “bisa dikerjakan alat berat” dari “perlu dikerjakan alat berat.” Banyak pekerjaan bisa dimasuki mesin, tetapi akses untuk masuk, ruang berputar, titik bongkar, dan jalur keluar belum tentu mendukung. Standar keselamatan mesin seperti [ISO 20474-1](https://www.iso.org/standard/60734.html) juga tidak membuktikan satu unit, pengubahan alat, lokasi, atau cara kerja tertentu sudah aman; kondisi nyata tetap perlu diperiksa.
+
+## Lima pertanyaan sebelum memutuskan mekanisasi
+
+Sebelum membandingkan alat, tulis jawaban singkat atas lima pertanyaan berikut.
+
+| Pertanyaan | Bila jawabannya cenderung kecil atau sederhana | Yang perlu diperiksa bila jawabannya besar atau rumit |
+| --- | --- | --- |
+| Berapa volume pekerjaannya? | Metode manual atau alat kecil mungkin cukup | Apakah volume berulang dan waktu kerja menuntut mekanisasi? |
+| Sejauh apa material berpindah? | Perpindahan dekat mungkin tidak memerlukan mesin besar | Apakah jalur angkut, titik muat, dan titik bongkar mendukung? |
+| Bagaimana aksesnya? | Gang sempit, halaman terbatas, atau akses berbagi perlu perhatian | Apakah ada ruang masuk, manuver, dan keluar tanpa mengganggu? |
+| Apa dampak terhadap sekitar? | Gangguan ke penghuni, pejalan kaki, atau layanan sekitar dapat menentukan | Siapa yang terdampak dan bagaimana antarmukanya dikendalikan? |
+| Kapan pekerjaan harus selesai? | Jadwal longgar dapat memberi ruang untuk metode bertahap | Apakah percepatan dari mesin benar-benar terjadi setelah persiapan? |
+
+Lima pertanyaan itu sengaja tidak memakai angka baku. Ambang volume atau waktu yang tepat tergantung material, orang, lokasi, alat yang tersedia, urutan kerja, dan bukti proyek. Kalau informasi pokoknya belum ada, jangan menutup kekosongan itu dengan kalimat “pokoknya pakai yang besar.”
+
+## Cara membandingkan empat pilihan kerja
+
+Setelah kebutuhan ditulis, bandingkan empat jalur: manual, alat kecil bertenaga, pekerjaan modular, dan alat berat. **Manual** berarti pekerjaan mengandalkan tenaga orang dengan peralatan tangan yang relevan. **Alat kecil bertenaga** berarti mesin ringkas yang membantu tugas tertentu, bukan otomatis alat berat. **Modular** berarti material atau pekerjaan dibagi menjadi bagian yang lebih kecil agar pengiriman, pengangkatan, dan pemasangan dapat mengikuti keterbatasan akses. Alat berat tetap menjadi pilihan keempat bila manfaatnya melampaui biaya persiapan dan gangguan yang dibawanya.
+
+Bandingkan hasil akhirnya, bukan gengsinya. Untuk tiap pilihan, tanyakan: berapa tahap perpindahan material yang muncul, siapa yang bekerja di area itu, apa yang harus dihentikan sementara, dan bukti apa yang diperlukan sebelum mulai? Pilihan yang terlihat murah di awal bisa menambah tahap angkut; pilihan yang terlihat cepat bisa tertahan karena akses belum siap.
+
+Penilaian risiko pun harus mengikuti pekerjaan nyata. Panduan [lima langkah ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting) menekankan mengenali bahaya, menilai risiko, menentukan pengendalian, mencatat temuan, dan meninjau ulang. Matriks umum tidak dapat menentukan sendiri peluang, dampak, paparan, maupun risiko sisa suatu lokasi. Nah, perbandingan metode menjadi lebih jernih bila risiko dan pengendaliannya dinilai pada jalur kerja yang benar-benar akan dipakai.
+
+## Tanda bahwa metode lebih ringan layak dipertimbangkan
+
+Pertimbangkan manual, alat kecil, atau metode modular jika beberapa keadaan berikut muncul bersamaan:
+
+- volume kerja terbatas dan tidak berulang;
+- material dapat dipecah atau dipindahkan dalam bagian yang masih terkendali;
+- titik kerja dekat dengan akses yang aman untuk orang dan peralatan kecil;
+- masuknya mesin besar akan mengurangi ruang kerja atau menutup jalur penting;
+- persiapan untuk mesin besar berpotensi lebih rumit daripada pekerjaan inti;
+- pekerjaan harus dilakukan bertahap agar kegiatan di sekitar tetap dapat berlangsung.
+
+Daftar ini bukan aturan otomatis. Contohnya, volume kecil tidak serta-merta aman dikerjakan manual apabila materialnya sulit ditangani atau area kerjanya memiliki bahaya lain. Sebaliknya, alat berat bisa diperlukan pada volume yang tampak kecil bila kondisi material, jarak, atau jadwal membuat alternatif lain tidak masuk akal. Kawan Berat.id, manfaatkan daftar ini sebagai pemicu pertanyaan, bukan sebagai izin kerja.
+
+## Akses dan gangguan sering menjadi penentu tersembunyi
+
+Di lokasi padat, masalahnya kadang bukan kapasitas mesin, melainkan hubungan mesin dengan manusia dan jalur sekitar. Jalan masuk yang sempit, area mundur, tepi galian, lintasan orang, atau kendaraan lain dapat mengubah keputusan dari “mesin tersedia” menjadi “perlu penataan dulu.” Prinsip keselamatan konstruksi ILO menempatkan akses, lalu lintas, visibilitas, kompetensi operator, pemeriksaan, dan pemeliharaan sebagai hal yang perlu dipertimbangkan dalam konteks pekerjaan, bukan sekadar fitur pada mesin. [ILO Convention C167](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988)
+
+Karena itu, jangan menganggap alat kecil otomatis bebas risiko atau alat besar otomatis salah. Tanyakan siapa yang berjalan atau bekerja di dekat jalur, bagaimana material datang dan pergi, serta apa yang terjadi bila kondisi berubah pada hari pelaksanaan. Jika jawaban belum jelas, tahan keputusan mekanisasi sampai tata letak dan pengendaliannya diperiksa oleh pihak yang tepat.
+
+Kompetensi juga tetap penting untuk metode apa pun. Bukti pelatihan atau sertifikasi perlu dibaca menurut penerbit, ruang lingkup, masa berlaku, identitas, praktik, dan pengawasan yang dibutuhkan; artikel ini tidak dapat memberi kewenangan kepada siapa pun. Informasi lembaga sertifikasi kompetensi dapat diperiksa melalui [BNSP](https://bnsp.go.id/).
+
+## Contoh keputusan yang sengaja bersyarat
+
+Bayangkan perbaikan area kecil di belakang bangunan. Material hanya perlu dipindahkan jarak dekat, akses melewati jalur yang dipakai orang, dan pekerjaan boleh diselesaikan bertahap. Dalam kondisi seperti ini, tim dapat membandingkan pemindahan manual yang terorganisasi, alat kecil, atau pengiriman material dalam bagian yang lebih mudah ditangani. Keputusan belum bisa diambil hanya dari gambaran itu: jenis material, ruang aman, jumlah pekerjaan, serta jalur orang masih harus dipastikan.
+
+Bandingkan dengan pekerjaan berulang yang memindahkan material dalam jumlah besar dari satu titik ke titik lain melalui jalur yang memang disiapkan. Metode berat mungkin lebih layak dibahas, tetapi tetap perlu diperiksa apakah akses, zona kerja, operator, kondisi unit, dan urutan pekerjaan mendukung. Teman Berat.id, contoh ini menunjukkan bahwa penilaian dimulai dari pola kerja, bukan dari keinginan memakai atau menolak satu jenis alat.
+
+## Jalan pintas yang perlu dihindari
+
+Jalan pintas pertama adalah memilih alat berdasarkan tampilan pekerjaan: “kelihatannya kecil, jadi cukup tenaga orang.” Tampilan tidak menunjukkan berat, bentuk, kestabilan material, atau antarmuka kerja. Jalan pintas kebalikannya adalah “biar cepat, panggil alat besar.” Kecepatan perjalanan mesin tidak selalu sama dengan kecepatan seluruh pekerjaan setelah akses, penataan area, dan pembersihan diperhitungkan.
+
+Jalan pintas berikutnya adalah memakai satu harga atau satu penawaran sebagai penentu tunggal. Penawaran tidak membuktikan unit yang datang, kondisi aktual, kesesuaian tugas, atau pengendalian di lokasi. Bandingkan dulu ruang lingkup pekerjaan, tahapan perpindahan, dokumen unit yang relevan, dan kondisi akses dengan cara yang sama untuk setiap pilihan.
+
+Pertanyaan praktis untuk pemeriksaan awal adalah: “Jika alat ini tidak bisa masuk atau tidak bisa bergerak tanpa mengganggu area, apa rencana alternatifnya?” Bila jawabannya belum ada, keputusan belum matang. Biar tidak salah langkah, catat alternatif itu sebelum jadwal dan sumber daya dikunci.
+
+## Putuskan dari kebutuhan nyata, bukan ukuran mesin
+
+Pekerjaan tidak membutuhkan alat berat ketika metode yang lebih ringan mencapai hasil yang diminta dengan jalur kerja, risiko, gangguan, dan jadwal yang lebih masuk akal. Mulailah dengan mencatat volume, jarak perpindahan, akses, dampak sekitar, serta batas waktu; lalu bandingkan empat pilihan kerja secara terbuka.
+
+Jika pekerjaan menyentuh area berisiko tinggi, pengangkatan, kondisi tanah yang meragukan, atau antarmuka publik yang rumit, jangan gunakan artikel ini sebagai keputusan akhir. Minta penilaian sesuai kondisi proyek oleh pihak yang kompeten. Aturan operasinya sederhana: mekanisasi dipakai karena bukti kebutuhan, bukan karena alat terbesar tampak paling meyakinkan.
+
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -82,220 +115,4 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-02-04` → `/artikel/memilih-alat-untuk-kondisi-lapangan.html` — Memilih Alat untuk Tanah Lunak, Hujan, Panas, dan Lingkungan Pesisir
-- `ABR-02-05` → `/artikel/menyeimbangkan-armada-alat-berat.html` — Menyeimbangkan Armada Alat Berat agar Tidak Saling Menunggu
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Pekerjaan Tidak Membutuhkan Alat Berat?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Pekerjaan Tidak Membutuhkan Alat Berat?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Pekerjaan Tidak Membutuhkan Alat Berat?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Pekerjaan Tidak Membutuhkan Alat Berat?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Pekerjaan Tidak Membutuhkan Alat Berat?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Kapan Pekerjaan Tidak Membutuhkan Alat Berat?”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+END MANAGED IMAGE PLAN -->
