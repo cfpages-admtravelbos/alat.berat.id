@@ -1,9 +1,9 @@
 ---
 article_id: ABR-14-05
-title: "Commissioning dan Serah Terima Alat Berat di Proyek"
+title: "Pemeriksaan dan Pengujian Sebelum Operasi serta Serah Terima Alat Berat"
 slug: "commissioning-dan-serah-terima-alat-berat"
-description: "Cover identity/configuration, documents, inspection, fluids, safety devices, controls, function tests within authority, defects, baseline readings, training, spares, and acceptance records"
-status: outline
+description: "Memahami pemeriksaan dan pengujian sebelum operasi, pencatatan temuan, serta serah terima alat berat tanpa menggantikan pengujian pabrikan atau nilai penerimaan proyek."
+status: draft
 publication_date: "2026-04-14"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -11,68 +11,28 @@ parent_topic: ABR-14
 primary_intent: "Verify readiness before productive use"
 reader_community: "Berat.id"
 reader_address: "Kawan Berat.id"
+writing_contract_version: "native-id-v2"
 final_route: "/artikel/commissioning-dan-serah-terima-alat-berat.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
   - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
   - "https://www.iso.org/standard/60734.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
-  - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+# Pemeriksaan dan Pengujian Sebelum Operasi serta Serah Terima Alat Berat
 
-# Commissioning dan Serah Terima Alat Berat di Proyek
+Halo, Kawan Berat.id! Alat yang baru tiba, baru dirakit, atau baru berpindah lokasi belum otomatis siap dipakai menghasilkan pekerjaan. **Pemeriksaan dan pengujian sebelum operasi**—sering disebut *commissioning*—adalah tahap memastikan identitas, konfigurasi, dokumen, kondisi, pengendalian, dan temuan sudah ditangani dalam batas kewenangan sebelum alat masuk ke pekerjaan produktif.
 
-## Assignment lock
+Tujuannya bukan mencari alasan agar alat cepat diserahkan. Tujuannya memastikan pihak yang menerima mengetahui apa yang benar-benar telah diperiksa, siapa yang melakukan pengujian, temuan apa yang masih terbuka, dan siapa yang berwenang memberi keputusan berikutnya. Jika ada cacat penting yang belum diselesaikan atau kondisi tidak dapat diverifikasi, serah terima harus dibatasi atau ditahan sesuai prosedur.
 
-- **Writer task:** Expand this file into one complete article answering: “Commissioning dan Serah Terima Alat Berat di Proyek”
-- **Reader and situation:** Owner, supplier, and operator at delivery or post-assembly handover
-- **Reader outcome:** Cover identity/configuration, documents, inspection, fluids, safety devices, controls, function tests within authority, defects, baseline readings, training, spares, and acceptance records
-- **Primary intent:** Verify readiness before productive use
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes certification or operation with unresolved critical defects; ABR-15-01 owns routine pre-start and OEM/competent persons own tests
-- **Final public route:** `/artikel/commissioning-dan-serah-terima-alat-berat.html`
-- **Appointed CMS date:** `2026-04-14` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Artikel ini tidak memberi nilai penerimaan, sertifikat, atau langkah uji hidup. Pengujian fungsi, pengujian keselamatan, pengisian cairan, penyetelan, dan keputusan operasi harus mengikuti manual pabrikan, metode yang disetujui, kondisi lokasi, serta personel kompeten yang ditunjuk.
 
-## Opening instructions
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Commissioning dan Serah Terima Alat Berat di Proyek**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+*Aset lokal proyek; gambar ini bukan dokumentasi proyek tertentu.*
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,228 +43,72 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-14-03` → `/artikel/menyiapkan-area-unloading-dan-laydown.html` — Menyiapkan Akses, Area Unloading, dan Laydown Alat Berat
-- `ABR-14-04` → `/artikel/kesiapan-site-erection-crane-dan-plant.html` — Kesiapan Site untuk Erection Crane dan Plant Berat
-- `ABR-14-06` → `/artikel/demobilisasi-dan-handback-alat-berat.html` — Demobilisasi dan Handback Alat Berat tanpa Sengketa Kondisi
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Commissioning dan Serah Terima Alat Berat di Proyek”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pemeriksaan sebelum operasi bukan versi panjang dari pemeriksaan harian operator. Pemeriksaan rutin membantu melihat kondisi sebelum shift, sedangkan tahap sebelum operasi/serah terima memastikan alat dan proyek memiliki dasar yang benar untuk menerima unit pada kondisi serta konfigurasi tertentu. Keduanya dapat memakai catatan, tetapi tujuan, pelaku, dan batas keputusannya berbeda.
 
-## Definisi dan batas objek
+Salah paham yang berbahaya adalah menganggap alat lolos karena mesin bisa menyala atau satu fungsi tampak bergerak. Kondisi itu tidak membuktikan seluruh perangkat keselamatan, dokumen, konfigurasi, pengendalian area, pelatihan, dan catatan temuan sudah lengkap. Teman Berat.id, “bisa hidup” bukan sinonim dari “siap dioperasikan”.
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Commissioning dan Serah Terima Alat Berat di Proyek”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Pemeriksaan harus menghubungkan identitas alat, manual pabrikan, kondisi nyata, tugas yang direncanakan, dan pihak yang bertanggung jawab. [ISO 20474-1](https://www.iso.org/standard/60734.html) menekankan bahwa identitas, dokumentasi, kondisi, modifikasi, penggunaan yang dapat diperkirakan, dan validasi perlu dipertimbangkan untuk unit nyata; daftar umum tidak membuktikan suatu mesin atau metode tertentu aman.
 
-## Cara kerjanya
+## Batas objek dan peran yang perlu jelas
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Commissioning dan Serah Terima Alat Berat di Proyek”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulailah dengan mengunci objek serah terima: model, nomor identifikasi bila tersedia, konfigurasi, attachment, bagian yang dirakit atau dilepas, lokasi, dan batas penggunaan yang direncanakan. Jika data pada surat jalan, manual, label unit, dan rencana proyek tidak sama, jangan memilih salah satunya dari dugaan. Catat perbedaan lalu minta klarifikasi dari pemilik informasi.
 
-## Faktor yang mengubah hasil
+Pemasok atau pemilik alat dapat membawa dokumen serta informasi unit. Pihak proyek dapat menyiapkan area, penerima, dan pengendalian lokasi. Operator atau pengguna perlu menerima pengenalan sesuai peran. Personel kompeten melakukan pemeriksaan atau pengujian yang menjadi kewenangannya. Tidak ada satu pihak yang otomatis membuktikan semua hal hanya karena hadir saat alat tiba.
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Commissioning dan Serah Terima Alat Berat di Proyek”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kawan Berat.id, gunakan istilah “serah terima” dengan tepat. Serah terima fisik berarti alat atau dokumen berpindah tangan. Serah terima bersyarat berarti masih ada temuan atau tindakan terbuka. Serah terima untuk operasi berarti hanya dapat dilakukan setelah prosedur serta otoritas yang relevan terpenuhi. Pisahkan status ini agar tidak ada tekanan jadwal yang menyulap barang datang menjadi izin kerja.
+
+## Urutan pemeriksaan yang aman dan dapat ditelusuri
+
+Mulai dari dokumen dan kondisi tanpa energi terlebih dahulu. Verifikasi identitas, konfigurasi, manual, catatan perakitan/pengiriman yang relevan, daftar perlengkapan, serta temuan sebelumnya. Amati area luar, pelindung, akses, label, kebersihan yang memengaruhi pandangan, dan kondisi yang dapat dilihat dari posisi aman. Catat fakta, bukan diagnosis.
+
+Setelah itu, nilai kesiapan lokasi. Area pengujian atau penerimaan harus mengikuti rencana proyek: akses, pembatas orang/publik, ruang gerak, kondisi tanah, cuaca, pekerjaan lain, serta rute kendaraan perlu sesuai dengan aktivitas yang akan dilakukan. Jangan menjalankan pengujian fungsi bila area belum dikendalikan atau peran orang di sekitar belum jelas.
+
+Pengujian fungsi hanya boleh berlangsung dalam batas otorisasi, manual pabrikan, metode yang disetujui, dan pengawasan yang sesuai. Artikel ini tidak memberi urutan tombol, gerakan, atau nilai yang harus dicapai. Bila pengujian memerlukan unit hidup, energi tersimpan, gerak alat, pengangkatan, atau paparan lain, terapkan kontrol khusus proyek dan hentikan bila kondisi tidak sesuai rencana.
+
+| Tahap | Yang dikonfirmasi | Bukan kesimpulan otomatis |
+| --- | --- | --- |
+| Identitas dan dokumen | Unit, konfigurasi, manual, catatan pengiriman/perakitan | Semua fungsi telah diterima |
+| Kondisi awal | Temuan visual, akses, pelindung, label, area kerja | Tidak ada cacat tersembunyi |
+| Kesiapan pengujian | Otoritas, metode, area, orang, kondisi lingkungan | Uji boleh dilakukan tanpa batas |
+| Catatan hasil | Apa yang diperiksa, oleh siapa, kondisi, temuan | Alat langsung boleh produktif |
+| Serah terima | Status, tindakan terbuka, pemilik keputusan berikutnya | Semua risiko telah hilang |
+
+## Faktor yang mengubah hasil pemeriksaan
+
+Konfigurasi yang berubah dapat mengubah apa yang perlu diperiksa. Attachment berbeda, pelindung yang dilepas saat transportasi, aksesori tambahan, atau modifikasi terdokumentasi maupun tidak terdokumentasi dapat membuat daftar awal tidak lagi lengkap. Jangan menggunakan rekaman penerimaan unit sebelumnya sebagai bukti untuk konfigurasi baru.
+
+Lokasi juga mengubah pemeriksaan. Kondisi tanah, akses, ruang, cuaca, penerangan, lalu lintas internal, dan orang di sekitar dapat membuat metode yang sama tidak sesuai. Jika proses sebelum operasi mencakup kegiatan dengan potensi paparan orang atau publik, pengendalian area harus dikonfirmasi sebelum tindakan dilakukan. Jangan memindahkan pengujian ke area yang “kosong saja” tanpa penilaian lokasi.
+
+Dokumen berubah, personel berubah, dan informasi dapat kedaluwarsa. Pastikan versi manual, gambar, daftar komponen, serta prosedur yang dipakai adalah versi yang berlaku untuk unit. [Catatan ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf) menekankan peran, komunikasi, kompetensi, informasi terdokumentasi, dan pengelolaan perubahan sebagai bagian dari sistem pengendalian risiko.
+
+## Temuan, batas berhenti, dan eskalasi
+
+Temuan perlu ditulis dengan bahasa netral: apa yang terlihat, kapan, di mana, pada unit apa, dan dokumen/konfigurasi apa yang terkait. Hindari menyatakan penyebab atau cara perbaikan bila belum menjadi kewenangan Anda. Foto dapat membantu bila diambil dari posisi aman serta diizinkan prosedur proyek, tetapi foto bukan pengganti pemeriksaan kompeten.
+
+Tahan tahap pengujian atau serah terima operasi bila identitas/kondisi tidak cocok, manual atau metode tidak tersedia, pelindung/perangkat keselamatan tidak dapat diverifikasi, area tidak terkendali, temuan penting masih terbuka, atau pihak yang berwenang belum menyatakan tindakan berikutnya. Jangan mengatasi celah tersebut dengan uji coba informal atau dengan memaksa alat beroperasi “sebentar”.
+
+Sobat Berat.id, eskalasi yang berguna memuat identitas alat, status tahap, fakta temuan, kondisi area, bukti yang tersedia, dan pihak yang sudah diberi tahu. Pengendalian risiko perlu disesuaikan dengan bahaya nyata dan ditinjau saat keadaan berubah, sebagaimana dijelaskan dalam [panduan ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks).
+
+[NEEDS PROSEDUR PENERIMAAN: cakupan pemeriksaan, metode pengujian, alat ukur, kriteria penerimaan, pengendalian energi/area, personel kompeten, daftar cacat, bukti penyelesaian, dan otorisasi operasi harus ditetapkan oleh pabrikan serta proyek untuk unit dan konfigurasi aktual.]
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Commissioning dan Serah Terima Alat Berat di Proyek”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Misalkan excavator tiba setelah perakitan, tetapi lampiran manual tidak cocok dengan attachment yang terpasang. Jangan meminta operator menjalankan alat untuk “melihat apakah normal”. Catat ketidaksesuaian, tahan pengujian yang bergantung pada attachment, dan minta pemasok atau pihak kompeten mengonfirmasi dokumen serta konfigurasi yang benar.
+
+Contoh lain: semua dokumen tampak ada, tetapi area penerimaan berubah karena pekerjaan lain, hujan, dan akses publik. Jangan menyamakan kelengkapan berkas dengan kesiapan pengujian. Tahan aktivitas sampai lokasi, pembatasan, dan peran yang diperlukan ditinjau sesuai kondisi baru.
+
+Untuk mengatur kebutuhan alat setelah penerimaan serta metode proyek telah disetujui, halaman [jual dan sewa alat berat di Yogyakarta](/jual-sewa-alat-berat-yogyakarta) dapat menjadi awal komunikasi. Ketersediaan alat tidak menggantikan pemeriksaan/pengujian sebelum operasi atau persetujuan proyek.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Commissioning dan Serah Terima Alat Berat di Proyek”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah menjadikan alat menyala sebagai bukti penerimaan. Periksa kembali identitas, dokumen, konfigurasi, kondisi, area, pengendalian, dan catatan pengujian sesuai prosedur. Semua itu menjawab pertanyaan yang berbeda.
 
-## Objection or shortcut to address
+Kesalahan kedua adalah melakukan uji hidup di area yang belum dikendalikan. Ini dapat memaparkan orang, kendaraan, atau publik tanpa dasar metode yang benar. Alternatifnya ialah menahan pengujian sampai area dan otoritas siap.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Kesalahan ketiga adalah menutup temuan dengan janji perbaikan belakangan. Catat temuan, pemilik tindak lanjut, batas penggunaan, dan bukti penyelesaian yang diperlukan. Kawan Berat.id, jika cacat penting belum ditangani atau belum ada keputusan kompeten, jangan menggambarkan alat sebagai siap operasi.
 
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Pemeriksaan dan pengujian sebelum operasi membuat serah terima alat berat menjadi rekaman kondisi, bukti, dan batas keputusan yang jelas—bukan seremoni pengiriman. Langkah berikutnya ialah membuat paket penerimaan untuk unit aktual bersama manual pabrikan, metode proyek, daftar temuan, dan pemilik tindak lanjut. Aturan kerjanya: **jika kondisi, dokumen, area, atau otoritas belum cocok, tahan pengujian maupun serah terima operasi dan jangan menggantinya dengan uji hidup informal.**
