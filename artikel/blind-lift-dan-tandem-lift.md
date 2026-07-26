@@ -1,9 +1,9 @@
 ---
 article_id: ABR-04-04
-title: "Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda"
+title: "Pengangkatan Tanpa Pandangan Langsung dan Dua Crane: Mengapa Rencananya Berbeda"
 slug: "blind-lift-dan-tandem-lift"
-description: "Explain communication, load sharing, synchronization, changing geometry, contingency, and competent-person thresholds"
-status: outline
+description: "Memahami mengapa pengangkatan tanpa pandangan langsung dan pengangkatan dengan dua crane membutuhkan rencana rekayasa, kendali kompeten, dan keputusan berhenti yang jelas."
+status: draft
 publication_date: "2025-08-12"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -11,66 +11,29 @@ parent_topic: ABR-04
 primary_intent: "Recognize complex-lift planning requirements"
 reader_community: "Berat.id"
 reader_address: "Kawan Berat.id"
+writing_contract_version: "native-id-v2"
 final_route: "/artikel/blind-lift-dan-tandem-lift.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
   - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+# Pengangkatan Tanpa Pandangan Langsung dan Dua Crane: Mengapa Rencananya Berbeda
 
-# Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda
+Halo, Kawan Berat.id! Ada dua situasi pengangkatan yang tidak boleh diperlakukan sebagai pekerjaan biasa: ketika operator tidak dapat melihat lintasan atau beban dengan memadai, dan ketika satu beban ditangani oleh dua crane. Pengangkatan tanpa pandangan langsung sering disebut *blind lift*. Pengangkatan dengan dua crane sering disebut *tandem lift*. Keduanya menambah antarmuka, ketidakpastian, dan konsekuensi bila satu asumsi keliru.
 
-## Assignment lock
+Blind lift bukan sekadar masalah “operator tidak bisa melihat”; yang dipertaruhkan adalah apakah seluruh pihak memiliki informasi posisi, bahaya, dan perubahan yang sama. Tandem lift bukan sekadar “membagi beban ke dua crane”; hubungan beban, posisi crane, gerakan, dan kondisi dapat berubah selama pekerjaan. Karena itu, keduanya memerlukan rencana pengangkatan yang direkayasa, pengendalian oleh pihak kompeten, serta batas berhenti yang disetujui sebelum pekerjaan dijalankan.
 
-- **Writer task:** Expand this file into one complete article answering: “Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda”
-- **Reader and situation:** Project lead considering lifts with obstructed view or multiple cranes
-- **Reader outcome:** Explain communication, load sharing, synchronization, changing geometry, contingency, and competent-person thresholds
-- **Primary intent:** Recognize complex-lift planning requirements
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes procedures sufficient to execute a complex lift; ABR-11-02 owns communication controls and the approved lift plan owns real steps
-- **Final public route:** `/artikel/blind-lift-dan-tandem-lift.html`
-- **Appointed CMS date:** `2025-08-12` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Artikel ini menjelaskan alasan perencanaannya berbeda. Artikel ini tidak memberikan kapasitas, pemilihan rigging, urutan aba-aba, cara berbagi beban, atau langkah eksekusi. Rencana pengangkatan yang disetujui, data peralatan aktual, dan pihak kompeten adalah pemilik keputusan teknis tersebut.
 
-## Opening instructions
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+*Aset lokal proyek; gambar ini bukan dokumentasi proyek tertentu.*
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -81,217 +44,67 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Hasil yang harus dipastikan lebih dahulu
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Hasil yang diinginkan bukan sekadar beban berpindah dari titik A ke titik B. Hasil yang benar ialah pengangkatan hanya dimulai saat identitas beban, konfigurasi alat, kondisi lokasi, ruang gerak, peran, batas cuaca, perlindungan orang/publik, dan rencana perubahan telah ditinjau untuk kasus yang nyata. Bila salah satu dasar belum terbukti, keputusan yang benar dapat berupa menahan pekerjaan.
 
-### KR-01
+Blind lift dan tandem lift memerlukan pemilik keputusan yang jelas. Siapa yang memiliki rencana, siapa yang mengonfirmasi kondisi sebelum mulai, siapa yang menerima perubahan, dan siapa yang berwenang menghentikan pekerjaan? Peran tidak boleh disimpulkan dari siapa yang paling lama bekerja di lokasi. Kawan Berat.id, kompetensi, otorisasi, dan batas peran perlu cocok dengan pekerjaan, bukan hanya dengan jabatan di daftar kru.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+Ketentuan alat angkat, dokumen, peran, dan pemeriksaan harus diperiksa terhadap peraturan serta kondisi yang berlaku. [Permenaker Nomor 8 Tahun 2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020) menjadi salah satu rujukan resmi, tetapi tidak dengan sendirinya membuktikan suatu pengangkatan kompleks telah direncanakan atau aman.
 
-### KR-05
+## Pengangkatan tanpa pandangan langsung
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+Pengangkatan tanpa pandangan langsung terjadi ketika operator tidak memiliki pandangan yang cukup terhadap beban, lintasan, titik awal/akhir, atau bagian penting dari area pengangkatan. Halangan dapat berupa bangunan, struktur, kontur, pekerjaan lain, jarak, pencahayaan, atau kondisi cuaca. Tidak semua halangan sama, sehingga jangan menyebut suatu pekerjaan “blind lift” tanpa menguraikan bagian mana yang tidak terlihat dan apa akibatnya pada keputusan.
 
-### KR-19
+Risiko utamanya bukan hanya salah arah. Ketika pandangan terputus, kesadaran terhadap orang, kendaraan, batas area, perubahan beban, dan konflik pekerjaan serentak dapat ikut berkurang. Komunikasi dalam blind lift harus dirancang serta divalidasi dalam rencana yang disetujui; artikel ini tidak menggantikan metode komunikasi, aba-aba, atau penetapan pemberi isyarat.
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+Sobat Berat.id, periksa apakah kondisi yang menyebabkan pandangan terbatas sudah disebutkan dalam rencana, bukan baru disadari setelah beban bergerak. Jika halangan berubah, pencahayaan turun, hujan mengganggu, atau area di bawah beban tidak lagi terkendali, tahan pekerjaan. Jangan mencoba mengatasi kekurangan pandangan dengan instruksi spontan yang belum masuk dalam metode kerja.
 
-### KR-20
+## Pengangkatan dengan dua crane
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+Pengangkatan dengan dua crane berarti satu beban ditangani oleh dua alat angkat secara bersamaan atau dalam hubungan kerja yang saling memengaruhi. Kesulitannya bukan hanya jumlah crane. Posisi beban, geometri sambungan, arah gerak, respons masing-masing crane, dan kondisi lokasi dapat mengubah pembagian gaya serta perilaku beban selama pekerjaan berlangsung.
 
-### KR-21
+Istilah “pembagian beban” menjelaskan bahwa beban tidak boleh diasumsikan terbagi tetap hanya karena ada dua crane. Perubahan kecil pada posisi, ketinggian, arah, atau gerakan dapat membuat hubungan sistem berbeda dari asumsi awal. Itulah alasan pengangkatan ini memerlukan data rekayasa dan rencana khusus; artikel umum tidak dapat menentukan apakah dua crane cocok, berapa yang ditangani masing-masing, atau bagaimana mengoordinasikannya.
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Jangan menganggap dua crane memberi keselamatan dua kali lipat. Dua alat juga berarti lebih banyak titik kegagalan, lebih banyak area gerak, dan lebih banyak antarmuka manusia/peralatan. Teman Berat.id, bila salah satu data crane, beban, rigging, titik angkat, tanah, atau ruang kerja belum lengkap, keputusan yang bertanggung jawab adalah tidak memulai pengangkatan tandem.
 
-### KR-23
+## Bukti yang harus cocok dengan kasus nyata
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+Rencana yang memadai perlu menghubungkan beban aktual dengan crane dan konfigurasi aktual, bukan dengan kategori umum peralatan. Data penting mencakup identitas serta kondisi beban, pusat berat, titik angkat yang dibuktikan, identitas dan kondisi peralatan, lokasi penyangga, akses, ruang kait, lintasan, kondisi cuaca, dan pekerjaan lain di sekitar. Dokumen harus memiliki versi, tanggal, pemilik, dan persetujuan yang dapat ditelusuri.
 
-### KR-24
+Untuk blind lift, bukti harus menjelaskan area yang tidak terlihat dan bagaimana rencana menjaga orang/publik tetap di luar paparan ketika kondisi berubah. Untuk tandem lift, bukti perlu menunjukkan bahwa hubungan kedua crane dan beban telah dinilai secara rekayasa. Tidak cukup menyatukan dua rencana crane biasa menjadi satu dokumen tanpa memeriksa interaksinya.
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+Catatan, sertifikat, atau stiker inspeksi menjawab pertanyaan yang terbatas. Mereka dapat membantu menunjukkan status tertentu, tetapi tidak otomatis membuktikan beban, titik angkat, rigging, konfigurasi, lokasi, dan metode dalam kasus ini cocok satu sama lain. [Catatan ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf) menekankan bahwa peran, komunikasi, bukti, dan perubahan perlu dikelola sebagai sistem.
 
-### KR-02
+| Yang perlu diverifikasi | Blind lift | Tandem lift |
+| --- | --- | --- |
+| Bahaya utama yang bertambah | Pandangan dan informasi situasi yang tidak lengkap | Hubungan dua crane dan perilaku beban yang berubah |
+| Bukti kunci | Area tidak terlihat, batas paparan, metode yang disetujui | Data rekayasa hubungan alat–beban–lokasi |
+| Perubahan yang perlu ditahan | Pandangan, cuaca, komunikasi, atau area publik berubah | Konfigurasi, posisi, kondisi tanah, beban, atau gerakan berubah |
+| Batas artikel ini | Tidak menetapkan komunikasi maupun eksekusi | Tidak menetapkan pembagian beban atau rigging |
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+## Kondisi berhenti dan eskalasi
 
-### KR-10
+Tahan pekerjaan jika dokumen tidak cocok dengan kondisi nyata, identitas alat/beban tidak jelas, pembatas orang dan publik tidak dapat dipertahankan, atau perubahan kondisi tidak dapat dibandingkan dengan rencana. Jangan menunggu sampai beban sudah terangkat untuk memeriksa apakah semua pihak memahami status pekerjaan.
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+Kondisi cuaca, visibilitas, lalu lintas internal, aktivitas publik, permukaan tanah, dan pekerjaan simultan dapat menjadi pemicu peninjauan ulang. Namun keputusan persis tentang tindakan dan mulai kembali harus dibuat oleh pihak yang berwenang di bawah rencana proyek. Pengendalian risiko yang baik dimulai dengan mengenali bahaya, memilih tindakan yang sesuai, dan meninjaunya setelah perubahan; [panduan ILO tentang penilaian risiko](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting) menjelaskan urutan ini tanpa menggantikan penilaian disiplin khusus.
 
-### KR-14
+[NEEDS RENCANA REKAYASA: blind lift dan tandem lift memerlukan rencana pengangkatan yang disetujui, data crane/beban/rigging/titik angkat/lokasi yang cocok, penilaian pihak kompeten, pengendalian area orang dan publik, serta otorisasi proyek sebelum eksekusi atau mulai kembali.]
 
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
+## Pemeriksaan sebelum serah-terima pekerjaan
 
-### KR-16
+Sebelum pekerjaan diserahkan untuk dieksekusi, periksa apakah versi rencana yang dipegang tim sama dengan versi yang disetujui. Pastikan setiap perubahan setelah perencanaan—misalnya alat pengganti, beban berubah, posisi kerja pindah, cuaca berubah, atau akses terganggu—sudah dicatat dan ditinjau. Serah-terima bukan sekadar membagikan file; serah-terima harus membuat semua peran tahu batas rencana dan siapa pemilik keputusan.
 
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
+Catat pula keputusan menahan atau membatalkan pekerjaan. Rekaman ini membantu mencegah tekanan jadwal mengubah penghentian yang sah menjadi “gangguan kecil” pada giliran berikutnya. [ILO menjelaskan pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks) sebagai proses yang perlu diterapkan dan ditinjau, bukan hanya daftar dokumen sebelum mulai.
 
-### KR-17
+## Jalan pintas yang perlu dihindari
 
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
+Jalan pintas pertama adalah menganggap komunikasi dapat diperbaiki nanti di lapangan. Ini gagal karena blind lift memang memerlukan pengendalian informasi sebelum beban bergerak. Pilihan yang lebih andal ialah menahan pekerjaan sampai metode yang direncanakan, peran, dan kondisi lapangan dapat dipastikan cocok oleh pihak yang kompeten.
 
-### KR-18
+Jalan pintas kedua adalah memakai dua crane agar pekerjaan yang tidak cocok untuk satu crane tetap dapat diteruskan tanpa rencana khusus. Ini gagal karena masalahnya bukan sekadar kapasitas; sistem dua crane membawa hubungan geometri, gerakan, dan kondisi lokasi yang memerlukan penilaian tersendiri.
 
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
+Jalan pintas ketiga adalah fokus pada kru sambil melupakan orang dan publik di luar tim. Pembatasan area serta perlindungan pihak yang dapat terpapar harus menjadi bagian dari rencana, bukan tambahan setelah alat tiba. Kawan Berat.id, jika area paparan tidak dapat dikendalikan, jangan mulai pengangkatan kompleks.
 
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-04-02` → `/artikel/cara-membaca-load-chart-crane.html` — Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas
-- `ABR-04-03` → `/artikel/antarmuka-crane-rigging-titik-angkat.html` — Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat
-- `ABR-04-05` → `/artikel/angin-cuaca-visibilitas-operasi-pengangkatan.html` — Angin, Cuaca, dan Visibilitas pada Operasi Pengangkatan
-- `ABR-04-06` → `/artikel/perakitan-dan-pembongkaran-crane.html` — Perakitan dan Pembongkaran Crane: Ruang, Tahapan, dan Titik Kendali
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Hasil akhir dan prasyarat
-
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 1 — tetapkan scope
-
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 2 — kumpulkan dan cocokkan bukti
-
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 3 — jalankan urutan kerja
-
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Hold point dan kondisi berhenti
-
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Verifikasi hasil dan handover
-
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Pengangkatan tanpa pandangan langsung dan pengangkatan dua crane berbeda karena keduanya menambah ketidakpastian serta antarmuka yang tidak dapat diamankan dengan kebiasaan umum. Langkah berikutnya ialah meminta rencana pengangkatan yang direkayasa untuk kasus aktual, lalu memastikan perubahan, batas berhenti, dan pemilik persetujuan tercatat sebelum pekerjaan dijadwalkan. Aturan kerjanya: **bila rencana khusus dan kendali kompeten belum ada, tahan blind lift maupun tandem lift dan jauhkan orang/publik dari zona paparan.**

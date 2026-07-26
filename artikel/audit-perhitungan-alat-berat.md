@@ -1,9 +1,9 @@
 ---
 article_id: ABR-12-06
-title: "Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag"
+title: "Audit Perhitungan Alat Berat: Satuan, Asumsi, Konfigurasi, dan Tanda Bahaya"
 slug: "audit-perhitungan-alat-berat"
-description: "Check source data, machine identity/configuration, units, load cases, uncertainty, safety factors, rounding, version, independent check, and approval boundary"
-status: outline
+description: "Cara memeriksa sumber data, satuan, asumsi, konfigurasi, versi, dan batas persetujuan pada paket perhitungan alat berat."
+status: draft
 publication_date: "2026-02-27"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -11,68 +11,29 @@ parent_topic: ABR-12
 primary_intent: "Review a calculation package for completeness"
 reader_community: "Berat.id"
 reader_address: "Kawan Berat.id"
+writing_contract_version: "native-id-v2"
 final_route: "/artikel/audit-perhitungan-alat-berat.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
   - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
   - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
-  - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+# Audit Perhitungan Alat Berat: Satuan, Asumsi, Konfigurasi, dan Tanda Bahaya
 
-# Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag
+Halo, Kawan Berat.id! Spreadsheet yang menghasilkan angka rapi belum tentu layak dipakai untuk memutuskan alat boleh bekerja. Sebelum membahas hasil, periksa dulu dari mana data datang, satuan apa yang dipakai, asumsi apa yang tersembunyi, dan apakah konfigurasi alat pada file sama dengan alat serta kondisi di lapangan. Audit perhitungan adalah pemeriksaan jejak keputusan, bukan upaya mencari angka yang paling meyakinkan.
 
-## Assignment lock
+Untuk paket kapasitas, stabilitas, tanah, atau pengangkutan, satu angka yang salah dapat membuat seluruh kesimpulan tampak benar padahal objek yang dihitung berbeda. Nilai dari model lain, berat yang belum diperbarui, satuan yang tertukar, atau revisi dokumen yang keliru tidak dapat diperbaiki dengan membulatkan hasil lebih banyak.
 
-- **Writer task:** Expand this file into one complete article answering: “Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag”
-- **Reader and situation:** Reviewer receiving a capacity, stability, ground, or transport spreadsheet
-- **Reader outcome:** Check source data, machine identity/configuration, units, load cases, uncertainty, safety factors, rounding, version, independent check, and approval boundary
-- **Primary intent:** Review a calculation package for completeness
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes validating a real design through this article; ABR-07-03 owns cargo data and competent discipline engineers own sign-off
-- **Final public route:** `/artikel/audit-perhitungan-alat-berat.html`
-- **Appointed CMS date:** `2026-02-27` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Artikel ini tidak menghitung kapasitas atau stabilitas, tidak menyetujui penggunaan alat, dan tidak menggantikan penandatanganan insinyur/pihak kompeten. Tujuannya lebih sederhana: membantu pembaca mengetahui data mana yang harus ditelusuri sebelum sebuah paket perhitungan diteruskan sebagai dasar keputusan.
 
-## Opening instructions
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+*Aset lokal proyek; gambar ini bukan dokumentasi proyek tertentu.*
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,227 +44,78 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-12-04` → `/artikel/stabilitas-alat-berat-di-lereng.html` — Operasi Alat Berat di Lereng: Traksi Bukan Jaminan Stabilitas
-- `ABR-12-05` → `/artikel/beban-dinamis-angin-gerakan-alat-berat.html` — Beban Dinamis, Angin, dan Gerakan: Mengapa Beban Statis Tidak Cukup
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+END MANAGED IMAGE PLAN -->
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Audit yang baik dimulai dari pertanyaan “apa yang sebenarnya dihitung?” bukan “hasilnya cukup besar atau tidak?”. Pastikan paket menyebut tujuan keputusan, kasus kerja yang dinilai, identitas alat, konfigurasi, lokasi, sumber data, asumsi, pembatasan, dan pemilik persetujuan. Jika salah satu tidak ditemukan, hasil angka tidak memiliki konteks yang cukup untuk digunakan secara aman.
 
-## Definisi dan batas objek
+Salah paham paling umum adalah menganggap file dari orang berpengalaman pasti menggunakan data yang tepat. Pengalaman pembuat tidak mengubah data lama menjadi data baru, tidak menjadikan model serupa sebagai model yang sama, dan tidak membuktikan kondisi tanah atau muatan di lokasi saat ini. Sobat Berat.id, audit bukan sikap tidak percaya pada pembuat; audit adalah cara melindungi pembuat, operator, pekerja, dan publik dari keputusan yang tidak dapat ditelusuri.
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Tanda tangan atau stempel juga tidak berdiri sendiri. Tanyakan apa yang ditinjau, untuk konfigurasi apa, revisi ke berapa, pada tanggal kapan, serta siapa yang berwenang menerima hasilnya. [ISO 19011](https://www.iso.org/standard/70017.html) menekankan pentingnya ruang lingkup, bukti, kompetensi, temuan, dan tindak lanjut dalam audit; pemeriksaan dokumen bukan sekadar mencari nama di halaman terakhir.
 
-## Cara kerjanya
+## Istilah yang perlu dipisahkan
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**Sumber data** adalah asal angka atau informasi: manual pabrikan, gambar rekayasa, hasil survei, sertifikat, catatan pengukuran, atau asumsi yang ditetapkan. Setiap sumber perlu memiliki identitas, tanggal, versi, pemilik, dan batas penggunaan. Kalimat “dari file lama” bukan sumber yang cukup.
 
-## Faktor yang mengubah hasil
+**Satuan** adalah cara menyatakan besaran, misalnya satuan massa, panjang, sudut, gaya, atau tekanan. Audit tidak perlu menghitung ulang semua angka untuk menemukan risiko: cukup periksa apakah tiap angka diberi satuan, apakah satuannya konsisten dari masukan sampai keluaran, dan apakah perubahan satuan tercatat. Angka tanpa satuan adalah informasi yang belum selesai.
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+**Asumsi** adalah kondisi yang diterima sementara agar suatu perhitungan dapat berjalan. Contohnya dapat berupa kondisi permukaan, posisi alat, isi muatan, atau keadaan lingkungan. Asumsi tidak salah bila disebutkan dan disetujui; yang berbahaya ialah asumsi yang disembunyikan lalu diperlakukan sebagai data lapangan.
+
+**Konfigurasi** berarti susunan nyata alat dan perlengkapannya untuk kasus yang dinilai. Nama keluarga alat saja tidak cukup. Lampiran, mode, posisi, kondisi aksesori, dan kondisi lokasi dapat membuat konfigurasi aktual berbeda dari yang ditulis dalam tabel. Teman Berat.id, jangan menerima “excavator sama” atau “crane sejenis” sebagai bukti kecocokan data.
+
+## Urutan audit yang mudah ditelusuri
+
+Mulai dari halaman ringkas atau lembar pengantar. Cari tujuan keputusan, nama pekerjaan, tanggal, revisi, pembuat, pemeriksa, dan batas penggunaan. Lalu ikuti setiap masukan penting kembali ke sumbernya. Untuk tiap data, tulis: apa datanya, dari mana datang, versi/tanggalnya, satuannya, dan siapa yang memastikan relevansinya.
+
+Berikut urutan pemeriksaan yang membantu tanpa melakukan perhitungan teknis.
+
+1. Cocokkan identitas objek: model, nomor identifikasi bila tersedia, konfigurasi, perlengkapan, dan lokasi yang dinilai.
+2. Periksa daftar masukan: semua angka penting harus memiliki satuan, sumber, tanggal, dan status apakah terukur atau asumsi.
+3. Baca kasus kerja: kondisi normal saja tidak cukup bila proyek juga memiliki kondisi perubahan, perpindahan, atau batas lokasi yang relevan.
+4. Telusuri konversi, pembulatan, dan salinan nilai. Bila asal perubahan angka tidak terlihat, minta klarifikasi sebelum menyimpulkan.
+5. Periksa keluaran: apakah kesimpulan hanya berlaku pada kasus dan asumsi yang disebutkan, atau telah diperluas tanpa bukti?
+6. Pastikan ada pemeriksaan independen sesuai tingkat risiko dan prosedur proyek, lalu pastikan pemilik persetujuan tercatat.
+
+Catatan audit yang baik membedakan “tidak ada bukti”, “bukti ada tetapi tidak cocok”, dan “bukti belum ditinjau”. Tiga kondisi ini membutuhkan tindakan berbeda. Pengelolaan risiko yang baik juga meminta kontrol ditinjau ketika informasi atau kondisi berubah, sebagaimana dibahas dalam [panduan ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks).
+
+## Tanda bahaya pada data dan dokumen
+
+Tanda bahaya pertama ialah identitas yang tidak dapat dicocokkan. Model tertulis tanpa konfigurasi, gambar tidak punya revisi, atau data berat tidak menyebut objek yang ditimbang adalah alasan untuk menahan paket. Ini bukan detail administrasi; data untuk objek yang salah dapat menghasilkan kesimpulan yang salah dengan sangat rapi.
+
+Tanda bahaya kedua ialah satuan hilang atau bercampur. Periksa judul kolom, legenda gambar, catatan kaki, dan rumus yang merujuk ke data lain. Jangan memperbaiki sendiri berdasarkan dugaan satuan yang “biasanya dipakai”. Minta pembuat atau pihak yang menguasai sumber mengonfirmasi secara tertulis.
+
+Tanda bahaya ketiga ialah asumsi yang tidak punya pemilik. Jika paket memakai kondisi tanah, cuaca, posisi, rute, atau beban tertentu, harus jelas siapa yang menyediakan dan kapan kondisi itu diverifikasi. Kondisi lapangan dapat berubah lebih cepat daripada revisi spreadsheet.
+
+Tanda bahaya keempat ialah hasil dibulatkan atau disalin tanpa jejak. Pembulatan dapat sah dalam metode tertentu, tetapi perlu ada penjelasan; penyalinan nilai dari kasus lain perlu bukti bahwa kasusnya setara. Kawan Berat.id, hasil yang tampak “aman” setelah pembulatan bukan alasan untuk berhenti bertanya apa yang telah berubah dari angka asal.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Misalkan Anda menerima lembar kapasitas alat untuk suatu pekerjaan. Lembar itu memiliki hasil akhir, tetapi model yang dicantumkan berbeda satu huruf dari pelat identitas alat di lapangan dan lampiran konfigurasi tidak ada. Jangan mencoba menebak apakah perbedaannya kecil. Catat ketidaksesuaian, tahan penggunaan lembar sebagai dasar keputusan, lalu minta pembuat atau pihak kompeten menerbitkan revisi yang cocok dengan alat aktual.
 
-## Kesalahan umum dan cara memeriksanya
+Contoh lain: paket stabilitas menyebut kondisi tanah “baik” tanpa survei, tanggal pemeriksaan, atau definisi. Jangan mengubah kata itu menjadi angka atau menganggapnya sudah mewakili daya dukung. Masukkan sebagai asumsi yang belum terbukti, lalu minta data dan penilaian yang diperlukan untuk kasus tersebut.
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Audit Perhitungan Alat Berat: Unit, Asumsi, Konfigurasi, dan Red Flag”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Tabel berikut dapat dipakai sebagai lembar pertanyaan audit.
 
-## Objection or shortcut to address
+| Yang diperiksa | Pertanyaan inti | Tindakan bila tidak jelas |
+| --- | --- | --- |
+| Tujuan dan kasus | Keputusan apa yang boleh didukung paket ini? | Tahan keputusan dan minta ruang lingkup |
+| Identitas alat | Apakah model serta konfigurasi cocok dengan unit aktual? | Minta konfirmasi/revisi dari pihak berwenang |
+| Masukan | Apakah sumber, tanggal, dan satuan setiap masukan tersedia? | Tandai sebagai data belum terbukti |
+| Asumsi | Siapa pemiliknya dan apakah kondisi masih berlaku? | Minta verifikasi lapangan/teknis |
+| Keluaran | Apakah batas penggunaan dan revisi tercantum? | Jangan perluas kesimpulan |
+| Persetujuan | Siapa memeriksa secara independen dan siapa menyetujui? | Eskalasi sesuai prosedur proyek |
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+[NEEDS REVIEW TEKNIS: paket perhitungan kapasitas, stabilitas, tanah, atau transportasi harus diperiksa oleh disiplin yang kompeten dengan data alat, konfigurasi, muatan, kondisi lokasi, metode, standar, dan persetujuan yang berlaku sebelum dipakai untuk operasi.]
 
-## Required conclusion
+## Batas persetujuan dan perlindungan orang
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Audit kelengkapan tidak sama dengan persetujuan rekayasa. Seorang reviewer dapat menemukan kolom kosong atau versi yang salah tanpa memiliki kewenangan menetapkan alat aman. Sebaliknya, seorang insinyur yang memberi persetujuan perlu menerima paket lengkap dan kondisi yang benar. Pisahkan peran ini agar tidak ada orang yang tanpa sengaja dianggap telah menyetujui risiko di luar kompetensinya.
 
-## Draft completion checklist
+Jika paket belum lengkap tetapi pekerjaan mendesak, lindungi orang lebih dulu: jangan tempatkan alat, beban, atau pekerja dalam kondisi yang bergantung pada perhitungan yang belum diverifikasi. Komunikasikan statusnya sebagai “belum dapat digunakan untuk keputusan”, bukan “hampir aman”. [Catatan ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf) menempatkan peran, komunikasi, dan perubahan sebagai bagian dari sistem pengelolaan risiko; keputusan harus dapat ditelusuri kepada pihak yang tepat.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Ketentuan peralatan dan peran di Indonesia juga perlu dilihat dari teks yang berlaku serta penerapannya pada lokasi dan jenis alat yang tepat. [Permenaker Nomor 8 Tahun 2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020) tidak dapat dipakai sebagai persetujuan otomatis untuk kasus perhitungan tertentu tanpa kecocokan kegiatan, peralatan, dan dokumennya.
+
+Kesalahan umum adalah mencari “faktor aman” sebagai jalan pintas tanpa mengetahui metode yang digunakan. Faktor, batas, dan pembulatan harus mengikuti dasar teknis yang ditetapkan oleh perancang atau standar yang berlaku; artikel ini tidak menyediakan angka pengganti. Kesalahan lain adalah menganggap pemeriksaan independen hanya tanda tangan kedua. Pemeriksa independen perlu ruang lingkup dan bukti yang cukup untuk benar-benar menguji masukan serta kesimpulan.
+
+Audit perhitungan alat berat yang berguna memeriksa sumber, satuan, asumsi, konfigurasi, versi, dan batas persetujuan sebelum melihat hasil akhir. Langkah berikutnya ialah buat daftar data yang dapat ditelusuri dan tandai setiap celah kepada pemiliknya. Aturan kerjanya: **bila masukan atau konfigurasi belum terbukti cocok, jangan gunakan keluaran perhitungan untuk menyetujui alat atau operasi.**
