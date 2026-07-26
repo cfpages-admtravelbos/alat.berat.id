@@ -1,9 +1,10 @@
 ---
 article_id: ABR-12-03
-title: "Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah"
+title: "Outrigger, Mat, dan Penyangga Sementara: Aliran Beban ke Tanah"
 slug: "outrigger-mat-dan-temporary-support"
-description: "Explain reaction inputs, pad/mat geometry, load spread assumptions, local crushing, bending, settlement, level, inspection, and changing ground"
-status: outline
+description: "Memahami aliran beban dari outrigger ke tanah, fungsi mat dan penyangga sementara, serta alasan data tanah dan pemeriksaan tidak boleh digantikan tebakan."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-02-18"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,64 +16,25 @@ final_route: "/artikel/outrigger-mat-dan-temporary-support.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
   - "https://www.iso.org/standard/60734.html"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
   - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+# Outrigger, Mat, dan Penyangga Sementara: Aliran Beban ke Tanah
 
-# Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah
+Halo, Teman Berat.id!
 
-## Assignment lock
+Ketika alat angkat akan bekerja, pertanyaan “alasnya sudah ada?” terdengar sederhana. Namun alas di bawah outrigger bukan hiasan dan bukan jawaban otomatis untuk semua kondisi tanah. Beban dari alat dan pekerjaan harus mengalir dari kaki penopang ke alas, lalu ke tanah atau struktur di bawahnya. Bila salah satu bagian tidak cocok dengan kondisi nyata, alat dapat berubah posisi walaupun tampak rata pada awal pekerjaan.
 
-- **Writer task:** Expand this file into one complete article answering: “Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah”
-- **Reader and situation:** Lift planner preparing outriggers or temporary support
-- **Reader outcome:** Explain reaction inputs, pad/mat geometry, load spread assumptions, local crushing, bending, settlement, level, inspection, and changing ground
-- **Primary intent:** Understand crane/support load paths
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Teman Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Kawan Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes mat sizing from nominal crane tonnage; ABR-12-01 owns soil inputs and competent temporary-works engineering owns design
-- **Final public route:** `/artikel/outrigger-mat-dan-temporary-support.html`
-- **Appointed CMS date:** `2026-02-18` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: outrigger adalah kaki penopang yang memperlebar dan menstabilkan tumpuan alat; mat adalah alas penyebar beban di bawah titik tumpu; sedangkan *temporary support* atau penyangga sementara adalah susunan pendukung yang dipakai selama keadaan kerja tertentu. Ketiganya perlu dipandang sebagai satu jalur beban sampai ke tanah. Bentuk alas saja tidak cukup membuktikan jalur itu memadai; reaksi tumpuan, konfigurasi alat, kondisi bawah permukaan, dan metode kerja dapat mengubah jawabannya.
 
-## Opening instructions
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
-- Open with the exact short salutation: **“Halo, Teman Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Berat.id`, `Sobat Berat.id`, or `Kawan Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+Ilustrasi umum dari aset lokal alat.berat.id; bukan dokumentasi proyek tertentu.
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,229 +45,60 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Kenali bagian-bagian jalur beban
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Outrigger adalah penopang yang keluar dari alat untuk membentuk tumpuan. Ia meneruskan gaya ke titik pijak. Pada titik itu dapat dipasang *mat*, yaitu alas yang dirancang untuk membantu menyebarkan beban ke area di bawahnya. Istilah *cribbing* lazim dipakai untuk susunan balok atau blok penyangga; susunan ini bukan sekadar tumpukan bahan, melainkan bagian dari jalur beban yang perlu sesuai rancangan dan kondisi kerja.
 
-### KR-01
+Penyangga sementara mencakup dukungan yang dipakai selama tahap tertentu, bukan menjadi bagian permanen dari pekerjaan. Karena bersifat sementara, bukan berarti kebutuhannya boleh diperlakukan longgar. Siapa yang merancang, memasang, memeriksa, dan memberi izin penggunaan perlu jelas. Standar dan panduan umum tidak dapat menggantikan pemeriksaan konfigurasi, kondisi, dan petunjuk pabrikan untuk alat yang benar-benar dipakai ([ISO 20474-1](https://www.iso.org/standard/60734.html)).
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+Istilah *ground bearing pressure* berarti tekanan yang diterima tanah di bawah tumpuan. Angka atau batasnya tidak dapat dipinjam dari proyek lain. Yang diperiksa bukan hanya tanah yang terlihat di permukaan, tetapi juga kondisi di bawahnya, kemungkinan perubahan akibat air, penggalian, urugan, utilitas, tepi, atau struktur tersembunyi. Jadi, Kawan Berat.id, mat yang tampak lebar belum otomatis cocok tanpa data reaksi dan penilaian kondisi tumpuannya.
 
-### KR-05
+## Beban tidak berhenti di permukaan mat
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+Bayangkan alirannya dari atas ke bawah: alat dan beban kerja menghasilkan reaksi pada outrigger, reaksi itu diteruskan ke kaki tumpu, masuk ke mat atau susunan cribbing, lalu diterima tanah atau struktur pendukung. Setiap sambungan dalam alur itu perlu utuh, rata sesuai rancangan, dan berada di tempat yang benar. Bila satu lapisan bergerak, retak, menekan bagian bawah, atau kehilangan kontak, aliran bebannya ikut berubah.
 
-### KR-19
+Di sinilah dua salah paham sering muncul. Pertama, orang hanya melihat kekuatan mat, padahal tanah di bawahnya juga harus menerima beban. Kedua, orang hanya melihat tanah, padahal mat atau cribbing sendiri juga perlu diperiksa terhadap cara ia dipakai. Rancangan pengurangan risiko mesin perlu mempertimbangkan bahaya, kondisi penggunaan, perlindungan, dan verifikasi; label atau daftar periksa umum saja tidak membuktikan keadaan aktual aman ([ISO 12100](https://www.iso.org/standard/51528.html)).
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+Alat, beban, radius kerja, konfigurasi, dan posisi dapat membuat reaksi di setiap titik tumpu tidak sama. Karena itu artikel ini tidak memberi ukuran mat, jumlah lapisan cribbing, atau angka tekanan tanah. Data tersebut harus berasal dari perencanaan kerja, data pabrikan, kondisi lokasi, dan penilaian oleh pihak yang kompeten.
 
-### KR-20
+## Kondisi tanah dapat berubah saat pekerjaan berjalan
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+Tanah yang terlihat keras pada pagi hari belum tentu memberi respons yang sama setelah hujan, lalu lintas alat, kebocoran air, pekerjaan galian di sekitar lokasi, atau perubahan penempatan material. Begitu pula permukaan beton atau struktur: ada pertanyaan tentang kondisi, ketebalan, dukungan di bawahnya, dan batas penggunaan yang tidak bisa dijawab hanya dari tampilan atas.
 
-### KR-21
+Sobat Berat.id, periksa pula lokasi terhadap tepi, lubang, saluran, sambungan, area urugan, dan jalur bawah tanah yang relevan. Ini bukan daftar lengkap desain lapangan; tujuannya agar tim tidak memperlakukan setiap permukaan datar sebagai tumpuan yang setara. Prinsip keselamatan konstruksi menuntut pengendalian yang disesuaikan dengan kondisi pekerjaan, bukan pengandaian bahwa satu fitur alat dapat menutup risiko akses, kondisi tanah, atau antarmuka di lokasi ([Konvensi ILO C167](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988)).
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Perubahan kondisi merupakan pemicu untuk meninjau kembali, bukan sekadar catatan harian. Bila ada pergeseran, penurunan, retak, keluarnya material, genangan, atau perubahan posisi yang tidak dipahami, tahan pekerjaan sesuai pengaturan lokasi dan minta penilaian yang tepat. Jangan melanjutkan hanya karena pekerjaan sebelumnya berlangsung tanpa masalah.
 
-### KR-23
+## Sebelum alat ditempatkan, cocokkan bukti ini
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+Perencanaan tumpuan yang tertib dimulai dengan mencocokkan dokumen dan keadaan lapangan. Beberapa pertanyaan berikut membantu membedakan data yang ada dari asumsi:
 
-### KR-24
+- Apa identitas alat, konfigurasi, dan data reaksi tumpuan dari pabrikan atau rencana kerja yang disetujui?
+- Apa yang diketahui tentang tanah atau struktur di bawah titik tumpu, termasuk perubahan terbaru di lokasi?
+- Apa jenis mat, cribbing, atau penyangga sementara yang direncanakan, serta bukti kesesuaiannya untuk susunan tersebut?
+- Di mana titik tumpu akan berada terhadap tepi, galian, utilitas, air, akses, dan pekerjaan lain?
+- Siapa yang memeriksa pemasangan dan siapa yang berwenang menghentikan atau mengubah rencana bila kondisi berubah?
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+Pertanyaan itu bukan resep ukuran atau desain. Ia membantu memastikan data reaksi, alat, tanah, dan pengaturan kerja tidak berdiri sendiri-sendiri. Persyaratan tentang alat angkat, peran, dokumen, kondisi lokasi, dan pemeriksaan perlu dicocokkan dengan aturan yang berlaku serta keadaan spesifik kegiatan; kartu operator atau label kapasitas saja tidak membuktikan rencana angkat atau tumpuan saat ini sudah aman ([Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020)).
 
-### KR-02
+## Contoh pembacaan keputusan tanpa menghitung desain
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+Misalnya, sebuah alat akan ditempatkan di area yang permukaannya tampak rata. Keputusan yang benar bukan langsung memilih mat berdasarkan ukuran alat atau menyamakan dengan pekerjaan sebelumnya. Tim perlu terlebih dahulu memeriksa data konfigurasi dan reaksi, kondisi bawah permukaan, kemungkinan perubahan lokasi, serta susunan tumpuan yang akan benar-benar dipakai.
 
-### KR-10
+Jika data tanah belum tersedia atau titik tumpu berada dekat kondisi yang belum dipahami, pertanyaannya bukan “mat apa yang paling murah?”, melainkan “siapa yang dapat memastikan dasar keputusan ini?” Keputusan kemudian dapat ditahan sampai data dan peninjauan yang diperlukan tersedia. Inilah batas aman artikel ini: kebutuhan alas dan penyangga sementara harus ditentukan oleh pihak yang berwenang dengan bukti proyek, bukan oleh ukuran nominal crane.
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+Untuk mengenali jenis kebutuhan alat angkat, pembaca dapat melihat informasi [tower crane](/tower-crane) atau [crane pada truk](/truk/crane). Tautan itu tidak menggantikan data tumpuan, pemeriksaan lokasi, maupun persetujuan metode kerja untuk pekerjaan tertentu.
 
-### KR-14
+## Kesalahan umum: mengganjal agar terlihat rata
 
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
+Jalan pintas yang berbahaya adalah menambah ganjalan seadanya sampai kaki outrigger tampak rata. Tampak rata bukan bukti bahwa beban tersebar, cribbing tersusun sesuai rancangan, atau tanah di bawahnya sanggup menerima perubahan reaksi saat kerja. Ganjalan yang tidak dirancang untuk perannya dapat bergerak, tertekan, pecah, atau mengubah kontak antarbagian.
 
-### KR-16
+Biar tidak salah langkah, ubah kebiasaan itu menjadi pemeriksaan. Tanyakan apakah susunan penyangga memiliki dasar rancangan, material dan kondisinya diketahui, titik kontaknya benar, dan apakah lokasi telah diperiksa ulang sebelum kerja. Bila jawabannya belum jelas, jangan mengisi kekosongan dengan tebakan atau arahan dari artikel ini.
 
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
+Pengendalian risiko yang baik mencari dan menangani sumber bahaya sesuai keadaan kerja, bukan mengandalkan solusi cepat setelah kondisi meragukan terlihat ([panduan ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks)).
 
-### KR-17
+## Ikuti aliran beban sampai bukti di bawahnya jelas
 
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/tower-crane` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/truk/crane` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/tower-crane/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/tower-crane-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/tower-crane-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/tower-crane-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-12-01` → `/artikel/ground-bearing-pressure-alat-berat.html` — Ground Bearing Pressure Alat Berat: Data, Alas, dan Batas Perhitungan
-- `ABR-12-02` → `/artikel/variabel-stabilitas-alat-berat.html` — Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity
-- `ABR-12-04` → `/artikel/stabilitas-alat-berat-di-lereng.html` — Operasi Alat Berat di Lereng: Traksi Bukan Jaminan Stabilitas
-- `ABR-12-05` → `/artikel/beban-dinamis-angin-gerakan-alat-berat.html` — Beban Dinamis, Angin, dan Gerakan: Mengapa Beban Statis Tidak Cukup
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Outrigger, mat, cribbing, dan penyangga sementara perlu dibaca sebagai jalur beban yang utuh sampai ke tanah atau struktur pendukung. Teman Berat.id, langkah berikutnya adalah kumpulkan data reaksi alat, kondisi titik tumpu, rencana susunan, dan orang yang berwenang memeriksanya sebelum alat bekerja. Jangan memakai ukuran crane, permukaan yang tampak rata, atau pengalaman proyek lain sebagai pengganti desain dan bukti kondisi nyata.
