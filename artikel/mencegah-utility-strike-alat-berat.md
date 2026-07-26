@@ -1,9 +1,10 @@
 ---
 article_id: ABR-11-04
-title: "Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali"
+title: "Mencegah Kerusakan Layanan Bawah Tanah dan Udara oleh Alat Gali"
 slug: "mencegah-utility-strike-alat-berat"
-description: "Cover records, owner coordination, detection limits, marking, trial exposure, clearance, spotter, overhead approach, emergency isolation, and evidence"
-status: outline
+description: "Langkah perencanaan untuk mencegah alat gali merusak layanan bawah tanah atau udara melalui data pemilik, izin kerja, penandaan, pengawasan, dan penghentian kerja."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-01-29"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -16,63 +17,21 @@ technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
   - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
   - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
   - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
   - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
   - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
   - "https://www.iso.org/standard/60734.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
-  - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+# Mencegah Kerusakan Layanan Bawah Tanah dan Udara oleh Alat Gali
 
-# Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali
+Halo, Kawan Berat.id! Menggerakkan excavator, bor, atau alat gali pada tanah yang tampak kosong bukan berarti area itu bebas layanan. Di bawah tanah mungkin ada pipa atau kabel; di atasnya mungkin ada jaringan yang dapat tersentuh boom, tiang bor, atau muatan. Kerusakan layanan—sering disebut *utility strike*—dapat mengubah pekerjaan biasa menjadi keadaan darurat. Karena itu, keputusan pertama bukan memilih alat gali, melainkan memastikan siapa pemilik layanan, data apa yang tersedia, dan apakah izin kerja yang disetujui memang mengizinkan pekerjaan dimulai.
 
-## Assignment lock
+Jawaban singkatnya: telusuri catatan dan pemilik layanan, lakukan proses pencarian serta penandaan sesuai persetujuan mereka, tetapkan cara mengungkap lokasi secara terkendali, dan berhenti setiap kali bukti lapangan tidak sejalan dengan rencana. Tidak ada jarak aman seragam, ketelitian pencarian seragam, atau izin menggali yang dapat ditetapkan dari artikel ini. Batasnya harus datang dari pemilik layanan, peraturan terkini, kondisi lokasi, dan izin kerja yang berlaku.
 
-- **Writer task:** Expand this file into one complete article answering: “Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali”
-- **Reader and situation:** Civil team excavating or lifting where services may exist
-- **Reader outcome:** Cover records, owner coordination, detection limits, marking, trial exposure, clearance, spotter, overhead approach, emergency isolation, and evidence
-- **Primary intent:** Plan controls around underground and overhead services
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes universal clearance numbers or permission to dig; utility owner, current regulation, and approved permit-to-work own limits
-- **Final public route:** `/artikel/mencegah-utility-strike-alat-berat.html`
-- **Appointed CMS date:** `2026-01-29` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,229 +42,77 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-11-02` → `/artikel/blind-spot-spotter-traffic-management.html` — Blind Spot, Spotter, dan Traffic Management Alat Berat
-- `ABR-11-03` → `/artikel/alat-berat-dekat-lereng-dan-tepi-galian.html` — Alat Berat di Dekat Lereng, Tepi Galian, dan Area Tidak Stabil
-- `ABR-11-05` → `/artikel/lockout-stored-energy-servis-alat-berat.html` — Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat
-- `ABR-11-06` → `/artikel/cuaca-fatigue-dan-darurat-alat-berat.html` — Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Ilustrasi umum dari aset lokal alat.berat.id; bukan dokumentasi proyek tertentu.
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan paling berbahaya adalah membaca gambar lama atau melihat tidak ada tanda di permukaan, lalu menyimpulkan “aman digali”. Catatan layanan dapat tidak lengkap, kondisi lapangan dapat berubah, dan penandaan hanya bermakna dalam konteks metode serta batas yang disetujui pemilik layanan. Pencarian lokasi adalah bukti yang perlu dipahami batasnya, bukan sertifikat bahwa tanah aman untuk semua metode.
+
+Pengendalian risiko harus berangkat dari bahaya yang nyata, paparan, dan keadaan lokasi. Panduan ILO menjelaskan bahwa matriks umum tidak dapat sendiri menentukan kemungkinan, akibat, atau risiko sisa tanpa data pekerjaan yang aktual [panduan pengendalian risiko ILO](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks). Sobat Berat.id, jika pemilik layanan belum teridentifikasi, data tidak cocok, atau izin belum diterbitkan, itu bukan kekurangan kecil yang boleh dikejar sambil alat bekerja.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Layanan di sini mencakup jaringan bawah tanah dan layanan udara yang dapat terpengaruh pekerjaan. Pemilik layanan adalah organisasi atau pihak yang berwenang atas jaringan tersebut. *Permit-to-dig* berarti izin kerja untuk menggali yang menetapkan batas, syarat, dan pihak yang bertanggung jawab; istilahnya dapat berbeda di setiap organisasi. *Spotter* adalah pengawas/ pemberi aba-aba yang membantu menjaga operator dari bahaya yang tidak dapat ia nilai sendiri, tetapi bukan pengganti izin atau penilaian teknis.
+
+Artikel ini tidak memberi putusan “aman menggali”, angka jarak bebas, ketelitian alat pencari, metode penggalian manual maupun mekanis, atau langkah tanggap darurat rinci. Hal itu harus ditetapkan dalam izin kerja, metode yang disetujui, instruksi pemilik layanan, dan rencana darurat lokasi. Kewajiban keselamatan kerja bergantung pada tempat kerja, kegiatan, orang, peralatan, serta aturan pelaksana yang berlaku; artikel umum tidak dapat menentukan kepatuhan satu lokasi [UU Nomor 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
+
+Bila ada layanan yang tidak terduga, penandaan hilang, informasi saling bertentangan, atau kondisi tidak sesuai izin, hentikan pekerjaan. Jauhkan orang dari area yang dapat terdampak, amankan sesuai rencana lokasi tanpa mencoba memperbaiki atau menyentuh layanan, lalu hubungi pemilik layanan serta penanggung jawab darurat dan pekerjaan. Tindakan berikutnya hanya boleh mengikuti instruksi pihak yang berwenang.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Prosesnya dimulai jauh sebelum bucket atau bor menyentuh tanah. Pertama, pemilik pekerjaan mengumpulkan catatan layanan yang relevan dan menghubungi pemilik jaringan yang mungkin terdampak. Catat versi gambar, tanggal, batas area, pihak kontak, dan keterbatasan informasi yang diberikan. Sebuah gambar atau jawaban lisan tanpa pemilik, tanggal, dan batas penggunaan tidak cukup menjadi dasar operasi.
+
+Kedua, pemilik layanan dan tim proyek menjalankan pencarian, penandaan, serta izin kerja sesuai prosedur yang berlaku. Penandaan perlu dibaca bersama dokumen sumbernya: layanan apa yang dimaksud, untuk area mana, kapan dibuat, bagaimana batasnya, dan apa syarat sebelum alat mendekat. Pencarian tidak menghapus perlunya mengungkap posisi layanan secara terkendali bila izin atau pemilik layanan mensyaratkannya. Cara pengungkapan itu bukan resep universal; ikuti metode yang sudah disetujui.
+
+Ketiga, sebelum pekerjaan dimulai, orang kompeten meninjau rencana kerja bersama operator, pengawas, dan pekerja sekitar. Bahas area larangan masuk, pergerakan alat, titik buta, penandaan, komunikasi, perubahan kondisi, dan kewenangan menghentikan kerja. Sistem manajemen keselamatan konstruksi menuntut antarmuka para pihak serta kondisi sementara dikelola dalam pekerjaan, bukan diserahkan kepada operator tunggal [Permen PUPR Nomor 10 Tahun 2021](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi).
+
+Keempat, layanan udara perlu dimasukkan ke dalam rencana gerak alat. Bukan hanya bucket; boom, bak, bor, muatan, dan kendaraan lain dapat mengubah ruang yang ditempati. Periksa pemilik jaringan, batas yang ditetapkan, jalur alat, titik putar, dan siapa yang mengawasi pergerakan. Jangan memakai angka jarak dari pekerjaan lain sebagai patokan. Bila operator tidak dapat memastikan kondisi atau penanda, pekerjaan berhenti sampai rencana disesuaikan.
+
+Selama pekerjaan, spotter membantu bila rencana menugaskannya, dengan posisi, sarana komunikasi, dan wewenang yang telah disepakati. Ia tidak boleh ditempatkan sebagai tameng bagi metode yang belum disetujui. Catat perubahan, temuan, serta penghentian kerja sehingga tim berikutnya tidak bekerja dari ingatan. ISO 45001 menempatkan peran, komunikasi, keterlibatan pekerja, dan perbaikan berkelanjutan sebagai bagian dari sistem pengelolaan keselamatan [catatan pengantar ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Lima kelompok bukti ini dapat mengubah apakah pekerjaan boleh lanjut atau harus ditahan.
+
+- **Catatan dan pemilik:** layanan yang mungkin ada, pemiliknya, versi data, batas area, dan kontak yang dapat mengonfirmasi perubahan.
+- **Pencarian dan penandaan:** metode yang dipakai, batas ketelitiannya, tanggal, area, serta kaitannya dengan izin kerja.
+- **Rencana pekerjaan:** jenis alat, gerakan yang direncanakan, area kerja, pekerjaan bersamaan, pengaturan orang dan kendaraan, serta pengawasan.
+- **Pengungkapan layanan:** apakah ada syarat untuk memastikan posisi fisik layanan dan siapa yang berwenang menentukan caranya.
+- **Respons terhadap perubahan:** siapa yang menghentikan kerja, siapa yang menghubungi pemilik layanan, dan bagaimana keadaan darurat ditangani sesuai rencana proyek.
+
+Kawan Berat.id, layanan yang baru ditemukan atau gambar yang tidak sesuai lapangan bukan hal untuk diperdebatkan sambil excavator tetap bekerja. Itu pemicu penilaian ulang. Penggunaan mesin perlu mempertimbangkan dokumentasi pabrikan, konfigurasi nyata, kondisi, operator kompeten, inspeksi, dan pengawasan; daftar umum tidak dapat membuktikan metode pada lokasi tertentu aman [ISO 20474-1](https://www.iso.org/standard/60734.html).
+
+Pekerjaan dekat kabel udara juga tidak cukup dikendalikan dengan “hati-hati”. Akses, lalu lintas, pandangan, kondisi tepi, dan interaksi orang dengan mesin harus ditata untuk kondisi aktual. Prinsip keselamatan konstruksi ILO menegaskan bahwa fitur mesin tidak menggantikan pengendalian orang-kendaraan dan akses kerja [Kode Keselamatan dan Kesehatan Konstruksi ILO](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Berikut contoh pertanyaan yang membantu tim menahan asumsi. Ini bukan metode penggalian atau persetujuan pekerjaan.
+
+| Situasi | Pertanyaan yang harus dijawab | Tindakan yang tepat |
+| --- | --- | --- |
+| Gambar menunjukkan layanan, tetapi pemiliknya belum memberi konfirmasi terbaru | Siapa pemiliknya, apakah data berlaku untuk area kerja, dan syarat apa yang mereka tetapkan? | Tahan penggalian sampai koordinasi serta izin kerja selesai. |
+| Penanda di lapangan tidak sama dengan gambar atau sudah tidak jelas | Penandaan kapan dibuat, untuk layanan apa, dan apakah masih berlaku? | Hentikan aktivitas di area terdampak; minta verifikasi ulang dari pihak berwenang. |
+| Excavator harus bergerak dekat jaringan udara | Apa batas dari pemilik layanan, rencana pergerakan, dan metode pengawasan yang disetujui? | Jangan bergerak sampai rencana diperiksa dan kendali lokasi diterapkan. |
+| Ada objek atau layanan yang tidak tercatat saat pekerjaan berjalan | Siapa kontak pemilik layanan dan prosedur berhenti pada izin kerja? | Hentikan, amankan area sesuai rencana, dan eskalasi; jangan mengidentifikasi atau memindahkannya sendiri. |
+
+Jika Anda sedang menyiapkan kebutuhan alat untuk proyek, halaman [jual dan sewa alat berat di Yogyakarta](/jual-sewa-alat-berat-yogyakarta) dapat membantu memulai pembicaraan mengenai jenis alat. Pemilihan alat tetap tidak boleh mendahului pemeriksaan layanan dan persetujuan metode kerja.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah menjadikan pencarian lokasi sebagai izin otomatis untuk menggali. Cara memeriksanya: tanyakan batas metode, tanggal, area, pemilik data, dan syarat izin yang menyertainya. Kesalahan kedua adalah memakai operator atau spotter sebagai pengganti koordinasi dengan pemilik layanan. Operator dan spotter perlu kompeten untuk perannya, tetapi mereka tidak dapat mengubah batas yang ditetapkan pemilik layanan atau izin kerja.
 
-## Objection or shortcut to address
+Kesalahan ketiga adalah tidak menetapkan pemilik keputusan saat keadaan berubah. Peran, otorisasi, kondisi peralatan, dan bukti pemeriksaan merupakan hal berbeda; perubahan aturan juga mengharuskan dokumen serta klasifikasi yang berlaku diperiksa kembali [Permenaker Nomor 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026). Catat siapa yang dapat menghentikan kerja dan siapa yang dapat memberi persetujuan untuk memulai kembali.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Jalan pintas yang sering terdengar ialah, “galian ini kecil, jadi risiko kecil.” Ukuran galian tidak menghapus risiko bila layanan ada di area itu. Panduan ILO tentang penilaian risiko memakai siklus identifikasi bahaya, penilaian, tindakan, pencatatan, dan peninjauan; bukan pembenaran untuk mengurangi pengendalian berdasarkan dugaan [panduan lima langkah ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
 
-## Required conclusion
+Teman Berat.id, jangan tergesa mengejar jadwal ketika bukti lokasi belum selaras. Menunda untuk mengonfirmasi pemilik layanan dan izin kerja adalah bagian dari pengendalian, bukan hambatan administrasi.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+## Aturan kerja sebelum alat bergerak
 
-## Draft completion checklist
+Mencegah kerusakan layanan dimulai dengan bukti, bukan dengan tebakan. Sebelum excavator, bor, atau alat gali bergerak, pastikan catatan dan pemilik layanan telah ditelusuri, pencarian serta penandaan ditangani sesuai prosedur, izin kerja yang relevan telah disetujui, dan tim memahami area larangan masuk, komunikasi, serta kewenangan berhenti.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Aturan praktisnya: tanpa konfirmasi pemilik layanan, izin yang berlaku, dan kondisi lapangan yang cocok dengan rencana, jangan mulai atau lanjutkan pekerjaan.
