@@ -2,8 +2,9 @@
 article_id: ABR-03-02
 title: "Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator"
 slug: "konfigurasi-excavator-backhoe-power-shovel-dragline-clamshell"
-description: "Explain digging direction, reach, dump position, stability considerations, and suitable task envelope for each configuration"
-status: outline
+description: "Panduan membedakan konfigurasi excavator dari arah gali, jangkauan, posisi buang, material, akses, dan sistem pendukung pekerjaan."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-07-10"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,64 +15,92 @@ reader_address: "Sobat Berat.id"
 final_route: "/artikel/konfigurasi-excavator-backhoe-power-shovel-dragline-clamshell.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
   - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator
 
-## Assignment lock
+Halo, Sobat Berat.id!
 
-- **Writer task:** Expand this file into one complete article answering: “Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator”
-- **Reader and situation:** Engineer or buyer evaluating reach, material, and excavation geometry
-- **Reader outcome:** Explain digging direction, reach, dump position, stability considerations, and suitable task envelope for each configuration
-- **Primary intent:** Distinguish excavator digging configurations
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Sobat Berat.id`
-- **Natural variants:** `Kawan Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes model-specific load charts and commercial stock; ABR-12-02 owns chart variables and `/excavator/` owns category offers
-- **Final public route:** `/artikel/konfigurasi-excavator-backhoe-power-shovel-dragline-clamshell.html`
-- **Appointed CMS date:** `2025-07-10` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Nama excavator belum cukup menjelaskan cara sebuah alat menggali. Backhoe, power shovel, dragline, dan clamshell dibedakan terutama oleh arah kerja, jalur bucket atau alat gali, jangkauan, serta cara material diterima dan dibuang. Kalau geometri pekerjaan tidak dibaca lebih dulu, alat yang “bisa menggali” belum tentu cocok dengan titik gali, ruang akses, atau sistem pengangkutannya.
 
-## Opening instructions
+Jawaban singkatnya, pilih konfigurasi dari tugas dan geometri: material berada di bawah, di depan, jauh dari posisi alat, atau di ruang yang membutuhkan pengambilan vertikal? Lalu cocokkan dengan jangkauan, posisi buang, ruang putar, akses, pendukung tanah, jalur angkut, dan dokumen unit aktual. Tidak ada konfigurasi yang selalu paling baik untuk semua pekerjaan.
 
-- Open with the exact short salutation: **“Halo, Sobat Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Berat.id`, `Kawan Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+![Ilustrasi Power Shovel](/wp-content/uploads/2020/10/Power-Shovel.jpg)
 
+Ilustrasi umum dari aset lokal alat.berat.id; bukan dokumentasi proyek tertentu.
 
-<!-- BEGIN MANAGED IMAGE PLAN -->
+## Konfigurasi adalah cara kerja, bukan sekadar nama
+
+Konfigurasi menjelaskan hubungan antara alat, arah gali, material, dan titik buang. Satu keluarga excavator dapat memiliki alat tambahan atau susunan kerja yang berbeda, tetapi merek, massa operasi, atau kategori penjual saja tidak membuktikan fungsi atau kesesuaian tugas. Identitas unit, konfigurasi, alat kerja, dan dokumen pabrikan tetap perlu diperiksa. [ISO 6165:2022](https://www.iso.org/standard/77616.html)
+
+Artikel ini membandingkan cara berpikirnya, bukan memberi bagan kapasitas, angka jangkauan, batas stabilitas, atau rekomendasi satu model. Semua keputusan nyata perlu memakai data unit dan lokasi yang benar.
+
+## Backhoe: menggali ke arah alat
+
+Pada konfigurasi backhoe, bucket bekerja menarik material ke arah mesin. Cara ini sering dipahami untuk pekerjaan ketika material berada di bawah atau dekat posisi alat, misalnya galian. Yang perlu dibaca bukan hanya kedalamannya, tetapi juga bentuk galian, posisi alat, ruang putar, lokasi tanah galian, serta akses orang dan kendaraan.
+
+Jangan menganggap backhoe otomatis memberi izin bekerja dekat tepi, parit, atau layanan bawah tanah. Kondisi tanah, tepi, utilitas, penyangga, dan rencana kerja tetap menentukan apa yang boleh dilakukan. Teman Berat.id, jika data itu belum jelas, tahan pembicaraan model sampai batas pekerjaan dapat dipastikan.
+
+## Power shovel: menggali ke arah depan dan atas
+
+Power shovel umumnya dipahami sebagai konfigurasi yang mengambil material di depan alat dengan gerak kerja yang berbeda dari backhoe. Ia sering disebut ketika wajah material atau titik gali berada di depan mesin. Perbedaan arah kerja ini mengubah pertanyaan tentang posisi alat, material, area muat, serta tempat kendaraan menerima hasil gali.
+
+Jangan menyimpulkan satu konfigurasi lebih kuat atau lebih produktif tanpa data tugas. Kesesuaian material, geometri area, urutan penggalian, jalan angkut, dan titik buang tetap perlu ditetapkan dari rencana serta dokumen unit.
+
+## Dragline: jangkauan melalui sistem kabel
+
+Dragline menggunakan boom dan sistem kabel untuk membawa bucket ke area kerja yang lebih jauh dari posisi alat. Dengan cara itu, pertanyaan utama bukan hanya jenis material, tetapi juga geometri area, posisi duduk alat, jalur bucket, titik buang, dan sistem pendukung di sekitarnya. Jangkauan yang terlihat menguntungkan tidak menggantikan pemeriksaan kondisi tanah, konfigurasi, atau area di bawah lintasan kerja.
+
+Kawan Berat.id, dragline perlu dipandang sebagai sistem kerja dengan antarmuka besar: ruang, pendukung, komunikasi, akses, material, dan titik penerimaan hasil. Artikel ini tidak menetapkan batas jangkauan atau stabilitasnya.
+
+## Clamshell: mengambil material secara vertikal
+
+Clamshell memakai bucket dua rahang yang membuka dan menutup untuk mengambil material. Ia berguna untuk menjelaskan kebutuhan pengambilan yang lebih vertikal atau dari ruang tertentu, tetapi nama clamshell tidak menjawab seluruh kecocokan pekerjaan. Kedalaman, bentuk bukaan, material, posisi alat, metode pengangkatan, dan titik buang harus diperiksa dalam konfigurasi aktual.
+
+Karena melibatkan jalur vertikal dan area di bawah alat, batas akses serta komunikasi di lokasi perlu jelas. Jangan memakai artikel ini sebagai rencana pengangkatan atau metode kerja untuk satu lokasi.
+
+## Bandingkan dengan lima pertanyaan
+
+| Pertanyaan | Dampaknya pada konfigurasi |
+| --- | --- |
+| Di mana material berada terhadap alat? | Menentukan arah gerak dan geometri kerja yang perlu dibaca |
+| Seberapa jauh titik kerja dan titik buang? | Mengubah kebutuhan jangkauan serta sistem penerimaan material |
+| Material seperti apa yang dihadapi? | Perlu dicocokkan dengan alat kerja dan dokumen unit |
+| Bagaimana akses dan posisi alat? | Mempengaruhi ruang gerak, jalur kendaraan, orang, dan pendukung |
+| Apa sistem sesudah penggalian? | Menentukan hubungan dengan truk, tongkang, hopper, atau penampungan |
+
+Nah, lima pertanyaan ini tidak memilih alat. Fungsinya menyaring apakah kebutuhan masih berupa nama konfigurasi atau sudah menjadi data kerja yang bisa dinilai.
+
+## Faktor yang mengubah keputusan di lapangan
+
+Kondisi tanah, kemiringan, tepi, cuaca, jarak pandang, utilitas, lalu lintas internal, pekerjaan bersamaan, dan perubahan material dapat mengubah bagaimana konfigurasi dipakai atau bahkan apakah pekerjaan dapat dimulai. Fitur mesin tidak dapat menggantikan pengendalian akses, komunikasi, atau kondisi area yang tidak pasti.
+
+Prinsip keselamatan konstruksi ILO menempatkan akses, lalu lintas, visibilitas, tepi, kompetensi, inspeksi, dan pemeliharaan sebagai antarmuka yang perlu dikelola sesuai kondisi nyata. [ILO Convention C167](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988) Ini bukan petunjuk mengoperasikan excavator; ia mengingatkan bahwa pilihan konfigurasi tidak berdiri sendiri.
+
+## Contoh pembacaan kebutuhan yang bersyarat
+
+Misalnya material berada di bawah permukaan dekat jalur yang dipakai orang. Pernyataan “gunakan backhoe” belum menyelesaikan pertanyaan tentang posisi alat, kondisi tepi, utilitas, tanah galian, dan pemisahan jalur. Data itu perlu tersedia sebelum konfigurasi dapat dinilai.
+
+Contoh lain, material harus diambil dari titik yang jauh dan dipindah ke sistem penerimaan tertentu. Dragline mungkin masuk percakapan karena jangkauan, tetapi geometri, pendukung, area lintasan, dan titik buang tetap menentukan. Sobat Berat.id, contoh ini menunjukkan cara menyusun pertanyaan, bukan resep memilih alat.
+
+## Kesalahan umum saat membandingkan konfigurasi
+
+Kesalahan pertama adalah memakai nama konfigurasi sebagai pengganti gambar kerja. Kesalahan kedua adalah membandingkan jangkauan tanpa membaca posisi alat dan titik buang. Kesalahan ketiga adalah menilai alat secara terpisah dari truk, tempat penampungan, atau sistem penerima material.
+
+Jalan pintas yang sering muncul ialah memilih konfigurasi yang tampak paling serbaguna. Serbaguna pada satu lokasi tidak otomatis cocok di lokasi lain. Alternatif yang lebih kuat adalah menggambar alur material dan posisi kerja, lalu cocokkan konfigurasi, unit, attachment, dan sistem pendukung dengan data tersebut.
+
+Penilaian risiko harus dimulai dari bahaya dan kondisi pekerjaan aktual, lalu pengendaliannya ditinjau saat terjadi perubahan. [Panduan lima langkah ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting) Jangan mengubah klasifikasi konfigurasi menjadi persetujuan operasi.
+
+## Pilih dari geometri dan sistem kerja
+
+Backhoe, power shovel, dragline, dan clamshell berbeda terutama pada arah kerja, jangkauan, serta cara mengambil dan membuang material. Pilihan nyata ditentukan oleh geometri, material, akses, posisi alat, pendukung, titik buang, dan sistem penerimaan hasil—bukan oleh nama yang paling populer.
+
+Langkah berikutnya adalah menyiapkan gambar atau data titik gali, titik buang, kondisi area, dan identitas unit; lalu minta penilaian pihak kompeten bila ada tepi, utilitas, kondisi tanah tidak pasti, atau antarmuka yang rumit. Aturan praktisnya: pilih konfigurasi setelah alur kerja terbaca, bukan sebelum data lokasi tersedia.
+
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-003`
@@ -82,221 +111,4 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Power Shovel` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-003]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
-
-## Evidence packet
-
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/excavator/power-shovel-2` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/excavator/power-shovel-2/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/excavator/dragline-2` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/excavator/clamshell-2` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/excavator/backhoe` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/excavator/dragline-2/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-03-01` → `/artikel/excavator-bulldozer-loader-scraper-grader.html` — Excavator, Bulldozer, Loader, Scraper, atau Grader: Fungsi yang Berbeda
-- `ABR-03-03` → `/artikel/urutan-cut-and-fill-alat-berat.html` — Merancang Urutan Cut and Fill agar Perpindahan Tanah Efisien
-- `ABR-03-04` → `/artikel/land-clearing-dengan-alat-berat.html` — Land Clearing dengan Alat Berat: Urutan, Risiko, dan Batas Pekerjaan
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Backhoe, Power Shovel, Dragline, dan Clamshell: Memilih Konfigurasi Excavator”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+END MANAGED IMAGE PLAN -->
