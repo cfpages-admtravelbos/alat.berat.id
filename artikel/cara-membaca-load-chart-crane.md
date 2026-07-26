@@ -1,9 +1,9 @@
 ---
 article_id: ABR-04-02
-title: "Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas"
+title: "Membaca Diagram Kapasitas Crane Tanpa Menebak Kapasitas"
 slug: "cara-membaca-load-chart-crane"
-description: "Explain configuration, radius, boom length, parts of line, deductions, notes, and why nominal capacity is insufficient"
-status: outline
+description: "Memahami diagram kapasitas crane dengan memeriksa identitas, konfigurasi, radius, panjang boom, catatan, dan batas dokumen tanpa menyetujui pengangkatan."
+status: draft
 publication_date: "2025-08-03"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -11,66 +11,28 @@ parent_topic: ABR-04
 primary_intent: "Interpret a manufacturer load chart safely"
 reader_community: "Berat.id"
 reader_address: "Kawan Berat.id"
+writing_contract_version: "native-id-v2"
 final_route: "/artikel/cara-membaca-load-chart-crane.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
   - "https://www.iso.org/standard/60734.html"
   - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+# Membaca Diagram Kapasitas Crane Tanpa Menebak Kapasitas
 
-# Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas
+Halo, Kawan Berat.id! Label tonase pada crane bukan jawaban langsung untuk pertanyaan “boleh mengangkat beban ini atau tidak?”. Diagram kapasitas, yang sering disebut *load chart*, adalah dokumen pabrikan yang menunjukkan batas kemampuan untuk konfigurasi dan kondisi tertentu. Agar berguna, diagram itu harus dicocokkan dengan crane yang nyata, bukan dibaca sebagai angka terbesar pada halaman.
 
-## Assignment lock
+Mulailah dengan empat pemeriksaan: apakah dokumen benar untuk model dan versi crane ini, apakah konfigurasi di dokumen sama dengan yang terpasang, apakah radius serta panjang boom yang dibahas memang sesuai rencana, dan apakah semua catatan/keterangan sudah dibaca. Jika salah satu belum cocok, jangan menggunakan diagram sebagai dasar persetujuan pengangkatan.
 
-- **Writer task:** Expand this file into one complete article answering: “Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas”
-- **Reader and situation:** Engineer, supervisor, or buyer seeing a nominal tonnage label
-- **Reader outcome:** Explain configuration, radius, boom length, parts of line, deductions, notes, and why nominal capacity is insufficient
-- **Primary intent:** Interpret a manufacturer load chart safely
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes lift approval and calculations from generic data; ABR-12-02 owns the full variable set and a competent lifting specialist owns the lift plan
-- **Final public route:** `/artikel/cara-membaca-load-chart-crane.html`
-- **Appointed CMS date:** `2025-08-03` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Artikel ini mengajarkan cara membaca konteks dokumen, bukan menghitung kapasitas, memilih rigging, mengurangi beban, atau menyetujui lift. Perencanaan pengangkatan memerlukan data beban aktual, kondisi lokasi, rencana yang disetujui, manual pabrikan, dan pihak kompeten.
 
-## Opening instructions
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
+*Aset lokal proyek; gambar ini bukan dokumentasi proyek tertentu.*
 
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -81,221 +43,72 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Hasil yang harus dicapai sebelum membaca angka
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Tujuan membaca diagram kapasitas adalah memahami batas penggunaan dokumen, bukan mencari pembenaran agar pekerjaan bisa diteruskan. Sebelum mencari baris atau kolom, pastikan dokumen memiliki identitas pabrikan, model yang tepat, revisi atau tanggal, serta keterangan konfigurasi. Dokumen dari crane sejenis, versi lama, atau file yang beredar tanpa sumber tidak boleh dianggap setara dengan dokumen unit aktual.
 
-### KR-01
+Crane juga harus dikenali sampai konfigurasi yang relevan. Model dasar yang sama dapat mempunyai boom, jib, counterweight, outrigger, mode kerja, atau perlengkapan lain yang berbeda. Kawan Berat.id, cukup berbeda satu konfigurasi saja, tabel yang dibaca mungkin tidak lagi menjelaskan crane di lokasi Anda.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+Hasil yang benar dari pemeriksaan awal bisa berupa “data belum cocok”. Itu bukan kegagalan membaca diagram. Itu justru informasi penting untuk menghentikan keputusan sebelum orang, beban, dan alat ditempatkan dalam paparan yang tidak perlu.
 
-### KR-05
+## Arti istilah pada diagram kapasitas
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+**Diagram kapasitas** adalah tabel atau grafik pabrikan yang menghubungkan konfigurasi tertentu dengan batas yang berlaku di dalam catatan dokumen. Ini bukan janji bahwa crane selalu dapat mengangkat angka yang tertera. **Kapasitas nominal** adalah sebutan umum atau angka pemasaran yang tidak menjelaskan seluruh variasi kondisi kerja.
 
-### KR-19
+**Radius** adalah ukuran hubungan mendatar antara titik putar crane dan posisi beban menurut definisi pabrikan. Jangan memperkirakannya hanya dari langkah kaki, gambar kasar, atau posisi kendaraan. Definisi radius, titik ukur, dan kondisi boom harus mengikuti dokumen pabrikan serta rencana pengangkatan.
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+**Boom** adalah lengan utama crane. Panjang dan susunannya dapat mengubah bagian diagram yang relevan. **Parts of line** secara sederhana mengacu pada susunan jalur tali angkat pada sistem hoist. Istilah ini perlu dicocokkan dengan konfigurasi yang benar, tetapi artikel ini tidak menentukan jumlah, susunan, atau cara mengubahnya.
 
-### KR-20
+**Pengurangan** adalah istilah untuk hal yang harus diperhitungkan sesuai catatan diagram, seperti bagian sistem yang terkait dengan pengangkatan. Catatan ini tidak boleh diabaikan atau diisi dari perkiraan. Sobat Berat.id, kalau Anda belum memahami bagaimana sebuah catatan berlaku pada kasus nyata, berhenti pada tahap pemeriksaan dan minta penjelasan dari pihak kompeten.
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+## Cara mencocokkan dokumen dengan crane aktual
 
-### KR-21
+Mulailah dari halaman identitas diagram. Bandingkan pabrikan, model, nomor dokumen, edisi/revisi, dan bahasa atau satuan yang digunakan. Lalu cocokkan konfigurasi yang disebut dengan crane aktual serta perlengkapan yang dipasang. Jangan mengandalkan nama pada penawaran sewa atau keterangan lisan; gunakan sumber yang dapat ditelusuri.
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Berikutnya, periksa apakah rencana pengangkatan mendefinisikan radius, panjang boom, lokasi, kondisi penyangga, dan beban sesuai data yang harus dipakai. Tujuannya bukan melakukan hitungan sendiri, melainkan mendeteksi bila rencana memakai data yang tidak tersedia atau tidak cocok. Jika radius hanya diperkirakan atau boom belum dipastikan, pemilihan bagian diagram belum dapat dilakukan dengan andal.
 
-### KR-23
+Kemudian baca seluruh judul tabel, legenda, catatan kaki, simbol, dan batas yang mengiringi angka. Banyak kekeliruan terjadi ketika pembaca mengambil satu angka tanpa membaca syarat di sekelilingnya. Kondisi alat, batas penggunaan, perlengkapan, pembatasan cuaca, atau ketentuan lain bisa berada di luar sel angka yang dipilih.
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+| Yang diperiksa | Pertanyaan yang perlu dijawab | Bila belum jelas |
+| --- | --- | --- |
+| Identitas dokumen | Apakah ini dokumen pabrikan untuk model dan revisi yang tepat? | Minta dokumen sumber yang benar |
+| Konfigurasi | Apakah boom, perlengkapan, dan kondisi crane cocok? | Tahan pemakaian diagram |
+| Radius dan posisi | Apakah definisi serta data radius berasal dari rencana yang terverifikasi? | Minta pengukuran/metode kompeten |
+| Catatan diagram | Apakah seluruh legenda, pembatasan, dan satuan telah dibaca? | Minta klarifikasi sebelum memakai angka |
+| Beban dan rencana | Apakah beban aktual serta sistem angkat sudah dinilai terpisah? | Eskalasi ke spesialis pengangkatan |
 
-### KR-24
+## Mengapa angka besar tidak cukup
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+Angka terbesar pada diagram sering menjadi sumber salah baca karena mengabaikan tempat angka itu berlaku. Kapasitas bukan sifat tetap yang dapat dipindahkan ke semua radius, panjang boom, atau konfigurasi. Begitu rencana berubah, diagram yang relevan juga dapat berubah. Hal yang sama berlaku bila crane dipindah, penyangga berbeda, kondisi lokasi berubah, atau peralatan yang dipakai tidak sama.
 
-### KR-02
+Nominal tonase juga tidak menjawab kondisi beban. Berat yang benar, pusat berat, titik angkat, rigging, kait, dan perlengkapan lain perlu dinilai melalui rencana pengangkatan, bukan disederhanakan menjadi label berat pada forklift atau catatan inventaris. [Permenaker Nomor 8 Tahun 2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020) perlu diterapkan sesuai klasifikasi peralatan, dokumentasi, peran, dan kondisi kegiatan yang nyata; rujukan ini bukan persetujuan otomatis untuk lift tertentu.
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+Teman Berat.id, lihat diagram kapasitas sebagai salah satu bukti dalam sistem, bukan satu-satunya bukti. Pengendalian keselamatan mesin dan operasi tetap membutuhkan konfigurasi aktual, instruksi pabrikan, penilaian tugas, kompetensi, serta pengawasan yang sesuai. [ISO 20474-1](https://www.iso.org/standard/60734.html) mengingatkan bahwa klaim umum atau daftar cek generik tidak membuktikan alat dan metode tertentu aman.
 
-### KR-10
+## Kondisi untuk berhenti dan meminta penilaian
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+Hentikan pembacaan sebagai dasar keputusan bila model atau revisi diagram tidak cocok, konfigurasi crane tidak dapat dikonfirmasi, radius atau boom tidak punya dasar yang jelas, beban tidak terverifikasi, atau catatan diagram tidak dipahami. Tahan juga bila ada perubahan pada lokasi, cuaca, kondisi penyangga, rencana kerja, atau orang yang dapat terpapar.
 
-### KR-14
+Jangan menyelesaikan ketidakpastian dengan memilih angka yang lebih rendah dari tabel. Angka yang lebih rendah tetap bisa berasal dari tabel atau konfigurasi yang salah. Cara yang lebih aman adalah meminta dokumen pabrikan yang benar dan rencana pengangkatan ditinjau oleh spesialis yang kompeten.
 
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
+[NEEDS RENCANA PENGANGKATAN: penggunaan diagram kapasitas untuk pengangkatan nyata memerlukan identitas crane dan dokumen pabrikan yang cocok, konfigurasi aktual, data beban/sistem angkat, radius serta boom yang terverifikasi, kondisi lokasi, semua catatan diagram, dan persetujuan pihak kompeten.]
 
-### KR-16
+## Contoh pemeriksaan praktis
 
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
+Misalkan seorang pengawas menerima diagram kapasitas dari pemasok dan melihat angka yang tampak cukup untuk beban rencana. Sebelum membahas angka, ia perlu menanyakan: dokumen ini untuk model serta konfigurasi yang mana, apakah boom dan perlengkapan di lokasi sama, dari mana radius berasal, dan siapa yang sudah memeriksa catatan diagram? Bila pertanyaan ini belum terjawab, diagram hanya menjadi dokumen informasi, bukan dasar operasi.
 
-### KR-17
+Contoh kedua: nomor dokumen benar, tetapi catatan diagram menyebut konfigurasi yang tidak terlihat pada crane saat inspeksi. Jangan meminta operator menyesuaikan alat agar “mirip” tanpa rencana. Tahan keputusan dan minta pihak yang berwenang mencocokkan konfigurasi, manual, serta rencana pengangkatan.
 
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
+Untuk pengenalan umum jenis alat, Anda dapat melihat halaman [tower crane](/tower-crane). Halaman tersebut tidak menggantikan diagram pabrikan, data unit, atau rencana pengangkatan untuk crane tertentu.
 
-### KR-18
+## Kesalahan umum dan cara memeriksanya
 
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
+Kesalahan pertama adalah memakai dokumen dari model sejenis. Periksa identitas dan revisi sebelum membaca tabel. Jika ada ketidakcocokan, jangan gunakan kemiripan nama sebagai dasar.
 
-### KR-36
+Kesalahan kedua adalah mengambil angka tanpa legenda dan catatan. Periksa halaman pendahuluan, judul tabel, satuan, simbol, serta pembatas yang menyertai angka. Catatan kecil dapat menjadi batas yang paling penting.
 
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
+Kesalahan ketiga adalah menjadikan diagram kapasitas sebagai izin mengangkat. Diagram menjelaskan batas pabrikan untuk kondisi tertentu; persetujuan pengangkatan perlu menghubungkan dokumen itu dengan beban, sistem angkat, lokasi, orang/publik, dan metode aktual. Pengendalian risiko harus disesuaikan dengan bahaya nyata serta ditinjau saat keadaan berubah, sebagaimana dijelaskan dalam [panduan ILO](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks).
 
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/tower-crane` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/truk/crane` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/tower-crane/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/tower-crane-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/tower-crane-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/tower-crane-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-04-01` → `/artikel/memilih-jenis-crane-untuk-proyek.html` — Tower Crane, Mobile Crane, Crawler Crane, atau Truck Crane?
-- `ABR-04-03` → `/artikel/antarmuka-crane-rigging-titik-angkat.html` — Antarmuka Crane, Rigging, dan Titik Angkat: Data Sebelum Mengangkat
-- `ABR-04-04` → `/artikel/blind-lift-dan-tandem-lift.html` — Blind Lift dan Tandem Lift: Mengapa Perencanaannya Berbeda
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Hasil akhir dan prasyarat
-
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 1 — tetapkan scope
-
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 2 — kumpulkan dan cocokkan bukti
-
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Langkah 3 — jalankan urutan kerja
-
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Hold point dan kondisi berhenti
-
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Verifikasi hasil dan handover
-
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Cara Membaca Load Chart Crane Tanpa Menebak Kapasitas”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Membaca diagram kapasitas crane dengan aman berarti memeriksa identitas, konfigurasi, radius, boom, satuan, dan seluruh catatan sebelum menyentuh angka. Langkah berikutnya ialah kumpulkan manual pabrikan yang tepat dan serahkan pencocokan dengan rencana aktual kepada spesialis pengangkatan. Aturan kerjanya: **bila konfigurasi atau catatan diagram belum cocok dengan kondisi nyata, jangan gunakan diagram untuk menyetujui lift.**
