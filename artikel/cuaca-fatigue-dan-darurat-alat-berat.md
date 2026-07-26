@@ -1,9 +1,9 @@
 ---
 article_id: ABR-11-06
-title: "Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat"
+title: "Cuaca, Kelelahan, Komunikasi, dan Kesiapsiagaan Darurat Alat Berat"
 slug: "cuaca-fatigue-dan-darurat-alat-berat"
-description: "Integrate heat/rain/lightning/visibility, fatigue signs, shift length context, radio failure, loss of control, fire, rollover, spill, rescue boundaries, and reporting"
-status: outline
+description: "Cara membaca perubahan cuaca, kelelahan kerja, komunikasi, dan kesiapsiagaan darurat dalam operasi alat berat tanpa memakai ambang atau resep darurat universal."
+status: draft
 publication_date: "2026-02-06"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -11,68 +11,28 @@ parent_topic: ABR-11
 primary_intent: "Manage changing human and environmental conditions"
 reader_community: "Berat.id"
 reader_address: "Teman Berat.id"
+writing_contract_version: "native-id-v2"
 final_route: "/artikel/cuaca-fatigue-dan-darurat-alat-berat.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
   - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
   - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
-  - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
+  - "https://www.who.int/publications/i/item/9789240099814"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+# Cuaca, Kelelahan, Komunikasi, dan Kesiapsiagaan Darurat Alat Berat
 
-# Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat
+Halo, Teman Berat.id! Operasi alat berat dapat berubah risikonya sebelum alat atau tugas berganti. Hujan dapat mengubah permukaan dan pandangan, panas dapat menambah beban kerja, komunikasi yang putus dapat merusak koordinasi, dan kelelahan kerja dapat mengurangi kemampuan orang menangkap perubahan. Karena itu, pertanyaan pengawas bukan hanya “alat masih jalan?”, melainkan “apakah orang, alat, lokasi, dan komunikasi masih berada dalam kondisi yang dapat dikendalikan?”
 
-## Assignment lock
+Jawaban tidak datang dari satu ambang cuaca atau satu tanda kelelahan. Keputusan bergantung pada penilaian lokasi, tugas, kondisi alat, visibilitas, akses, orang yang terdampak, rencana darurat, dan aturan proyek. Artikel ini membahas cara mengenali perubahan serta kapan menghentikan dan mengeskalasi; artikel ini tidak memberi nasihat medis, teknik penyelamatan, atau prosedur darurat universal.
 
-- **Writer task:** Expand this file into one complete article answering: “Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat”
-- **Reader and situation:** Shift supervisor deciding whether work can continue safely
-- **Reader outcome:** Integrate heat/rain/lightning/visibility, fatigue signs, shift length context, radio failure, loss of control, fire, rollover, spill, rescue boundaries, and reporting
-- **Primary intent:** Manage changing human and environmental conditions
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Teman Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Kawan Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes medical advice, rescue entry, and universal weather thresholds; ABR-04-05 owns lift weather and approved emergency plan owns response
-- **Final public route:** `/artikel/cuaca-fatigue-dan-darurat-alat-berat.html`
-- **Appointed CMS date:** `2026-02-06` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
-## Opening instructions
+*Aset lokal proyek; gambar ini bukan dokumentasi proyek tertentu.*
 
-- Open with the exact short salutation: **“Halo, Teman Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Berat.id`, `Sobat Berat.id`, or `Kawan Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,227 +43,55 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Bedakan kelelahan material dan kelelahan kerja
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Kelelahan material adalah perubahan atau kerusakan pada komponen akibat pembebanan berulang; penilaiannya memerlukan identitas komponen, riwayat, pemeriksaan, dan pihak teknis yang kompeten. Kelelahan kerja adalah kondisi manusia yang dapat terkait pola kerja, istirahat, panas, beban tugas, waktu, atau faktor lain. Keduanya bukan istilah yang dapat saling menggantikan, dan artikel ini tidak mendiagnosis siapa pun.
 
-### KR-01
+Sobat Berat.id, tanda perubahan pada konsentrasi, komunikasi, respons, atau pengamatan perlu diperlakukan sebagai informasi keselamatan, bukan bahan menyalahkan orang. Tanyakan apakah tugas perlu dihentikan, diubah, atau dievaluasi oleh pengawas sesuai pengaturan proyek. Panduan WHO tentang [tekanan panas di tempat kerja](https://www.who.int/publications/i/item/9789240099814) membantu memahami bahwa kondisi panas merupakan isu pencegahan kerja, tetapi tidak menggantikan penilaian lokasi atau keputusan kesehatan perorangan.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+## Cuaca mengubah kondisi operasi, bukan hanya kenyamanan
 
-### KR-05
+Hujan, angin, panas, petir, kabut, atau cahaya yang berubah dapat memengaruhi permukaan, drainase, kestabilan akses, pandangan, komunikasi, dan cara orang bergerak di sekitar alat. Dampaknya berbeda menurut lokasi, tugas, alat, material, serta orang dan pekerjaan lain yang berada di dekatnya. Jangan menyalin ambang atau keputusan dari lokasi lain lalu menganggapnya otomatis berlaku.
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+Kawan Berat.id, lakukan penilaian ulang ketika kondisi berubah, bukan hanya saat awal giliran. Pertanyaan sederhana membantu: apa yang berubah pada akses, tanah, pandangan, jalur kendaraan, tempat kerja orang lain, atau kemampuan komunikasi? Jika jawaban belum jelas, tahan pekerjaan yang berisiko dan minta pengawas menilai ulang sebelum dilanjutkan.
 
-### KR-19
+| Perubahan | Hal yang perlu diperiksa | Bukan kesimpulan otomatis |
+| --- | --- | --- |
+| Hujan atau permukaan basah | Akses, drainase, tanah, jalur dan pandangan | Semua pekerjaan pasti harus berhenti |
+| Panas atau kondisi kerja berat | Beban kerja, kondisi orang, tempat istirahat, pengawasan | Diagnosis kelelahan atau kondisi medis |
+| Visibilitas berubah | Pandangan operator, penanda, orang dan kendaraan | Alat tertentu aman tanpa penilaian |
+| Komunikasi terganggu | Siapa terdampak, tugas yang bergantung pada komunikasi, jalur alternatif | Persoalan dapat diabaikan karena alat masih berjalan |
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+## Komunikasi adalah pengendalian kerja, bukan aksesori
 
-### KR-20
+Radio, isyarat, briefing, penanda, dan pengawas hanya berguna bila dipahami oleh orang yang tepat dan sesuai kondisi lapangan. Kegagalan komunikasi dapat muncul dari perangkat, cakupan, kebisingan, perubahan personel, bahasa, atau asumsi bahwa orang lain sudah tahu rencana. Ketika tugas bergantung pada arahan atau koordinasi, gangguan komunikasi perlu diperlakukan sebagai perubahan kondisi kerja.
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+Teman Berat.id, jangan mengganti komunikasi yang hilang dengan teriakan atau tebakan di area alat bergerak. Hentikan atau ubah tugas melalui rencana proyek sampai komunikasi dan pengaturan akses kembali memadai. [ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf) menekankan partisipasi pekerja, kompetensi, komunikasi, dan pengendalian risiko sebagai bagian sistem keselamatan kerja.
 
-### KR-21
+## Kesiapsiagaan darurat dimulai sebelum kejadian
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Kesiapsiagaan bukan berarti semua orang melakukan semua tindakan. Ia berarti peran, jalur pelaporan, peringatan, akses, akuntabilitas orang, bantuan pertama, serta hubungan dengan pihak luar telah disesuaikan dengan skenario yang mungkin di lokasi. Kebakaran, kehilangan kendali, terguling, tumpahan, atau kondisi lain memiliki risiko dan penanganan berbeda; artikel umum tidak dapat memberi urutan penyelamatan, masuk ke area bahaya, atau keputusan medis.
 
-### KR-23
+Ketika terjadi keadaan tidak normal, utamakan perlindungan orang dan aktifkan rencana darurat proyek. Jangan mendekati alat, memasuki area, atau memindahkan kondisi untuk mencoba menyelamatkan bukti atau jadwal. [ISO 22320](https://www.iso.org/standard/67851.html) membahas manajemen keadaan darurat; penerapannya perlu disesuaikan dengan komando, sarana, akses, dan kemampuan nyata proyek.
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+## Kapan menahan pekerjaan dan mengeskalasi
 
-### KR-24
+Tahan pekerjaan ketika perubahan cuaca, kondisi manusia, komunikasi, atau keadaan alat membuat pengendalian penting tidak dapat diverifikasi. Misalnya, pandangan atau akses berubah, orang tidak dapat berkoordinasi untuk tugas yang membutuhkan arahan, ada tanda kelelahan kerja yang memengaruhi pelaksanaan, atau terjadi kondisi yang memicu rencana darurat. Menahan bukan kesimpulan bahwa kecelakaan telah terjadi; itu cara mencegah keputusan dibuat dari ketidakpastian.
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+Catat fakta yang aman untuk disampaikan: waktu, lokasi, tugas, perubahan yang diamati, orang yang mungkin terdampak, tindakan pengamanan, dan pihak yang diberi tahu. [Panduan lima langkah ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting) menghubungkan pengenalan bahaya, pihak terdampak, tindakan, pencatatan, serta peninjauan. Hindari mengisi laporan dengan diagnosis, sebab pasti, atau klaim bahwa keadaan telah aman bila belum diverifikasi.
 
-### KR-02
+## Jalan pintas yang perlu ditolak
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+Jalan pintas pertama adalah memakai jadwal sebagai alasan meneruskan kerja ketika kondisi berubah. Jalan pintas kedua adalah menyalahkan operator atas kelelahan tanpa melihat sistem kerja. Jalan pintas ketiga adalah menganggap radio atau alarm yang pernah berfungsi pasti cukup saat kondisi aktual berubah. Jalan pintas keempat adalah membuat tindakan darurat sendiri tanpa memahami rencana, peran, dan bahaya lanjutan.
 
-### KR-10
+[Pengendalian risiko ILO](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks) mengarahkan pengendalian dari bahaya dan orang yang terdampak. Bila kondisi tidak dapat dipahami atau dikendalikan dengan bukti yang tersedia, langkah yang bertanggung jawab ialah menghentikan paparan dan meningkatkan keputusan kepada pihak yang berwenang.
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+[NEEDS REVIEW: kondisi cuaca aktual, kriteria penghentian, pola kerja, kebutuhan kesehatan, komunikasi, rencana darurat, peran, akses bantuan, dan tindakan lanjutan harus ditetapkan oleh proyek serta pihak kompeten dan berwenang.]
 
-### KR-14
+## Aturan kerja saat kondisi berubah
 
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
+Cuaca, kelelahan kerja, komunikasi, dan kesiapsiagaan darurat saling bertemu pada satu hal: kondisi dapat berubah lebih cepat daripada rencana awal. Pantau perubahan, lindungi pekerja dan orang sekitar, catat fakta, lalu eskalasikan sebelum ketidakpastian menjadi paparan.
 
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-11-04` → `/artikel/mencegah-utility-strike-alat-berat.html` — Mencegah Utility Strike oleh Excavator, Bor, dan Alat Gali
-- `ABR-11-05` → `/artikel/lockout-stored-energy-servis-alat-berat.html` — Lockout, Stored Energy, dan Safe Access untuk Servis Alat Berat
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Cuaca, Fatigue, Komunikasi, dan Respons Darurat Operasi Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Aturan operasionalnya: jangan memakai ambang umum, semangat kerja, atau kebiasaan lama sebagai pengganti penilaian kondisi. Bila pengendalian penting tidak jelas, hentikan tugas dan gunakan rencana proyek serta pihak berwenang untuk menentukan langkah aman berikutnya.
