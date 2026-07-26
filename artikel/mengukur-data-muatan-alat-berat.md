@@ -2,8 +2,9 @@
 article_id: ABR-07-03
 title: "Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat"
 slug: "mengukur-data-muatan-alat-berat"
-description: "Build a cargo sheet with transport configuration, dimensions, actual/verified mass, center of gravity, contact points, fluids, loose items, and uncertainty"
-status: outline
+description: "Cara menyusun lembar data muatan alat berat untuk transportasi dengan dimensi, massa, titik berat, titik tumpu, konfigurasi, dan ketidakpastian yang jelas."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-10-22"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,64 +16,18 @@ final_route: "/artikel/mengukur-data-muatan-alat-berat.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
   - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
   - "https://www.iso.org/standard/77616.html"
   - "https://www.iso.org/standard/60734.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
-  - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat
 
-## Assignment lock
+Halo, Sobat Berat.id! Data muatan yang hanya berbunyi “excavator sekian ton” belum cukup untuk merencanakan pengangkutan. Transporter perlu tahu alat dalam konfigurasi apa, ukuran angkutnya, massa yang benar-benar dibawa, posisi titik berat, titik kontak, attachment, fluida, serta barang lepas yang ikut atau tidak ikut. Perbedaan kecil pada konfigurasi dapat mengubah data yang dipakai untuk trailer, pengikatan, dan rute.
 
-- **Writer task:** Expand this file into one complete article answering: “Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat”
-- **Reader and situation:** Shipper or carrier receiving incomplete machine information
-- **Reader outcome:** Build a cargo sheet with transport configuration, dimensions, actual/verified mass, center of gravity, contact points, fluids, loose items, and uncertainty
-- **Primary intent:** Prepare verified cargo data for transport
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Sobat Berat.id`
-- **Natural variants:** `Kawan Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes axle-load or route approval from estimates; ABR-12-06 owns calculation red flags and ABR-14-02 owns permit evidence
-- **Final public route:** `/artikel/mengukur-data-muatan-alat-berat.html`
-- **Appointed CMS date:** `2025-10-22` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+Jawaban singkatnya: buat satu lembar data muatan yang menyebut identitas alat, sumber setiap angka, tanggal, konfigurasi, dan ketidakpastian yang masih ada. Gunakan data itu sebagai masukan untuk penilaian teknis serta izin transportasi, bukan sebagai persetujuan beban gandar atau rute. Artikel ini tidak memberi batas muatan, akurasi load cell, atau putusan bahwa suatu alat siap diangkut.
 
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Sobat Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Berat.id`, `Kawan Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -83,229 +38,64 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
-
-### KR-01
-
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-07-01` → `/artikel/memilih-cara-transportasi-alat-berat.html` — Lowbed, Towing, atau Self-Propelled: Memilih Cara Memindahkan Alat Berat
-- `ABR-07-02` → `/artikel/memilih-trailer-lowbed-untuk-alat-berat.html` — Memilih Trailer Lowbed untuk Alat Berat tanpa Mengandalkan Nama Kapasitas
-- `ABR-07-04` → `/artikel/survei-rute-mobilisasi-alat-berat.html` — Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses
-- `ABR-07-05` → `/artikel/loading-lashing-pemeriksaan-muatan-alat-berat.html` — Loading, Lashing, dan Pemeriksaan Muatan Alat Berat
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Ilustrasi umum dari aset lokal alat.berat.id; bukan dokumentasi proyek tertentu.
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Nama model, massa operasi di brosur, atau tiket lama tidak otomatis menjelaskan muatan yang akan berangkat hari ini. Attachment terpasang, perlengkapan tambahan, bahan bakar atau fluida, kondisi boom dan arm, serta barang lepas dapat mengubah konfigurasi transportasi. Merek atau kategori alat saja tidak membuktikan jenis mesin, konfigurasi, fungsi, atau kesesuaiannya [ISO 6165](https://www.iso.org/standard/77616.html).
+
+Load cell adalah perangkat untuk mengukur beban pada konfigurasi tertentu; telematics adalah data yang dikirim atau direkam sistem alat; tiket timbang adalah rekaman hasil penimbangan. Ketiganya dapat berguna, tetapi harus dibaca bersama identitas unit, waktu, metode, status kalibrasi, dan batas penggunaan. Kawan Berat.id, jangan menyamakan adanya angka digital dengan bukti akurasi atau izin angkut.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Lembar data muatan adalah rekaman yang menyatukan informasi untuk satu alat dalam satu konfigurasi pengangkutan. Isinya dapat mencakup model, nomor identitas, konfigurasi angkut, panjang-lebar-tinggi, massa, titik berat bila tersedia, titik kontak pada dek, attachment, fluida, barang lepas, foto bertanggal, sumber data, dan bagian yang belum dikonfirmasi.
+
+Massa aktual berarti massa yang dibuktikan untuk konfigurasi tertentu; massa terverifikasi berarti sumber, metode, dan tanggalnya dapat diperiksa. Distribusi beban bukan sekadar pembagian angka di atas kertas: ia bergantung pada posisi muatan, trailer, kendaraan penarik, dan kondisi yang dinilai pihak kompeten. Artikel ini tidak menghitung beban gandar, mengesahkan titik ikat, atau menyetujui rute.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mulai dengan identifikasi alat. Catat model, serial bila tersedia, attachment, perlengkapan, dan kondisi transportasi yang benar-benar akan digunakan. Tentukan apakah boom, arm, blade, counterweight, atau komponen lain berada dalam konfigurasi yang sama dengan sumber data. Bila tidak sama, beri penanda bahwa data belum dapat dipakai sebagai bukti akhir.
+
+Berikutnya, kumpulkan dimensi dari sumber pabrikan atau pengukuran yang dilakukan dengan metode yang dicatat. Jangan menggabungkan ukuran dari gambar berbeda tanpa memastikan konfigurasi sama. Untuk massa, pisahkan data katalog, hasil timbang, load cell, tiket, atau telematics. Nyatakan alat ukur, tanggal, siapa yang melakukan, dan apakah kalibrasi/kalibrasi perangkat dapat ditelusuri. Tidak ada klaim akurasi dari artikel ini; penilaiannya milik prosedur serta pihak yang berwenang.
+
+Lalu catat titik kontak dan informasi titik berat yang tersedia untuk perencana transportasi. Jika titik berat atau titik kontak belum dibuktikan, jangan menggantinya dengan tebakan. Tahan keputusan konfigurasi trailer, pengikatan, dan rute sampai engineer atau penanggung jawab logistik meninjau data yang cukup.
+
+Dokumentasi pabrikan, konfigurasi aktual, kondisi alat, operator, inspeksi, dan pengawasan memberi bukti yang berbeda untuk penggunaan mesin [ISO 20474-1](https://www.iso.org/standard/60734.html). Teman Berat.id, lembar data yang jujur juga harus menyebut apa yang belum diketahui.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Periksa faktor berikut sebelum data muatan diteruskan.
+
+- konfigurasi transportasi, attachment, aksesori, fluida, dan barang lepas;
+- sumber, tanggal, metode, dan satuan setiap dimensi serta massa;
+- identitas alat dan hubungan data dengan unit aktual;
+- ketersediaan data titik berat dan titik kontak;
+- status kalibrasi alat ukur bila data tersebut dipakai sebagai bukti;
+- batas ketidakpastian, asumsi, dan pihak yang harus mengonfirmasi.
+
+Perubahan pada salah satu butir tersebut dapat membuat lembar muatan perlu diperbarui. Pengendalian risiko perlu didasarkan pada kondisi nyata, bukan pada matriks atau angka umum [panduan pengendalian risiko ILO](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks). Sobat Berat.id, data yang tidak lengkap bukan alasan untuk membuat nilai perkiraan terlihat sebagai hasil ukur.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+| Kondisi | Pertanyaan yang perlu dijawab | Tindakan yang tepat |
+| --- | --- | --- |
+| Massa dari brosur tersedia, tetapi attachment berbeda | Apakah brosur memakai konfigurasi yang sama dengan alat saat akan berangkat? | Tandai data sebagai tidak final dan cari bukti untuk konfigurasi aktual. |
+| Ada tiket timbang, tetapi identitas unit atau tanggalnya tidak jelas | Apakah tiket dapat ditautkan pada alat, konfigurasi, dan waktu yang benar? | Jangan pakai sebagai bukti utama sebelum ditelusuri. |
+| Load cell atau telematics memberi angka | Apa metode, kondisi pengukuran, status kalibrasi, dan batas penggunaannya? | Minta penilaian teknis sebelum memakai angka untuk keputusan angkut. |
+| Titik berat belum tersedia | Apakah pabrikan atau engineer dapat memberikan data/penilaian yang sesuai? | Tahan persetujuan trailer, pengikatan, dan rute. |
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama adalah memakai massa operasi katalog sebagai massa angkut aktual. Kedua, mencampur data dari beberapa unit atau tanggal. Ketiga, menyembunyikan ketidakpastian agar proses terasa cepat. Keempat, menganggap tiket atau layar telematics menggantikan pemeriksaan konfigurasi.
 
-## Objection or shortcut to address
+Jalan pintas “estimasi saja, nanti disesuaikan di lokasi” dapat menggeser risiko ke tahap ketika trailer dan kru sudah siap. Alternatifnya adalah mengirim lembar muatan yang lengkap sejak awal, dengan versi, sumber, dan pertanyaan terbuka yang jelas. Kode keselamatan konstruksi ILO mengingatkan bahwa fitur alat tidak menggantikan pengelolaan akses, lalu lintas, serta kondisi kerja nyata [Kode Keselamatan dan Kesehatan Konstruksi ILO](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+## Aturan kerja sebelum data dipakai untuk transportasi
 
-## Required conclusion
+Ukur dan catat data muatan menurut konfigurasi aktual, lalu sebutkan sumber serta keterbatasannya. Sebelum data dipakai untuk memilih trailer, rute, atau pengikatan, pastikan identitas unit, dimensi, massa, attachment, titik kontak, dan ketidakpastian telah ditinjau pihak yang berwenang.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Aturan praktisnya: data muatan yang berguna bukan yang paling banyak angkanya, melainkan yang jelas asalnya, konfigurasinya, dan batas penggunaannya.
