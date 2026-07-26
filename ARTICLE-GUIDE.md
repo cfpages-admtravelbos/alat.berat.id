@@ -56,6 +56,7 @@ Replace `[slug]` with the assigned filename. If `$env:OneDrive` is unavailable, 
 - Reader understanding takes precedence over displaying technical vocabulary. State the plain idea first, define every necessary trade/English term immediately, then explain what it changes for the reader.
 - Never leave an acronym or imported term unexplained on first use. Put the Indonesian meaning first and the accepted abbreviation in parentheses when it remains useful.
 - Treat English planning labels inherited from the outline as internal wording, not approved public prose. Translate bare `scope`, `hold point`, `handover`, `baseline`, `shortcut`, `cutout`, `red flag`, `brief`, `review`, `finishing`, `artwork`, `approved drawing`, and `release`; keep a trade term only after its Indonesian meaning is clear.
+- Do not force an uncommon Indonesian translation for a term that Indonesians naturally use in English or as a loanword. Keep familiar terms such as `stainless steel`; explain them only when the intended reader may not understand them.
 - Keep titles and headings Indonesian-first. Put useful imported component labels such as `face`, `return`, `backing`, or `mounting` in a first-use body explanation.
 - Keep standardized `[NEEDS ...]` labels where evidence is unresolved, but write the explanation after the colon in natural Indonesian.
 - Sound like Syamsul as a friendly, candid operator-teacher throughout the article: direct answer first, mechanism next, evidence and decisions after that.
