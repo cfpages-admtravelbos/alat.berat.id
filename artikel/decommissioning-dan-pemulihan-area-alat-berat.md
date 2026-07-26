@@ -1,9 +1,9 @@
 ---
 article_id: ABR-17-06
-title: "Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat"
+title: "Penghentian Terencana dan Pemulihan Area Kerja Alat Berat"
 slug: "decommissioning-dan-pemulihan-area-alat-berat"
-description: "Plan inventory, cleaning, de-energization, fluid/waste removal, dismantling, transport, contaminated-area checks, drainage/erosion repair, revegetation, evidence, and monitoring"
-status: outline
+description: "Panduan menyusun penghentian terencana alat berat dan pemulihan area kerja berdasarkan bukti proyek, tanpa menganggapnya sebagai persetujuan lingkungan."
+status: draft
 publication_date: "2026-07-01"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -11,67 +11,28 @@ parent_topic: ABR-17
 primary_intent: "Close environmental and physical site impacts"
 reader_community: "Berat.id"
 reader_address: "Kawan Berat.id"
+writing_contract_version: "native-id-v2"
 final_route: "/artikel/decommissioning-dan-pemulihan-area-alat-berat.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
   - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
   - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
   - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
   - "https://peraturan.bpk.go.id/Details/235328/permen-lhk-"
-  - "https://www.who.int/tools/compendium-on-health-and-environment/environmental-noise/"
 ---
 
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
+# Penghentian Terencana dan Pemulihan Area Kerja Alat Berat
 
-# Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat
+Halo, Kawan Berat.id! Ketika proyek selesai atau alat akan dipindahkan, godaan terbesarnya adalah menganggap area akan pulih begitu alat terakhir keluar. Padahal, penghentian terencana—sering disebut *decommissioning*—adalah rangkaian keputusan untuk menghentikan fungsi sementara, melepaskan antarmuka kerja, dan meninggalkan area dalam kondisi yang dapat diperiksa. Demobilisasi hanyalah salah satu bagiannya: memindahkan alat tidak otomatis menyelesaikan sisa risiko di area kerja.
 
-## Assignment lock
+Jawaban singkatnya, tutup area berdasarkan inventaris, kondisi aktual, dan peran yang jelas; lalu periksa apa yang berubah pada tanah, aliran air, akses, fasilitas sementara, serta bukti pekerjaan. Urutan dan kedalaman pekerjaan bisa berbeda karena jenis material, riwayat kegiatan, rancangan awal, cuaca, kewajiban kontrak, dan ketentuan setempat. Artikel ini tidak memberi persetujuan penutupan lingkungan, desain pemulihan, atau resep pembuangan bahan apa pun.
 
-- **Writer task:** Expand this file into one complete article answering: “Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat”
-- **Reader and situation:** Project team removing plant, fleet, pads, access, or temporary facilities
-- **Reader outcome:** Plan inventory, cleaning, de-energization, fluid/waste removal, dismantling, transport, contaminated-area checks, drainage/erosion repair, revegetation, evidence, and monitoring
-- **Primary intent:** Close environmental and physical site impacts
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes environmental closure approval and remediation design; ABR-14-06 owns equipment handback and competent environmental professionals/regulators own closure
-- **Final public route:** `/artikel/decommissioning-dan-pemulihan-area-alat-berat.html`
-- **Appointed CMS date:** `2026-07-01` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
+![Ilustrasi Jual Sewa Alat Berat Concrete Batching Plant](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Concrete-Batching-Plant.png)
 
-## Opening instructions
+*Aset lokal proyek; gambar ini bukan dokumentasi proyek tertentu.*
 
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -82,220 +43,76 @@ sources:
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+## Bedakan pemindahan alat, penghentian fungsi, dan pemulihan area
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Pemindahan alat berarti unit, lampiran kerja, atau fasilitas bergerak keluar dari lokasi. Penghentian terencana berarti tim juga menutup fungsi yang membuat area itu bekerja: sumber energi, jalur kendaraan, titik pengisian, tempat penyimpanan, sambungan sementara, serta akses orang. Pemulihan area berarti menilai kondisi fisik yang ditinggalkan dan menentukan pekerjaan lanjutan yang benar-benar diperlukan dalam batas proyek.
 
-### KR-01
+Pembedaan ini penting karena setiap tahap punya risiko berbeda. Alat dapat sudah berada di atas trailer, tetapi masih ada kabel, penghalang, lubang, material, bekas akses, atau perubahan aliran air yang perlu diperiksa. Sebaliknya, tanah yang tampak rapi belum membuktikan bahwa semua peralatan, catatan, atau kewajiban penutupan telah selesai. [ILO menekankan pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks) sebagai proses pengenalan bahaya dan pengendalian yang sesuai, bukan sekadar daftar pekerjaan yang dicentang.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+Sobat Berat.id, gunakan istilah yang sederhana tetapi tegas pada rapat penutupan: apa yang dipindahkan, apa yang dinonaktifkan, apa yang dipulihkan, siapa pemilik setiap keputusan, dan bukti apa yang harus tersedia. Dengan begitu, tim tidak keliru menyerahkan urusan teknis atau lingkungan kepada pihak yang tidak ditunjuk.
 
-### KR-05
+## Mulai dari batas area dan inventaris yang dapat ditelusuri
 
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
+Langkah awal bukan membongkar, melainkan memetakan ruang lingkup. Tandai batas area kerja, akses keluar-masuk, fasilitas sementara, tempat alat pernah beroperasi, serta antarmuka dengan pekerjaan atau warga sekitar. Lalu buat inventaris yang membedakan alat, lampiran, komponen lepas, sarana sementara, material tersisa, dan dokumen yang mengikat. Inventaris yang baik tidak perlu mengklaim semuanya aman; ia membuat kekosongan lebih mudah ditemukan sebelum area ditinggalkan.
 
-### KR-19
+Pertanyaan kerja yang berguna antara lain:
 
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
+- Aset apa yang ada, siapa pemiliknya, dan apakah identitasnya dapat dicocokkan dengan catatan?
+- Fungsi apa yang masih aktif atau mungkin diaktifkan kembali oleh pihak lain?
+- Bagian mana dari area yang berubah karena akses, penempatan alat, penimbunan, atau pekerjaan sementara?
+- Bukti apa yang menunjukkan kondisi sebelum, selama, dan setelah penutupan?
 
-### KR-20
+Catatan versi, pemilik, lokasi penyimpanan, dan akses dokumen juga penting. [ISO 15489 membahas pengelolaan rekaman](https://www.iso.org/standard/62542.html); dalam praktik proyek, ini mengingatkan bahwa catatan penutupan bukan hiasan administrasi. Catatan membantu membedakan apa yang benar-benar terjadi dari apa yang hanya diasumsikan selesai.
 
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
+## Susun urutan penghentian tanpa mengarang metode teknis
 
-### KR-21
+Urutan aman harus berasal dari penilaian proyek, petunjuk pabrikan, izin kerja yang relevan, dan orang berwenang. Artikel umum tidak dapat menentukan cara mengisolasi energi, membersihkan sistem, membongkar komponen, menangani cairan, atau mengangkut unit tertentu. Namun, tim masih dapat memakai logika urutan yang membantu: hentikan kegiatan, batasi akses, identifikasi antarmuka, verifikasi kondisi, lalu lepaskan atau pindahkan hanya setelah tanggung jawabnya jelas.
 
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
+Kawan Berat.id, jangan menyamakan “sudah dimatikan” dengan “sudah tidak berbahaya”. Mesin, listrik, hidraulik, bahan tersisa, komponen berat, lalu lintas keluar, dan pekerjaan serentak dapat menciptakan risiko pada fase transisi. Panduan penilaian risiko ILO menempatkan pengenalan bahaya, siapa yang dapat terdampak, pemilihan tindakan, pencatatan, dan peninjauan sebagai siklus; [lihat panduan lima langkah ILO](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting). Siklus itu lebih berguna daripada menyalin urutan dari lokasi lain.
 
-### KR-23
+Gunakan titik henti sebelum pekerjaan yang tidak dapat dibalik. Misalnya, bila identitas material, tujuan fasilitas, kondisi sambungan, atau penanggung jawab belum jelas, tahan langkah berikutnya dan eskalasi ke pemilik proyek atau tenaga kompeten. Tindakan ini bukan perlambatan tanpa alasan; ini mencegah tim menutup bukti atau menciptakan bahaya baru saat buru-buru selesai.
 
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
+## Memulihkan area berarti memeriksa perubahan, bukan menjanjikan hasil
 
-### KR-24
+Pemulihan area berfokus pada kondisi yang perlu ditangani setelah fungsi sementara berhenti. Area akses mungkin perlu dievaluasi terkait keselamatan pengguna, drainase, erosi, atau batas fisiknya. Area penempatan alat mungkin memerlukan pemeriksaan perubahan permukaan, sisa penghalang, atau kebutuhan pembersihan. Tindakan yang tepat bergantung pada bukti kondisi awal, desain proyek, kontrak, izin, temuan lapangan, dan keputusan profesional yang relevan.
 
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
+Hindari kalimat seperti “area pasti bersih” atau “tanah sudah pulih” hanya karena tidak terlihat masalah. Kondisi visual adalah informasi awal, bukan kesimpulan tentang dampak, kualitas lingkungan, atau kepatuhan. Rekaman aturan lingkungan seperti [Permen LHK 11/2021](https://peraturan.bpk.go.id/Details/235328/permen-lhk-) dapat menjadi pintu awal untuk menelusuri ketentuan yang relevan, tetapi penerapannya harus dicek pada kegiatan dan lokasi aktual oleh pihak yang berwenang.
 
-### KR-02
+Teman Berat.id, fokuskan pemeriksaan pada pertanyaan yang dapat dibuktikan: apakah akses masih aman untuk pengguna yang tersisa, apakah ada kondisi sementara yang perlu diamankan, apakah aliran air atau permukaan berubah, dan apakah ada temuan yang harus dicatat serta ditindaklanjuti? Bila jawaban menuntut pengujian, desain pemulihan, atau keputusan regulator, jangan menggantikannya dengan penilaian kasat mata.
 
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
+## Bukti penutupan yang membuat serah terima lebih jelas
 
-### KR-10
+Bukti yang baik menghubungkan rencana dengan keadaan akhir tanpa memalsukan kepastian. Contohnya dapat berupa daftar aset dan statusnya, catatan kondisi area, foto dengan konteks dan tanggal sesuai kebijakan proyek, catatan pihak yang memeriksa, isu yang masih terbuka, dan rujukan dokumen persetujuan yang berlaku. Pilih hanya bukti yang sah, dapat ditelusuri, dan sesuai aksesnya; jangan menyebarkan data personel atau dokumen sensitif demi membuat laporan terlihat lengkap.
 
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
+[ISO 45001](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf) menempatkan partisipasi, konteks organisasi, pengendalian risiko, dan perbaikan sebagai unsur sistem manajemen. Dalam penutupan proyek, maknanya praktis: pekerja yang mengetahui kondisi lapangan perlu memiliki saluran untuk melaporkan sisa masalah, sedangkan pemilik keputusan perlu melihat bukti yang cukup untuk menentukan tindak lanjut.
 
-### KR-14
+| Bukti atau pertanyaan | Manfaat praktis | Batasnya |
+| --- | --- | --- |
+| Inventaris aset dan fasilitas | Membantu menemukan barang atau fungsi yang belum dialihkan | Tidak membuktikan kondisi teknis aset |
+| Catatan kondisi area | Menunjukkan hal yang diamati saat penutupan | Tidak menggantikan survei atau pengujian khusus |
+| Daftar isu terbuka dan pemiliknya | Mencegah temuan hilang saat tim berpindah | Tidak sama dengan persetujuan penyelesaian |
+| Rujukan keputusan proyek | Memudahkan pelacakan versi dan kewenangan | Tidak membuktikan kewajiban hukum telah terpenuhi |
 
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
+## Contoh keputusan ketika waktu penutupan terbatas
 
-### KR-16
+Bayangkan sebuah area kerja sementara akan dikosongkan sebelum cuaca berubah. Tim menemukan akses yang masih dipakai pihak lain dan satu fasilitas yang asal pemiliknya belum pasti. Keputusan yang lebih baik bukan mempercepat pembongkaran seluruhnya. Pisahkan dua isu: amankan akses bersama sesuai pengaturan lokasi, lalu tahan tindakan pada fasilitas yang identitas atau izinnya belum jelas sampai penanggung jawab mengonfirmasi. Catat alasan, kondisi, dan pihak yang harus menjawab.
 
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
+Contoh lain: alat sudah siap dimobilisasi, tetapi ada catatan pekerjaan perawatan yang belum ditutup. Jangan menganggap catatan itu membuktikan kebocoran, limbah, atau kerusakan tertentu; juga jangan menutupnya tanpa pemeriksaan. Tanyakan status aktual, pihak yang memegang bukti, dan apakah kondisi tersebut memengaruhi keamanan pemindahan atau kondisi area. Jika jawabannya memerlukan pemeriksaan profesional, jadikan itu isu terbuka dengan pemilik dan batas waktu sesuai tata kelola proyek.
 
-### KR-17
+Kedua contoh tersebut sengaja tidak memberi teknik pembuangan, pembersihan, atau remediasi. Teknik semacam itu perlu ditentukan oleh material, kondisi alat, jalur pengelolaan yang sah, dan persyaratan proyek—bukan oleh artikel umum.
 
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
+## Jalan pintas yang sering merugikan pekerja dan area
 
-### KR-18
+Jalan pintas pertama adalah memulai pembongkaran sebelum batas kerja dan antarmuka ditetapkan. Akibatnya, pekerja dapat masuk ke area yang masih dipakai, akses publik bisa terganggu, atau tanggung jawab antar-kontraktor menjadi kabur. Jalan pintas kedua adalah hanya mengandalkan foto akhir. Foto dapat berguna sebagai catatan, tetapi tidak selalu menjawab apa yang telah dipindahkan, apa yang masih aktif, atau siapa yang menerima isu terbuka.
 
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
+Jalan pintas ketiga adalah menyerahkan semuanya kepada tim angkut. Tim angkut berperan penting, tetapi tidak otomatis memiliki mandat atas penutupan fungsi, verifikasi area, atau kewajiban lingkungan. Sebelum alat bergerak, pastikan ada koordinasi antara pemilik proyek, pengawas, operator, pekerja terkait, dan profesional yang memang diberi kewenangan. Bila ada ketidakpastian yang berdampak pada keselamatan pekerja, orang sekitar, atau kondisi area, hentikan keputusan yang tidak dapat dibalik sampai penilaian yang tepat tersedia.
 
-### KR-36
+[NEEDS REVIEW: batas pemulihan, metode penanganan material atau cairan, kewajiban lingkungan, kriteria serah-terima, dan persetujuan penutupan harus ditentukan dari bukti proyek, aturan yang berlaku, serta profesional berwenang.]
 
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
+## Langkah berikutnya: buat daftar kondisi akhir yang bertanggung jawab
 
-### KR-37
+Penghentian terencana dan pemulihan area kerja alat berat bukan acara “alat terakhir keluar”, melainkan cara mengelola sisa kondisi sebelum orang dan proyek berpindah. Mulailah dengan batas area, inventaris, antarmuka, kondisi yang masih berubah, dan pemilik setiap isu. Setelah itu, gunakan bukti untuk memutuskan mana yang dapat ditutup, mana yang harus diamankan, dan mana yang wajib diteruskan kepada pihak kompeten.
 
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-41
-
-- **Original sources:** [Permen LHK 11/2021](https://peraturan.bpk.go.id/Details/235328/permen-lhk-), [WHO environmental-noise guidance](https://www.who.int/tools/compendium-on-health-and-environment/environmental-noise/).
-- **Purpose for this article:** Ground engine emissions, fuel/idle claims, noise exposure/community impact, spills, used fluids, batteries, filters, and waste.
-- **Safe grounded facts:** Fuel type, newness, an acoustic canopy, or one laboratory value does not prove site emissions, noise compliance, health protection, or lifecycle benefit.
-- **Limits:** Verify applicable thresholds, engine capacity/use, measurement method and date, operating load, receptors, permits, waste chain, and emergency controls. ## Topic-family coverage matrix | Topic family | Main evidence records | Safe ground for the article set | Remaining gate before definitive drafting | | --- | --- | --- | --- | | `ABR-01` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36 | Use the reviewed alat.berat.id evidence to ground “Foundations, terminology, and classification” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-02` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-39 | Use the reviewed alat.berat.id evidence to ground “Site survey, sizing, and equipment selection” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-03` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-39 | Use the reviewed alat.berat.id evidence to ground “Earthmoving, excavation, loading, and grading” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-04` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-38 | Use the reviewed alat.berat.id evidence to ground “Cranes, lifting, and material handling” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-05` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-39, KR-40 | Use the reviewed alat.berat.id evidence to ground “Roadwork, asphalt, and compaction equipment” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-06` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-39 | Use the reviewed alat.berat.id evidence to ground “Concrete, quarry, mining, dredging, and processing plant” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-07` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-38, KR-39 | Use the reviewed alat.berat.id evidence to ground “Hauling, logistics, and route planning” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-08` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37 | Use the reviewed alat.berat.id evidence to ground “Machine anatomy, structures, undercarriage, tires, and wear” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-09` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-38 | Use the reviewed alat.berat.id evidence to ground “Attachments, work tools, and compatibility” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-10` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-41 | Use the reviewed alat.berat.id evidence to ground “Engines, hydraulics, electrical systems, controls, and telematics” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-11` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-38, KR-39 | Use the reviewed alat.berat.id evidence to ground “Safe operation and jobsite K3” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-12` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-38, KR-39 | Use the reviewed alat.berat.id evidence to ground “Loads, stability, ground bearing, slopes, and engineered limits” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-13` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37 | Use the reviewed alat.berat.id evidence to ground “Rental, purchase, tendering, contracts, and total cost” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-14` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-38, KR-39 | Use the reviewed alat.berat.id evidence to ground “Mobilization, assembly, permits, and site readiness” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-15` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-41 | Use the reviewed alat.berat.id evidence to ground “Inspection, preventive maintenance, fluids, and wear management” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-16` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-41 | Use the reviewed alat.berat.id evidence to ground “Troubleshooting, repair, component rebuild, and replacement” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-17` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-41 | Use the reviewed alat.berat.id evidence to ground “Fuel, emissions, noise, spills, waste, and environmental performance” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | | `ABR-18` | KR-01, KR-05, KR-19, KR-20, KR-21, KR-23, KR-24, KR-02, KR-10, KR-14, KR-16, KR-17, KR-18, KR-36, KR-37, KR-38, KR-39, KR-41 | Use the reviewed alat.berat.id evidence to ground “Operators, fleet governance, productivity, and evidence” through exact system identity, measured requirements and conditions, applicable current rules/standards, manufacturer or authority evidence, competent design/work, verification, records, lifecycle controls, and explicit uncertainty. | EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12. | Coverage result: **18/18 topic families mapped; 0 families without a starting evidence set.** ## Cross-catalog fact bank 1. A management system, legal duty, risk assessment, engineered control, permit, competence record, inspection, and audit prove different things. 2. Control selection starts with eliminating or controlling the hazard at source; PPE does not repair a weak design. 3. A generic article cannot approve a real site, task, worker, product, chemical, machine, lift, electrical system, confined space, height system, or fire strategy. 4. Indonesian technical K3 status must be rechecked against Permenaker 11/2026 before quoting provisions. 5. A certificate image does not prove issuer, current status, scope, identity match, delivered product, installation quality, or system performance. 6. Emergency planning must match credible scenarios, people, accessibility, on-site capability, communications, external responders, and drills. 7. An exposure observation is not a measured assessment; a measured exposure is not a diagnosis or fitness decision. 8. Activity counts and injury rates alone do not establish control effectiveness or culture. 9. Controlled documents direct current work; records preserve evidence of what occurred. 10. Product, service, price, credential, client, case, warranty, and outcome claims require dated operator-approved evidence. ## Evidence gaps and publication gates | Gate | Affected topic families | Resolution required | | --- | --- | --- | | `EG-01` Actual workplace, task, people, interfaces, environment, baseline, and current conditions | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Dated site/task survey, affected-person consultation, scope, assumptions, change check, and accountable owner | | `EG-02` Technical design, capacity, geometry, rating, spacing, load, protection, or acceptance | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Current full code/standard, design basis, calculations, product/system evidence, competent design, and approval | | `EG-03` Work method, control sequence, equipment, permit, isolation, test, inspection, or return to service | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Site-specific assessment and approved method, manufacturer instructions, competent roles, hold points, records, and supervision | | `EG-04` Rescue, emergency action, evacuation, first aid, medical response, or public-service capability | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Credible scenarios, trained team, compatible equipment, accessibility, drill evidence, clinical/emergency review, and confirmed liaison | | `EG-05` Electrical energy, lifting configuration, machinery intervention, atmosphere, hot work, or SIMOPS | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Discipline-specific hazard evidence, isolation/interface plan, authorized competence, field verification, and change controls | | `EG-06` Confined-space identity, atmosphere, ventilation, testing, entry, standby, or rescue | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Current consolidated law, actual space/configuration/contents, competent assessment, calibrated testing plan, permit system, and viable rescue plan | | `EG-07` Fire scenario, occupancy, active/passive system, egress, impairment, or authority acceptance | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Building/fire strategy, current PUPR/local rules and full standards, drawings, commissioning/maintenance evidence, fire engineer, and AHJ review | | `EG-08` Exposure, symptom, health surveillance, diagnosis, fitness, treatment, psychosocial assessment, or personal data | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Qualified occupational-health/hygiene/clinical assessment, lawful basis, consent/access controls, current evidence, and emergency escalation where needed | | `EG-09` Product, model, certificate, standard edition, marking, manufacturer instruction, compatibility, or system performance | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Exact identity and scope match, original issuer/manufacturer source, current validity, installation/configuration evidence, inspection/test, and competent acceptance | | `EG-10` Legal applicability, reporting, licence, credential, role, regulator, audit, or compliance | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Current consolidated Indonesian sources, entity/site/activity match, official record, and qualified K3/legal review | | `EG-11` Incident/case, photograph, interview, worker report, culture result, metric, or health/disciplinary record | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Original provenance, permission/lawful basis, de-identification, method/denominator, limitations, current legal/privacy review, and publication approval | | `EG-12` Service, shop item, price, stock, availability, response, client, warranty, guarantee, or commercial outcome | `ABR-01`, `ABR-02`, `ABR-03`, `ABR-04`, `ABR-05`, `ABR-06`, `ABR-07`, `ABR-08`, `ABR-09`, `ABR-10`, `ABR-11`, `ABR-12`, `ABR-13`, `ABR-14`, `ABR-15`, `ABR-16`, `ABR-17`, `ABR-18` | Dated operator-approved commercial record with owner, scope, exclusions, evidence, effective period, and refresh date | ## Source-refresh triggers Recheck immediately when Indonesian K3, construction, health, privacy, consumer, product, electrical, fire, environmental, or local rules change; when a standard or manufacturer document changes; when the site/task/people/equipment/material differ; when an article introduces a number, procedure, certificate, safety, compliance, performance, medical, price, case, or warranty claim; or six months after the verification date. ## Next authorized stage The later outline and constrained-writing-instruction stage may use this file only when separately authorized. Article drafting, Markdown article creation, HTML hydration, publication dating, sitemap generation, deployment, and Google Search Console submission are intentionally **not performed in this research stage**.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-17-04` → `/artikel/debu-kebisingan-getaran-emisi-alat-berat.html` — Debu, Kebisingan, Getaran, dan Emisi di Sekitar Alat Berat
-- `ABR-17-05` → `/artikel/limbah-perawatan-alat-berat.html` — Oli Bekas, Filter, Battery, Ban, dan Komponen: Alur Limbah Alat Berat
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
-
-## Jawaban singkat dan salah paham utama
-
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Definisi dan batas objek
-
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Cara kerjanya
-
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Faktor yang mengubah hasil
-
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Contoh keputusan praktis
-
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Kesalahan umum dan cara memeriksanya
-
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Demobilisasi, Decommissioning, dan Pemulihan Area Kerja Alat Berat”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
-
-## Objection or shortcut to address
-
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
-
-## Required conclusion
-
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
-
-## Draft completion checklist
-
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Aturan operasionalnya sederhana: jangan menyatakan area pulih atau kewajiban selesai hanya karena kegiatan utama telah berhenti. Tutup yang dapat dibuktikan, catat yang belum selesai, dan jangan lanjutkan tindakan yang tidak dapat dibalik tanpa kewenangan serta bukti yang sesuai.
