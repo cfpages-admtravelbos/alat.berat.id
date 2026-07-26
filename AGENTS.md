@@ -6,7 +6,7 @@ Follow repository code/documentation rules and the managed article workflow belo
 ## Repository-local article workflow
 
 - Article work is local to this repository. Do not inspect, edit, or borrow content from another project.
-- When `.article-worker/task.json` exists, it is the exact external-worker assignment envelope. Read `.article-worker/INSTRUCTIONS.md`, edit only its target, never use Git, and leave coordinator validation/commit/push to the primary assistant.
+- When `.article-worker/task.json` exists, it is the exact external-worker assignment envelope. Read `.article-worker/INSTRUCTIONS.md`; in `single` mode edit its one target, and in `project` mode process only its fixed target queue sequentially. Never use Git, and leave coordinator validation/commit/push to the primary assistant.
 - Before editing anything under `artikel/`, read `ARTICLE-GUIDE.md` completely and then open only the one article file explicitly assigned by the user.
 - Treat the assigned `artikel/[slug].md` file as the complete task packet. Preserve its article ID, slug, parent topic, publication date, `editorial_backfill` basis, intent, scope boundary, evidence gates, and final route.
 - Preserve the assigned root-domain reader community and opening salutation. Use `Sobat`, `Kawan`, or `Teman [root domain]` naturally at a few warranted conversational pivots, not in every paragraph.
