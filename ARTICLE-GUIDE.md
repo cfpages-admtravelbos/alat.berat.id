@@ -36,6 +36,8 @@ Do not load the portfolio ledger, OneDrive memory, another repository, the full 
 4. Answer the title's main question in the opening two or three paragraphs.
 5. Keep every H2 focused on the distinct reader question stated beneath it.
 6. Use original sources embedded in the evidence packet. Put the source link near the supported consequential claim. Use only the packet's stated safe fact/purpose/limit for that source; a URL, law number, or ISO record does not authorize guessing its subject or requirements.
+   - A generic ISO classification/safety page or broad regulation cannot support a component-specific wear diagnosis, failure mechanism, assembly sequence, inspection method, test interval, compatibility rule, or operating instruction.
+   - If the packet has no topic-specific OEM, regulator, or technical source for such a detail, explain only the decision framework conditionally, direct the reader to the exact model/project document, and retain a visible `[NEEDS TECHNICAL REVIEW: ...]` marker for any consequential detail. Never fill the gap from memory.
 7. Add internal links only where they help the reader take a next step. Use the exact routes already listed in the file.
 8. Preserve every limitation, professional-review condition, and stop-work boundary.
 9. Finish with a concrete next action or operating rule, not a generic summary.
