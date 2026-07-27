@@ -2,8 +2,9 @@
 article_id: ABR-08-05
 title: "Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work"
 slug: "retak-struktur-alat-berat-dan-ndt"
-description: "Explain evidence collection, cleaning, location mapping, critical zones, visual limits, NDT role, load history, and immediate isolation cues"
-status: outline
+description: "Mengenali eskalasi retak struktur alat berat: mengumpulkan bukti, membersihkan, memetakan lokasi, zona kritis, batas inspeksi visual, peran NDT, riwayat beban, dan isyarat isolasi segera."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-11-22"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,62 +15,12 @@ reader_address: "Sobat Berat.id"
 final_route: "/artikel/retak-struktur-alat-berat-dan-ndt.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
   - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work
 
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work”
-- **Reader and situation:** Inspector seeing cracks, paint lines, deformation, or suspect repairs
-- **Reader outcome:** Explain evidence collection, cleaning, location mapping, critical zones, visual limits, NDT role, load history, and immediate isolation cues
-- **Primary intent:** Recognize structural-crack escalation
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Sobat Berat.id`
-- **Natural variants:** `Kawan Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes weld-repair design or continued-use approval; ABR-16-04 owns failure triage and qualified structural/NDT personnel own disposition
-- **Final public route:** `/artikel/retak-struktur-alat-berat-dan-ndt.html`
-- **Appointed CMS date:** `2025-11-22` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Sobat Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Berat.id`, `Kawan Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -79,215 +30,67 @@ sources:
 - **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert a needs-image-review marker for LOCAL-001 and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+Halo, Sobat Berat.id! Menemukan retakan di boom, frame, atau dudukan attachment memicu dua reaksi yang sama-sama berbahaya. Reaksi pertama: panik dan langsung mengelasnya sendiri. Reaksi kedua: menepisnya — "ah, baru retak rambut" — lalu alat jalan terus. Dua-duanya keliru karena dua-duanya mengambil keputusan sebelum buktinya ada.
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Jawaban singkatnya begini: retak struktur adalah bukti yang harus dikumpulkan, dipetakan, dan dieskalasi — bukan teka-teki yang harus segera dijawab. Urutannya: bersihkan dan catat apa yang benar-benar terlihat, saring risiko langsungnya (apakah pekerjaan harus berhenti dan akses dibatasi sekarang?), lalu serahkan penentuan nasibnya kepada personel struktur atau NDT yang kompeten. NDT — non-destructive testing, pengujian tanpa merusak — berperan melihat apa yang tidak bisa dilihat mata, tetapi memilih metode dan menafsirkan hasilnya adalah wewenang orang yang berkompeten, bukan artikel ini.
 
-### KR-01
+Yang bisa mengubah jawaban: lokasi retakan, riwayat beban alat, dan perubahan retakan dari waktu ke waktu. Batasnya tegas sejak awal: artikel ini tidak merancang perbaikan las dan tidak memberi izin pakai lanjut; triase kegagalan dibahas artikel lain, dan disposisi akhir tetap milik personel struktur/NDT yang berkompeten.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-08-03` → `/artikel/memilih-dan-memeriksa-ban-alat-berat.html` — Ban Alat Berat: Pola Tapak, Ply, Tekanan, Panas, dan Kerusakan
-- `ABR-08-04` → `/artikel/keausan-pin-bushing-bearing-alat-berat.html` — Pin, Bushing, Bearing, dan Joint: Mengapa Celah Kecil Menjadi Masalah Besar
-- `ABR-08-06` → `/artikel/korosi-alat-berat-di-lingkungan-agresif.html` — Korosi Alat Berat di Area Pesisir, Kimia, dan Cuaca Terbuka
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+[NEEDS IMAGE REVIEW: LOCAL-001 — nama file menunjukkan concrete batching plant, yang tidak sesuai dengan topik retak struktur alat berat; gambar tidak ditampilkan sampai koordinator memastikan kesesuaiannya]
 
 ## Mulai dari gejala, bukan tebakan penyebab
 
-- **Purpose:** Tentukan apa yang terlihat/terukur, lokasi, waktu, perubahan, dan keterbatasan pengamatan.
-- **Tie back to this article:** Keep the explanation specific to “Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Begitu retakan terlihat, godaan pertama adalah langsung menyebut penyebabnya: "ini pasti karena kelebihan beban" atau "ini cuma retak cat". Tahan dulu. Yang berguna pada tahap ini bukan kesimpulan, melainkan rekaman yang akurat tentang apa yang benar-benar terlihat — karena semua keputusan berikutnya berdiri di atasnya.
+
+Mulailah dengan membersihkan area temuan. Tanah, gemuk, dan karat permukaan bisa menyembunyikan ujung retakan atau justru meniru retakan yang tidak ada. Setelah bersih, catat empat hal: apa yang terlihat (garis rambut, retakan terbuka, cat yang pecah mengikuti garis, permukaan yang berubah bentuk, atau bekas perbaikan lama), di mana persisnya (petakan terhadap titik yang mudah dikenali, misalnya jarak dari las atau dudukan pin tertentu), kapan ditemukan dan apakah berubah sejak pemeriksaan terakhir, serta keterbatasan pengamatan Anda (bagian mana yang tidak bisa dilihat tanpa membongkar). Foto dengan pembanding ukuran — sebatang pensil atau penggaris di samping retakan — jauh lebih berguna bagi penilai berikutnya daripada foto close-up tanpa skala.
+
+Dan satu hal yang sama pentingnya: akui batas mata. Retakan yang terlihat di permukaan bisa lebih pendek — atau jauh lebih panjang — dari kenyataannya di dalam material. Karena itu tahap ini sengaja berhenti di bukti, bukan vonis.
 
 ## Saringan risiko langsung
 
-- **Purpose:** Jelaskan kapan pembaca harus membatasi akses, menghentikan pekerjaan, atau meminta pemeriksaan kompeten.
-- **Tie back to this article:** Keep the explanation specific to “Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sambil mengumpulkan bukti, ada satu pertanyaan yang tidak boleh menunggu: apakah kondisi ini dapat mengancam orang? Bila ya, hentikan paparan dan ikuti prosedur OEM/site serta arahan personel kompeten. Artikel ini tidak menetapkan lokasi retak, perubahan bentuk, atau ukuran tertentu sebagai ambang berhenti karena ambang tersebut bergantung pada struktur dan prosedur yang berlaku. [NEEDS TECHNICAL REVIEW: penilaian risiko serta status operasi harus ditetapkan untuk model dan temuan yang diperiksa.]
+
+Mengapa tidak menunggu kepastian? Karena konsekuensi salah terus berjalan jauh lebih berat daripada konsekuensi salah berhenti. Pendekatan ini sejalan dengan prinsip pengendalian risiko yang runtut — kenali, nilai, kendalikan, tinjau: risiko berkonsekuensi tinggi menuntut kendali dan persetujuan yang disiplin, bukan perkiraan. Kalau ragu ke mana arahnya, arahnya selalu ke membatasi dulu, bertanya kemudian.
 
 ## Kemungkinan mekanisme
 
-- **Purpose:** Kelompokkan kemungkinan penyebab tanpa menyatakan diagnosis dari bukti yang belum cukup.
-- **Tie back to this article:** Keep the explanation specific to “Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Setelah bukti terkumpul dan risiko langsung tersaring, kemungkinan penyebab hanya boleh ditulis sebagai hipotesis untuk diuji. Artikel ini tidak dapat memilih mekanisme, lokasi kritis, atau cara perbaikan dari foto dan gejala umum. Riwayat penggunaan, perbaikan, serta pemeriksaan yang dirujuk pabrikan dapat menjadi bahan bagi personel kompeten untuk menilai kasusnya.
+
+Perhatikan bahwa daftar itu sengaja tidak memilih. Dua retakan yang tampak sama bisa lahir dari sebab yang berbeda, dan sebab yang berbeda menuntut tindakan yang berbeda: retak karena kelelahan akan kembali kalau bebannya tidak berubah, sedangkan retak karena satu kejadian punya pertanyaan berbeda. Di sinilah riwayat beban alat menjadi bukti penting — jam kerja, jenis tugas, kejadian tidak biasa — dan karena itu pula menentukan sebab dari foto saja adalah jebakan.
 
 ## Urutan pemeriksaan dan pengujian
 
-- **Purpose:** Susun observasi, dokumen, tes, sampel, atau pengukuran dari yang paling aman dan informatif.
-- **Tie back to this article:** Keep the explanation specific to “Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Urutan yang baik bergerak dari yang paling aman dan paling informatif ke yang lebih dalam. Pertama, pembersihan dan pemetaan visual seperti di atas. Kedua, pengumpulan riwayat: dokumen perawatan, catatan perbaikan sebelumnya, dan kesaksian operator tentang kejadian. Ketiga, pemeriksaan visual oleh personel yang kompeten — dan kompetensi ini bisa Anda verifikasi melalui jalur verifikasi penerbit sertifikasinya, misalnya lewat skema [BNSP](https://bnsp.go.id/).
+
+Keempat, bila pemeriksa menilai perlu, NDT dapat dipertimbangkan. Pemilihan metode, pelaksanaan, dan penafsiran hasil adalah wilayah personel yang kompeten serta dokumen yang berlaku untuk struktur tersebut; artikel ini tidak memilih metode dari jenis retak yang terlihat. Minta hasil pemeriksaan tertulis beserta lingkup dan keterbatasannya.
+
+Kelima, catat semuanya sebagai bukti yang bisa ditelusuri kembali. Jumlah kegiatan inspeksi atau pengujian tidak membuktikan pengendalian — yang menentukan adalah definisi lingkup, kualitas bukti lapangan, dan bagaimana temuan dipakai untuk keputusan. Sepuluh foto tanpa lokasi dan tanggal kalah berguna dari tiga foto yang terdokumentasi baik.
 
 ## Cara membaca hasil tanpa melompat ke kesimpulan
 
-- **Purpose:** Pisahkan hasil tes, kriteria proyek, sebab, konsekuensi, dan otoritas keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ketika hasil pemeriksaan atau NDT tiba, pisahkan lima hal yang sering tercampur. Hasil tes adalah apa yang ditemukan metode itu — misalnya indikasi pada titik tertentu sepanjang ukuran tertentu. Kriteria adalah batas yang dipakai untuk menilai hasil itu, dan kriteria ini datang dari dokumen pabrikan dan penilaian kompeten, bukan dari tabel di internet. Sebab adalah pertanyaan terpisah — hasil tes tidak otomatis menjelaskan mengapa retakan ada. Konsekuensi adalah pertanyaan lain lagi: apa artinya bagi pemakaian alat. Dan otoritas adalah siapa yang berhak menjawab semua itu.
+
+Rantai ini penting karena satu lompatan kecil saja — misalnya membaca "ada indikasi" sebagai "alat hancur", atau sebaliknya "bukan retak besar" sebagai "aman jalan terus" — mengubah keputusan secara keliru. Checklist generik tidak bisa menyelamatkan lompatan seperti itu: checklist keselamatan umum tanpa referensi model, zona struktural, atau hasil pengukuran belum tentu membuktikan bahwa mesin, modifikasi, atau metode tertentu aman untuk kasus Anda. Yang membuktikan adalah bukti spesifik pada struktur Anda, dinilai oleh orang yang berwenang.
 
 ## Pilihan tindakan dan titik eskalasi
 
-- **Purpose:** Bedakan kontrol sementara, pemantauan, perbaikan, penggantian, dan review profesional.
-- **Tie back to this article:** Keep the explanation specific to “Retak Struktur Alat Berat: Inspeksi Visual, NDT, dan Stop-Work”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Dengan bukti di tangan, pilihan tindakan harus ditetapkan oleh prosedur OEM/site dan personel kompeten. Kendali sementara dapat berupa pembatasan paparan atau akses sambil menunggu penilaian bila kondisi berpotensi mengancam orang. Cara memantau, memperbaiki, atau mengganti bagian struktur tidak ditentukan artikel ini. [NEEDS TECHNICAL REVIEW: metode pemeriksaan, pemantauan, perbaikan, dan disposisi memerlukan rancangan serta otorisasi yang sesuai.]
 
-## Objection or shortcut to address
+Titik eskalasi perlu ditulis dalam prosedur proyek sebelum dibutuhkan. Artikel ini tidak menetapkan indikator visual sebagai ambang universal; bila temuan dapat mengancam orang, hentikan paparan dan eskalasikan sesuai prosedur OEM/site kepada personel kompeten.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+Keterampilan membaca ini juga berguna saat Anda menilai unit bekas, Kawan Berat.id. Garis cat baru yang hanya menutupi satu sudut boom, atau bekas las yang "tidak tercatat", adalah pertanyaan yang harus dijawab penjual dengan dokumen. Kalau Anda sedang menimbang unit dari halaman seperti [jual sewa alat berat Ternate](/jual-sewa-alat-berat-ternate) atau [jual sewa alat berat Tebingtinggi](/jual-sewa-alat-berat-tebingtinggi), ingat bahwa logo, potongan hasil uji, atau frasa "kondisi siap kerja" belum tentu mencerminkan unit yang datang sesuai klaim — bukti perbaikan dan riwayat strukturlah yang bicara.
 
-## Required conclusion
+## Jalan pintas yang perlu diluruskan
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Jalan pintas yang perlu dihindari ialah menyimpulkan bahwa retak yang terlihat kecil boleh terus dioperasikan. Ukuran visual saja tidak menentukan status struktur. Jangan membuat tanda, jadwal pemantauan, atau keputusan operasi dari panduan umum; dokumentasikan temuan secara aman, lalu ikuti prosedur OEM/site dan arahan penilai kompeten.
 
-## Draft completion checklist
+Alternatifnya adalah mengendalikan paparannya lebih dulu, merekam temuan tanpa melakukan tindakan teknis pada retakan, lalu mengikuti prosedur site dan dokumen pabrikan untuk memanggil personel kompeten. Cara menandai, memantau, menguji, atau menentukan status struktur harus ditetapkan oleh pihak tersebut, bukan dicoba dari panduan umum.
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+## Kesimpulan: mata menemukan, bukti memutuskan
+
+Singkatnya, Sobat Berat.id: menghadapi retak struktur berarti menjalankan satu rantai — bersihkan dan rekam apa yang terlihat, saring risiko langsungnya dan batasi akses bila perlu, kumpulkan riwayat beban, periksa dengan personel kompeten, pakai NDT bila diindikasikan, dan serahkan disposisi pada yang berwenang. Tidak ada langkah di rantai itu yang boleh digantikan oleh tebakan.
+
+Langkah Anda berikutnya konkret: siapkan satu form temuan struktur di armada Anda — kolom lokasi, deskripsi, foto berskala, tanggal, riwayat, dan status pembatasan — lalu tetapkan hari ini juga siapa personel kompeten yang dipanggil bila form itu terisi. Pegang aturan operasi ini: mata bertugas menemukan dan bukti bertugas memutuskan, tetapi nasib struktur hanya ditentukan oleh personel yang kompeten — dan sampai jawabannya ada, alat yang retak di zona kritis tidak bekerja.

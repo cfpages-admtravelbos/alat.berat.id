@@ -2,8 +2,9 @@
 article_id: ABR-12-02
 title: "Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity"
 slug: "variabel-stabilitas-alat-berat"
-description: "Connect center of gravity, load, radius, boom/attachment, orientation, counterweight, support geometry, dynamic effects, slope, and manufacturer limits"
-status: outline
+description: "Menghubungkan titik berat gabungan, beban, radius, boom dan attachment, arah hadap, bandul, geometri tumpuan, efek gerakan, kemiringan, dan batas pabrikan sebelum pekerjaan dimulai."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2026-02-14"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,64 +16,11 @@ final_route: "/artikel/variabel-stabilitas-alat-berat.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
-  - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity
 
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity”
-- **Reader and situation:** Engineer or supervisor reviewing lifting or attachment changes
-- **Reader outcome:** Connect center of gravity, load, radius, boom/attachment, orientation, counterweight, support geometry, dynamic effects, slope, and manufacturer limits
-- **Primary intent:** Identify stability variables before work
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Kawan Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes a safe-capacity result or lift plan; ABR-04-02 owns chart reading and competent engineering owns approval
-- **Final public route:** `/artikel/variabel-stabilitas-alat-berat.html`
-- **Appointed CMS date:** `2026-02-14` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Kawan Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Kawan Berat.id`, `Sobat Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -82,229 +30,69 @@ sources:
 - **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert a needs-image-review marker for LOCAL-001 and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+Halo, Kawan Berat.id! Ini salah satu teka-teki paling menyesatkan di dunia alat berat: alat yang sama, beban yang sama, orang yang sama — kemarin aman, hari ini hampir terbalik. Apa yang berubah? Bukan alatnya, bukan bebannya. Yang berubah adalah salah satu variabel yang diam-diam mengatur keseimbangan: attachment diganti, radius diperbesar sedikit, atau posisi kerjanya bergeser ke sisi yang lain.
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Jawaban singkatnya begini: stabilitas bukan sifat bawaan alat, melainkan hasil dari sekumpulan variabel yang bekerja bersama — titik berat gabungan alat dan beban (center of gravity), berat beban dan radius-nya, posisi boom dan attachment, arah hadap kerja, bandul (counterweight), geometri tumpuan di tanah, efek gerakan, dan kemiringan permukaan. Mengubah satu saja berarti mengubah soal fisikanya. Rujukan utamanya adalah dokumen pabrikan untuk model dan konfigurasi persis yang digunakan, diterapkan oleh personel rekayasa yang berwenang sesuai kondisi pekerjaan — bukan angka kapasitas yang dihafal.
 
-### KR-01
+Yang bisa mengubah jawaban: konfigurasi hari itu dan pekerjaan yang sebenarnya dilakukan. Batasnya tegas: artikel ini tidak memberi hasil kapasitas aman dan bukan rencana pengangkatan (lift plan); cara membaca tabel kapasitas dibahas di artikel tersendiri, dan persetujuan teknis tetap milik rekayasa kompeten.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-12-01` → `/artikel/ground-bearing-pressure-alat-berat.html` — Ground Bearing Pressure Alat Berat: Data, Alas, dan Batas Perhitungan
-- `ABR-12-03` → `/artikel/outrigger-mat-dan-temporary-support.html` — Outrigger, Mat, dan Temporary Support: Aliran Beban ke Tanah
-- `ABR-12-04` → `/artikel/stabilitas-alat-berat-di-lereng.html` — Operasi Alat Berat di Lereng: Traksi Bukan Jaminan Stabilitas
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+[NEEDS IMAGE REVIEW: LOCAL-001 — nama file menunjukkan concrete batching plant, yang tidak sesuai dengan topik variabel stabilitas alat berat; gambar tidak ditampilkan sampai koordinator memastikan kesesuaiannya]
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Salah paham yang paling berbahaya: "Alat ini kapasitasnya X ton." Kapasitas bukan satu angka yang menempel di alat seperti nama; ia bergerak mengikuti radius dan konfigurasi. Beban yang sama bisa aman di dekat alat dan berbahaya di ujung jangkauan; alat yang sama bisa stabil menghadap ke depan dan rentan ke samping; dan angka untuk konfigurasi satu tidak berlaku begitu attachment atau bandulnya berubah.
+
+Pertanyaan yang benar bukan "berapa kapasitas alat ini?", melainkan: "Pada konfigurasi hari ini, pada radius ini, ke arah ini, di atas permukaan ini — apa kata dokumen pabrikannya?" Enam variabel dalam satu kalimat itu adalah seluruh isi artikel ini, dan mengabaikan satu pun di antaranya berarti menjawab soal yang salah.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bayangkan jungkat-jungkit. Di satu sisi ada alat dengan bobotnya, di sisi lain ada beban di ujung lengan. Titik berat gabungan adalah titik di mana seluruh berat sistem itu dianggap terkumpul, dan stabilitas berarti titik itu tetap berada di dalam bidang tumpu — tapak rantai, ban, atau bidang tumpuan lainnya. Radius adalah jarak beban dari pusat putar alat; momen adalah berat dikali jarak itu — dan inilah kunci pertama: beban yang tidak berubah pun menjadi lebih "berat" bagi keseimbangan begitu radius-nya membesar, karena yang diperjuangkan jungkat-jungkit adalah momen, bukan berat semata.
+
+Variabel lainnya menempel pada gambar yang sama: posisi boom menaikkan titik berat, attachment mengubah berat sekaligus geometri, bandul menarik titik berat ke belakang, arah hadap mengubah bentuk bidang tumpu yang tersedia, dan gerakan menambah ayunan sesaat di atas semuanya. Batas artikel ini tegas: tidak ada angka kapasitas di sini — angka itu hidup di tabel kapasitas pabrikan dan dibahas artikel lain — dan tidak ada rencana pengangkatan; persetujuan adalah wilayah rekayasa kompeten yang membaca dokumen model Anda.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Mari jalankan variabelnya satu per satu, karena masing-masing menggerakkan keseimbangan dengan caranya sendiri. Perubahan beban dan radius mengubah momen yang harus ditahan alat. Perubahan posisi boom atau penggantian attachment juga dapat mengubah bobot, geometri, serta letak titik berat gabungan. Karena itu, identitas konfigurasi bukan formalitas; pembaca perlu mencocokkan model, attachment, dan susunan aktual dengan dokumen pabrikan, bukan menyimpulkan batas kerja dari penampilan unit.
+
+Arah hadap: bidang tumpu tidak berbentuk lingkaran sempurna — dukungan di depan, samping, dan belakang berbeda, sehingga kerja ke sisi tertentu bisa jauh lebih kritis. Bandul: ia adalah penyeimbang yang sah dari pabrikan, dan menguranginya atau menggantinya tanpa dokumen berarti menulis ulang soal fisikanya. Geometri tumpuan: lebar tapak dan bentangan pendukung menentukan seberapa besar bidang keselamatan Anda — rincian alas dan tumpuan sementara dibahas artikel lain. Efek gerakan: ayunan, percepatan, dan hentian menambah momen sesaat; beban yang "pas" saat diam bisa lewat saat diayunkan. Dan kemiringan: permukaan miring memiringkan seluruh jungkat-jungkit — operasi di lereng punya artikelnya sendiri. Satu catatan bukti: kartu operator, stiker pemeriksaan, label kapasitas, dan tabel konfigurasi masing-masing punya ruang lingkup yang berbeda — satu dokumen tidak bisa menggantikan dokumen lain.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Faktor pertama adalah bukti konfigurasi: bandul yang mana, attachment yang mana, boom yang mana — dan apakah dokumen yang Anda pegang benar untuk susunan itu. Faktor kedua adalah pengetahuan tentang beban: berat sebenarnya versus berat yang dianggap; beban yang "seharusnya ringan" tetapi ternyata padat adalah kejutan klasik di jungkat-jungkit. Faktor ketiga adalah gaya kerja: operasi yang halus dan lambat memberi efek gerakan yang kecil; gerakan mendadak mengundang momen sesaat yang tidak ada di atas kertas.
+
+Faktor keempat adalah permukaan: rata dan keras, atau miring dan lembek — karena bidang tumpu hanya sebaik tanah di bawahnya. Faktor kelima adalah kualitas rencana: risiko seperti ini layak ditangani dengan siklus yang runtut — kenali, nilai, kendalikan, tinjau — seperti dijelaskan panduan [ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), bukan dengan asumsi "kemarin bisa". Dan faktor keenam adalah mutu checklist: checklist generik tanpa referensi model, konfigurasi, atau hasil pengukuran belum tentu membuktikan bahwa mesin atau metode tertentu aman untuk kasus Anda — daftar periksa stabilitas harus diturunkan dari dokumen model yang berdiri di lapangan.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kerangka bersyarat berikut murni latihan — asumsi, bukan data proyek nyata, dan sengaja tanpa angka:
+
+| Perubahan yang direncanakan | Variabel yang ikut bergerak | Pertanyaan sebelum melanjutkan |
+| --- | --- | --- |
+| Ganti attachment ke yang lebih berat | Titik berat dan dokumen konfigurasi | Apakah tabel pabrikan mencakup pasangan ini? |
+| Radius diperbesar sedikit dari rencana | Momen beban | Apa kata tabel pada radius baru ini? |
+| Kerja ke arah samping, bukan depan | Bentuk bidang tumpu | Apakah batas untuk arah ini sama? |
+| Bandul dikurangi untuk transportasi | Penyeimbang | Siapa yang mengesahkan susunan baru ini? |
+| Mengayunkan beban dengan cepat | Momen sesaat | Apakah rencana menghitung efek gerakan? |
+
+Polanya konsisten, Sobat Berat.id: setiap baris berhenti di pertanyaan ke dokumen dan rekayasa — karena jawaban yang sah tidak pernah datang dari kebiasaan.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Variabel Stabilitas Alat Berat: Radius, Konfigurasi, dan Center of Gravity”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama: menghafal kapasitas sebagai satu angka. Pemeriksaannya: "Angka itu untuk konfigurasi dan radius yang mana?" Kesalahan kedua: mengubah konfigurasi — attachment, bandul, boom — tanpa memeriksa ulang dokumennya; konfigurasi baru adalah alat baru bagi jungkat-jungkit. Kesalahan ketiga: memakai tabel atau angka dari model lain yang "mirip"; mirip di mata tidak sama di titik berat. Kesalahan keempat: mengabaikan efek gerakan — menghitung semua dalam keadaan diam, lalu mengayunkan beban secepat jadwal menuntut.
 
-## Objection or shortcut to address
+Kesalahan kelima: menganggap beban ringan tidak perlu rencana; radius besar bisa membuat beban ringan menjadi penentu. Dan kesalahan keenam: membeli atau menyewa tanpa dokumen konfigurasi. Saat menimbang unit — misalnya dari halaman seperti [jual sewa alat berat Tegal](/jual-sewa-alat-berat-tegal) atau [jual sewa alat berat Tasikmalaya](/jual-sewa-alat-berat-tasikmalaya) — minta dokumen untuk susunan yang benar-benar akan Anda terima: bandul, boom, attachment. Tanpa itu, Anda menerima jungkat-jungkit yang soalnya tidak Anda ketahui.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+## Jalan pintas yang perlu diluruskan
 
-## Required conclusion
+Jalan pintasnya terdengar berhati-hati: "Bebannya cuma setengah dari kapasitas brosur — pasti aman." Kalimat itu terdengar konservatif padahal kosong: setengah dari angka yang mana? Pada radius berapa? Dengan konfigurasi yang mana? Angka brosur yang paling besar biasanya berlaku pada kondisi paling bersahabat — radius terdekat, arah terkuat, konfigurasi standar — dan pekerjaan Anda hampir tidak pernah berdiri persis di titik itu. Margin yang dihitung dari angka yang salah adalah margin yang tidak ada.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Alternatifnya: sebelum pekerjaan dimulai, jalankan daftar variabelnya — konfigurasi, beban, radius, arah, tumpuan, gerakan, kemiringan — dan cocokkan dengan dokumen pabrikan bersama rekayasa yang berwenang. Itu margin yang nyata, karena dihitung dari soal yang benar.
 
-## Draft completion checklist
+## Kesimpulan: stabilitas adalah hasil konfigurasi hari itu, bukan milik alatnya
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Kawan Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Singkatnya, Kawan Berat.id: stabilitas alat berat dipengaruhi titik berat gabungan, beban dan radiusnya, boom dan attachment, arah hadap, bandul, geometri tumpuan, efek gerakan, dan kemiringan. Dokumen pabrikan serta penilaian rekayasa kompeten menjadi rujukan keputusan untuk konfigurasi dan kondisi pekerjaan yang nyata.
+
+Langkah Anda berikutnya konkret: sebelum pengangkatan atau perubahan attachment berikutnya, tulis satu daftar variabel dari artikel ini, isi nilainya untuk pekerjaan yang akan datang, dan minta rekayasa yang berwenang mencocokkannya dengan dokumen model yang sebenarnya datang ke lokasi. Pegang aturan operasi ini: tidak ada kapasitas tanpa radius, tidak ada stabilitas tanpa konfigurasi, dan tidak ada "kemarin bisa" tanpa bukti hari ini. Batas jujurnya: hasil kapasitas aman, pembacaan tabel, dan persetujuan rencana tetap milik artikel khusus dan rekayasa kompeten Anda — artikel ini daftar variabelnya, bukan kalkulatornya.

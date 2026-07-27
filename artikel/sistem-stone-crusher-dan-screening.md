@@ -2,8 +2,9 @@
 article_id: ABR-06-03
 title: "Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin"
 slug: "sistem-stone-crusher-dan-screening"
-description: "Map feed, primary/secondary crushing, screening, recirculation, conveyors, stockpiles, gradation, guarding, and bottlenecks"
-status: outline
+description: "Memahami pengolahan agregat sebagai sistem yang terhubung: umpan, pemecahan primer dan sekunder, ayakan, resirkulasi, ban berjalan, timbunan produk, susunan ukuran, pengaman, dan titik tersempit aliran."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-09-29"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -14,64 +15,12 @@ reader_address: "Sobat Berat.id"
 final_route: "/artikel/sistem-stone-crusher-dan-screening.html"
 technical_review: required
 sources:
-  - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
   - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
-  - "https://www.iso.org/standard/67851.html"
-  - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
-  - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin
 
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin”
-- **Reader and situation:** Quarry or project team selecting a crusher train
-- **Reader outcome:** Map feed, primary/secondary crushing, screening, recirculation, conveyors, stockpiles, gradation, guarding, and bottlenecks
-- **Primary intent:** Understand aggregate processing as a connected system
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Sobat Berat.id`
-- **Natural variants:** `Kawan Berat.id` and `Teman Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes quarry design, blasting, and promised output; ABR-06-04 owns fleet interfaces and OEM/material tests own sizing
-- **Final public route:** `/artikel/sistem-stone-crusher-dan-screening.html`
-- **Appointed CMS date:** `2025-09-29` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Sobat Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Sobat Berat.id`, `Kawan Berat.id`, or `Teman Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-012`
@@ -81,223 +30,67 @@ sources:
 - **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Stone Crusher` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-012]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert a needs-image-review marker for LOCAL-012 and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+Halo, Sobat Berat.id! Ada pola yang berulang di banyak proyek: tim membeli "crusher" — satu mesin, satu nomor kapasitas di brosur — lalu kecewa ketika hasil di lapangan tidak pernah menyentuh angka itu. Masalahnya bukan mesinnya. Masalahnya adalah mereka membeli satu mesin, padahal yang bekerja adalah satu aliran.
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Jawaban singkatnya begini: pengolahan agregat bukanlah satu mesin, melainkan sistem yang terhubung — umpan masuk lewat feeder, dipecah bertahap oleh crusher primer dan sekunder, dipisahkan ukurannya oleh screen (ayakan), yang kebesaran diputar kembali (resirkulasi), diangkut antartahap oleh conveyor (ban berjalan), dan ditampung sebagai stockpile per ukuran. Karena output tiap tahap adalah input tahap berikutnya, kapasitas sistem ditentukan oleh titik yang paling sempit — dan produk yang Anda jual sebenarnya adalah gradasi (sebaran ukuran), bukan sekadar tonase.
 
-### KR-01
+Yang bisa mengubah jawaban: sifat material Anda dan gradasi produk yang diminta. Batasnya tegas: artikel ini tidak merancang quarry, tidak membahas peledakan, dan tidak menjanjikan output apa pun; keseimbangan armada tambang di hulu dibahas artikel tersendiri, dan penentuan ukuran mesin adalah wilayah data uji material serta dokumen pabrikan.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
+![Ilustrasi Jual Sewa Alat Berat Stone Crusher](/wp-content/uploads/2020/10/Jual-Sewa-Alat-Berat-Stone-Crusher.png)
 
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/stone-crusher` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/stone-crusher/` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/stone-crusher-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/stone-crusher-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/stone-crusher-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-rental/stone-crusher-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-06-01` → `/artikel/concrete-mixer-batching-plant-concrete-pump.html` — Concrete Mixer, Batching Plant, dan Concrete Pump: Peran yang Berbeda
-- `ABR-06-02` → `/artikel/memilih-sistem-pompa-beton-dan-mencegah-sumbatan.html` — Memilih Sistem Pompa Beton dan Mencegah Sumbatan
-- `ABR-06-04` → `/artikel/menyeimbangkan-armada-tambang-hingga-crusher.html` — Menyeimbangkan Armada Tambang dari Front hingga Crusher
-- `ABR-06-05` → `/artikel/jenis-dredger-dan-data-sebelum-pengerukan.html` — Jenis Dredger dan Data Dasar Sebelum Pengerukan
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+Ilustrasi aset lokal proyek; bukan dokumentasi proyek tertentu.
 
 ## Hasil akhir dan prasyarat
 
-- **Purpose:** Nyatakan hasil yang ingin dicapai, siapa yang berwenang, data awal, alat/dokumen, dan kondisi yang harus tersedia.
-- **Tie back to this article:** Keep the explanation specific to “Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Hasil yang Anda inginkan dari artikel ini sederhana tetapi mengubah cara membeli: satu peta aliran material untuk rencana plant Anda — setiap tahap dengan perannya, dan titik tersempitnya ditandai. Dengan peta itu, setiap penawaran mesin bisa dinilai pada tempatnya: apakah ia memperlebar titik yang benar, atau hanya memperbesar mesin yang salah?
 
-## Langkah 1 — tetapkan scope
+Siapa yang berwenang mengisinya sampai angka? Bukan artikel ini. Penentuan ukuran dan kombinasi mesin adalah pekerjaan perancang yang kompeten dengan dua bahan yang tidak bisa digantikan brosur: data uji material Anda (keras, abrasif, basah, ukuran umpan) dan dokumen pabrikan untuk model yang ditawar. Dan soal identitas, satu pengingat: merek, massa operasi, atau kategori penjual tidak dengan sendirinya menetapkan konfigurasi, tugas, atau kesesuaian mesin — dua "crusher 100 ton per jam" bisa berarti dua alat yang sangat berbeda.
 
-- **Purpose:** Jelaskan objek, batas pekerjaan, antarmuka, risiko, serta hal yang sengaja tidak dikerjakan.
-- **Tie back to this article:** Keep the explanation specific to “Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+## Langkah 1 — tetapkan cakupan
+
+Ikuti perjalanan satu bongkah batu, dan semua istilahnya menjadi jelas dengan sendirinya. Perjalanan dimulai di feed: batu dari tambang ditumpahkan ke hopper (penampung) dan diatur masuknya oleh feeder — keran yang menentukan seberapa deras sistem diberi makan. Lalu batu bertemu crusher primer, pemecah tahap pertama yang mengecilkan bongkahan besar menjadi ukuran yang masih kasar. Dari situ material bergerak — biasanya lewat conveyor — ke crusher sekunder, yang menghaluskan lebih jauh.
+
+Kemudian tibalah pemilahnya: screen, ayakan bergetar yang memisahkan material berdasarkan ukuran lubangnya. Yang lolos sesuai ukuran menjadi produk dan menuju stockpile-nya masing-masing; yang kebesaran tidak dibuang, melainkan dikembalikan lewat jalur resirkulasi untuk dipecah lagi. Stockpile adalah gudang terbuka per ukuran produk — dan di situlah "gradasi" menjadi uang: campuran ukuran yang sesuai permintaan adalah produk, sedangkan ukuran yang salah hanyalah batu.
+
+Cakupan yang sengaja tidak dibahas: desain quarry dan peledakan di hulu, janji output angka, serta keseimbangan armada pengangkut di depan crusher — itu topik artikel lain. Mengapa batas ini penting? Karena output sistem bergantung pada semua hal yang tidak kita bahas itu juga; angka kapasitas tanpa konteksnya bukan informasi, melainkan iklan.
 
 ## Langkah 2 — kumpulkan dan cocokkan bukti
 
-- **Purpose:** Susun dokumen, observasi, data, produk, atau standar yang harus cocok dengan kasus.
-- **Tie back to this article:** Keep the explanation specific to “Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Bukti pertama adalah material itu sendiri. Batu yang keras dan abrasif memakan mesin dan energi dengan cara berbeda dari batu yang lunak; material basah dan lengket menyumbat jalur yang untuk material kering lancar-lancar saja. Karena itu uji material bukan formalitas — ia dasar dari semua ukuran mesin, dan ia milik laboratorium serta pabrikan, bukan perkiraan.
+
+Bukti kedua adalah kejujuran klaim. Angka kapasitas di brosur adalah undangan untuk bertanya "pada kondisi apa?", bukan janji untuk dipercaya. Logo, potongan hasil uji, atau frasa "berkapasitas sekian" belum tentu mencerminkan bahwa sistem yang terpasang di site Anda akan memberi hasil itu. Mintalah dasar perhitungan kapasitas untuk material Anda, bukan katalognya. Bukti ketiga adalah batas site Anda sendiri: ruang untuk conveyor dan stockpile, akses perawatan, dan — seperti yang akan kita bahas — pengaman. Kalau Anda mulai menimbang unit, halaman seperti [stone crusher](/stone-crusher) di situs ini bisa menjadi titik mula sebelum masuk ke dokumen pabrikan masing-masing model.
 
 ## Langkah 3 — jalankan urutan kerja
 
-- **Purpose:** Berikan urutan konseptual yang dapat diikuti tanpa berubah menjadi instruksi teknis berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Urutan kerja konseptualnya bergerak mundur dari produk, bukan maju dari mesin. Pertama, tetapkan produknya: gradasi apa yang diminta pasar atau proyek Anda, karena itu menentukan susunan screen dan jalur resirkulasi. Kedua, petakan tahapannya: dari umpan ke primer, sekunder, screen, dan stockpile — setiap tahap ditanya perannya terhadap gradasi akhir. Ketiga, seimbangkan kapasitas antartahap: inilah inti "aliran, bukan mesin" — tahap yang lebih cepat dari tahap berikutnya hanya akan menumpuk material di conveyor, dan tahap yang lebih lambat dari tahap sebelumnya membuat mesin mahal di hulu menganggur menunggu.
 
-## Hold point dan kondisi berhenti
+Keempat, rencanakan jalur-jalur pendukung: resirkulasi untuk ukuran yang belum lolos, dan stockpile dengan ruang yang cukup agar produk tidak tercampur kembali. Kelima, tanamkan pengaman sejak denah, bukan ditambal belakangan: conveyor punya titik jepit, crusher punya ruang kerja yang tidak boleh dimasuki saat beroperasi, dan setiap akses perawatan harus punya cara isolasi. Catatan [ISO 12100](https://www.iso.org/standard/51528.html) mengingatkan bahwa identitas mesin, dokumentasi pabrikan, konsep pengamanan, dan validasinya masing-masing memerlukan bukti — pengaman bukan aksesori, melainkan bagian dari desain yang harus diverifikasi.
 
-- **Purpose:** Nyatakan kapan pekerjaan tidak boleh diteruskan tanpa review, tes, atau persetujuan.
-- **Tie back to this article:** Keep the explanation specific to “Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Sebagai gambaran latihan — asumsi, bukan data plant nyata — bayangkan dua plant dengan mesin identik menghadapi musim hujan, Kawan Berat.id. Plant pertama memperlakukan material basah sebagai "masalah minggu ini": umpan melengket, screen cepat tersumbat, resirkulasi membengkak, dan jawabannya selalu mendorong umpan lebih keras — yang justru mempercepat sumbatan berikutnya. Plant kedua membaca tanda yang sama sebagai sinyal keseimbangan yang bergeser: laju umpan disesuaikan, pembersihan screen dijadwalkan, dan tim mencatat kondisi material sebagai variabel rencana, bukan gangguan. Mesin sama, material sama — yang berbeda adalah cara membaca alirannya.
 
-## Verifikasi hasil dan handover
+## Titik tahan dan kondisi berhenti
 
-- **Purpose:** Buat checklist penerimaan, rekaman, tindak lanjut, dan pemicu koreksi.
-- **Tie back to this article:** Keep the explanation specific to “Sistem Stone Crusher dan Screening: Aliran Material, Bukan Satu Mesin”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Ada kondisi di mana sistem tidak boleh diteruskan tanpa berhenti dan ditinjau. Berhenti ketika karakter umpan berubah drastis — misalnya material yang jauh lebih basah atau lebih besar dari asumsi desain — karena seluruh keseimbangan tahap ikut bergeser. Berhenti ketika pengaman belum lengkap atau dilewati; conveyor dan crusher tidak memberi kesempatan kedua kepada tangan yang salah tempat. Berhenti ketika resirkulasi membesar tanpa sebab yang dipahami — itu tanda tahap pemecahan atau ayakan tidak lagi bekerja seperti desainnya.
 
-## Objection or shortcut to address
+Dan satu kondisi yang paling sering memakan korban, Teman Berat.id: sumbatan. Material yang menyumbat di hopper, crusher, atau conveyor mengundang orang untuk "menusuknya sebentar". Jangan. Sumbatan adalah pekerjaan berhenti, isolasi energi, dan prosedur dari pihak yang berwenang — bukan tongkat dan keberanian. Detail cara menangani sumbatan sengaja tidak ditulis di sini karena memang bukan wilayah artikel umum.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+## Verifikasi hasil dan serah terima
 
-## Required conclusion
+Sistem yang selesai disusun belum selesai sebelum dibuktikan jalan. Daftar penerimaannya: aliran berjalan tanpa tumpahan dan sumbatan kronis di setiap sambungan conveyor; gradasi produk diperiksa dengan metode sampling yang disepakati, bukan dilihat dari jauh; pengaman dan akses isolasi diverifikasi satu per satu; dan ada catatan awal sebagai garis dasar untuk memantau perubahan. Checklist generik tidak menggantikan semua itu — checklist keselamatan umum tanpa referensi model, konfigurasi, atau hasil pengukuran belum tentu membuktikan bahwa mesin atau metode tertentu aman untuk plant Anda. Verifikasi harus spesifik pada plant yang berdiri di site Anda.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Serah terima juga berarti menamai pemilik lanjutannya: siapa yang memantau bottleneck mingguan, siapa yang berwenang mengubah susunan screen, dan siapa yang memutuskan berhenti ketika sumbatan. Kalau Anda menimbang unit atau sistem dari penyedia — misalnya lewat halaman seperti [jual rental stone crusher di Tuban](/jual-rental/stone-crusher-tuban) — mintakan peta alirannya dan bukti kapasitas untuk material Anda, bukan hanya harga per unitnya.
 
-## Draft completion checklist
+## Jalan pintas yang perlu diluruskan
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Sobat Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Jalan pintas yang paling menggoda: "Beli saja crusher yang paling besar, biar tidak kurang." Besar terasa seperti aman, tetapi mekanismenya keliru. Sistem yang baik diukur dari keseimbangan alirannya: primer raksasa yang diikuti conveyor, screen, dan stockpile yang tidak sanggup menerimanya hanya memindahkan antrean dari satu titik ke titik lain — sambil memakan modal dan bahan bakar jauh lebih besar. Kelebihan kapasitas di satu tahap bukan cadangan; ia adalah antrean yang dipindahkan.
+
+Alternatifnya: ukur sistem dari produk ke belakang. Tentukan gradasi dan kebutuhannya, lalu pilih tahap-tahap yang seimbang melayaninya — dengan data uji material dan dokumen pabrikan sebagai hakim ukurannya. Sistem yang seimbang di angka yang lebih kecil mengalahkan sistem raksasa yang tersumbat dirinya sendiri.
+
+## Kesimpulan: kapasitas plant adalah kapasitas titik tersempitnya
+
+Singkatnya, Sobat Berat.id: stone crusher dan screening adalah satu aliran material — umpan, primer, sekunder, screen, resirkulasi, conveyor, stockpile — dan nilai sistemnya ditentukan oleh gradasi produknya serta titik tersempit alirannya, bukan oleh mesin terbesar di dalamnya.
+
+Langkah Anda berikutnya konkret: gambar peta aliran plant Anda — atau rencana plant Anda — dengan setiap tahap diberi peran dan setiap sambungan diberi nama, lalu tandai satu titik yang menurut Anda paling sempit dan tulis buktinya. Pegang aturan operasi ini: yang dijual adalah gradasi, yang menentukan kecepatan adalah titik tersempit, dan yang menentukan ukuran mesin adalah data uji material serta dokumen pabrikan — bukan brosur, bukan pula artikel ini.

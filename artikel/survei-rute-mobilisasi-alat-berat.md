@@ -2,8 +2,9 @@
 article_id: ABR-07-04
 title: "Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses"
 slug: "survei-rute-mobilisasi-alat-berat"
-description: "Check clear width/height, swept path, grade, surface, bridge, utilities, work zones, time windows, safe stopping, alternates, and emergency access"
-status: outline
+description: "Memeriksa kendala rute sebelum mobilisasi alat berat: lebar dan tinggi bebas, ruang sapu belokan, kemiringan, permukaan, jembatan, utilitas, zona kerja, jendela waktu, tempat berhenti aman, alternatif, dan akses darurat."
+status: draft
+writing_contract_version: "native-id-v2"
 publication_date: "2025-10-27"
 publication_date_basis: editorial_backfill
 date_modified: null
@@ -15,64 +16,14 @@ final_route: "/artikel/survei-rute-mobilisasi-alat-berat.html"
 technical_review: required
 sources:
   - "https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks"
-  - "https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting"
-  - "https://bnsp.go.id/"
-  - "https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf"
-  - "https://www.iso.org/standard/70017.html"
-  - "https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012"
-  - "https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999"
-  - "https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf"
-  - "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022"
-  - "https://www.iso.org/standard/62542.html"
-  - "https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970"
-  - "https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020"
-  - "https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026"
-  - "https://www.iso.org/standard/51528.html"
-  - "https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016"
-  - "https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi"
-  - "https://www.ilo.org/publications/safety-and-health-construction-revised-edition"
-  - "https://www.who.int/publications/i/item/9789240099814"
-  - "https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health"
   - "https://www.iso.org/standard/67851.html"
   - "https://kemkes.go.id/id/layanan/psc-119"
-  - "https://www.iso.org/standard/77616.html"
-  - "https://www.iso.org/standard/60734.html"
-  - "https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020"
   - "https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988"
-  - "https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988"
 ---
-
-<!-- GENERATED ARTICLE OUTLINE: expand this file; do not delete scope/evidence constraints -->
 
 # Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses
 
-## Assignment lock
-
-- **Writer task:** Expand this file into one complete article answering: “Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses”
-- **Reader and situation:** Logistics team planning an abnormal or constrained load
-- **Reader outcome:** Check clear width/height, swept path, grade, surface, bridge, utilities, work zones, time windows, safe stopping, alternates, and emergency access
-- **Primary intent:** Identify route constraints before movement
-- **Reader community:** `Berat.id`
-- **Primary friendly address:** `Teman Berat.id`
-- **Natural variants:** `Sobat Berat.id` and `Kawan Berat.id`
-- **Address cadence:** use a friendly project-community address three to five times in a typical long article, only at natural conversational pivots.
-- **Scope boundary:** Excludes permission to travel and city-by-city claims; ABR-14-02 owns authorization and route service pages own verified commercial coverage
-- **Final public route:** `/artikel/survei-rute-mobilisasi-alat-berat.html`
-- **Appointed CMS date:** `2025-10-27` (`editorial_backfill`; preserve exactly)
-- **Target length:** normally 1,400–2,200 useful words; stop earlier if the answer is complete.
-- **Do not drift:** do not turn this page into a broad category page, sales landing page, or substitute for professional/project approval.
-
-## Opening instructions
-
-- Open with the exact short salutation: **“Halo, Teman Berat.id!”**
-- Start with the concrete decision, confusion, risk, or costly shortcut behind **Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses**.
-- Give the short answer within the first two or three paragraphs.
-- State what evidence or condition can change that answer.
-- Later, sprinkle `Teman Berat.id`, `Sobat Berat.id`, or `Kawan Berat.id` at useful warnings, decisions, examples, or the conclusion; do not force them into every section.
-- Do not use a generic industry-history or “Di era digital” introduction.
-
-
-<!-- BEGIN MANAGED IMAGE PLAN -->
+<!-- BEGIN MANAGED IMAGE PLAN
 ## Image plan
 
 - **Image ID:** `LOCAL-001`
@@ -82,230 +33,71 @@ sources:
 - **Caption/credit:** Aset lokal proyek; jangan klaim sebagai dokumentasi proyek tertentu.
 - **Selection basis:** filename/source metadata identifies `Jual Sewa Alat Berat Concrete Batching Plant` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
-- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: LOCAL-001]` and continue drafting the prose.
-<!-- END MANAGED IMAGE PLAN -->
+- **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert a needs-image-review marker for LOCAL-001 and continue drafting the prose.
+END MANAGED IMAGE PLAN -->
 
-## Evidence packet
+Halo, Teman Berat.id! Cerita yang mahal biasanya dimulai sama: lowbed sudah jalan ratusan kilometer, lalu berhenti total di depan satu kabel listrik yang menggantung rendah di mulut desa — atau satu jembatan tua yang tidak berani dilewati. Mundur tidak mudah, putar tidak mungkin, dan satu "kejutan" kecil itu memakan hari-hari. Semua kejutan seperti itu sebenarnya bisa ditemukan lebih dulu — di atas kertas, bukan oleh bumper.
 
-Use the original source links below. Do not cite this outline or `GLOBAL_RESEARCH.md`.
+Jawaban singkatnya begini: survei rute mobilisasi adalah pemeriksaan setiap kendala rute sebelum muatan bergerak — lebar dan tinggi bebas di setiap titik sempit, ruang sapu kendaraan saat berbelok, kemiringan, kekuatan permukaan dan bahu jalan, jembatan, utilitas yang menggantung, zona kerja yang berubah-ubah, jendela waktu lewat, tempat berhenti aman, rute alternatif, dan akses darurat kalau kendaraan mogok di tengah. Survei dilakukan di rute yang sebenarnya, baru-baru ini, dengan ukuran dan foto — bukan dari ingatan dan bukan hanya dari peta.
 
-### KR-01
+Yang bisa mengubah jawaban: dimensi dan massa muatan Anda, konfigurasi kendaraannya, serta perubahan rute yang bisa terjadi dalam hitungan minggu. Batasnya tegas: artikel ini bukan izin perjalanan — otorisasi angkutan adalah cakupan artikel tersendiri — dan tidak membuat klaim rute kota per kota; halaman layanan rute memuat cakupan komersial yang sudah diverifikasi. Artikel ini mengajarkan apa yang harus diperiksa, di mana pun rute Anda.
 
-- **Original sources:** [`TOPICAL_AUTHORITY.md`](TOPICAL_AUTHORITY.md), and [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md).
-- **Purpose for this article:** Freeze the verified editorial scope for `alat.berat.id` and prevent family research from overriding this project's actual catalog boundaries.
-- **Safe grounded facts:** The repository plans 20 parent topics and 120 briefs. Planning documents do not prove a workplace, product, person, service, certificate, or control is safe or compliant.
-- **Limits:** Reconcile only against the frozen local catalog when its canonical commit changes.
-
-### KR-05
-
-- **Original sources:** [ILO controlling risks](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks), [ILO five-step risk-assessment guide](https://www.ilo.org/publications/5-step-guide-employers-workers-and-their-representatives-conducting).
-- **Purpose for this article:** Ground a lean, repeatable risk cycle rather than paperwork volume or PPE-first advice.
-- **Safe grounded facts:** A generic matrix does not determine likelihood, consequence, exposure, acceptability, or residual risk for a site.
-- **Limits:** Complex or high-consequence risks require discipline-specific methods, evidence, competence, and approval.
-
-### KR-19
-
-- **Original sources:** [BNSP official site](https://bnsp.go.id/), [ISO 45001 briefing note](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/iso_45001_-briefing_note.pdf).
-- **Purpose for this article:** Ground role profiles, training needs, credential verification, practical assessment, authorization, supervision, and refresh after change.
-- **Safe grounded facts:** Scope, issuer, scheme, level, date/expiry, identity, practical context, language/literacy, supervision, and change determine what evidence means.
-- **Limits:** Verify the current regulator/issuer record and job-specific legal requirements; never authenticate a person or grant authorization from an article.
-
-### KR-20
-
-- **Original sources:** [ISO 19011:2018 record](https://www.iso.org/standard/70017.html), [PP No. 50 Tahun 2012](https://peraturan.bpk.go.id/Details/5263/pp-no-50-tahun-2012).
-- **Purpose for this article:** Ground scope, competence, independence, sampling, field evidence, findings, actions, effectiveness, and management review.
-- **Safe grounded facts:** Activity counts and injury rates alone do not prove risk control; definitions, denominators, exposure, reporting quality, severity, leading evidence, and decision use matter.
-- **Limits:** Do not claim audit independence, conformity, control effectiveness, or statistical improvement without a defined method and original evidence.
-
-### KR-21
-
-- **Original sources:** [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999), [PP No. 80 Tahun 2019](https://jdih.kemendag.go.id/pdf/Regulasi/2019/PP%20Nomor%2080%20Tahun%202019.pdf).
-- **Purpose for this article:** Replace price-only selection and marketplace claims with comparable, retrievable evidence.
-- **Safe grounded facts:** A logo, test excerpt, certificate image, seller rating, or “standard-compliant” phrase does not prove the delivered model or installed system conforms.
-- **Limits:** No fabricated stock, price, client, approval, certificate, warranty, availability, or legal entitlement.
-
-### KR-23
-
-- **Original sources:** [UU No. 27 Tahun 2022](https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022), [ISO 15489-1:2016 record](https://www.iso.org/standard/62542.html).
-- **Purpose for this article:** Ground approvals, versions, distribution, field access, retention, evidence provenance, migration, and personal-data boundaries.
-- **Safe grounded facts:** Legal register, risk assessment, permit, inspection, training, credential, incident, health record, corrective action, and audit evidence have different owners and sensitivity.
-- **Limits:** Retention, access, lawful basis, breach response, health data, litigation hold, and regulator submission require current legal and records/privacy review.
-
-### KR-24
-
-- **Original sources:** [`ARTICLE_CATALOG.md`](ARTICLE_CATALOG.md), [UU No. 8 Tahun 1999](https://peraturan.bpk.go.id/Details/45288/uu-no-8-tahun-1999).
-- **Purpose for this article:** Keep evergreen education separate from changing `safety.co.id` offers and proof.
-- **Safe grounded facts:** Every live claim needs an owner, original record, scope, date, limitations, and refresh trigger.
-- **Limits:** If proof is absent, keep the article neutral and preserve the evidence gap.
-
-### KR-02
-
-- **Original sources:** [UU No. 1 Tahun 1970](https://peraturan.bpk.go.id/Details/47614/uu-no-1-tahun-1970).
-- **Purpose for this article:** Establish the national foundation without converting one law into a complete site obligation register.
-- **Safe grounded facts:** Applicability depends on the actual workplace, activity, people, equipment, material, and implementing rules; a web article cannot determine compliance.
-- **Limits:** Use current consolidated law and sector/local rules; obtain Indonesian K3/legal review for a definitive duty.
-
-### KR-10
-
-- **Original sources:** [Permenaker No. 8 Tahun 2020](https://peraturan.bpk.go.id/Home/Details/163270/permenaker-no-8-tahun-2020), [Permenaker No. 11 Tahun 2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground roles, equipment identity, load information, ground/support, configuration, accessories, communication, exclusion, inspection, and abnormal-lift escalation.
-- **Safe grounded facts:** Equipment registration/status, operator competence, accessory identity, load chart/configuration, lift plan, site conditions, inspection, and authorization prove different things.
-- **Limits:** No load, radius, ground-bearing, rigging, sling-angle, wind, inspection interval, critical-lift threshold, or operating instruction from generic material.
-
-### KR-14
-
-- **Original sources:** [ISO 12100:2010 record](https://www.iso.org/standard/51528.html), [Permenaker No. 38 Tahun 2016 record](https://peraturan.bpk.go.id/Details/146105/permenaker-no-38-tahun-2016).
-- **Purpose for this article:** Ground design risk reduction, safeguards, access, interventions, isolation, commissioning, inspection, and modification control.
-- **Safe grounded facts:** Machine identity, manufacturer documentation, hazards, safeguarding concept, control-system behavior, access, maintenance state, modification history, and validation each need evidence.
-- **Limits:** Permenaker 11/2026 partially changed the 2016 rule; no guard dimension, interlock design, bypass, jam-clearing, validation, or return-to-service instruction.
-
-### KR-16
-
-- **Original sources:** [Permen PUPR No. 10 Tahun 2021 official record](https://jdih.pu.go.id/detail-dokumen/PermenPUPR-nomor-10-tahun-2021-Pedoman-Sistem-Manajemen-Keselamatan-Konstruksi), [ILO Safety and Health in Construction code](https://www.ilo.org/publications/safety-and-health-construction-revised-edition).
-- **Purpose for this article:** Ground SMKK, design risk, procurement, RKK interfaces, temporary states, contractors, public/occupied-site protection, and handover.
-- **Safe grounded facts:** Client, designer, contractor, subcontractor, supervisor, competent person, worker, and public interfaces change across phases and simultaneous work.
-- **Limits:** No excavation, temporary-works, scaffold, lifting, electrical, traffic, structural, or public-protection design without project evidence and competent discipline review.
-
-### KR-17
-
-- **Original sources:** [Permenaker No. 5 Tahun 2018 status through Permenaker 11/2026](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026), [WHO workplace heat-stress guidance](https://www.who.int/publications/i/item/9789240099814), [WHO psychosocial-risk resource](https://www.who.int/tools/occupational-hazards-in-health-sector/psycho-social-risks-mental-health).
-- **Purpose for this article:** Ground physical, chemical, biological, ergonomic, heat, fatigue, and psychosocial assessment without diagnosis.
-- **Safe grounded facts:** A screening observation is not an exposure assessment; an exposure result is not a diagnosis; workplace prevention and individual treatment are different domains.
-- **Limits:** Permenaker 11/2026 partially revoked provisions of Permenaker 5/2018. Do not publish limits, schedules, diagnosis, fitness, treatment, or personal results without current sources and qualified reviewers.
-
-### KR-18
-
-- **Original sources:** [ISO 22320:2018 record](https://www.iso.org/standard/67851.html), [Kemenkes PSC 119](https://kemkes.go.id/id/layanan/psc-119).
-- **Purpose for this article:** Ground command, communications, warning, evacuation/accountability, accessibility, first-aid coverage, external liaison, drills, and review.
-- **Safe grounded facts:** Alarm, incident command, evacuation, shelter, muster/accountability, technical rescue, first aid, medical handoff, business continuity, and recovery have distinct owners.
-- **Limits:** No public emergency script, rescue technique, medical diagnosis/treatment, staffing number, response time, or drill proof from this file.
-
-### KR-36
-
-- **Original sources:** [ISO 6165:2022](https://www.iso.org/standard/77616.html).
-- **Purpose for this article:** Ground terminology, classification, machine-family comparisons, selection inputs, and attachment boundaries.
-- **Safe grounded facts:** A brand, operating mass, attachment, or seller category alone does not establish machine family, configuration, duty, or suitability.
-- **Limits:** Verify the exact model, serial/configuration, intended function, attachment, operating mass, control mode, and current manufacturer documentation.
-
-### KR-37
-
-- **Original sources:** [ISO 20474-1:2017](https://www.iso.org/standard/60734.html).
-- **Purpose for this article:** Ground commissioning, use, foreseeable misuse, guarding, visibility, access, maintenance, and family-specific safety boundaries.
-- **Safe grounded facts:** A generic safety checklist or CE-style claim does not prove a particular machine, attachment, modification, site, or operating method safe.
-- **Limits:** Use current applicable family parts, OEM instructions, actual configuration and condition, task/site assessment, competent operator, inspection, and supervision.
-
-### KR-38
-
-- **Original sources:** [Permenaker 8/2020](https://jdih.kemnaker.go.id/peraturan/detail/1668/peraturan-menteri-nomor-8-tahun-2020), [Permenaker 11/2026 status](https://peraturan.bpk.go.id/Details/351282/permenaker-no-11-tahun-2026).
-- **Purpose for this article:** Ground cranes, lifting/transport equipment, operators, inspection, testing, documentation, and the 2026 partial-amendment boundary.
-- **Safe grounded facts:** An operator card, inspection sticker, capacity label, or old quotation is not complete proof of current legal status or a safe lift/transport plan.
-- **Limits:** Recheck current consolidated text, equipment classification, responsible roles, certificates/inspection status, manufacturer data, load path, site conditions, and approved method.
-
-### KR-39
-
-- **Original sources:** [ILO Convention C167, Article 16](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), [ILO Recommendation R175](https://www.ilo.org/resource/r175-safety-and-health-construction-recommendation-1988).
-- **Purpose for this article:** Ground access ways, traffic management, reversing/visibility, edges/excavations, operator competence, inspection, and maintenance.
-- **Safe grounded facts:** A machine safety feature cannot compensate for uncontrolled people/vehicle interfaces, unstable edges, bad access, or untrained operation.
-- **Limits:** Translate principles through Indonesian law, actual site layout, changing conditions, machine limits, workforce consultation, and documented controls.
-
-## Evidence gates
-
-- **TOPIC-GATE:** EG-01, EG-02, EG-03, EG-04, EG-05, EG-07, EG-08, EG-09, EG-10, EG-11, EG-12.
-
-If a gate affects the article's main conclusion, keep a visible `[NEEDS ...]` marker for coordinator review. Do not guess.
-
-## Internal-link plan
-
-### Existing local routes
-
-- `/jual-sewa-alat-berat-yogyakarta` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tuban` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-ternate` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tegal` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tebingtinggi` — use only if it helps the reader's next step; verify the anchor describes the destination.
-- `/jual-sewa-alat-berat-tasikmalaya` — use only if it helps the reader's next step; verify the anchor describes the destination.
-
-### Planned sibling articles
-
-These are future routes. Do not link them as live until their HTML exists.
-
-- `ABR-07-02` → `/artikel/memilih-trailer-lowbed-untuk-alat-berat.html` — Memilih Trailer Lowbed untuk Alat Berat tanpa Mengandalkan Nama Kapasitas
-- `ABR-07-03` → `/artikel/mengukur-data-muatan-alat-berat.html` — Mengukur Dimensi, Massa, dan Distribusi Beban Muatan Alat Berat
-- `ABR-07-05` → `/artikel/loading-lashing-pemeriksaan-muatan-alat-berat.html` — Loading, Lashing, dan Pemeriksaan Muatan Alat Berat
-- `ABR-07-06` → `/artikel/pengiriman-alat-berat-antar-pulau.html` — Pengiriman Alat Berat Antar Pulau: Handoff Darat, Pelabuhan, dan Kapal
-
-<!-- BEGIN PUBLIC ARTICLE SECTIONS -->
+[NEEDS IMAGE REVIEW: LOCAL-001 — nama file menunjukkan concrete batching plant, yang tidak sesuai dengan topik survei rute mobilisasi alat berat; gambar tidak ditampilkan sampai koordinator memastikan kesesuaiannya]
 
 ## Jawaban singkat dan salah paham utama
 
-- **Purpose:** Jawab pertanyaan judul dalam pembuka dan luruskan miskonsepsi yang paling berbahaya.
-- **Tie back to this article:** Keep the explanation specific to “Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Salah paham yang paling sering menjebak: "Rute itu sudah biasa dilewati truk, jadi pasti bisa." Truk biasa dan muatan abnormal adalah dua objek yang berbeda. Alat berat yang diangkut bisa lebih tinggi dari rambu terendah, lebih lebar dari satu lajur, lebih berat dari desain jembatan kecil, dan — yang paling sering dilupakan — membutuhkan ruang belok yang jauh lebih besar. Jalan yang "setiap hari dilewati" belum tentu pernah dilewati oleh kombinasi Anda.
+
+Maka pertanyaan survei yang benar bukan "apakah jalan ini bisa dilewati?", melainkan: "Apakah jalan ini bisa dilewati oleh muatan dengan tinggi sekian, lebar sekian, berat sekian, dan kebutuhan belok sekian — hari ini?" Empat angka pertama milik data muatan Anda; dua kata terakhir milik survei rute Anda.
 
 ## Definisi dan batas objek
 
-- **Purpose:** Jelaskan apa yang dibahas, apa yang tidak, dan mengapa batas itu mengubah keputusan.
-- **Tie back to this article:** Keep the explanation specific to “Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Survei rute adalah pembuktian fisik terhadap rencana perjalanan. Objeknya adalah muatan terbatas atau abnormal: muatan yang tinggi, lebar, panjang, atau beratnya melampaui kendaraan biasa sehingga setiap milimeter dan setiap ton di sepanjang rute menjadi penting. Satu istilah kunci perlu dipahami sejak awal: swept path — ruang sapu belokan. Saat kendaraan panjang berbelok, bagian belakangnya tidak mengikuti jejak bagian depan; ia memotong ke dalam tikungan, sehingga ruang yang "disapu" lebih lebar dari badan kendaraan. Tikungan yang terlihat cukup untuk lebar lowbed bisa tidak cukup untuk ruang sapunya.
+
+Batas artikel ini tegas di dua sisi. Pertama, survei bukan izin: dokumen otorisasi angkutan — siapa yang berhak menyatakan muatan ini boleh jalan, dengan pengawalan apa, kapan — adalah cakupan artikel lain, dan aturannya berbeda antarwilayah serta bisa berubah. Kedua, artikel ini tidak menyimpan daftar "rute aman" per kota: kondisi rute berubah, dan klaim seperti itu akan basi sebelum sempat berguna. Yang diberikan di sini adalah kerangka memeriksa yang berlaku di mana saja.
 
 ## Cara kerjanya
 
-- **Purpose:** Terangkan mekanisme, urutan, pelaku, material/sistem, dan antarmuka secara sebab-akibat.
-- **Tie back to this article:** Keep the explanation specific to “Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Survei yang baik dilakukan dengan urutan yang menurun dari langit ke tanah. Mulailah dari atas: kabel listrik dan telekomunikasi yang menggantung, rambu dan portal, cabang pohon, dan tinggi bebas di bawah jembatan — semua diukur, bukan dikira. Lalu turun ke badan jalan: lebar efektif di setiap titik sempit — gapura, pembatas, pasar yang menjorok — dan ruang sapu di setiap tikungan tajam. Terakhir ke bawahnya: kemiringan yang membuat kendaraan berat bekerja keras, permukaan yang rusak, dan bahu jalan yang terlihat rata tetapi lunak — karena ban yang turun ke bahu lunak bisa tidak kembali dengan sopan.
+
+Kemudian datang tiga pemain yang tidak terlihat di peta. Jembatan: kemampuannya adalah data pemilik atau otoritas jalan, bukan tebakan dari tampaknya; jembatan tua tanpa data adalah pertanyaan, bukan jawaban. Zona kerja: proyek perbaikan jalan bisa muncul dan pindah dalam hitungan minggu — survei bulan lalu bisa basi hari ini. Jendela waktu: kapan muatan seperti ini boleh dan masuk akal lewat — jam sibuk, hari pasar, jam sekolah, dan larangan lokal semuanya bagian dari rute, bukan footnote. Pendekatan ini pada dasarnya adalah siklus risiko yang runtut — kenali, nilai, kendalikan, tinjau — seperti dijelaskan panduan [ILO tentang pengendalian risiko](https://www.ilo.org/topics-and-sectors/occupational-safety-and-health-guide-labour-inspectors-and-other/how-can-occupational-safety-and-health-be-managed/controlling-risks): matriks generik tidak menilai rute Anda; pengukuran Anda yang menilainya.
+
+Terakhir, siapkan tiga jaring pengaman: tempat berhenti aman di sepanjang rute (kalau perlu berhenti, berhenti di mana?), rute alternatif (kalau titik ini gagal, lewat mana?), dan akses darurat. Soal darurat, catatan [ISO 22320](https://www.iso.org/standard/67851.html) dan layanan [PSC 119 Kemenkes](https://kemkes.go.id/id/layanan/psc-119) menegaskan bahwa alarm, komando insiden, evakuasi, pertolongan pertama, dan serah terima medis punya pemilik yang berbeda-beda — muatan yang mogok di jalan raya membutuhkan jawaban yang sudah disiapkan: siapa datang, dari mana, membawa apa.
 
 ## Faktor yang mengubah hasil
 
-- **Purpose:** Kelompokkan kondisi proyek, penggunaan, lingkungan, pelaksanaan, dan bukti yang relevan.
-- **Tie back to this article:** Keep the explanation specific to “Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Faktor pertama adalah data muatan itu sendiri: survei tanpa dimensi dan massa yang diukur adalah jalan-jalan sore. Pengukuran muatan dibahas di artikel tersendiri; di sini cukup ditegaskan bahwa empat angka — tinggi, lebar, panjang, berat — adalah bahan bakar survei. Faktor kedua adalah konfigurasi kendaraan: jenis trailer dan susunannya mengubah tinggi total, panjang total, dan ruang sapu; pemilihan trailer juga topik artikel lain, tetapi survei harus memakai kombinasi yang benar-benar akan jalan, bukan perkiraan.
+
+Faktor ketiga adalah waktu: musim hujan mengubah bahu jalan dan permukaan tanah; periode proyek perbaikan mengubah lebar efektif; bahkan hari pasar mengubah lebar jalan desa. Faktor keempat adalah umur bukti: survei yang terlalu tua bukan bukti, melainkan kenangan — dan faktor kelima adalah kualitas orangnya. Petugas survei harus tahu apa yang dicari; antarmuka kendaraan-orang-akses yang tidak terkendali tidak bisa ditambal oleh fitur kendaraan, demikian prinsip yang ditegaskan [Konvensi ILO C167 tentang keselamatan konstruksi](https://www.ilo.org/resource/other/c167-safety-and-health-construction-convention-1988), dan prinsip yang sama berlaku saat kendaraan itu bergerak di jalan umum.
 
 ## Contoh keputusan praktis
 
-- **Purpose:** Berikan skenario bersyarat atau tabel keputusan; tandai asumsi dan jangan mengarang pengalaman.
-- **Tie back to this article:** Keep the explanation specific to “Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kerangka bersyarat berikut murni latihan — asumsi, bukan data rute nyata, dan tanpa angka karena angka itu milik muatan dan otoritas Anda:
+
+| Temuan survei | Apa yang diperiksa | Keputusan yang mengikuti |
+| --- | --- | --- |
+| Kabel menggantung rendah di desa | Tinggi bebas versus tinggi total muatan | Ukur, koordinasi dengan pemilik utilitas, atau pilih rute lain |
+| Jembatan tua tanpa data kemampuan | Data resmi dari pemilik jalan | Tidak lewat sampai datanya ada |
+| Tikungan tajam di pintu masuk kota | Ruang sapu, bukan lebar badan | Simulasikan belokan di atas kertas; bila perlu, atur pengawalan |
+| Jalan desa melewati pasar | Jendela waktu dan lebar efektif | Pindahkan jadwal ke jam sepi |
+| Bahu jalan lunak setelah hujan | Kekuatan bahu di titik keluar-masuk | Jangan turun ke bahu; siapkan titik berhenti yang keras |
+
+Polanya sama di setiap baris, Sobat Berat.id: temuan bukan berita buruk. Temuan memberi kesempatan untuk membandingkan pilihan sebelum kendaraan bergerak, saat perubahan rute atau metode masih dapat dinilai dengan lebih tenang.
 
 ## Kesalahan umum dan cara memeriksanya
 
-- **Purpose:** Bongkar shortcut umum lalu ubah menjadi pertanyaan/checklist verifikasi.
-- **Tie back to this article:** Keep the explanation specific to “Survei Rute Mobilisasi Alat Berat: Jembatan, Tikungan, Kabel, dan Akses”.
-- **Evidence:** Use only relevant facts from the evidence packet; add an original source near consequential claims.
-- **Practical value:** Add a concrete question, conditional scenario, checklist item, or decision consequence.
-- **Boundary:** Preserve the assignment lock and evidence gates; do not fill missing project facts.
+Kesalahan pertama: survei lewat peta daring saja. Peta tidak menyimpan kabel rendah, bahu lunak, dan portal baru; ia alat bantu rencana, bukan bukti rute. Pemeriksaannya: "Kapan terakhir rute ini dilewati oleh orang yang membawa meteran dan kamera?" Kesalahan kedua: memakai survei lama tanpa verifikasi ulang — zona kerja dan musim tidak menghormati dokumen lama. Kesalahan ketiga: mengukur lebar badan tetapi melupakan ruang sapu, sehingga tikungan "lulus" di atas kertas dan gagal di aspal. Kesalahan keempat: tidak menyiapkan titik berhenti aman dan rute alternatif — rencana yang hanya punya satu jalan bukan rencana, melainkan harapan.
 
-## Objection or shortcut to address
+Kesalahan kelima: menganggap izin sudah berarti rute aman. Izin menjawab pertanyaan otoritas; survei menjawab pertanyaan fisik — keduanya berbeda pemiliknya, dan artikel ini sengaja tidak mencampurnya. Dan kesalahan keenam: mempercayai "penyedia bilang rute ini biasa". Saat menimbang pengiriman ke daerah — misalnya lewat halaman seperti [jual sewa alat berat Yogyakarta](/jual-sewa-alat-berat-yogyakarta) atau [jual sewa alat berat Tuban](/jual-sewa-alat-berat-tuban) — klaim kebiasaan adalah awal percakapan, bukan buktinya; buktinya adalah hasil survei terbaru dengan ukuran dan foto.
 
-- Identify one realistic shortcut a reader may prefer.
-- Explain why it can fail in this exact context, using mechanism and evidence rather than scolding.
-- Give the safer or more reliable alternative.
+## Jalan pintas yang perlu diluruskan
 
-## Required conclusion
+Jalan pintas yang populer: "Suruh sopir berangkat duluan — dia hafal jalan." Hafalan adalah aset, tetapi ia menyimpan jalan versi lama dan tidak menyimpan ukuran. Sopir yang hafal jalan belum tentu pernah mengukur tinggi kabel di kilometer sekian, dan hafalannya tidak mencatat portal yang dipasang bulan lalu. Karena itu, pengetahuan pengemudi perlu dipadukan dengan pengukuran dan verifikasi rute terbaru.
 
-- Answer the title again in one compact, non-repetitive form.
-- Give the reader the next action, document, question, inspection, or professional review to obtain.
-- End with an operating rule or honest boundary. Do not end with a generic summary.
+Alternatifnya bukan merumitkan, melainkan mendokumentasikan: satu form survei berisi titik sempit dengan ukuran dan foto, tanggal survei, nama penyurvei, jendela waktu, titik berhenti, dan rute cadangan — diverifikasi dekat hari-H. Sopir tetap berangkat duluan kalau perlu, tetapi ia berangkat membawa bukti, bukan hanya membawa hafalan.
 
-## Draft completion checklist
+## Kesimpulan: kejutan rute ditemukan di atas kertas, bukan oleh bumper
 
-- [ ] Opening answers the main question within two or three paragraphs.
-- [ ] The article opens with `Halo, Teman Berat.id!` and uses friendly `Berat.id` community address naturally three to five times total.
-- [ ] Every H2 above has been replaced with finished, non-repetitive prose.
-- [ ] Facts, project facts, inferences, assumptions, and judgments are not blurred together.
-- [ ] Every consequential claim has an original source or `[NEEDS ...]` marker.
-- [ ] No exact standard clause, number, price, test result, capacity, warranty, or personal experience was invented.
-- [ ] Internal links use exact listed routes and helpful natural anchors.
-- [ ] Future sibling routes are not presented as live.
-- [ ] The public prose does not mention prompts, outlines, SEO, AI, or evidence gates.
-- [ ] Front matter is preserved; `status` changed from `outline` to `draft` only after completion.
-- [ ] Conclusion gives a concrete next action and an honest limit.
+Singkatnya, Teman Berat.id: survei rute mobilisasi adalah pembuktian sebelum perjalanan — lebar dan tinggi bebas terukur, ruang sapu belokan dihitung, jembatan berdasarkan data resmi, permukaan dan bahu dinilai hari ini, jendela waktu disepakati, dan titik berhenti, alternatif, serta akses darurat disiapkan — untuk memastikan muatan abnormal tidak pernah menemui kejutan pertamanya di tengah jalan.
+
+Langkah Anda berikutnya konkret: buat satu form survei rute dengan blok yang dibahas di atas — titik sempit atas-tengah-bawah, jembatan, zona kerja, jendela waktu, titik berhenti, alternatif, darurat — lalu lewati rutenya dengan meteran, kamera, dan tanggal yang jelas sebelum jadwal bergerak dikunci. Pegang aturan operasi ini: rute belum lulus sebelum setiap titik sempitnya punya ukuran dan bukti, dan survei yang sudah lama adalah survei yang perlu diulang. Batas jujurnya: izin perjalanan, pengawalan, dan persetujuan otoritas tetap wilayah artikel otorisasi dan instansi berwenang — artikel ini cara memeriksa rutenya, bukan pemberi izinnya.
