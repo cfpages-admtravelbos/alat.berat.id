@@ -39,7 +39,7 @@ Do not load the portfolio ledger, OneDrive memory, another repository, the full 
 7. Add internal links only where they help the reader take a next step. Use the exact routes already listed in the file.
 8. Preserve every limitation, professional-review condition, and stop-work boundary.
 9. Finish with a concrete next action or operating rule, not a generic summary.
-10. Run the completion checklist inside the file before stopping.
+10. Run the completion checklist inside the file, then delete that production-only heading and all of its checkboxes from the finished public article.
 11. Copy the real validator result into the worker receipt. Never claim `errors=0` unless the displayed command actually returned it.
 
 ## Required validation
@@ -78,7 +78,7 @@ Replace `[slug]` with the assigned filename. If `$env:OneDrive` is unavailable, 
 - Do not use a list of terms, risks, or steps as a substitute for teaching. Explain why the highest-consequence items matter and what the reader would notice, ask, check, or do differently.
 - Do not stack several unfamiliar technical terms in one sentence and move on. If two or more imported terms are necessary, break the explanation apart and define each at first use. Familiar Indonesian trade terms may remain, but the surrounding idea must still be clear to a non-specialist.
 - Before finishing, run a lay-reader pass: ask “Apa maksudnya?”, “Mengapa ini terjadi?”, “Contohnya seperti apa?”, and “Jadi pembaca harus berbuat apa?” for each main section. If the visible prose does not answer those questions, elaborate it before validation.
-- Most technical articles need about 1,600–2,400 useful words to teach the subject patiently. Shorter can be valid only when every required explanation chain is genuinely complete. Never reach the range through repetition, generic context, or padding.
+- Most technical articles need about 1,600–2,400 useful words to teach the subject patiently. A complete 1,000–1,599-word article may be accepted with a soft warning; below 1,000 is a hard failure. Never reach a range through repetition, generic context, or padding.
 
 ## Evidence rules
 
