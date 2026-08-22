@@ -33,3 +33,13 @@ Follow repository code/documentation rules and the managed article workflow belo
 - Do not describe a repository asset or stock image as Syamsul's project, client, installation, result, or case study.
 - If an assigned URL is unavailable or its license metadata changes, leave `[NEEDS IMAGE REVIEW]` and continue the prose within scope; do not guess a replacement.
 <!-- END MANAGED ARTICLE IMAGE WORKFLOW -->
+
+<!-- BEGIN ARTICLE PROGRESS REVIEW RULE -->
+## Article progress and non-destructive review
+
+- Read `ARTICLE_PROGRESS.md` before drafting, reviewing, correcting, or accepting any article.
+- Reviewers do not delete, rename, or rewrite article prose merely because an article fails review. They update only the matching tracker row to `⚠️ Needs correction`, add a concise actionable note, and record the review date unless a separate explicit correction assignment authorizes prose changes.
+- A later article corrector retains the article and its history, uses the recorded note, marks `🛠️ Correction in progress`, then `🟡 Corrected; re-review needed`. Only a fresh independent reviewer may return the row to `✅ Accepted and pushed`.
+- Never erase useful earlier notes. Tracker edits must preserve article IDs, titles, and paths from `ARTICLE_CATALOG.md`.
+- Tracker status does not by itself prove publication or acceptance; receipts, Git history, remote parity, and the portfolio ledger remain authoritative.
+<!-- END ARTICLE PROGRESS REVIEW RULE -->
