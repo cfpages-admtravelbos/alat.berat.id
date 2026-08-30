@@ -1,26 +1,148 @@
-name: Add URLs in Sitemaps
+name: Normalize Sitemap URLs v1
 
 on:
   workflow_dispatch:
+    inputs:
+      expected_base_sha:
+        description: Exact branch SHA reviewed before dispatch
+        required: true
+        type: string
+      base_url:
+        description: HTTPS origin without a path; blank derives it from the repository name
+        required: false
+        default: ""
+        type: string
+      minimum_replacements:
+        description: Minimum relative sitemap locations that must be normalized
+        required: false
+        default: "1"
+        type: string
+      allow_noop:
+        description: Succeed without a commit when all tracked XML locations are already normalized
+        required: false
+        default: false
+        type: boolean
+      commit_message:
+        description: Commit message for an actual verified change
+        required: false
+        default: Normalize sitemap URLs
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sitemap-url-normalization-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  run_script:
+  normalize:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Set up Go
-        uses: actions/setup-go@v2
-        with:
-          go-version: '1.17'
-
-      - name: Run Sitemap Script
+      - name: Verify dispatch binding
+        shell: bash
+        env:
+          EXPECTED_BASE_SHA: ${{ inputs.expected_base_sha }}
         run: |
-          go run sitemap.go
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Update XML files"
-          git push origin main
+          set -euo pipefail
+          if [[ "$GITHUB_REF_TYPE" != "branch" ]]; then
+            echo "The workflow must be dispatched against a branch." >&2
+            exit 1
+          fi
+          if [[ ! "$EXPECTED_BASE_SHA" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "expected_base_sha must be a lowercase 40-character Git SHA." >&2
+            exit 1
+          fi
+          if [[ "$GITHUB_SHA" != "$EXPECTED_BASE_SHA" ]]; then
+            echo "The dispatched branch moved after review; refusing to normalize stale bytes." >&2
+            exit 1
+          fi
+
+      - name: Check out the reviewed branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Run normalizer regression tests
+        run: python .github/scripts/test_sitemap_url_normalizer.py
+
+      - name: Normalize reviewed sitemap files
+        id: normalize
+        shell: bash
+        env:
+          INPUT_BASE_URL: ${{ inputs.base_url }}
+          INPUT_MINIMUM_REPLACEMENTS: ${{ inputs.minimum_replacements }}
+          INPUT_ALLOW_NOOP: ${{ inputs.allow_noop }}
+          NORMALIZED_PATHS_FILE: ${{ runner.temp }}/normalized-sitemap-paths.nul
+          NORMALIZATION_SUMMARY_FILE: ${{ runner.temp }}/sitemap-normalization-summary.json
+        run: |
+          set -euo pipefail
+          args=(
+            normalize
+            --root "$GITHUB_WORKSPACE"
+            --repository "$GITHUB_REPOSITORY"
+            --base-url "$INPUT_BASE_URL"
+            --minimum-replacements "$INPUT_MINIMUM_REPLACEMENTS"
+            --paths-file "$NORMALIZED_PATHS_FILE"
+            --summary-file "$NORMALIZATION_SUMMARY_FILE"
+            --github-output "$GITHUB_OUTPUT"
+          )
+          if [[ "$INPUT_ALLOW_NOOP" == "true" ]]; then
+            args+=(--allow-noop)
+          fi
+          python .github/scripts/sitemap_url_normalizer.py "${args[@]}"
+
+      - name: Verify exact unstaged boundary
+        if: steps.normalize.outputs.changed == 'true'
+        env:
+          NORMALIZED_PATHS_FILE: ${{ runner.temp }}/normalized-sitemap-paths.nul
+        run: |
+          python .github/scripts/sitemap_url_normalizer.py verify-git \
+            --root "$GITHUB_WORKSPACE" \
+            --paths-file "$NORMALIZED_PATHS_FILE" \
+            --state unstaged
+
+      - name: Stage only normalized sitemap files
+        if: steps.normalize.outputs.changed == 'true'
+        env:
+          NORMALIZED_PATHS_FILE: ${{ runner.temp }}/normalized-sitemap-paths.nul
+        run: |
+          git add --pathspec-from-file="$NORMALIZED_PATHS_FILE" --pathspec-file-nul
+          git diff --cached --check
+
+      - name: Verify exact staged boundary
+        if: steps.normalize.outputs.changed == 'true'
+        env:
+          NORMALIZED_PATHS_FILE: ${{ runner.temp }}/normalized-sitemap-paths.nul
+        run: |
+          python .github/scripts/sitemap_url_normalizer.py verify-git \
+            --root "$GITHUB_WORKSPACE" \
+            --paths-file "$NORMALIZED_PATHS_FILE" \
+            --state staged
+
+      - name: Commit and push verified sitemap files
+        if: steps.normalize.outputs.changed == 'true'
+        shell: bash
+        env:
+          COMMIT_MESSAGE: ${{ inputs.commit_message }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$COMMIT_MESSAGE"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Report idempotent no-op
+        if: steps.normalize.outputs.changed != 'true'
+        run: echo "All tracked XML sitemap locations already use absolute URLs; no commit was created."
