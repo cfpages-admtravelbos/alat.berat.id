@@ -1,36 +1,147 @@
-name: Generate Complete Sitemap v.2
-on: [workflow_dispatch]
+name: Generate Sitemap and README Index v1
+
+on:
+  workflow_dispatch:
+    inputs:
+      expected_base_sha:
+        description: Exact branch SHA reviewed before dispatch
+        required: true
+        type: string
+      base_url:
+        description: HTTPS origin; blank uses tracked CNAME or repository name
+        required: false
+        default: ""
+        type: string
+      minimum_urls:
+        description: Minimum tracked HTML URLs required before generation
+        required: false
+        default: "1"
+        type: string
+      url_list_mode:
+        description: Auto updates tracked url-list.txt; include creates it; exclude leaves it untouched
+        required: false
+        default: auto
+        type: choice
+        options:
+          - auto
+          - include
+          - exclude
+      commit_message:
+        description: Commit message for an actual verified change
+        required: false
+        default: Generate sitemap and README index
+        type: string
+
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: sitemap-readme-generation-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  generate_sitemap:
+  generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
     steps:
-      - uses: actions/checkout@v2
-      - id: check_sitemap
+      - name: Verify dispatch binding
+        shell: bash
+        env:
+          EXPECTED_BASE_SHA: ${{ inputs.expected_base_sha }}
         run: |
-          echo "SITEMAP_EXISTS=$(if [ -f sitemap-complete.xml ]; then echo true; else echo false; fi)" >> $GITHUB_ENV
-      - if: ${{ env.SITEMAP_EXISTS == 'false' }}
-        env: { REPO_NAME: "${{ github.event.repository.name }}" }
+          set -euo pipefail
+          if [[ "$GITHUB_REF_TYPE" != "branch" ]]; then
+            echo "The workflow must be dispatched against a branch." >&2
+            exit 1
+          fi
+          if [[ ! "$EXPECTED_BASE_SHA" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "expected_base_sha must be a lowercase 40-character Git SHA." >&2
+            exit 1
+          fi
+          if [[ "$GITHUB_SHA" != "$EXPECTED_BASE_SHA" ]]; then
+            echo "The dispatched branch moved after review; refusing to generate from stale bytes." >&2
+            exit 1
+          fi
+
+      - name: Check out the reviewed branch with history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Run generator regression tests
+        run: python .github/scripts/test_sitemap_readme_generator.py
+
+      - name: Generate sitemap and README outputs
+        id: generate
+        shell: bash
+        env:
+          INPUT_BASE_URL: ${{ inputs.base_url }}
+          INPUT_MINIMUM_URLS: ${{ inputs.minimum_urls }}
+          INPUT_URL_LIST_MODE: ${{ inputs.url_list_mode }}
+          GENERATED_PATHS_FILE: ${{ runner.temp }}/generated-sitemap-readme-paths.nul
+          GENERATION_SUMMARY_FILE: ${{ runner.temp }}/sitemap-readme-generation-summary.json
         run: |
-          BASE_URL="https://$(echo $REPO_NAME | tr '[:upper:]' '[:lower:]')"
-          echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap-complete.xml
-          echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap-complete.xml
-          find . -name "*.html" | while read f; do
-            url="$BASE_URL/$(echo ${f#./} | sed -E 's/(index)?\.html$//' | sed 's/ /%20/g')"
-            lastmod=$(date -u +'%Y-%m-%dT%H:%M:%S+00:00')
-            echo -e "<url>\n<loc>$url</loc>\n<lastmod>$lastmod</lastmod>\n<priority>0.80</priority>\n</url>" >> sitemap-complete.xml
-          done
-          echo '</urlset>' >> sitemap-complete.xml
-      - run: |
-          URL_COUNT=$(grep -c '<url>' sitemap-complete.xml)
-          grep '<loc>' sitemap-complete.xml | sed -E 's|<loc>(.*)</loc>|- [\1](https://google.com/search?q=site%3A\1)|' > url-list.txt
-          echo -e "\n## Sitemap URLs\nNumber of URLs: ${URL_COUNT}\n$(cat url-list.txt)" > README.md
-      - env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          set -euo pipefail
+          python .github/scripts/sitemap_readme_generator.py generate \
+            --root "$GITHUB_WORKSPACE" \
+            --repository "$GITHUB_REPOSITORY" \
+            --base-url "$INPUT_BASE_URL" \
+            --minimum-urls "$INPUT_MINIMUM_URLS" \
+            --url-list-mode "$INPUT_URL_LIST_MODE" \
+            --paths-file "$GENERATED_PATHS_FILE" \
+            --summary-file "$GENERATION_SUMMARY_FILE" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Verify exact unstaged boundary
+        if: steps.generate.outputs.changed == 'true'
+        env:
+          GENERATED_PATHS_FILE: ${{ runner.temp }}/generated-sitemap-readme-paths.nul
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add sitemap-complete.xml README.md
-          git commit -m 'Update sitemap and README'
-          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }} HEAD:main
+          python .github/scripts/sitemap_readme_generator.py verify-git \
+            --root "$GITHUB_WORKSPACE" \
+            --paths-file "$GENERATED_PATHS_FILE" \
+            --state unstaged
+
+      - name: Stage only generated outputs
+        if: steps.generate.outputs.changed == 'true'
+        env:
+          GENERATED_PATHS_FILE: ${{ runner.temp }}/generated-sitemap-readme-paths.nul
+        run: |
+          git add --pathspec-from-file="$GENERATED_PATHS_FILE" --pathspec-file-nul
+          git diff --cached --check
+
+      - name: Verify exact staged boundary
+        if: steps.generate.outputs.changed == 'true'
+        env:
+          GENERATED_PATHS_FILE: ${{ runner.temp }}/generated-sitemap-readme-paths.nul
+        run: |
+          python .github/scripts/sitemap_readme_generator.py verify-git \
+            --root "$GITHUB_WORKSPACE" \
+            --paths-file "$GENERATED_PATHS_FILE" \
+            --state staged
+
+      - name: Commit and push verified outputs
+        if: steps.generate.outputs.changed == 'true'
+        shell: bash
+        env:
+          COMMIT_MESSAGE: ${{ inputs.commit_message }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$COMMIT_MESSAGE"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Report idempotent no-op
+        if: steps.generate.outputs.changed != 'true'
+        run: echo "Sitemap and README outputs already match tracked HTML; no commit was created."
