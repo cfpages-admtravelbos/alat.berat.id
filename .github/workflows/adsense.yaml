@@ -1,73 +1,138 @@
-name: Google Adsense Script & ads.txt v.2
+name: Normalize AdSense and ads.txt v1
+
 on:
-  push:
-    paths:
-      - '**.html'  # Only HTML files
-    types:
-      - created    # Only when new files are added
-  workflow_dispatch:    # Allows manual triggering
+  workflow_dispatch:
+    inputs:
+      expected_base_sha:
+        description: Exact branch SHA reviewed before dispatch
+        required: true
+        type: string
+      publisher_id:
+        description: Sixteen-digit Google AdSense publisher identifier
+        required: false
+        default: "3534718780470570"
+        type: string
+      commit_message:
+        description: Commit message for an actual verified change
+        required: false
+        default: Normalize AdSense script and ads.txt
+        type: string
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: adsense-normalization-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  update_adsense:
+  normalize:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        
-      - name: Remove adsense.go if it exists
+      - name: Verify dispatch binding
+        shell: bash
+        env:
+          EXPECTED_BASE_SHA: ${{ inputs.expected_base_sha }}
+          PUBLISHER_ID: ${{ inputs.publisher_id }}
+          COMMIT_MESSAGE: ${{ inputs.commit_message }}
         run: |
-          if [ -f "adsense.go" ]; then
-            rm adsense.go
-            echo "Removed adsense.go"
+          set -euo pipefail
+          if [[ "$GITHUB_REF_TYPE" != "branch" ]]; then
+            echo "The workflow must be dispatched against a branch." >&2
+            exit 1
+          fi
+          if [[ ! "$EXPECTED_BASE_SHA" =~ ^[0-9a-f]{40}$ ]]; then
+            echo "expected_base_sha must be a lowercase 40-character Git SHA." >&2
+            exit 1
+          fi
+          if [[ "$GITHUB_SHA" != "$EXPECTED_BASE_SHA" ]]; then
+            echo "The dispatched branch moved after review; refusing to normalize stale bytes." >&2
+            exit 1
+          fi
+          if [[ ! "$PUBLISHER_ID" =~ ^[0-9]{16}$ ]]; then
+            echo "publisher_id must contain exactly 16 digits." >&2
+            exit 1
+          fi
+          if [[ -z "$COMMIT_MESSAGE" || "$COMMIT_MESSAGE" == *$'\n'* || "$COMMIT_MESSAGE" == *$'\r'* ]]; then
+            echo "commit_message must be one non-empty line." >&2
+            exit 1
           fi
 
-      - name: Update or create ads.txt
-        run: |
-          echo "google.com, pub-3534718780470570, DIRECT, f08c47fec0942fa0" > ads.txt
-          echo "Created/Updated ads.txt file"
+      - name: Check out the reviewed branch with history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
 
-      - name: Update HTML files with Adsense script
-        run: |
-          ADSENSE_SCRIPT='<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3534718780470570" crossorigin="anonymous"></script>'
-          
-          # Find all HTML files
-          find . -type f -name "*.html" | while read -r file; do
-            echo "Processing: $file"
-            
-            # Create a temporary file
-            temp_file=$(mktemp)
-            
-            # Check if file contains any adsense script
-            if grep -q "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" "$file"; then
-              # Replace existing adsense script
-              sed "/.*pagead2.googlesyndication.com\/pagead\/js\/adsbygoogle.js.*/c\\$ADSENSE_SCRIPT" "$file" > "$temp_file"
-            else
-              # Insert new adsense script before </head>
-              sed "/<\/head>/i\\$ADSENSE_SCRIPT" "$file" > "$temp_file"
-            fi
-            
-            # Replace original file with modified content
-            mv "$temp_file" "$file"
-          done
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
 
-      - name: Check for changes
-        id: git_changes
-        run: |
-          if git diff --quiet; then
-            echo "changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "changes=true" >> $GITHUB_OUTPUT
-          fi
+      - name: Run normalizer regression tests
+        run: python .github/scripts/test_adsense_normalizer.py
 
-      - name: Commit and push if there are changes
-        if: steps.git_changes.outputs.changes == 'true'
+      - name: Normalize tracked HTML and ads.txt
+        id: normalize
+        shell: bash
+        env:
+          PUBLISHER_ID: ${{ inputs.publisher_id }}
+          CHANGED_PATHS_FILE: ${{ runner.temp }}/adsense-normalization-paths.nul
+          NORMALIZATION_SUMMARY_FILE: ${{ runner.temp }}/adsense-normalization-summary.json
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m "Update Google Adsense script and ads.txt"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
-          git push
+          set -euo pipefail
+          python .github/scripts/adsense_normalizer.py apply \
+            --root "$GITHUB_WORKSPACE" \
+            --publisher-id "$PUBLISHER_ID" \
+            --paths-file "$CHANGED_PATHS_FILE" \
+            --summary-file "$NORMALIZATION_SUMMARY_FILE" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Verify exact unstaged boundary
+        if: steps.normalize.outputs.changed == 'true'
+        env:
+          CHANGED_PATHS_FILE: ${{ runner.temp }}/adsense-normalization-paths.nul
+        run: |
+          python .github/scripts/adsense_normalizer.py verify-git \
+            --root "$GITHUB_WORKSPACE" \
+            --paths-file "$CHANGED_PATHS_FILE" \
+            --state unstaged
+
+      - name: Stage only normalized outputs
+        if: steps.normalize.outputs.changed == 'true'
+        env:
+          CHANGED_PATHS_FILE: ${{ runner.temp }}/adsense-normalization-paths.nul
+        run: |
+          git add --pathspec-from-file="$CHANGED_PATHS_FILE" --pathspec-file-nul
+          git diff --cached --check
+
+      - name: Verify exact staged boundary
+        if: steps.normalize.outputs.changed == 'true'
+        env:
+          CHANGED_PATHS_FILE: ${{ runner.temp }}/adsense-normalization-paths.nul
+        run: |
+          python .github/scripts/adsense_normalizer.py verify-git \
+            --root "$GITHUB_WORKSPACE" \
+            --paths-file "$CHANGED_PATHS_FILE" \
+            --state staged
+
+      - name: Commit and push verified output
+        if: steps.normalize.outputs.changed == 'true'
+        shell: bash
+        env:
+          COMMIT_MESSAGE: ${{ inputs.commit_message }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$COMMIT_MESSAGE"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Report idempotent no-op
+        if: steps.normalize.outputs.changed != 'true'
+        run: echo "Tracked HTML and ads.txt already match the canonical AdSense configuration."
