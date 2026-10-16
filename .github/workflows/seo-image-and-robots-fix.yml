@@ -1,0 +1,53 @@
+name: Fix SEO Robots and Image Alt Linking
+
+on:
+  workflow_dispatch:
+    inputs:
+      domain_override:
+        description: Optional explicit domain override (e.g. partisi.co.id)
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-fix-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Run engine regression tests
+        run: python .github/scripts/test_fix_seo_images_and_robots.py
+
+      - name: Execute Robots & Image Alt Linking Engine
+        env:
+          DOMAIN_OVERRIDE: ${{ inputs.domain_override }}
+        run: |
+          if [ -n "$DOMAIN_OVERRIDE" ]; then
+            python .github/scripts/fix_seo_images_and_robots.py --root "$GITHUB_WORKSPACE" --domain "$DOMAIN_OVERRIDE"
+          else
+            python .github/scripts/fix_seo_images_and_robots.py --root "$GITHUB_WORKSPACE"
+          fi
+
+      - name: Commit and push exact changes
+        env:
+          TARGET_REF: ${{ github.ref_name }}
+        run: |
+          git add -A robots.txt *.html */*.html
+          if git diff --cached --quiet; then
+            echo "No SEO changes needed. Working tree clean."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(seo): standardize robots.txt and enrich image alt tags with 80/20 internal links"
+          git push origin "HEAD:${TARGET_REF}"
