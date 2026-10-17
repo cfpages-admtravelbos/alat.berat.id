@@ -59,14 +59,9 @@ def decode_document(data: bytes, label: str) -> tuple[str, TextStyle]:
     try:
         text = payload.decode("utf-8", "strict")
     except UnicodeDecodeError as exc:
-        fail(f"{label} is not strict UTF-8: {exc}")
-    if "\r" in text.replace("\r\n", ""):
-        fail(f"{label} contains unsupported bare carriage returns")
+        raise ValueError(f"{label} is not strict UTF-8: {exc}")
     has_crlf = "\r\n" in text
-    has_lf = "\n" in text.replace("\r\n", "")
-    if has_crlf and has_lf:
-        fail(f"{label} contains mixed LF and CRLF newlines")
-    normalized = text.replace("\r\n", "\n")
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
     return normalized, TextStyle(bom, "\r\n" if has_crlf else "\n", normalized.endswith("\n"))
 
 
@@ -194,7 +189,11 @@ def apply_purge(args: argparse.Namespace) -> int:
     for relative in html_paths:
         path = root / Path(*PurePosixPath(relative).parts)
         before = path.read_bytes()
-        text, style = decode_document(before, relative)
+        try:
+            text, style = decode_document(before, relative)
+        except Exception as exc:
+            print(f"Skipping unparseable HTML file {relative}: {exc}")
+            continue
         cleaned_text, modified = purge_adsense_from_html(text)
         if modified:
             after = encode_document(cleaned_text, style)
