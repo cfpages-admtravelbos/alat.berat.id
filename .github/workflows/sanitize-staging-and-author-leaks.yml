@@ -1,0 +1,51 @@
+name: Sanitize Staging URLs and Author Schema Leaks
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sanitize-staging-author-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sanitize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v5
+        with:
+          python-version: "3.13"
+
+      - name: Run sanitization regression tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python .github/scripts/test_sanitize_staging_and_author_leaks.py
+
+      - name: Execute Staging & Author Sanitizer Engine
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python .github/scripts/sanitize_staging_and_author_leaks.py --apply --root "$GITHUB_WORKSPACE"
+
+      - name: Commit and push changes
+        env:
+          TARGET_REF: ${{ github.ref_name }}
+        run: |
+          find . -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null || true
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No files modified or deleted. Staging URLs and author leaks already clean."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(anonymity): sanitize staging URLs and author entity leaks [skip ci]"
+          git push origin "HEAD:${TARGET_REF}"
