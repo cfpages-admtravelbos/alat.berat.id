@@ -22,6 +22,7 @@ END = "<!-- END of .head content -->"
 SUMMARY_SCHEMA = "html-head-content-summary-v2"
 ALLOWED_CANONICAL = {
     ".github/workflows/html-head-content-insertion.yml",
+    ".github/workflows/head.yaml",
     ".github/scripts/update_head_content.py",
     ".github/scripts/test_update_head_content.py",
 }

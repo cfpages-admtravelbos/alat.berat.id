@@ -1,0 +1,52 @@
+name: Insert .head Content v3
+
+on:
+  push:
+    paths:
+      - .head
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: head-content-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-head:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+
+      - name: Validate workflow companion
+        run: python .github/scripts/test_update_head_content.py
+
+      - name: Normalize .head content
+        run: |
+          python .github/scripts/update_head_content.py normalize \
+            --root "$GITHUB_WORKSPACE" \
+            --manifest "$RUNNER_TEMP/head-content-changed-paths.bin" \
+            --summary "$RUNNER_TEMP/head-content-summary.json"
+
+      - name: Stage exact changed paths
+        run: |
+          python .github/scripts/update_head_content.py stage \
+            --root "$GITHUB_WORKSPACE" \
+            --manifest "$RUNNER_TEMP/head-content-changed-paths.bin"
+
+      - name: Commit and push exact changes
+        env:
+          TARGET_REF: ${{ github.ref_name }}
+        run: |
+          if git diff --cached --quiet; then
+            echo "No .head content changes to publish."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update .head content in HTML files"
+          git push origin "HEAD:${TARGET_REF}"
